@@ -1,0 +1,5941 @@
+{
+  "id": "hiphop",
+  "prompts": [
+    {
+      "id": "hiphop-01",
+      "text": "Name a song by Kendrick Lamar",
+      "rule": "Features and collaborations count",
+      "answers": [
+        {
+          "name": "Not Like Us",
+          "pop": 24
+        },
+        {
+          "name": "HUMBLE.",
+          "pop": 20
+        },
+        {
+          "name": "Alright",
+          "pop": 10
+        },
+        {
+          "name": "Swimming Pools (Drank)",
+          "pop": 7,
+          "aliases": [
+            "Swimming Pools"
+          ]
+        },
+        {
+          "name": "Money Trees",
+          "pop": 6
+        },
+        {
+          "name": "DNA.",
+          "pop": 4
+        },
+        {
+          "name": "King Kunta",
+          "pop": 4
+        },
+        {
+          "name": "Euphoria",
+          "pop": 3
+        },
+        {
+          "name": "All the Stars",
+          "pop": 3
+        },
+        {
+          "name": "luther",
+          "pop": 3
+        },
+        {
+          "name": "tv off",
+          "pop": 3
+        },
+        {
+          "name": "Bitch, Don't Kill My Vibe",
+          "pop": 3,
+          "aliases": [
+            "Don't Kill My Vibe"
+          ]
+        },
+        {
+          "name": "m.A.A.d city",
+          "pop": 3
+        },
+        {
+          "name": "LOVE.",
+          "pop": 3
+        },
+        {
+          "name": "Like That",
+          "pop": 2
+        },
+        {
+          "name": "squabble up",
+          "pop": 2
+        },
+        {
+          "name": "N95",
+          "pop": 2
+        },
+        {
+          "name": "LOYALTY.",
+          "pop": 2
+        },
+        {
+          "name": "Backseat Freestyle",
+          "pop": 2
+        },
+        {
+          "name": "Poetic Justice",
+          "pop": 2
+        },
+        {
+          "name": "i",
+          "pop": 2
+        },
+        {
+          "name": "Control",
+          "pop": 2
+        },
+        {
+          "name": "Meet the Grahams",
+          "pop": 1
+        },
+        {
+          "name": "The Blacker the Berry",
+          "pop": 1
+        },
+        {
+          "name": "These Walls",
+          "pop": 1
+        },
+        {
+          "name": "Sing About Me, I'm Dying of Thirst",
+          "pop": 1,
+          "aliases": [
+            "Sing About Me",
+            "Dying of Thirst"
+          ]
+        },
+        {
+          "name": "The Art of Peer Pressure",
+          "pop": 1
+        },
+        {
+          "name": "Sherane a.k.a Master Splinter's Daughter",
+          "pop": 1,
+          "aliases": [
+            "Sherane"
+          ]
+        },
+        {
+          "name": "good kid",
+          "pop": 1
+        },
+        {
+          "name": "Compton",
+          "pop": 1
+        },
+        {
+          "name": "Real",
+          "pop": 1
+        },
+        {
+          "name": "Count Me Out",
+          "pop": 1
+        },
+        {
+          "name": "Die Hard",
+          "pop": 1
+        },
+        {
+          "name": "United in Grief",
+          "pop": 1
+        },
+        {
+          "name": "Rich Spirit",
+          "pop": 1
+        },
+        {
+          "name": "Father Time",
+          "pop": 1
+        },
+        {
+          "name": "Savior",
+          "pop": 1
+        },
+        {
+          "name": "Silent Hill",
+          "pop": 1
+        },
+        {
+          "name": "Auntie Diaries",
+          "pop": 1
+        },
+        {
+          "name": "Mother I Sober",
+          "pop": 1
+        },
+        {
+          "name": "We Cry Together",
+          "pop": 1
+        },
+        {
+          "name": "Purple Hearts",
+          "pop": 1
+        },
+        {
+          "name": "Crown",
+          "pop": 1
+        },
+        {
+          "name": "Worldwide Steppers",
+          "pop": 1
+        },
+        {
+          "name": "Mr. Morale",
+          "pop": 1
+        },
+        {
+          "name": "6:16 in LA",
+          "pop": 1
+        },
+        {
+          "name": "wacced out murals",
+          "pop": 1
+        },
+        {
+          "name": "hey now",
+          "pop": 1
+        },
+        {
+          "name": "reincarnated",
+          "pop": 1
+        },
+        {
+          "name": "man at the garden",
+          "pop": 1
+        },
+        {
+          "name": "dodger blue",
+          "pop": 1
+        },
+        {
+          "name": "peekaboo",
+          "pop": 1
+        },
+        {
+          "name": "heart pt. 6",
+          "pop": 1
+        },
+        {
+          "name": "gnx",
+          "pop": 1
+        },
+        {
+          "name": "gloria",
+          "pop": 1
+        },
+        {
+          "name": "The Heart Part 4",
+          "pop": 1
+        },
+        {
+          "name": "The Heart Part 5",
+          "pop": 1
+        },
+        {
+          "name": "Rigamortus",
+          "pop": 1
+        },
+        {
+          "name": "A.D.H.D",
+          "pop": 1
+        },
+        {
+          "name": "Hol' Up",
+          "pop": 1
+        },
+        {
+          "name": "Ronald Reagan Era",
+          "pop": 1
+        },
+        {
+          "name": "FEAR.",
+          "pop": 1
+        },
+        {
+          "name": "XXX.",
+          "pop": 1
+        },
+        {
+          "name": "PRIDE.",
+          "pop": 1
+        },
+        {
+          "name": "LUST.",
+          "pop": 1
+        },
+        {
+          "name": "ELEMENT.",
+          "pop": 1
+        },
+        {
+          "name": "FEEL.",
+          "pop": 1
+        },
+        {
+          "name": "YAH.",
+          "pop": 1
+        },
+        {
+          "name": "GOD.",
+          "pop": 1
+        },
+        {
+          "name": "DUCKWORTH.",
+          "pop": 1
+        },
+        {
+          "name": "BLOOD.",
+          "pop": 1
+        },
+        {
+          "name": "u",
+          "pop": 1
+        },
+        {
+          "name": "Momma",
+          "pop": 1
+        },
+        {
+          "name": "Hood Politics",
+          "pop": 1
+        },
+        {
+          "name": "How Much a Dollar Cost",
+          "pop": 1
+        },
+        {
+          "name": "Mortal Man",
+          "pop": 1
+        },
+        {
+          "name": "Institutionalized",
+          "pop": 1
+        },
+        {
+          "name": "Wesley's Theory",
+          "pop": 1
+        },
+        {
+          "name": "King's Dead",
+          "pop": 1
+        },
+        {
+          "name": "Family Ties",
+          "pop": 1
+        },
+        {
+          "name": "Big Shot",
+          "pop": 1
+        },
+        {
+          "name": "Pray for Me",
+          "pop": 1
+        },
+        {
+          "name": "The Recipe",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-02",
+      "text": "Name a song by The Notorious B.I.G.",
+      "rule": "Features and collaborations count",
+      "answers": [
+        {
+          "name": "Juicy",
+          "pop": 30
+        },
+        {
+          "name": "Hypnotize",
+          "pop": 18
+        },
+        {
+          "name": "Big Poppa",
+          "pop": 12
+        },
+        {
+          "name": "Mo Money Mo Problems",
+          "pop": 8,
+          "aliases": [
+            "Mo Money More Problems"
+          ]
+        },
+        {
+          "name": "One More Chance",
+          "pop": 4
+        },
+        {
+          "name": "Sky's the Limit",
+          "pop": 4
+        },
+        {
+          "name": "Ten Crack Commandments",
+          "pop": 3,
+          "aliases": [
+            "10 Crack Commandments"
+          ]
+        },
+        {
+          "name": "Warning",
+          "pop": 3
+        },
+        {
+          "name": "Notorious Thugs",
+          "pop": 2
+        },
+        {
+          "name": "Gimme the Loot",
+          "pop": 2
+        },
+        {
+          "name": "Ready to Die",
+          "pop": 2
+        },
+        {
+          "name": "Unbelievable",
+          "pop": 2
+        },
+        {
+          "name": "Suicidal Thoughts",
+          "pop": 2
+        },
+        {
+          "name": "Kick in the Door",
+          "pop": 2
+        },
+        {
+          "name": "Who Shot Ya?",
+          "pop": 2
+        },
+        {
+          "name": "Going Back to Cali",
+          "pop": 2
+        },
+        {
+          "name": "Party and Bullshit",
+          "pop": 2,
+          "aliases": [
+            "Party and BS"
+          ]
+        },
+        {
+          "name": "Get Money",
+          "pop": 2
+        },
+        {
+          "name": "Everyday Struggle",
+          "pop": 1
+        },
+        {
+          "name": "Things Done Changed",
+          "pop": 1
+        },
+        {
+          "name": "Machine Gun Funk",
+          "pop": 1
+        },
+        {
+          "name": "The What",
+          "pop": 1
+        },
+        {
+          "name": "I Got a Story to Tell",
+          "pop": 1
+        },
+        {
+          "name": "Somebody's Gotta Die",
+          "pop": 1
+        },
+        {
+          "name": "What's Beef?",
+          "pop": 1
+        },
+        {
+          "name": "Nasty Boy",
+          "pop": 1
+        },
+        {
+          "name": "Nasty Girl",
+          "pop": 1
+        },
+        {
+          "name": "Dead Wrong",
+          "pop": 1
+        },
+        {
+          "name": "Notorious B.I.G.",
+          "pop": 1
+        },
+        {
+          "name": "Spit Your Game",
+          "pop": 1
+        },
+        {
+          "name": "Victory",
+          "pop": 1
+        },
+        {
+          "name": "Long Kiss Goodnight",
+          "pop": 1
+        },
+        {
+          "name": "My Downfall",
+          "pop": 1
+        },
+        {
+          "name": "You're Nobody (Til Somebody Kills You)",
+          "pop": 1,
+          "aliases": [
+            "You're Nobody"
+          ]
+        },
+        {
+          "name": "Miss U",
+          "pop": 1
+        },
+        {
+          "name": "Playa Hater",
+          "pop": 1
+        },
+        {
+          "name": "I Love the Dough",
+          "pop": 1
+        },
+        {
+          "name": "Friend of Mine",
+          "pop": 1
+        },
+        {
+          "name": "Respect",
+          "pop": 1
+        },
+        {
+          "name": "Can't You See",
+          "pop": 1
+        },
+        {
+          "name": "Player's Anthem",
+          "pop": 1
+        },
+        {
+          "name": "Flava in Ya Ear (Remix)",
+          "pop": 1,
+          "aliases": [
+            "Flava in Ya Ear"
+          ]
+        },
+        {
+          "name": "Only You",
+          "pop": 1
+        },
+        {
+          "name": "Runnin' (Dying to Live)",
+          "pop": 1,
+          "aliases": [
+            "Runnin'"
+          ]
+        },
+        {
+          "name": "Just Playing (Dreams)",
+          "pop": 1,
+          "aliases": [
+            "Dreams",
+            "Just Playing"
+          ]
+        },
+        {
+          "name": "Last Day",
+          "pop": 1
+        },
+        {
+          "name": "Rap Phenomenon",
+          "pop": 1
+        },
+        {
+          "name": "Dangerous MC's",
+          "pop": 1
+        },
+        {
+          "name": "The World Is Filled...",
+          "pop": 1
+        },
+        {
+          "name": "Another",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-03",
+      "text": "Name a song by 2Pac",
+      "rule": "Features and posthumous releases count",
+      "answers": [
+        {
+          "name": "California Love",
+          "pop": 28
+        },
+        {
+          "name": "Changes",
+          "pop": 18
+        },
+        {
+          "name": "Dear Mama",
+          "pop": 15
+        },
+        {
+          "name": "Hit 'Em Up",
+          "pop": 10
+        },
+        {
+          "name": "I Ain't Mad at Cha",
+          "pop": 4,
+          "aliases": [
+            "Ain't Mad at Cha",
+            "I Ain't Mad at Ya"
+          ]
+        },
+        {
+          "name": "All Eyez on Me",
+          "pop": 4
+        },
+        {
+          "name": "Ambitionz Az a Ridah",
+          "pop": 3,
+          "aliases": [
+            "Ambitions as a Rider",
+            "Ambitionz as a Ridah"
+          ]
+        },
+        {
+          "name": "I Get Around",
+          "pop": 3
+        },
+        {
+          "name": "Keep Ya Head Up",
+          "pop": 3,
+          "aliases": [
+            "Keep Your Head Up"
+          ]
+        },
+        {
+          "name": "Hail Mary",
+          "pop": 3
+        },
+        {
+          "name": "Brenda's Got a Baby",
+          "pop": 2
+        },
+        {
+          "name": "How Do U Want It",
+          "pop": 2,
+          "aliases": [
+            "How Do You Want It"
+          ]
+        },
+        {
+          "name": "To Live & Die in L.A.",
+          "pop": 2,
+          "aliases": [
+            "To Live and Die in LA"
+          ]
+        },
+        {
+          "name": "Life Goes On",
+          "pop": 2
+        },
+        {
+          "name": "Do for Love",
+          "pop": 2
+        },
+        {
+          "name": "Ghetto Gospel",
+          "pop": 2
+        },
+        {
+          "name": "Thugz Mansion",
+          "pop": 2,
+          "aliases": [
+            "Thugs Mansion"
+          ]
+        },
+        {
+          "name": "2 of Amerikaz Most Wanted",
+          "pop": 2,
+          "aliases": [
+            "Two of Americas Most Wanted",
+            "2 of Americaz Most Wanted"
+          ]
+        },
+        {
+          "name": "Picture Me Rollin'",
+          "pop": 1
+        },
+        {
+          "name": "So Many Tears",
+          "pop": 1
+        },
+        {
+          "name": "Me Against the World",
+          "pop": 1
+        },
+        {
+          "name": "If I Die 2Nite",
+          "pop": 1,
+          "aliases": [
+            "If I Die Tonight"
+          ]
+        },
+        {
+          "name": "Until the End of Time",
+          "pop": 1
+        },
+        {
+          "name": "Unconditional Love",
+          "pop": 1
+        },
+        {
+          "name": "Hold Ya Head",
+          "pop": 1
+        },
+        {
+          "name": "Trapped",
+          "pop": 1
+        },
+        {
+          "name": "Temptations",
+          "pop": 1
+        },
+        {
+          "name": "Old School",
+          "pop": 1
+        },
+        {
+          "name": "Krazy",
+          "pop": 1
+        },
+        {
+          "name": "Only God Can Judge Me",
+          "pop": 1
+        },
+        {
+          "name": "Shorty Wanna Be a Thug",
+          "pop": 1
+        },
+        {
+          "name": "Can't C Me",
+          "pop": 1,
+          "aliases": [
+            "Can't See Me"
+          ]
+        },
+        {
+          "name": "Toss It Up",
+          "pop": 1
+        },
+        {
+          "name": "Smile",
+          "pop": 1
+        },
+        {
+          "name": "Runnin' (Dying to Live)",
+          "pop": 1,
+          "aliases": [
+            "Runnin'"
+          ]
+        },
+        {
+          "name": "Letter 2 My Unborn",
+          "pop": 1,
+          "aliases": [
+            "Letter to My Unborn"
+          ]
+        },
+        {
+          "name": "Better Dayz",
+          "pop": 1,
+          "aliases": [
+            "Better Days"
+          ]
+        },
+        {
+          "name": "Thug Passion",
+          "pop": 1
+        },
+        {
+          "name": "Heartz of Men",
+          "pop": 1,
+          "aliases": [
+            "Hearts of Men"
+          ]
+        },
+        {
+          "name": "Got My Mind Made Up",
+          "pop": 1
+        },
+        {
+          "name": "Holler If Ya Hear Me",
+          "pop": 1
+        },
+        {
+          "name": "Pain",
+          "pop": 1
+        },
+        {
+          "name": "Lord Knows",
+          "pop": 1
+        },
+        {
+          "name": "Death Around the Corner",
+          "pop": 1
+        },
+        {
+          "name": "Ballad of a Dead Soulja",
+          "pop": 1
+        },
+        {
+          "name": "Blasphemy",
+          "pop": 1
+        },
+        {
+          "name": "Bomb First (My Second Reply)",
+          "pop": 1,
+          "aliases": [
+            "Bomb First"
+          ]
+        },
+        {
+          "name": "White Man'z World",
+          "pop": 1
+        },
+        {
+          "name": "Against All Odds",
+          "pop": 1
+        },
+        {
+          "name": "Wonda Why They Call U",
+          "pop": 1
+        },
+        {
+          "name": "Run tha Streetz",
+          "pop": 1
+        },
+        {
+          "name": "Tradin' War Stories",
+          "pop": 1
+        },
+        {
+          "name": "Life of an Outlaw",
+          "pop": 1
+        },
+        {
+          "name": "Can U Get Away",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-04",
+      "text": "Name a song by OutKast",
+      "rule": "Songs credited to OutKast",
+      "answers": [
+        {
+          "name": "Hey Ya!",
+          "pop": 35
+        },
+        {
+          "name": "Ms. Jackson",
+          "pop": 20,
+          "aliases": [
+            "Miss Jackson"
+          ]
+        },
+        {
+          "name": "Roses",
+          "pop": 8
+        },
+        {
+          "name": "B.O.B",
+          "pop": 6,
+          "aliases": [
+            "Bombs Over Baghdad",
+            "BOB (Bombs Over Baghdad)"
+          ]
+        },
+        {
+          "name": "So Fresh, So Clean",
+          "pop": 5
+        },
+        {
+          "name": "The Way You Move",
+          "pop": 5
+        },
+        {
+          "name": "Elevators (Me & You)",
+          "pop": 3,
+          "aliases": [
+            "Elevators"
+          ]
+        },
+        {
+          "name": "Rosa Parks",
+          "pop": 3
+        },
+        {
+          "name": "SpottieOttieDopaliscious",
+          "pop": 2
+        },
+        {
+          "name": "Aquemini",
+          "pop": 2
+        },
+        {
+          "name": "Player's Ball",
+          "pop": 2
+        },
+        {
+          "name": "Southernplayalisticadillacmuzik",
+          "pop": 2
+        },
+        {
+          "name": "ATLiens",
+          "pop": 2
+        },
+        {
+          "name": "Prototype",
+          "pop": 2
+        },
+        {
+          "name": "Git Up, Git Out",
+          "pop": 1
+        },
+        {
+          "name": "Da Art of Storytellin'",
+          "pop": 1,
+          "aliases": [
+            "Art of Storytelling"
+          ]
+        },
+        {
+          "name": "GhettoMusick",
+          "pop": 1,
+          "aliases": [
+            "Ghetto Musick"
+          ]
+        },
+        {
+          "name": "Morris Brown",
+          "pop": 1
+        },
+        {
+          "name": "Idlewild Blue (Don'tchu Worry 'Bout Me)",
+          "pop": 1,
+          "aliases": [
+            "Idlewild Blue"
+          ]
+        },
+        {
+          "name": "Mighty \"O\"",
+          "pop": 1
+        },
+        {
+          "name": "Hollywood Divorce",
+          "pop": 1
+        },
+        {
+          "name": "Return of the \"G\"",
+          "pop": 1
+        },
+        {
+          "name": "Liberation",
+          "pop": 1
+        },
+        {
+          "name": "Synthesizer",
+          "pop": 1
+        },
+        {
+          "name": "Skew It on the Bar-B",
+          "pop": 1
+        },
+        {
+          "name": "Chonkyfire",
+          "pop": 1
+        },
+        {
+          "name": "Y'All Scared",
+          "pop": 1
+        },
+        {
+          "name": "Jazzy Belle",
+          "pop": 1
+        },
+        {
+          "name": "Wheelz of Steel",
+          "pop": 1
+        },
+        {
+          "name": "Two Dope Boyz (In a Cadillac)",
+          "pop": 1,
+          "aliases": [
+            "Two Dope Boyz"
+          ]
+        },
+        {
+          "name": "13th Floor/Growing Old",
+          "pop": 1,
+          "aliases": [
+            "13th Floor"
+          ]
+        },
+        {
+          "name": "Babylon",
+          "pop": 1
+        },
+        {
+          "name": "Crumblin' Erb",
+          "pop": 1
+        },
+        {
+          "name": "Hootie Hoo",
+          "pop": 1
+        },
+        {
+          "name": "Ain't No Thang",
+          "pop": 1
+        },
+        {
+          "name": "Claimin' True",
+          "pop": 1
+        },
+        {
+          "name": "Gasoline Dreams",
+          "pop": 1
+        },
+        {
+          "name": "Snappin' & Trappin'",
+          "pop": 1
+        },
+        {
+          "name": "Spaghetti Junction",
+          "pop": 1
+        },
+        {
+          "name": "Humble Mumble",
+          "pop": 1
+        },
+        {
+          "name": "Red Velvet",
+          "pop": 1
+        },
+        {
+          "name": "Toilet Tisha",
+          "pop": 1
+        },
+        {
+          "name": "Xplosion",
+          "pop": 1
+        },
+        {
+          "name": "Slum Beautiful",
+          "pop": 1
+        },
+        {
+          "name": "I'll Call Before I Come",
+          "pop": 1
+        },
+        {
+          "name": "Unhappy",
+          "pop": 1
+        },
+        {
+          "name": "Bowtie",
+          "pop": 1
+        },
+        {
+          "name": "The Rooster",
+          "pop": 1
+        },
+        {
+          "name": "War",
+          "pop": 1
+        },
+        {
+          "name": "Church",
+          "pop": 1
+        },
+        {
+          "name": "Flip Flop Rock",
+          "pop": 1
+        },
+        {
+          "name": "Knowing",
+          "pop": 1
+        },
+        {
+          "name": "Happy Valentine's Day",
+          "pop": 1
+        },
+        {
+          "name": "Spread",
+          "pop": 1
+        },
+        {
+          "name": "She Lives in My Lap",
+          "pop": 1
+        },
+        {
+          "name": "Behold a Lady",
+          "pop": 1
+        },
+        {
+          "name": "Pink & Blue",
+          "pop": 1
+        },
+        {
+          "name": "Love Hater",
+          "pop": 1
+        },
+        {
+          "name": "Vibrate",
+          "pop": 1
+        },
+        {
+          "name": "Take Off Your Cool",
+          "pop": 1
+        },
+        {
+          "name": "Dracula's Wedding",
+          "pop": 1
+        },
+        {
+          "name": "The Train",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-05",
+      "text": "Name a song by Snoop Dogg",
+      "rule": "Features and collaborations count",
+      "answers": [
+        {
+          "name": "Drop It Like It's Hot",
+          "pop": 25
+        },
+        {
+          "name": "Gin and Juice",
+          "pop": 20
+        },
+        {
+          "name": "Young, Wild & Free",
+          "pop": 8,
+          "aliases": [
+            "Young Wild and Free"
+          ]
+        },
+        {
+          "name": "Still D.R.E.",
+          "pop": 8
+        },
+        {
+          "name": "The Next Episode",
+          "pop": 8,
+          "aliases": [
+            "Smoke Weed Everyday"
+          ]
+        },
+        {
+          "name": "Nuthin' but a \"G\" Thang",
+          "pop": 6,
+          "aliases": [
+            "Nothin but a G Thang",
+            "G Thang"
+          ]
+        },
+        {
+          "name": "Who Am I (What's My Name)?",
+          "pop": 5,
+          "aliases": [
+            "What's My Name",
+            "Who Am I"
+          ]
+        },
+        {
+          "name": "Beautiful",
+          "pop": 3
+        },
+        {
+          "name": "Sensual Seduction",
+          "pop": 2,
+          "aliases": [
+            "Sexual Eruption"
+          ]
+        },
+        {
+          "name": "Signs",
+          "pop": 2
+        },
+        {
+          "name": "California Gurls",
+          "pop": 2
+        },
+        {
+          "name": "Ain't No Fun (If the Homies Can't Have None)",
+          "pop": 2,
+          "aliases": [
+            "Ain't No Fun"
+          ]
+        },
+        {
+          "name": "Doggy Dogg World",
+          "pop": 1
+        },
+        {
+          "name": "Murder Was the Case",
+          "pop": 1
+        },
+        {
+          "name": "Lodi Dodi",
+          "pop": 1
+        },
+        {
+          "name": "Gz and Hustlas",
+          "pop": 1
+        },
+        {
+          "name": "Tha Shiznit",
+          "pop": 1
+        },
+        {
+          "name": "Serial Killa",
+          "pop": 1
+        },
+        {
+          "name": "Pump Pump",
+          "pop": 1
+        },
+        {
+          "name": "Lay Low",
+          "pop": 1
+        },
+        {
+          "name": "Snoop's Upside Ya Head",
+          "pop": 1
+        },
+        {
+          "name": "Vapors",
+          "pop": 1
+        },
+        {
+          "name": "Snoop Dogg (What's My Name Pt. 2)",
+          "pop": 1,
+          "aliases": [
+            "What's My Name Pt 2"
+          ]
+        },
+        {
+          "name": "Wrong Idea",
+          "pop": 1
+        },
+        {
+          "name": "Candy (Drippin' Like Water)",
+          "pop": 1,
+          "aliases": [
+            "Candy"
+          ]
+        },
+        {
+          "name": "From tha Chuuuch to da Palace",
+          "pop": 1
+        },
+        {
+          "name": "Let's Get Blown",
+          "pop": 1
+        },
+        {
+          "name": "Ups & Downs",
+          "pop": 1
+        },
+        {
+          "name": "Vato",
+          "pop": 1
+        },
+        {
+          "name": "That's That Shit",
+          "pop": 1
+        },
+        {
+          "name": "I Wanna Rock",
+          "pop": 1
+        },
+        {
+          "name": "Gangsta Luv",
+          "pop": 1
+        },
+        {
+          "name": "Wet",
+          "pop": 1
+        },
+        {
+          "name": "Sweat",
+          "pop": 1
+        },
+        {
+          "name": "Peaches N Cream",
+          "pop": 1
+        },
+        {
+          "name": "Lavender",
+          "pop": 1
+        },
+        {
+          "name": "Kush",
+          "pop": 1
+        },
+        {
+          "name": "Hennessy n Buddah",
+          "pop": 1
+        },
+        {
+          "name": "Doggfather",
+          "pop": 1
+        },
+        {
+          "name": "Still a G Thang",
+          "pop": 1
+        },
+        {
+          "name": "Woof!",
+          "pop": 1
+        },
+        {
+          "name": "Deep Cover",
+          "pop": 1
+        },
+        {
+          "name": "Buttons",
+          "pop": 1
+        },
+        {
+          "name": "Boss' Life",
+          "pop": 1
+        },
+        {
+          "name": "Imagine",
+          "pop": 1
+        },
+        {
+          "name": "Holidae In",
+          "pop": 1
+        },
+        {
+          "name": "2 of Amerikaz Most Wanted",
+          "pop": 1,
+          "aliases": [
+            "Two of Americas Most Wanted"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hiphop-06",
+      "text": "Name a song by Usher",
+      "rule": "Features and collaborations count",
+      "answers": [
+        {
+          "name": "Yeah!",
+          "pop": 35
+        },
+        {
+          "name": "U Got It Bad",
+          "pop": 8
+        },
+        {
+          "name": "U Remind Me",
+          "pop": 8
+        },
+        {
+          "name": "Burn",
+          "pop": 8
+        },
+        {
+          "name": "OMG",
+          "pop": 6
+        },
+        {
+          "name": "You Make Me Wanna...",
+          "pop": 5
+        },
+        {
+          "name": "Confessions Part II",
+          "pop": 5,
+          "aliases": [
+            "Confessions",
+            "Confessions Part 2"
+          ]
+        },
+        {
+          "name": "My Boo",
+          "pop": 5
+        },
+        {
+          "name": "Nice & Slow",
+          "pop": 3,
+          "aliases": [
+            "Nice and Slow"
+          ]
+        },
+        {
+          "name": "DJ Got Us Fallin' in Love",
+          "pop": 3
+        },
+        {
+          "name": "Love in This Club",
+          "pop": 3
+        },
+        {
+          "name": "Without You",
+          "pop": 2
+        },
+        {
+          "name": "Climax",
+          "pop": 2
+        },
+        {
+          "name": "Scream",
+          "pop": 2
+        },
+        {
+          "name": "Caught Up",
+          "pop": 2
+        },
+        {
+          "name": "U Don't Have to Call",
+          "pop": 2
+        },
+        {
+          "name": "Lovers and Friends",
+          "pop": 2
+        },
+        {
+          "name": "More",
+          "pop": 1
+        },
+        {
+          "name": "There Goes My Baby",
+          "pop": 1
+        },
+        {
+          "name": "Papers",
+          "pop": 1
+        },
+        {
+          "name": "Hey Daddy (Daddy's Home)",
+          "pop": 1,
+          "aliases": [
+            "Hey Daddy",
+            "Daddy's Home"
+          ]
+        },
+        {
+          "name": "Moving Mountains",
+          "pop": 1
+        },
+        {
+          "name": "Trading Places",
+          "pop": 1
+        },
+        {
+          "name": "Lil Freak",
+          "pop": 1
+        },
+        {
+          "name": "Think of You",
+          "pop": 1
+        },
+        {
+          "name": "My Way",
+          "pop": 1
+        },
+        {
+          "name": "Bad Girl",
+          "pop": 1
+        },
+        {
+          "name": "Superstar",
+          "pop": 1
+        },
+        {
+          "name": "Throwback",
+          "pop": 1
+        },
+        {
+          "name": "Can U Handle It?",
+          "pop": 1
+        },
+        {
+          "name": "Good Kisser",
+          "pop": 1
+        },
+        {
+          "name": "I Don't Mind",
+          "pop": 1
+        },
+        {
+          "name": "No Limit",
+          "pop": 1
+        },
+        {
+          "name": "Crash",
+          "pop": 1
+        },
+        {
+          "name": "Good Good",
+          "pop": 1
+        },
+        {
+          "name": "I Need a Girl (Part One)",
+          "pop": 1,
+          "aliases": [
+            "I Need a Girl"
+          ]
+        },
+        {
+          "name": "Pop Ya Collar",
+          "pop": 1
+        },
+        {
+          "name": "Call Me a Mack",
+          "pop": 1
+        },
+        {
+          "name": "Can U Get Wit It",
+          "pop": 1
+        },
+        {
+          "name": "Lemme See",
+          "pop": 1
+        },
+        {
+          "name": "Numb",
+          "pop": 1
+        },
+        {
+          "name": "Hot Tottie",
+          "pop": 1
+        },
+        {
+          "name": "Here I Stand",
+          "pop": 1
+        },
+        {
+          "name": "Coming Home",
+          "pop": 1
+        },
+        {
+          "name": "Dive",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-07",
+      "text": "Name an album by Kanye West",
+      "rule": "Studio and joint albums count",
+      "answers": [
+        {
+          "name": "The College Dropout",
+          "pop": 22
+        },
+        {
+          "name": "Graduation",
+          "pop": 18
+        },
+        {
+          "name": "My Beautiful Dark Twisted Fantasy",
+          "pop": 18,
+          "aliases": [
+            "MBDTF",
+            "Dark Twisted Fantasy"
+          ]
+        },
+        {
+          "name": "Late Registration",
+          "pop": 10
+        },
+        {
+          "name": "808s & Heartbreak",
+          "pop": 10,
+          "aliases": [
+            "808s",
+            "808s and Heartbreaks"
+          ]
+        },
+        {
+          "name": "Yeezus",
+          "pop": 7
+        },
+        {
+          "name": "The Life of Pablo",
+          "pop": 7,
+          "aliases": [
+            "TLOP",
+            "Pablo"
+          ]
+        },
+        {
+          "name": "Donda",
+          "pop": 6
+        },
+        {
+          "name": "Watch the Throne",
+          "pop": 3
+        },
+        {
+          "name": "Ye",
+          "pop": 3
+        },
+        {
+          "name": "Jesus Is King",
+          "pop": 2
+        },
+        {
+          "name": "Kids See Ghosts",
+          "pop": 2
+        },
+        {
+          "name": "Vultures 1",
+          "pop": 2,
+          "aliases": [
+            "Vultures",
+            "Vultures Volume 1"
+          ]
+        },
+        {
+          "name": "Vultures 2",
+          "pop": 1,
+          "aliases": [
+            "Vultures Volume 2"
+          ]
+        },
+        {
+          "name": "Donda 2",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-08",
+      "text": "Name a member of the Wu-Tang Clan",
+      "rule": "The nine originals, Cappadonna, or DJ Mathematics",
+      "answers": [
+        {
+          "name": "Method Man",
+          "pop": 25,
+          "aliases": [
+            "Meth",
+            "Johnny Blaze",
+            "Clifford Smith"
+          ]
+        },
+        {
+          "name": "RZA",
+          "pop": 20,
+          "aliases": [
+            "The Abbot",
+            "Bobby Digital",
+            "Prince Rakeem",
+            "Robert Diggs"
+          ]
+        },
+        {
+          "name": "Ol' Dirty Bastard",
+          "pop": 15,
+          "aliases": [
+            "ODB",
+            "Old Dirty Bastard",
+            "Dirt McGirt",
+            "Big Baby Jesus",
+            "Russell Jones"
+          ]
+        },
+        {
+          "name": "Ghostface Killah",
+          "pop": 14,
+          "aliases": [
+            "Ghostface",
+            "Tony Starks",
+            "Pretty Toney",
+            "Dennis Coles"
+          ]
+        },
+        {
+          "name": "Raekwon",
+          "pop": 10,
+          "aliases": [
+            "Raekwon the Chef",
+            "Rae",
+            "Corey Woods"
+          ]
+        },
+        {
+          "name": "GZA",
+          "pop": 8,
+          "aliases": [
+            "The Genius",
+            "Gary Grice"
+          ]
+        },
+        {
+          "name": "Inspectah Deck",
+          "pop": 5,
+          "aliases": [
+            "Rebel INS",
+            "Deck",
+            "Jason Hunter"
+          ]
+        },
+        {
+          "name": "U-God",
+          "pop": 3,
+          "aliases": [
+            "Golden Arms",
+            "Lamont Hawkins"
+          ]
+        },
+        {
+          "name": "Masta Killa",
+          "pop": 3,
+          "aliases": [
+            "Master Killer",
+            "Jamel Irief",
+            "Elgin Turner"
+          ]
+        },
+        {
+          "name": "Cappadonna",
+          "pop": 2,
+          "aliases": [
+            "Darryl Hill"
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "pop": 1,
+          "aliases": [
+            "DJ Mathematics",
+            "Allah Mathematics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hiphop-09",
+      "text": "Name a member of Odd Future",
+      "rule": "Members of the collective, past or present",
+      "answers": [
+        {
+          "name": "Tyler, the Creator",
+          "pop": 40,
+          "aliases": [
+            "Tyler",
+            "Wolf Haley",
+            "Tyler Okonma"
+          ]
+        },
+        {
+          "name": "Earl Sweatshirt",
+          "pop": 15,
+          "aliases": [
+            "Earl",
+            "Thebe Kgositsile"
+          ]
+        },
+        {
+          "name": "Frank Ocean",
+          "pop": 15,
+          "aliases": [
+            "Frank"
+          ]
+        },
+        {
+          "name": "Syd",
+          "pop": 4,
+          "aliases": [
+            "Syd tha Kyd",
+            "Syd the Kid"
+          ]
+        },
+        {
+          "name": "Hodgy",
+          "pop": 5,
+          "aliases": [
+            "Hodgy Beats"
+          ]
+        },
+        {
+          "name": "Domo Genesis",
+          "pop": 4,
+          "aliases": [
+            "Domo"
+          ]
+        },
+        {
+          "name": "Matt Martians",
+          "pop": 2,
+          "aliases": [
+            "The Super 3"
+          ]
+        },
+        {
+          "name": "Left Brain",
+          "pop": 2
+        },
+        {
+          "name": "Mike G",
+          "pop": 2
+        },
+        {
+          "name": "Jasper Dolphin",
+          "pop": 2,
+          "aliases": [
+            "Jasper"
+          ]
+        },
+        {
+          "name": "Taco",
+          "pop": 1,
+          "aliases": [
+            "Taco Bennett"
+          ]
+        },
+        {
+          "name": "Lucas Vercetti",
+          "pop": 1
+        },
+        {
+          "name": "Casey Veggies",
+          "pop": 1
+        },
+        {
+          "name": "Brandun DeShay",
+          "pop": 1
+        },
+        {
+          "name": "L-Boy",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-10",
+      "text": "Name a hip-hop record producer",
+      "rule": "Primarily known for production",
+      "answers": [
+        {
+          "name": "Dr. Dre",
+          "pop": 25,
+          "aliases": [
+            "Dre",
+            "Andre Young"
+          ]
+        },
+        {
+          "name": "Kanye West",
+          "pop": 8,
+          "aliases": [
+            "Kanye",
+            "Ye"
+          ]
+        },
+        {
+          "name": "Metro Boomin",
+          "pop": 8,
+          "aliases": [
+            "Metro"
+          ]
+        },
+        {
+          "name": "Timbaland",
+          "pop": 6,
+          "aliases": [
+            "Timbo"
+          ]
+        },
+        {
+          "name": "Pharrell Williams",
+          "pop": 5,
+          "aliases": [
+            "Pharrell",
+            "The Neptunes"
+          ]
+        },
+        {
+          "name": "J Dilla",
+          "pop": 5,
+          "aliases": [
+            "Dilla",
+            "Jay Dee"
+          ]
+        },
+        {
+          "name": "DJ Premier",
+          "pop": 5,
+          "aliases": [
+            "Premier",
+            "Premo",
+            "Preemo"
+          ]
+        },
+        {
+          "name": "RZA",
+          "pop": 3
+        },
+        {
+          "name": "Madlib",
+          "pop": 3
+        },
+        {
+          "name": "The Alchemist",
+          "pop": 3,
+          "aliases": [
+            "ALC"
+          ]
+        },
+        {
+          "name": "Swizz Beatz",
+          "pop": 3,
+          "aliases": [
+            "Swizz"
+          ]
+        },
+        {
+          "name": "Mustard",
+          "pop": 3,
+          "aliases": [
+            "DJ Mustard",
+            "Mustard on the Beat"
+          ]
+        },
+        {
+          "name": "Pete Rock",
+          "pop": 2
+        },
+        {
+          "name": "Just Blaze",
+          "pop": 2
+        },
+        {
+          "name": "Rick Rubin",
+          "pop": 2
+        },
+        {
+          "name": "Mike WiLL Made-It",
+          "pop": 2,
+          "aliases": [
+            "Mike Will",
+            "Mike Will Made It"
+          ]
+        },
+        {
+          "name": "Hit-Boy",
+          "pop": 2
+        },
+        {
+          "name": "No I.D.",
+          "pop": 2
+        },
+        {
+          "name": "Zaytoven",
+          "pop": 2
+        },
+        {
+          "name": "Mannie Fresh",
+          "pop": 2
+        },
+        {
+          "name": "Jermaine Dupri",
+          "pop": 2,
+          "aliases": [
+            "JD"
+          ]
+        },
+        {
+          "name": "Chad Hugo",
+          "pop": 1
+        },
+        {
+          "name": "Marley Marl",
+          "pop": 1
+        },
+        {
+          "name": "Large Professor",
+          "pop": 1
+        },
+        {
+          "name": "DJ Muggs",
+          "pop": 1
+        },
+        {
+          "name": "Havoc",
+          "pop": 1
+        },
+        {
+          "name": "Boi-1da",
+          "pop": 1
+        },
+        {
+          "name": "40",
+          "pop": 1,
+          "aliases": [
+            "Noah 40 Shebib",
+            "Noah Shebib"
+          ]
+        },
+        {
+          "name": "Lex Luger",
+          "pop": 1
+        },
+        {
+          "name": "Southside",
+          "pop": 1
+        },
+        {
+          "name": "Sonny Digital",
+          "pop": 1
+        },
+        {
+          "name": "Mike Dean",
+          "pop": 1
+        },
+        {
+          "name": "9th Wonder",
+          "pop": 1,
+          "aliases": [
+            "Ninth Wonder"
+          ]
+        },
+        {
+          "name": "DJ Toomp",
+          "pop": 1,
+          "aliases": [
+            "Toomp"
+          ]
+        },
+        {
+          "name": "Organized Noize",
+          "pop": 1
+        },
+        {
+          "name": "Jazze Pha",
+          "pop": 1
+        },
+        {
+          "name": "Scott Storch",
+          "pop": 1
+        },
+        {
+          "name": "Rockwilder",
+          "pop": 1
+        },
+        {
+          "name": "Irv Gotti",
+          "pop": 1
+        },
+        {
+          "name": "Erick Sermon",
+          "pop": 1
+        },
+        {
+          "name": "DJ Quik",
+          "pop": 1
+        },
+        {
+          "name": "Battlecat",
+          "pop": 1
+        },
+        {
+          "name": "Cool & Dre",
+          "pop": 1
+        },
+        {
+          "name": "Danja",
+          "pop": 1
+        },
+        {
+          "name": "Polow da Don",
+          "pop": 1
+        },
+        {
+          "name": "Teddy Riley",
+          "pop": 1
+        },
+        {
+          "name": "Jimmy Jam and Terry Lewis",
+          "pop": 1,
+          "aliases": [
+            "Jam and Lewis",
+            "Jimmy Jam & Terry Lewis"
+          ]
+        },
+        {
+          "name": "Sounwave",
+          "pop": 1
+        },
+        {
+          "name": "Tay Keith",
+          "pop": 1
+        },
+        {
+          "name": "Wheezy",
+          "pop": 1
+        },
+        {
+          "name": "Pi'erre Bourne",
+          "pop": 1
+        },
+        {
+          "name": "Murda Beatz",
+          "pop": 1
+        },
+        {
+          "name": "TM88",
+          "pop": 1
+        },
+        {
+          "name": "Cardo",
+          "pop": 1
+        },
+        {
+          "name": "Kenny Beats",
+          "pop": 1
+        },
+        {
+          "name": "Hi-Tek",
+          "pop": 1
+        },
+        {
+          "name": "Bink!",
+          "pop": 1
+        },
+        {
+          "name": "Prince Paul",
+          "pop": 1
+        },
+        {
+          "name": "The Bomb Squad",
+          "pop": 1,
+          "aliases": [
+            "Hank Shocklee"
+          ]
+        },
+        {
+          "name": "Black Milk",
+          "pop": 1
+        },
+        {
+          "name": "Statik Selektah",
+          "pop": 1
+        },
+        {
+          "name": "Knxwledge",
+          "pop": 1
+        },
+        {
+          "name": "Kaytranada",
+          "pop": 1
+        },
+        {
+          "name": "Ronny J",
+          "pop": 1
+        },
+        {
+          "name": "DJ Paul",
+          "pop": 1
+        },
+        {
+          "name": "Salaam Remi",
+          "pop": 1
+        },
+        {
+          "name": "Dahi",
+          "pop": 1
+        },
+        {
+          "name": "Easy Mo Bee",
+          "pop": 1
+        },
+        {
+          "name": "Buckwild",
+          "pop": 1
+        },
+        {
+          "name": "Diamond D",
+          "pop": 1
+        },
+        {
+          "name": "DJ Shadow",
+          "pop": 1
+        },
+        {
+          "name": "Nottz",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-11",
+      "text": "Name a hip-hop or R&B record label",
+      "rule": "Labels and imprints count",
+      "answers": [
+        {
+          "name": "Def Jam",
+          "pop": 30,
+          "aliases": [
+            "Def Jam Recordings"
+          ]
+        },
+        {
+          "name": "Death Row Records",
+          "pop": 18,
+          "aliases": [
+            "Death Row"
+          ]
+        },
+        {
+          "name": "Bad Boy Records",
+          "pop": 12,
+          "aliases": [
+            "Bad Boy",
+            "Bad Boy Entertainment"
+          ]
+        },
+        {
+          "name": "Cash Money Records",
+          "pop": 8,
+          "aliases": [
+            "Cash Money"
+          ]
+        },
+        {
+          "name": "Roc-A-Fella Records",
+          "pop": 8,
+          "aliases": [
+            "Roc-A-Fella",
+            "Rockafella"
+          ]
+        },
+        {
+          "name": "Aftermath Entertainment",
+          "pop": 5,
+          "aliases": [
+            "Aftermath"
+          ]
+        },
+        {
+          "name": "No Limit Records",
+          "pop": 4,
+          "aliases": [
+            "No Limit"
+          ]
+        },
+        {
+          "name": "Shady Records",
+          "pop": 3,
+          "aliases": [
+            "Shady"
+          ]
+        },
+        {
+          "name": "Top Dawg Entertainment",
+          "pop": 3,
+          "aliases": [
+            "TDE",
+            "Top Dawg"
+          ]
+        },
+        {
+          "name": "Young Money",
+          "pop": 3,
+          "aliases": [
+            "Young Money Entertainment"
+          ]
+        },
+        {
+          "name": "G.O.O.D. Music",
+          "pop": 2
+        },
+        {
+          "name": "Ruff Ryders",
+          "pop": 2,
+          "aliases": [
+            "Ruff Ryders Entertainment"
+          ]
+        },
+        {
+          "name": "Sugar Hill Records",
+          "pop": 2,
+          "aliases": [
+            "Sugar Hill"
+          ]
+        },
+        {
+          "name": "Tommy Boy Records",
+          "pop": 2,
+          "aliases": [
+            "Tommy Boy"
+          ]
+        },
+        {
+          "name": "Ruthless Records",
+          "pop": 2,
+          "aliases": [
+            "Ruthless"
+          ]
+        },
+        {
+          "name": "Rap-A-Lot Records",
+          "pop": 2,
+          "aliases": [
+            "Rap-A-Lot"
+          ]
+        },
+        {
+          "name": "LaFace Records",
+          "pop": 2,
+          "aliases": [
+            "LaFace"
+          ]
+        },
+        {
+          "name": "So So Def",
+          "pop": 2,
+          "aliases": [
+            "So So Def Recordings"
+          ]
+        },
+        {
+          "name": "Rawkus Records",
+          "pop": 2,
+          "aliases": [
+            "Rawkus"
+          ]
+        },
+        {
+          "name": "Stones Throw Records",
+          "pop": 2,
+          "aliases": [
+            "Stones Throw"
+          ]
+        },
+        {
+          "name": "Interscope Records",
+          "pop": 2,
+          "aliases": [
+            "Interscope"
+          ]
+        },
+        {
+          "name": "Maybach Music Group",
+          "pop": 2,
+          "aliases": [
+            "MMG",
+            "Maybach Music"
+          ]
+        },
+        {
+          "name": "Dreamville",
+          "pop": 2,
+          "aliases": [
+            "Dreamville Records"
+          ]
+        },
+        {
+          "name": "OVO Sound",
+          "pop": 2,
+          "aliases": [
+            "OVO"
+          ]
+        },
+        {
+          "name": "Quality Control Music",
+          "pop": 2,
+          "aliases": [
+            "Quality Control",
+            "QC"
+          ]
+        },
+        {
+          "name": "Roc Nation",
+          "pop": 2
+        },
+        {
+          "name": "G-Unit Records",
+          "pop": 2,
+          "aliases": [
+            "G-Unit"
+          ]
+        },
+        {
+          "name": "Motown",
+          "pop": 2,
+          "aliases": [
+            "Motown Records"
+          ]
+        },
+        {
+          "name": "Priority Records",
+          "pop": 1,
+          "aliases": [
+            "Priority"
+          ]
+        },
+        {
+          "name": "Jive Records",
+          "pop": 1,
+          "aliases": [
+            "Jive"
+          ]
+        },
+        {
+          "name": "Loud Records",
+          "pop": 1,
+          "aliases": [
+            "Loud"
+          ]
+        },
+        {
+          "name": "Rhymesayers Entertainment",
+          "pop": 1,
+          "aliases": [
+            "Rhymesayers"
+          ]
+        },
+        {
+          "name": "Definitive Jux",
+          "pop": 1,
+          "aliases": [
+            "Def Jux"
+          ]
+        },
+        {
+          "name": "Atlantic Records",
+          "pop": 1,
+          "aliases": [
+            "Atlantic"
+          ]
+        },
+        {
+          "name": "Uptown Records",
+          "pop": 1,
+          "aliases": [
+            "Uptown"
+          ]
+        },
+        {
+          "name": "Murder Inc. Records",
+          "pop": 1,
+          "aliases": [
+            "Murder Inc",
+            "The Inc"
+          ]
+        },
+        {
+          "name": "Grand Hustle Records",
+          "pop": 1,
+          "aliases": [
+            "Grand Hustle"
+          ]
+        },
+        {
+          "name": "Cactus Jack Records",
+          "pop": 1,
+          "aliases": [
+            "Cactus Jack"
+          ]
+        },
+        {
+          "name": "Big Beat Records",
+          "pop": 1,
+          "aliases": [
+            "Big Beat"
+          ]
+        },
+        {
+          "name": "Profile Records",
+          "pop": 1,
+          "aliases": [
+            "Profile"
+          ]
+        },
+        {
+          "name": "Cold Chillin' Records",
+          "pop": 1,
+          "aliases": [
+            "Cold Chillin'"
+          ]
+        },
+        {
+          "name": "Duck Down Music",
+          "pop": 1,
+          "aliases": [
+            "Duck Down",
+            "Duck Down Records"
+          ]
+        },
+        {
+          "name": "Delicious Vinyl",
+          "pop": 1
+        },
+        {
+          "name": "Mass Appeal Records",
+          "pop": 1,
+          "aliases": [
+            "Mass Appeal"
+          ]
+        },
+        {
+          "name": "Disturbing tha Peace",
+          "pop": 1,
+          "aliases": [
+            "DTP"
+          ]
+        },
+        {
+          "name": "Slip-n-Slide Records",
+          "pop": 1,
+          "aliases": [
+            "Slip-n-Slide"
+          ]
+        },
+        {
+          "name": "Swishahouse",
+          "pop": 1
+        },
+        {
+          "name": "Hypnotize Minds",
+          "pop": 1
+        },
+        {
+          "name": "Suave House Records",
+          "pop": 1,
+          "aliases": [
+            "Suave House"
+          ]
+        },
+        {
+          "name": "Strange Music",
+          "pop": 1
+        },
+        {
+          "name": "Mello Music Group",
+          "pop": 1
+        },
+        {
+          "name": "Fool's Gold Records",
+          "pop": 1,
+          "aliases": [
+            "Fool's Gold"
+          ]
+        },
+        {
+          "name": "1017 Records",
+          "pop": 1,
+          "aliases": [
+            "1017 Brick Squad",
+            "1017"
+          ]
+        },
+        {
+          "name": "YSL Records",
+          "pop": 1,
+          "aliases": [
+            "YSL",
+            "Young Stoner Life"
+          ]
+        },
+        {
+          "name": "Enjoy Records",
+          "pop": 1
+        },
+        {
+          "name": "Diplomat Records",
+          "pop": 1,
+          "aliases": [
+            "Dipset Records"
+          ]
+        },
+        {
+          "name": "Terror Squad Entertainment",
+          "pop": 1,
+          "aliases": [
+            "Terror Squad"
+          ]
+        },
+        {
+          "name": "Def American",
+          "pop": 1,
+          "aliases": [
+            "American Recordings"
+          ]
+        },
+        {
+          "name": "Generation Now",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-12",
+      "text": "Name a rapper from Atlanta",
+      "rule": "Raised in metro Atlanta; groups count",
+      "answers": [
+        {
+          "name": "OutKast",
+          "pop": 8
+        },
+        {
+          "name": "André 3000",
+          "pop": 8,
+          "aliases": [
+            "3 Stacks",
+            "Andre Benjamin",
+            "Three Stacks"
+          ]
+        },
+        {
+          "name": "T.I.",
+          "pop": 8,
+          "aliases": [
+            "TIP"
+          ]
+        },
+        {
+          "name": "Future",
+          "pop": 7,
+          "aliases": [
+            "Pluto"
+          ]
+        },
+        {
+          "name": "Gucci Mane",
+          "pop": 6,
+          "aliases": [
+            "Gucci",
+            "Guwop"
+          ]
+        },
+        {
+          "name": "Ludacris",
+          "pop": 6,
+          "aliases": [
+            "Luda"
+          ]
+        },
+        {
+          "name": "Lil Baby",
+          "pop": 6
+        },
+        {
+          "name": "Young Thug",
+          "pop": 5,
+          "aliases": [
+            "Thugger",
+            "Slime"
+          ]
+        },
+        {
+          "name": "21 Savage",
+          "pop": 5,
+          "aliases": [
+            "21"
+          ]
+        },
+        {
+          "name": "Migos",
+          "pop": 3
+        },
+        {
+          "name": "Quavo",
+          "pop": 3
+        },
+        {
+          "name": "Lil Jon",
+          "pop": 3
+        },
+        {
+          "name": "Jeezy",
+          "pop": 3,
+          "aliases": [
+            "Young Jeezy"
+          ]
+        },
+        {
+          "name": "2 Chainz",
+          "pop": 3,
+          "aliases": [
+            "Tity Boi",
+            "Two Chainz"
+          ]
+        },
+        {
+          "name": "Playboi Carti",
+          "pop": 3,
+          "aliases": [
+            "Carti"
+          ]
+        },
+        {
+          "name": "Big Boi",
+          "pop": 3
+        },
+        {
+          "name": "Offset",
+          "pop": 2
+        },
+        {
+          "name": "Takeoff",
+          "pop": 2
+        },
+        {
+          "name": "Killer Mike",
+          "pop": 2
+        },
+        {
+          "name": "Gunna",
+          "pop": 2
+        },
+        {
+          "name": "Lil Yachty",
+          "pop": 2,
+          "aliases": [
+            "Yachty"
+          ]
+        },
+        {
+          "name": "Childish Gambino",
+          "pop": 2,
+          "aliases": [
+            "Donald Glover",
+            "Gambino"
+          ]
+        },
+        {
+          "name": "JID",
+          "pop": 2
+        },
+        {
+          "name": "Lil Nas X",
+          "pop": 2
+        },
+        {
+          "name": "Waka Flocka Flame",
+          "pop": 1,
+          "aliases": [
+            "Waka Flocka",
+            "Waka"
+          ]
+        },
+        {
+          "name": "Kris Kross",
+          "pop": 1
+        },
+        {
+          "name": "Jermaine Dupri",
+          "pop": 1,
+          "aliases": [
+            "JD"
+          ]
+        },
+        {
+          "name": "CeeLo Green",
+          "pop": 1,
+          "aliases": [
+            "Cee Lo"
+          ]
+        },
+        {
+          "name": "Goodie Mob",
+          "pop": 1
+        },
+        {
+          "name": "B.o.B",
+          "pop": 1,
+          "aliases": [
+            "Bobby Ray"
+          ]
+        },
+        {
+          "name": "6lack",
+          "pop": 1,
+          "aliases": [
+            "Black"
+          ]
+        },
+        {
+          "name": "EarthGang",
+          "pop": 1
+        },
+        {
+          "name": "Rich Homie Quan",
+          "pop": 1
+        },
+        {
+          "name": "Trinidad James",
+          "pop": 1
+        },
+        {
+          "name": "Young Dro",
+          "pop": 1
+        },
+        {
+          "name": "Shawty Lo",
+          "pop": 1
+        },
+        {
+          "name": "Yung Joc",
+          "pop": 1
+        },
+        {
+          "name": "Bankroll Fresh",
+          "pop": 1
+        },
+        {
+          "name": "Young Nudy",
+          "pop": 1
+        },
+        {
+          "name": "Lil Keed",
+          "pop": 1
+        },
+        {
+          "name": "Lil Gotit",
+          "pop": 1
+        },
+        {
+          "name": "Latto",
+          "pop": 1,
+          "aliases": [
+            "Mulatto",
+            "Big Latto"
+          ]
+        },
+        {
+          "name": "Lil Scrappy",
+          "pop": 1
+        },
+        {
+          "name": "Pastor Troy",
+          "pop": 1
+        },
+        {
+          "name": "Ying Yang Twins",
+          "pop": 1
+        },
+        {
+          "name": "Dem Franchize Boyz",
+          "pop": 1
+        },
+        {
+          "name": "D4L",
+          "pop": 1
+        },
+        {
+          "name": "Crime Mob",
+          "pop": 1
+        },
+        {
+          "name": "Destroy Lonely",
+          "pop": 1
+        },
+        {
+          "name": "Ken Carson",
+          "pop": 1
+        },
+        {
+          "name": "Kilo Ali",
+          "pop": 1
+        },
+        {
+          "name": "Big Gipp",
+          "pop": 1
+        },
+        {
+          "name": "Raury",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-13",
+      "text": "Name a rapper from Texas",
+      "rule": "Raised in Texas; groups count",
+      "answers": [
+        {
+          "name": "Travis Scott",
+          "pop": 22,
+          "aliases": [
+            "La Flame",
+            "Travis"
+          ]
+        },
+        {
+          "name": "Megan Thee Stallion",
+          "pop": 15,
+          "aliases": [
+            "Megan",
+            "Meg",
+            "Megan the Stallion",
+            "Hot Girl Meg"
+          ]
+        },
+        {
+          "name": "Bun B",
+          "pop": 6
+        },
+        {
+          "name": "UGK",
+          "pop": 5,
+          "aliases": [
+            "Underground Kingz"
+          ]
+        },
+        {
+          "name": "Pimp C",
+          "pop": 4
+        },
+        {
+          "name": "Scarface",
+          "pop": 4,
+          "aliases": [
+            "Brad Jordan",
+            "Face"
+          ]
+        },
+        {
+          "name": "Paul Wall",
+          "pop": 4
+        },
+        {
+          "name": "Post Malone",
+          "pop": 3,
+          "aliases": [
+            "Post"
+          ]
+        },
+        {
+          "name": "DJ Screw",
+          "pop": 3,
+          "aliases": [
+            "Screw"
+          ]
+        },
+        {
+          "name": "Chamillionaire",
+          "pop": 3,
+          "aliases": [
+            "Koopa"
+          ]
+        },
+        {
+          "name": "Mike Jones",
+          "pop": 3
+        },
+        {
+          "name": "Geto Boys",
+          "pop": 2,
+          "aliases": [
+            "Ghetto Boys"
+          ]
+        },
+        {
+          "name": "Slim Thug",
+          "pop": 2
+        },
+        {
+          "name": "Lil' Flip",
+          "pop": 2
+        },
+        {
+          "name": "Don Toliver",
+          "pop": 2
+        },
+        {
+          "name": "Vanilla Ice",
+          "pop": 2
+        },
+        {
+          "name": "Z-Ro",
+          "pop": 1,
+          "aliases": [
+            "Z Ro"
+          ]
+        },
+        {
+          "name": "Trae tha Truth",
+          "pop": 1,
+          "aliases": [
+            "Trae",
+            "Trae the Truth"
+          ]
+        },
+        {
+          "name": "Lil Keke",
+          "pop": 1
+        },
+        {
+          "name": "Fat Pat",
+          "pop": 1
+        },
+        {
+          "name": "Big Hawk",
+          "pop": 1
+        },
+        {
+          "name": "Big Moe",
+          "pop": 1
+        },
+        {
+          "name": "Devin the Dude",
+          "pop": 1
+        },
+        {
+          "name": "South Park Mexican",
+          "pop": 1,
+          "aliases": [
+            "SPM"
+          ]
+        },
+        {
+          "name": "Big Pokey",
+          "pop": 1
+        },
+        {
+          "name": "Lil Troy",
+          "pop": 1
+        },
+        {
+          "name": "Maxo Kream",
+          "pop": 1
+        },
+        {
+          "name": "Sauce Walka",
+          "pop": 1
+        },
+        {
+          "name": "Tobe Nwigwe",
+          "pop": 1
+        },
+        {
+          "name": "Kirko Bangz",
+          "pop": 1
+        },
+        {
+          "name": "Riff Raff",
+          "pop": 1
+        },
+        {
+          "name": "The D.O.C.",
+          "pop": 1
+        },
+        {
+          "name": "Big Tuck",
+          "pop": 1
+        },
+        {
+          "name": "Lil Wil",
+          "pop": 1
+        },
+        {
+          "name": "Dorrough",
+          "pop": 1,
+          "aliases": [
+            "Dorrough Music"
+          ]
+        },
+        {
+          "name": "Yella Beezy",
+          "pop": 1
+        },
+        {
+          "name": "BigXthaPlug",
+          "pop": 1,
+          "aliases": [
+            "Big X the Plug"
+          ]
+        },
+        {
+          "name": "Tay-K",
+          "pop": 1
+        },
+        {
+          "name": "That Mexican OT",
+          "pop": 1
+        },
+        {
+          "name": "Willie D",
+          "pop": 1
+        },
+        {
+          "name": "Propain",
+          "pop": 1
+        },
+        {
+          "name": "Monaleo",
+          "pop": 1
+        },
+        {
+          "name": "Mo3",
+          "pop": 1
+        },
+        {
+          "name": "Bobby Sessions",
+          "pop": 1
+        },
+        {
+          "name": "BeatKing",
+          "pop": 1,
+          "aliases": [
+            "Beat King"
+          ]
+        },
+        {
+          "name": "Killa Kyleon",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-14",
+      "text": "Name a rapper from Chicago",
+      "rule": "Raised in the Chicago area; groups count",
+      "answers": [
+        {
+          "name": "Kanye West",
+          "pop": 30,
+          "aliases": [
+            "Kanye",
+            "Ye"
+          ]
+        },
+        {
+          "name": "Chance the Rapper",
+          "pop": 10,
+          "aliases": [
+            "Chance"
+          ]
+        },
+        {
+          "name": "Common",
+          "pop": 8,
+          "aliases": [
+            "Common Sense"
+          ]
+        },
+        {
+          "name": "Chief Keef",
+          "pop": 6,
+          "aliases": [
+            "Sosa"
+          ]
+        },
+        {
+          "name": "Lil Durk",
+          "pop": 6,
+          "aliases": [
+            "Durkio",
+            "Durk"
+          ]
+        },
+        {
+          "name": "Juice WRLD",
+          "pop": 6,
+          "aliases": [
+            "Juice World"
+          ]
+        },
+        {
+          "name": "Lupe Fiasco",
+          "pop": 5,
+          "aliases": [
+            "Lupe"
+          ]
+        },
+        {
+          "name": "Twista",
+          "pop": 4,
+          "aliases": [
+            "Tung Twista"
+          ]
+        },
+        {
+          "name": "King Von",
+          "pop": 3,
+          "aliases": [
+            "Von"
+          ]
+        },
+        {
+          "name": "Polo G",
+          "pop": 3
+        },
+        {
+          "name": "G Herbo",
+          "pop": 2,
+          "aliases": [
+            "Lil Herb",
+            "Herbo"
+          ]
+        },
+        {
+          "name": "Da Brat",
+          "pop": 2,
+          "aliases": [
+            "So So Def Brat"
+          ]
+        },
+        {
+          "name": "Lil Bibby",
+          "pop": 1
+        },
+        {
+          "name": "Vic Mensa",
+          "pop": 1
+        },
+        {
+          "name": "Noname",
+          "pop": 1,
+          "aliases": [
+            "Noname Gypsy"
+          ]
+        },
+        {
+          "name": "Saba",
+          "pop": 1
+        },
+        {
+          "name": "Do or Die",
+          "pop": 1
+        },
+        {
+          "name": "Crucial Conflict",
+          "pop": 1
+        },
+        {
+          "name": "Rhymefest",
+          "pop": 1
+        },
+        {
+          "name": "Lil Reese",
+          "pop": 1
+        },
+        {
+          "name": "Fredo Santana",
+          "pop": 1
+        },
+        {
+          "name": "Tink",
+          "pop": 1
+        },
+        {
+          "name": "Calboy",
+          "pop": 1
+        },
+        {
+          "name": "Valee",
+          "pop": 1
+        },
+        {
+          "name": "Mick Jenkins",
+          "pop": 1
+        },
+        {
+          "name": "Joey Purp",
+          "pop": 1
+        },
+        {
+          "name": "Dreezy",
+          "pop": 1
+        },
+        {
+          "name": "Katie Got Bandz",
+          "pop": 1
+        },
+        {
+          "name": "Bump J",
+          "pop": 1
+        },
+        {
+          "name": "Shawnna",
+          "pop": 1
+        },
+        {
+          "name": "Rockie Fresh",
+          "pop": 1
+        },
+        {
+          "name": "Kid Sister",
+          "pop": 1
+        },
+        {
+          "name": "The Cool Kids",
+          "pop": 1
+        },
+        {
+          "name": "RondoNumbaNine",
+          "pop": 1,
+          "aliases": [
+            "Rondo"
+          ]
+        },
+        {
+          "name": "Montana of 300",
+          "pop": 1
+        },
+        {
+          "name": "FBG Duck",
+          "pop": 1
+        },
+        {
+          "name": "Famous Dex",
+          "pop": 1
+        },
+        {
+          "name": "Lucki",
+          "pop": 1
+        },
+        {
+          "name": "Tobi Lou",
+          "pop": 1
+        },
+        {
+          "name": "Sasha Go Hard",
+          "pop": 1
+        },
+        {
+          "name": "Towkio",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-15",
+      "text": "Name a rapper from Michigan",
+      "rule": "Raised in Michigan; groups count",
+      "answers": [
+        {
+          "name": "Eminem",
+          "pop": 40,
+          "aliases": [
+            "Slim Shady",
+            "Marshall Mathers",
+            "Em"
+          ]
+        },
+        {
+          "name": "Big Sean",
+          "pop": 15,
+          "aliases": [
+            "Sean Don"
+          ]
+        },
+        {
+          "name": "Royce da 5'9\"",
+          "pop": 4,
+          "aliases": [
+            "Royce",
+            "Royce Da Five Nine"
+          ]
+        },
+        {
+          "name": "Danny Brown",
+          "pop": 4
+        },
+        {
+          "name": "J Dilla",
+          "pop": 3,
+          "aliases": [
+            "Dilla",
+            "Jay Dee"
+          ]
+        },
+        {
+          "name": "Tee Grizzley",
+          "pop": 3
+        },
+        {
+          "name": "Obie Trice",
+          "pop": 2
+        },
+        {
+          "name": "D12",
+          "pop": 2,
+          "aliases": [
+            "Dirty Dozen"
+          ]
+        },
+        {
+          "name": "Sada Baby",
+          "pop": 2
+        },
+        {
+          "name": "42 Dugg",
+          "pop": 2
+        },
+        {
+          "name": "DeJ Loaf",
+          "pop": 2
+        },
+        {
+          "name": "BabyTron",
+          "pop": 2,
+          "aliases": [
+            "Baby Tron"
+          ]
+        },
+        {
+          "name": "Proof",
+          "pop": 1,
+          "aliases": [
+            "DeShaun Holton"
+          ]
+        },
+        {
+          "name": "Slum Village",
+          "pop": 1
+        },
+        {
+          "name": "Black Milk",
+          "pop": 1
+        },
+        {
+          "name": "Elzhi",
+          "pop": 1
+        },
+        {
+          "name": "Babyface Ray",
+          "pop": 1
+        },
+        {
+          "name": "Kash Doll",
+          "pop": 1
+        },
+        {
+          "name": "Icewear Vezzo",
+          "pop": 1
+        },
+        {
+          "name": "Payroll Giovanni",
+          "pop": 1
+        },
+        {
+          "name": "Peezy",
+          "pop": 1,
+          "aliases": [
+            "Team Eastside Peezy"
+          ]
+        },
+        {
+          "name": "Trick-Trick",
+          "pop": 1,
+          "aliases": [
+            "Trick Trick"
+          ]
+        },
+        {
+          "name": "Esham",
+          "pop": 1
+        },
+        {
+          "name": "Insane Clown Posse",
+          "pop": 1,
+          "aliases": [
+            "ICP"
+          ]
+        },
+        {
+          "name": "Twiztid",
+          "pop": 1
+        },
+        {
+          "name": "Bizarre",
+          "pop": 1
+        },
+        {
+          "name": "Kuniva",
+          "pop": 1
+        },
+        {
+          "name": "Kon Artis",
+          "pop": 1,
+          "aliases": [
+            "Mr. Porter"
+          ]
+        },
+        {
+          "name": "Swifty McVay",
+          "pop": 1
+        },
+        {
+          "name": "Guilty Simpson",
+          "pop": 1
+        },
+        {
+          "name": "Blade Icewood",
+          "pop": 1
+        },
+        {
+          "name": "Boldy James",
+          "pop": 1
+        },
+        {
+          "name": "Veeze",
+          "pop": 1
+        },
+        {
+          "name": "Doughboyz Cashout",
+          "pop": 1
+        },
+        {
+          "name": "Skilla Baby",
+          "pop": 1
+        },
+        {
+          "name": "Rio Da Yung OG",
+          "pop": 1,
+          "aliases": [
+            "Rio"
+          ]
+        },
+        {
+          "name": "MC Breed",
+          "pop": 1
+        },
+        {
+          "name": "The Dayton Family",
+          "pop": 1
+        },
+        {
+          "name": "YN Jay",
+          "pop": 1
+        },
+        {
+          "name": "Zelooperz",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-16",
+      "text": "Name a UK rapper or grime MC",
+      "rule": "Solo artists or groups from the UK",
+      "answers": [
+        {
+          "name": "Stormzy",
+          "pop": 25,
+          "aliases": [
+            "Big Mike"
+          ]
+        },
+        {
+          "name": "Central Cee",
+          "pop": 10,
+          "aliases": [
+            "Cench"
+          ]
+        },
+        {
+          "name": "Dave",
+          "pop": 12,
+          "aliases": [
+            "Santan Dave"
+          ]
+        },
+        {
+          "name": "Skepta",
+          "pop": 12
+        },
+        {
+          "name": "Dizzee Rascal",
+          "pop": 10,
+          "aliases": [
+            "Dizzee"
+          ]
+        },
+        {
+          "name": "Little Simz",
+          "pop": 5,
+          "aliases": [
+            "Simz"
+          ]
+        },
+        {
+          "name": "Wiley",
+          "pop": 4,
+          "aliases": [
+            "Godfather of Grime"
+          ]
+        },
+        {
+          "name": "Kano",
+          "pop": 3
+        },
+        {
+          "name": "Giggs",
+          "pop": 3
+        },
+        {
+          "name": "J Hus",
+          "pop": 3
+        },
+        {
+          "name": "AJ Tracey",
+          "pop": 3
+        },
+        {
+          "name": "Tinie Tempah",
+          "pop": 3,
+          "aliases": [
+            "Tinie"
+          ]
+        },
+        {
+          "name": "Headie One",
+          "pop": 2
+        },
+        {
+          "name": "Aitch",
+          "pop": 2
+        },
+        {
+          "name": "Slowthai",
+          "pop": 2
+        },
+        {
+          "name": "The Streets",
+          "pop": 2,
+          "aliases": [
+            "Mike Skinner"
+          ]
+        },
+        {
+          "name": "M.I.A.",
+          "pop": 2
+        },
+        {
+          "name": "Chip",
+          "pop": 1,
+          "aliases": [
+            "Chipmunk"
+          ]
+        },
+        {
+          "name": "Krept & Konan",
+          "pop": 1,
+          "aliases": [
+            "Krept and Konan"
+          ]
+        },
+        {
+          "name": "Lady Leshurr",
+          "pop": 1
+        },
+        {
+          "name": "Ms Banks",
+          "pop": 1
+        },
+        {
+          "name": "Professor Green",
+          "pop": 1
+        },
+        {
+          "name": "Wretch 32",
+          "pop": 1
+        },
+        {
+          "name": "Roots Manuva",
+          "pop": 1
+        },
+        {
+          "name": "Ghetts",
+          "pop": 1,
+          "aliases": [
+            "Ghetto"
+          ]
+        },
+        {
+          "name": "JME",
+          "pop": 1
+        },
+        {
+          "name": "Bugzy Malone",
+          "pop": 1
+        },
+        {
+          "name": "Loyle Carner",
+          "pop": 1
+        },
+        {
+          "name": "Stefflon Don",
+          "pop": 1
+        },
+        {
+          "name": "Lethal Bizzle",
+          "pop": 1
+        },
+        {
+          "name": "Kojey Radical",
+          "pop": 1
+        },
+        {
+          "name": "Digga D",
+          "pop": 1
+        },
+        {
+          "name": "M Huncho",
+          "pop": 1
+        },
+        {
+          "name": "Fredo",
+          "pop": 1
+        },
+        {
+          "name": "Nines",
+          "pop": 1
+        },
+        {
+          "name": "Unknown T",
+          "pop": 1
+        },
+        {
+          "name": "Ms. Dynamite",
+          "pop": 1
+        },
+        {
+          "name": "Example",
+          "pop": 1
+        },
+        {
+          "name": "Plan B",
+          "pop": 1
+        },
+        {
+          "name": "Devlin",
+          "pop": 1
+        },
+        {
+          "name": "P Money",
+          "pop": 1
+        },
+        {
+          "name": "D Double E",
+          "pop": 1
+        },
+        {
+          "name": "Sneakbo",
+          "pop": 1
+        },
+        {
+          "name": "Big Narstie",
+          "pop": 1
+        },
+        {
+          "name": "Tion Wayne",
+          "pop": 1
+        },
+        {
+          "name": "Russ Millions",
+          "pop": 1
+        },
+        {
+          "name": "Arrdee",
+          "pop": 1
+        },
+        {
+          "name": "Speech Debelle",
+          "pop": 1
+        },
+        {
+          "name": "Lowkey",
+          "pop": 1
+        },
+        {
+          "name": "Akala",
+          "pop": 1
+        },
+        {
+          "name": "Potter Payper",
+          "pop": 1
+        },
+        {
+          "name": "K-Trap",
+          "pop": 1
+        },
+        {
+          "name": "Clavish",
+          "pop": 1
+        },
+        {
+          "name": "Knucks",
+          "pop": 1
+        },
+        {
+          "name": "Shaybo",
+          "pop": 1
+        },
+        {
+          "name": "Nadia Rose",
+          "pop": 1
+        },
+        {
+          "name": "Bashy",
+          "pop": 1
+        },
+        {
+          "name": "Sway",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-17",
+      "text": "Name a Canadian rapper or R&B singer",
+      "answers": [
+        {
+          "name": "Drake",
+          "pop": 50,
+          "aliases": [
+            "Drizzy",
+            "Aubrey Graham",
+            "Champagne Papi"
+          ]
+        },
+        {
+          "name": "The Weeknd",
+          "pop": 12,
+          "aliases": [
+            "Abel Tesfaye"
+          ]
+        },
+        {
+          "name": "Tory Lanez",
+          "pop": 3
+        },
+        {
+          "name": "PartyNextDoor",
+          "pop": 3,
+          "aliases": [
+            "Party"
+          ]
+        },
+        {
+          "name": "Daniel Caesar",
+          "pop": 3
+        },
+        {
+          "name": "Kardinal Offishall",
+          "pop": 2,
+          "aliases": [
+            "Kardinal"
+          ]
+        },
+        {
+          "name": "Maestro Fresh Wes",
+          "pop": 2,
+          "aliases": [
+            "Maestro"
+          ]
+        },
+        {
+          "name": "Nav",
+          "pop": 2
+        },
+        {
+          "name": "Jessie Reyez",
+          "pop": 2
+        },
+        {
+          "name": "Deborah Cox",
+          "pop": 2
+        },
+        {
+          "name": "Tamia",
+          "pop": 2
+        },
+        {
+          "name": "k-os",
+          "pop": 1
+        },
+        {
+          "name": "Classified",
+          "pop": 1
+        },
+        {
+          "name": "Belly",
+          "pop": 1
+        },
+        {
+          "name": "Jazz Cartier",
+          "pop": 1
+        },
+        {
+          "name": "Pressa",
+          "pop": 1
+        },
+        {
+          "name": "Killy",
+          "pop": 1
+        },
+        {
+          "name": "Smiley",
+          "pop": 1
+        },
+        {
+          "name": "Shad",
+          "pop": 1
+        },
+        {
+          "name": "Choclair",
+          "pop": 1
+        },
+        {
+          "name": "Saukrates",
+          "pop": 1
+        },
+        {
+          "name": "Glenn Lewis",
+          "pop": 1
+        },
+        {
+          "name": "Melanie Fiona",
+          "pop": 1
+        },
+        {
+          "name": "Majid Jordan",
+          "pop": 1
+        },
+        {
+          "name": "dvsn",
+          "pop": 1,
+          "aliases": [
+            "Division"
+          ]
+        },
+        {
+          "name": "Charlotte Day Wilson",
+          "pop": 1
+        },
+        {
+          "name": "Haviah Mighty",
+          "pop": 1
+        },
+        {
+          "name": "Swollen Members",
+          "pop": 1
+        },
+        {
+          "name": "Madchild",
+          "pop": 1
+        },
+        {
+          "name": "Snow",
+          "pop": 1
+        },
+        {
+          "name": "Dream Warriors",
+          "pop": 1
+        },
+        {
+          "name": "Michie Mee",
+          "pop": 1
+        },
+        {
+          "name": "Rascalz",
+          "pop": 1
+        },
+        {
+          "name": "Cadence Weapon",
+          "pop": 1
+        },
+        {
+          "name": "Roy Woods",
+          "pop": 1
+        },
+        {
+          "name": "Mustafa",
+          "pop": 1,
+          "aliases": [
+            "Mustafa the Poet"
+          ]
+        },
+        {
+          "name": "Sean Leon",
+          "pop": 1
+        },
+        {
+          "name": "Keshia Chanté",
+          "pop": 1
+        },
+        {
+          "name": "Shawn Desman",
+          "pop": 1
+        },
+        {
+          "name": "Jully Black",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-18",
+      "text": "Name an album that won the Grammy for Best Rap Album",
+      "rule": "Name the album, not just the artist",
+      "answers": [
+        {
+          "name": "The Marshall Mathers LP",
+          "pop": 10,
+          "aliases": [
+            "MMLP"
+          ]
+        },
+        {
+          "name": "To Pimp a Butterfly",
+          "pop": 10,
+          "aliases": [
+            "TPAB"
+          ]
+        },
+        {
+          "name": "DAMN.",
+          "pop": 8
+        },
+        {
+          "name": "The College Dropout",
+          "pop": 8
+        },
+        {
+          "name": "My Beautiful Dark Twisted Fantasy",
+          "pop": 7,
+          "aliases": [
+            "MBDTF"
+          ]
+        },
+        {
+          "name": "The Eminem Show",
+          "pop": 6
+        },
+        {
+          "name": "Igor",
+          "pop": 5
+        },
+        {
+          "name": "Speakerboxxx/The Love Below",
+          "pop": 5,
+          "aliases": [
+            "Speakerboxxx",
+            "The Love Below"
+          ]
+        },
+        {
+          "name": "Tha Carter III",
+          "pop": 5,
+          "aliases": [
+            "Carter III",
+            "Carter 3",
+            "Tha Carter 3"
+          ]
+        },
+        {
+          "name": "The Score",
+          "pop": 4
+        },
+        {
+          "name": "Graduation",
+          "pop": 4
+        },
+        {
+          "name": "Late Registration",
+          "pop": 3
+        },
+        {
+          "name": "Stankonia",
+          "pop": 3
+        },
+        {
+          "name": "Take Care",
+          "pop": 3
+        },
+        {
+          "name": "The Slim Shady LP",
+          "pop": 3
+        },
+        {
+          "name": "Invasion of Privacy",
+          "pop": 3
+        },
+        {
+          "name": "Mr. Morale & the Big Steppers",
+          "pop": 3,
+          "aliases": [
+            "Mr. Morale",
+            "Mr. Morale and the Big Steppers"
+          ]
+        },
+        {
+          "name": "Coloring Book",
+          "pop": 2
+        },
+        {
+          "name": "Call Me If You Get Lost",
+          "pop": 2,
+          "aliases": [
+            "CMIYGL"
+          ]
+        },
+        {
+          "name": "Recovery",
+          "pop": 2
+        },
+        {
+          "name": "Vol. 2... Hard Knock Life",
+          "pop": 2,
+          "aliases": [
+            "Hard Knock Life",
+            "Volume 2 Hard Knock Life",
+            "Vol 2"
+          ]
+        },
+        {
+          "name": "The Heist",
+          "pop": 2
+        },
+        {
+          "name": "Alligator Bites Never Heal",
+          "pop": 2
+        },
+        {
+          "name": "Relapse",
+          "pop": 1
+        },
+        {
+          "name": "The Marshall Mathers LP 2",
+          "pop": 1,
+          "aliases": [
+            "MMLP2"
+          ]
+        },
+        {
+          "name": "No Way Out",
+          "pop": 1
+        },
+        {
+          "name": "Release Therapy",
+          "pop": 1
+        },
+        {
+          "name": "King's Disease",
+          "pop": 1
+        },
+        {
+          "name": "Michael",
+          "pop": 1
+        },
+        {
+          "name": "Poverty's Paradise",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-19",
+      "text": "Name a rapper with \"Lil\" in their name",
+      "rule": "Must use \"Lil\" (not \"Little\")",
+      "answers": [
+        {
+          "name": "Lil Wayne",
+          "pop": 35,
+          "aliases": [
+            "Weezy",
+            "Tunechi",
+            "Weezy F Baby"
+          ]
+        },
+        {
+          "name": "Lil Uzi Vert",
+          "pop": 10,
+          "aliases": [
+            "Lil Uzi",
+            "Uzi"
+          ]
+        },
+        {
+          "name": "Lil Baby",
+          "pop": 10
+        },
+        {
+          "name": "Lil' Kim",
+          "pop": 6,
+          "aliases": [
+            "Queen Bee"
+          ]
+        },
+        {
+          "name": "Lil Nas X",
+          "pop": 6
+        },
+        {
+          "name": "Lil Durk",
+          "pop": 5
+        },
+        {
+          "name": "Lil Yachty",
+          "pop": 4
+        },
+        {
+          "name": "Lil Jon",
+          "pop": 4
+        },
+        {
+          "name": "Lil Peep",
+          "pop": 2
+        },
+        {
+          "name": "Lil Pump",
+          "pop": 2
+        },
+        {
+          "name": "Lil Dicky",
+          "pop": 2
+        },
+        {
+          "name": "Lil Boosie",
+          "pop": 2,
+          "aliases": [
+            "Boosie",
+            "Boosie Badazz"
+          ]
+        },
+        {
+          "name": "Lil Tjay",
+          "pop": 2
+        },
+        {
+          "name": "Lil B",
+          "pop": 2,
+          "aliases": [
+            "BasedGod",
+            "Based God"
+          ]
+        },
+        {
+          "name": "Lil Tecca",
+          "pop": 1
+        },
+        {
+          "name": "Lil Mosey",
+          "pop": 1
+        },
+        {
+          "name": "Lil Skies",
+          "pop": 1
+        },
+        {
+          "name": "Lil Xan",
+          "pop": 1
+        },
+        {
+          "name": "Lil' Flip",
+          "pop": 1
+        },
+        {
+          "name": "Lil Scrappy",
+          "pop": 1
+        },
+        {
+          "name": "Lil Keke",
+          "pop": 1
+        },
+        {
+          "name": "Lil Mama",
+          "pop": 1
+        },
+        {
+          "name": "Lil Twist",
+          "pop": 1
+        },
+        {
+          "name": "Lil Reese",
+          "pop": 1
+        },
+        {
+          "name": "Lil Bibby",
+          "pop": 1
+        },
+        {
+          "name": "Lil Herb",
+          "pop": 1,
+          "aliases": [
+            "G Herbo"
+          ]
+        },
+        {
+          "name": "Lil Loaded",
+          "pop": 1
+        },
+        {
+          "name": "Lil Keed",
+          "pop": 1
+        },
+        {
+          "name": "Lil Gotit",
+          "pop": 1
+        },
+        {
+          "name": "Lil Tracy",
+          "pop": 1
+        },
+        {
+          "name": "Lil Rob",
+          "pop": 1
+        },
+        {
+          "name": "Lil' Zane",
+          "pop": 1
+        },
+        {
+          "name": "Lil Romeo",
+          "pop": 1,
+          "aliases": [
+            "Romeo",
+            "Romeo Miller"
+          ]
+        },
+        {
+          "name": "Lil Bow Wow",
+          "pop": 1,
+          "aliases": [
+            "Bow Wow"
+          ]
+        },
+        {
+          "name": "Lil Fizz",
+          "pop": 1
+        },
+        {
+          "name": "Lil Eazy-E",
+          "pop": 1
+        },
+        {
+          "name": "Lil Troy",
+          "pop": 1
+        },
+        {
+          "name": "Lil Cease",
+          "pop": 1
+        },
+        {
+          "name": "Lil Wyte",
+          "pop": 1
+        },
+        {
+          "name": "Lil Poppa",
+          "pop": 1
+        },
+        {
+          "name": "Lil Double 0",
+          "pop": 1
+        },
+        {
+          "name": "Lil Wil",
+          "pop": 1
+        },
+        {
+          "name": "Lil Ugly Mane",
+          "pop": 1
+        },
+        {
+          "name": "Lil Snupe",
+          "pop": 1
+        },
+        {
+          "name": "Lil Phat",
+          "pop": 1
+        },
+        {
+          "name": "Lil Mabu",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-20",
+      "text": "Name a rapper who was in a group before going solo",
+      "answers": [
+        {
+          "name": "Ice Cube",
+          "pop": 15,
+          "aliases": [
+            "O'Shea Jackson"
+          ]
+        },
+        {
+          "name": "Lauryn Hill",
+          "pop": 10,
+          "aliases": [
+            "Ms. Lauryn Hill",
+            "L Boogie"
+          ]
+        },
+        {
+          "name": "André 3000",
+          "pop": 8,
+          "aliases": [
+            "3 Stacks"
+          ]
+        },
+        {
+          "name": "Dr. Dre",
+          "pop": 6,
+          "aliases": [
+            "Dre"
+          ]
+        },
+        {
+          "name": "Method Man",
+          "pop": 5,
+          "aliases": [
+            "Meth"
+          ]
+        },
+        {
+          "name": "Nelly",
+          "pop": 4
+        },
+        {
+          "name": "Lil Wayne",
+          "pop": 4,
+          "aliases": [
+            "Weezy"
+          ]
+        },
+        {
+          "name": "Eazy-E",
+          "pop": 4,
+          "aliases": [
+            "Eazy E"
+          ]
+        },
+        {
+          "name": "Ghostface Killah",
+          "pop": 3,
+          "aliases": [
+            "Ghostface"
+          ]
+        },
+        {
+          "name": "Q-Tip",
+          "pop": 3
+        },
+        {
+          "name": "Big Boi",
+          "pop": 3
+        },
+        {
+          "name": "Wyclef Jean",
+          "pop": 3,
+          "aliases": [
+            "Wyclef"
+          ]
+        },
+        {
+          "name": "Busta Rhymes",
+          "pop": 3,
+          "aliases": [
+            "Busta"
+          ]
+        },
+        {
+          "name": "Lil' Kim",
+          "pop": 3
+        },
+        {
+          "name": "Pusha T",
+          "pop": 3,
+          "aliases": [
+            "Pusha"
+          ]
+        },
+        {
+          "name": "Snoop Dogg",
+          "pop": 2,
+          "aliases": [
+            "Snoop"
+          ]
+        },
+        {
+          "name": "Missy Elliott",
+          "pop": 2,
+          "aliases": [
+            "Missy"
+          ]
+        },
+        {
+          "name": "Quavo",
+          "pop": 2
+        },
+        {
+          "name": "Offset",
+          "pop": 2
+        },
+        {
+          "name": "Tyler, the Creator",
+          "pop": 2,
+          "aliases": [
+            "Tyler"
+          ]
+        },
+        {
+          "name": "Earl Sweatshirt",
+          "pop": 2,
+          "aliases": [
+            "Earl"
+          ]
+        },
+        {
+          "name": "A$AP Rocky",
+          "pop": 2,
+          "aliases": [
+            "ASAP Rocky"
+          ]
+        },
+        {
+          "name": "Jadakiss",
+          "pop": 2
+        },
+        {
+          "name": "Raekwon",
+          "pop": 2,
+          "aliases": [
+            "Raekwon the Chef"
+          ]
+        },
+        {
+          "name": "Ol' Dirty Bastard",
+          "pop": 2,
+          "aliases": [
+            "ODB",
+            "Old Dirty Bastard"
+          ]
+        },
+        {
+          "name": "Bun B",
+          "pop": 2
+        },
+        {
+          "name": "Pimp C",
+          "pop": 2
+        },
+        {
+          "name": "Scarface",
+          "pop": 2
+        },
+        {
+          "name": "CeeLo Green",
+          "pop": 2,
+          "aliases": [
+            "Cee Lo"
+          ]
+        },
+        {
+          "name": "Mos Def",
+          "pop": 2,
+          "aliases": [
+            "Yasiin Bey"
+          ]
+        },
+        {
+          "name": "Talib Kweli",
+          "pop": 2,
+          "aliases": [
+            "Talib"
+          ]
+        },
+        {
+          "name": "Phife Dawg",
+          "pop": 1,
+          "aliases": [
+            "Phife"
+          ]
+        },
+        {
+          "name": "MC Ren",
+          "pop": 1
+        },
+        {
+          "name": "Pras",
+          "pop": 1,
+          "aliases": [
+            "Pras Michel"
+          ]
+        },
+        {
+          "name": "Inspectah Deck",
+          "pop": 1
+        },
+        {
+          "name": "U-God",
+          "pop": 1
+        },
+        {
+          "name": "Masta Killa",
+          "pop": 1
+        },
+        {
+          "name": "Takeoff",
+          "pop": 1
+        },
+        {
+          "name": "A$AP Ferg",
+          "pop": 1,
+          "aliases": [
+            "ASAP Ferg"
+          ]
+        },
+        {
+          "name": "Styles P",
+          "pop": 1
+        },
+        {
+          "name": "Sheek Louch",
+          "pop": 1
+        },
+        {
+          "name": "Turk",
+          "pop": 1
+        },
+        {
+          "name": "Willie D",
+          "pop": 1
+        },
+        {
+          "name": "Black Thought",
+          "pop": 1
+        },
+        {
+          "name": "Warren G",
+          "pop": 1
+        },
+        {
+          "name": "Nate Dogg",
+          "pop": 1
+        },
+        {
+          "name": "Kurupt",
+          "pop": 1
+        },
+        {
+          "name": "Daz Dillinger",
+          "pop": 1,
+          "aliases": [
+            "Daz"
+          ]
+        },
+        {
+          "name": "Rakim",
+          "pop": 1
+        },
+        {
+          "name": "Will Smith",
+          "pop": 1,
+          "aliases": [
+            "The Fresh Prince"
+          ]
+        },
+        {
+          "name": "KRS-One",
+          "pop": 1,
+          "aliases": [
+            "KRS One",
+            "KRS"
+          ]
+        },
+        {
+          "name": "Guru",
+          "pop": 1
+        },
+        {
+          "name": "Heavy D",
+          "pop": 1
+        },
+        {
+          "name": "Chuck D",
+          "pop": 1
+        },
+        {
+          "name": "Flavor Flav",
+          "pop": 1
+        },
+        {
+          "name": "Krayzie Bone",
+          "pop": 1
+        },
+        {
+          "name": "Bizzy Bone",
+          "pop": 1
+        },
+        {
+          "name": "Layzie Bone",
+          "pop": 1
+        },
+        {
+          "name": "Melle Mel",
+          "pop": 1,
+          "aliases": [
+            "Grandmaster Melle Mel"
+          ]
+        },
+        {
+          "name": "Rev Run",
+          "pop": 1,
+          "aliases": [
+            "Run",
+            "Joseph Simmons"
+          ]
+        },
+        {
+          "name": "Darryl McDaniels",
+          "pop": 1,
+          "aliases": [
+            "DMC"
+          ]
+        },
+        {
+          "name": "Pharoahe Monch",
+          "pop": 1
+        },
+        {
+          "name": "Slick Rick",
+          "pop": 1,
+          "aliases": [
+            "MC Ricky D"
+          ]
+        },
+        {
+          "name": "Remy Ma",
+          "pop": 1,
+          "aliases": [
+            "Remy Martin"
+          ]
+        },
+        {
+          "name": "Proof",
+          "pop": 1
+        },
+        {
+          "name": "Lisa \"Left Eye\" Lopes",
+          "pop": 1,
+          "aliases": [
+            "Left Eye",
+            "Lisa Lopes"
+          ]
+        },
+        {
+          "name": "Kool Keith",
+          "pop": 1,
+          "aliases": [
+            "Dr. Octagon"
+          ]
+        },
+        {
+          "name": "MF DOOM",
+          "pop": 1,
+          "aliases": [
+            "DOOM",
+            "Zev Love X"
+          ]
+        },
+        {
+          "name": "Large Professor",
+          "pop": 1
+        },
+        {
+          "name": "CL Smooth",
+          "pop": 1
+        },
+        {
+          "name": "Phonte",
+          "pop": 1
+        },
+        {
+          "name": "Rapper Big Pooh",
+          "pop": 1,
+          "aliases": [
+            "Big Pooh"
+          ]
+        },
+        {
+          "name": "Prodigy",
+          "pop": 1
+        },
+        {
+          "name": "Havoc",
+          "pop": 1
+        },
+        {
+          "name": "Gangsta Boo",
+          "pop": 1
+        },
+        {
+          "name": "Juicy J",
+          "pop": 1
+        },
+        {
+          "name": "DJ Paul",
+          "pop": 1
+        },
+        {
+          "name": "Lil Cease",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-21",
+      "text": "Name a female rapper",
+      "rule": "Solo artists only",
+      "answers": [
+        {
+          "name": "Nicki Minaj",
+          "pop": 30,
+          "aliases": [
+            "Nicki",
+            "Onika Maraj"
+          ]
+        },
+        {
+          "name": "Cardi B",
+          "pop": 15,
+          "aliases": [
+            "Cardi"
+          ]
+        },
+        {
+          "name": "Missy Elliott",
+          "pop": 8,
+          "aliases": [
+            "Missy",
+            "Misdemeanor"
+          ]
+        },
+        {
+          "name": "Megan Thee Stallion",
+          "pop": 8,
+          "aliases": [
+            "Megan",
+            "Meg",
+            "Megan the Stallion"
+          ]
+        },
+        {
+          "name": "Lil' Kim",
+          "pop": 6,
+          "aliases": [
+            "Queen Bee"
+          ]
+        },
+        {
+          "name": "Lauryn Hill",
+          "pop": 4,
+          "aliases": [
+            "Ms. Lauryn Hill"
+          ]
+        },
+        {
+          "name": "Queen Latifah",
+          "pop": 4,
+          "aliases": [
+            "Latifah"
+          ]
+        },
+        {
+          "name": "Doja Cat",
+          "pop": 3,
+          "aliases": [
+            "Doja"
+          ]
+        },
+        {
+          "name": "Eve",
+          "pop": 2
+        },
+        {
+          "name": "Foxy Brown",
+          "pop": 2
+        },
+        {
+          "name": "MC Lyte",
+          "pop": 2
+        },
+        {
+          "name": "Doechii",
+          "pop": 2
+        },
+        {
+          "name": "Ice Spice",
+          "pop": 2
+        },
+        {
+          "name": "GloRilla",
+          "pop": 2,
+          "aliases": [
+            "Glo"
+          ]
+        },
+        {
+          "name": "Sexyy Red",
+          "pop": 2,
+          "aliases": [
+            "Sexy Red"
+          ]
+        },
+        {
+          "name": "Trina",
+          "pop": 2
+        },
+        {
+          "name": "Latto",
+          "pop": 1,
+          "aliases": [
+            "Mulatto"
+          ]
+        },
+        {
+          "name": "Saweetie",
+          "pop": 1
+        },
+        {
+          "name": "Lil Mama",
+          "pop": 1
+        },
+        {
+          "name": "Da Brat",
+          "pop": 1
+        },
+        {
+          "name": "Remy Ma",
+          "pop": 1
+        },
+        {
+          "name": "Rapsody",
+          "pop": 1
+        },
+        {
+          "name": "Little Simz",
+          "pop": 1
+        },
+        {
+          "name": "Noname",
+          "pop": 1
+        },
+        {
+          "name": "Azealia Banks",
+          "pop": 1
+        },
+        {
+          "name": "Iggy Azalea",
+          "pop": 1
+        },
+        {
+          "name": "Kash Doll",
+          "pop": 1
+        },
+        {
+          "name": "Coi Leray",
+          "pop": 1
+        },
+        {
+          "name": "Flo Milli",
+          "pop": 1
+        },
+        {
+          "name": "Rico Nasty",
+          "pop": 1
+        },
+        {
+          "name": "Tierra Whack",
+          "pop": 1
+        },
+        {
+          "name": "Princess Nokia",
+          "pop": 1
+        },
+        {
+          "name": "Young M.A",
+          "pop": 1
+        },
+        {
+          "name": "Bia",
+          "pop": 1
+        },
+        {
+          "name": "The Lady of Rage",
+          "pop": 1
+        },
+        {
+          "name": "Roxanne Shanté",
+          "pop": 1
+        },
+        {
+          "name": "Monie Love",
+          "pop": 1
+        },
+        {
+          "name": "Yo-Yo",
+          "pop": 1
+        },
+        {
+          "name": "Bahamadia",
+          "pop": 1
+        },
+        {
+          "name": "Lisa \"Left Eye\" Lopes",
+          "pop": 1,
+          "aliases": [
+            "Left Eye",
+            "Lisa Lopes"
+          ]
+        },
+        {
+          "name": "Shawnna",
+          "pop": 1
+        },
+        {
+          "name": "Jean Grae",
+          "pop": 1
+        },
+        {
+          "name": "Mia X",
+          "pop": 1
+        },
+        {
+          "name": "Gangsta Boo",
+          "pop": 1
+        },
+        {
+          "name": "La Chat",
+          "pop": 1
+        },
+        {
+          "name": "Khia",
+          "pop": 1
+        },
+        {
+          "name": "Rah Digga",
+          "pop": 1
+        },
+        {
+          "name": "Dreezy",
+          "pop": 1
+        },
+        {
+          "name": "Tink",
+          "pop": 1
+        },
+        {
+          "name": "Cupcakke",
+          "pop": 1
+        },
+        {
+          "name": "Kamaiyah",
+          "pop": 1
+        },
+        {
+          "name": "DeJ Loaf",
+          "pop": 1
+        },
+        {
+          "name": "Lola Brooke",
+          "pop": 1
+        },
+        {
+          "name": "Ms. Jade",
+          "pop": 1
+        },
+        {
+          "name": "Sha-Rock",
+          "pop": 1,
+          "aliases": [
+            "MC Sha-Rock"
+          ]
+        },
+        {
+          "name": "Queen Pen",
+          "pop": 1
+        },
+        {
+          "name": "Snow Tha Product",
+          "pop": 1
+        },
+        {
+          "name": "Chika",
+          "pop": 1
+        },
+        {
+          "name": "Yung Miami",
+          "pop": 1
+        },
+        {
+          "name": "JT",
+          "pop": 1
+        },
+        {
+          "name": "Stefflon Don",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-22",
+      "text": "Name a hip-hop duo",
+      "rule": "Acts with exactly two members",
+      "answers": [
+        {
+          "name": "OutKast",
+          "pop": 25
+        },
+        {
+          "name": "Run the Jewels",
+          "pop": 8,
+          "aliases": [
+            "RTJ"
+          ]
+        },
+        {
+          "name": "Eric B. & Rakim",
+          "pop": 6,
+          "aliases": [
+            "Eric B and Rakim"
+          ]
+        },
+        {
+          "name": "Mobb Deep",
+          "pop": 6
+        },
+        {
+          "name": "Clipse",
+          "pop": 5
+        },
+        {
+          "name": "UGK",
+          "pop": 4,
+          "aliases": [
+            "Underground Kingz"
+          ]
+        },
+        {
+          "name": "Gang Starr",
+          "pop": 4,
+          "aliases": [
+            "Gangstarr"
+          ]
+        },
+        {
+          "name": "Black Star",
+          "pop": 3,
+          "aliases": [
+            "Mos Def & Talib Kweli",
+            "Blackstar"
+          ]
+        },
+        {
+          "name": "EPMD",
+          "pop": 3
+        },
+        {
+          "name": "Kris Kross",
+          "pop": 3
+        },
+        {
+          "name": "DJ Jazzy Jeff & the Fresh Prince",
+          "pop": 3,
+          "aliases": [
+            "Jazzy Jeff and the Fresh Prince"
+          ]
+        },
+        {
+          "name": "Method Man & Redman",
+          "pop": 2,
+          "aliases": [
+            "Method Man and Redman"
+          ]
+        },
+        {
+          "name": "Pete Rock & CL Smooth",
+          "pop": 2,
+          "aliases": [
+            "Pete Rock and CL Smooth"
+          ]
+        },
+        {
+          "name": "Rae Sremmurd",
+          "pop": 2
+        },
+        {
+          "name": "Macklemore & Ryan Lewis",
+          "pop": 2,
+          "aliases": [
+            "Macklemore and Ryan Lewis"
+          ]
+        },
+        {
+          "name": "Tha Dogg Pound",
+          "pop": 2,
+          "aliases": [
+            "Dogg Pound"
+          ]
+        },
+        {
+          "name": "8Ball & MJG",
+          "pop": 2,
+          "aliases": [
+            "Eightball & MJG",
+            "8Ball and MJG"
+          ]
+        },
+        {
+          "name": "City Girls",
+          "pop": 2
+        },
+        {
+          "name": "Capone-N-Noreaga",
+          "pop": 1,
+          "aliases": [
+            "CNN"
+          ]
+        },
+        {
+          "name": "Das EFX",
+          "pop": 1
+        },
+        {
+          "name": "Black Sheep",
+          "pop": 1
+        },
+        {
+          "name": "Camp Lo",
+          "pop": 1
+        },
+        {
+          "name": "Reflection Eternal",
+          "pop": 1
+        },
+        {
+          "name": "Madvillain",
+          "pop": 1
+        },
+        {
+          "name": "Kid 'n Play",
+          "pop": 1,
+          "aliases": [
+            "Kid and Play"
+          ]
+        },
+        {
+          "name": "Rob Base and DJ E-Z Rock",
+          "pop": 1,
+          "aliases": [
+            "Rob Base"
+          ]
+        },
+        {
+          "name": "Nice & Smooth",
+          "pop": 1,
+          "aliases": [
+            "Nice and Smooth"
+          ]
+        },
+        {
+          "name": "Smif-N-Wessun",
+          "pop": 1
+        },
+        {
+          "name": "Heltah Skeltah",
+          "pop": 1
+        },
+        {
+          "name": "Ying Yang Twins",
+          "pop": 1
+        },
+        {
+          "name": "Big Tymers",
+          "pop": 1
+        },
+        {
+          "name": "Atmosphere",
+          "pop": 1
+        },
+        {
+          "name": "Blackalicious",
+          "pop": 1
+        },
+        {
+          "name": "Dead Prez",
+          "pop": 1
+        },
+        {
+          "name": "Kids See Ghosts",
+          "pop": 1
+        },
+        {
+          "name": "Timbaland & Magoo",
+          "pop": 1,
+          "aliases": [
+            "Timbaland and Magoo"
+          ]
+        },
+        {
+          "name": "Showbiz & A.G.",
+          "pop": 1,
+          "aliases": [
+            "Showbiz and AG"
+          ]
+        },
+        {
+          "name": "Organized Konfusion",
+          "pop": 1
+        },
+        {
+          "name": "Group Home",
+          "pop": 1
+        },
+        {
+          "name": "M.O.P.",
+          "pop": 1
+        },
+        {
+          "name": "Kool G Rap & DJ Polo",
+          "pop": 1,
+          "aliases": [
+            "Kool G Rap and DJ Polo"
+          ]
+        },
+        {
+          "name": "Chiddy Bang",
+          "pop": 1
+        },
+        {
+          "name": "Young Gunz",
+          "pop": 1
+        },
+        {
+          "name": "Field Mob",
+          "pop": 1
+        },
+        {
+          "name": "YoungBloodZ",
+          "pop": 1
+        },
+        {
+          "name": "Playaz Circle",
+          "pop": 1
+        },
+        {
+          "name": "EarthGang",
+          "pop": 1
+        },
+        {
+          "name": "Kidz in the Hall",
+          "pop": 1
+        },
+        {
+          "name": "The Cool Kids",
+          "pop": 1
+        },
+        {
+          "name": "Danger Doom",
+          "pop": 1
+        },
+        {
+          "name": "Jaylib",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-23",
+      "text": "Name an R&B group that was active in the 1990s",
+      "answers": [
+        {
+          "name": "Boyz II Men",
+          "pop": 25,
+          "aliases": [
+            "Boys to Men",
+            "Boyz 2 Men"
+          ]
+        },
+        {
+          "name": "TLC",
+          "pop": 20
+        },
+        {
+          "name": "Destiny's Child",
+          "pop": 12
+        },
+        {
+          "name": "Jodeci",
+          "pop": 6
+        },
+        {
+          "name": "En Vogue",
+          "pop": 5
+        },
+        {
+          "name": "SWV",
+          "pop": 4,
+          "aliases": [
+            "Sisters with Voices"
+          ]
+        },
+        {
+          "name": "Blackstreet",
+          "pop": 4
+        },
+        {
+          "name": "Dru Hill",
+          "pop": 3
+        },
+        {
+          "name": "112",
+          "pop": 3,
+          "aliases": [
+            "One Twelve"
+          ]
+        },
+        {
+          "name": "Xscape",
+          "pop": 3
+        },
+        {
+          "name": "Bell Biv DeVoe",
+          "pop": 3,
+          "aliases": [
+            "BBD"
+          ]
+        },
+        {
+          "name": "Total",
+          "pop": 2
+        },
+        {
+          "name": "Jagged Edge",
+          "pop": 2
+        },
+        {
+          "name": "K-Ci & JoJo",
+          "pop": 2,
+          "aliases": [
+            "KC and JoJo"
+          ]
+        },
+        {
+          "name": "Tony! Toni! Toné!",
+          "pop": 2
+        },
+        {
+          "name": "702",
+          "pop": 1,
+          "aliases": [
+            "Seven Oh Two"
+          ]
+        },
+        {
+          "name": "Next",
+          "pop": 1
+        },
+        {
+          "name": "Shai",
+          "pop": 1
+        },
+        {
+          "name": "Silk",
+          "pop": 1
+        },
+        {
+          "name": "H-Town",
+          "pop": 1
+        },
+        {
+          "name": "Az Yet",
+          "pop": 1
+        },
+        {
+          "name": "Brownstone",
+          "pop": 1
+        },
+        {
+          "name": "Changing Faces",
+          "pop": 1
+        },
+        {
+          "name": "Zhané",
+          "pop": 1
+        },
+        {
+          "name": "Hi-Five",
+          "pop": 1
+        },
+        {
+          "name": "Mint Condition",
+          "pop": 1
+        },
+        {
+          "name": "Color Me Badd",
+          "pop": 1
+        },
+        {
+          "name": "All-4-One",
+          "pop": 1,
+          "aliases": [
+            "All 4 One"
+          ]
+        },
+        {
+          "name": "Intro",
+          "pop": 1
+        },
+        {
+          "name": "Soul for Real",
+          "pop": 1
+        },
+        {
+          "name": "Immature",
+          "pop": 1,
+          "aliases": [
+            "IMx"
+          ]
+        },
+        {
+          "name": "Allure",
+          "pop": 1
+        },
+        {
+          "name": "Ideal",
+          "pop": 1
+        },
+        {
+          "name": "LSG",
+          "pop": 1
+        },
+        {
+          "name": "Guy",
+          "pop": 1
+        },
+        {
+          "name": "Troop",
+          "pop": 1
+        },
+        {
+          "name": "Somethin' for the People",
+          "pop": 1
+        },
+        {
+          "name": "Blaque",
+          "pop": 1
+        },
+        {
+          "name": "Men of Vizion",
+          "pop": 1
+        },
+        {
+          "name": "Kut Klose",
+          "pop": 1
+        },
+        {
+          "name": "Jade",
+          "pop": 1
+        },
+        {
+          "name": "3T",
+          "pop": 1
+        },
+        {
+          "name": "Divine",
+          "pop": 1
+        },
+        {
+          "name": "Subway",
+          "pop": 1
+        },
+        {
+          "name": "Eternal",
+          "pop": 1
+        },
+        {
+          "name": "The Braxtons",
+          "pop": 1
+        },
+        {
+          "name": "Mista",
+          "pop": 1
+        },
+        {
+          "name": "Portrait",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "hiphop-24",
+      "text": "Name a hip-hop act that debuted before 1990",
+      "rule": "First record released before 1990",
+      "answers": [
+        {
+          "name": "The Sugarhill Gang",
+          "pop": 25,
+          "aliases": [
+            "Sugar Hill Gang"
+          ]
+        },
+        {
+          "name": "Run-DMC",
+          "pop": 15,
+          "aliases": [
+            "Run DMC"
+          ]
+        },
+        {
+          "name": "Grandmaster Flash and the Furious Five",
+          "pop": 15,
+          "aliases": [
+            "Grandmaster Flash",
+            "Furious Five"
+          ]
+        },
+        {
+          "name": "LL Cool J",
+          "pop": 6,
+          "aliases": [
+            "LL"
+          ]
+        },
+        {
+          "name": "Beastie Boys",
+          "pop": 6
+        },
+        {
+          "name": "Public Enemy",
+          "pop": 5,
+          "aliases": [
+            "PE"
+          ]
+        },
+        {
+          "name": "N.W.A",
+          "pop": 5
+        },
+        {
+          "name": "Kurtis Blow",
+          "pop": 4
+        },
+        {
+          "name": "Eric B. & Rakim",
+          "pop": 3,
+          "aliases": [
+            "Eric B and Rakim",
+            "Rakim"
+          ]
+        },
+        {
+          "name": "Salt-N-Pepa",
+          "pop": 3,
+          "aliases": [
+            "Salt and Pepa"
+          ]
+        },
+        {
+          "name": "Big Daddy Kane",
+          "pop": 2,
+          "aliases": [
+            "Kane"
+          ]
+        },
+        {
+          "name": "Slick Rick",
+          "pop": 2
+        },
+        {
+          "name": "Boogie Down Productions",
+          "pop": 2,
+          "aliases": [
+            "BDP",
+            "KRS-One"
+          ]
+        },
+        {
+          "name": "Afrika Bambaataa",
+          "pop": 2,
+          "aliases": [
+            "Afrika Bambaataa & the Soulsonic Force",
+            "Bambaataa"
+          ]
+        },
+        {
+          "name": "Biz Markie",
+          "pop": 2,
+          "aliases": [
+            "Biz"
+          ]
+        },
+        {
+          "name": "De La Soul",
+          "pop": 2
+        },
+        {
+          "name": "Ice-T",
+          "pop": 2,
+          "aliases": [
+            "Ice T"
+          ]
+        },
+        {
+          "name": "DJ Jazzy Jeff & the Fresh Prince",
+          "pop": 2,
+          "aliases": [
+            "Fresh Prince",
+            "Jazzy Jeff"
+          ]
+        },
+        {
+          "name": "MC Hammer",
+          "pop": 2,
+          "aliases": [
+            "Hammer"
+          ]
+        },
+        {
+          "name": "MC Lyte",
+          "pop": 1
+        },
+        {
+          "name": "Kool Moe Dee",
+          "pop": 1
+        },
+        {
+          "name": "Whodini",
+          "pop": 1
+        },
+        {
+          "name": "UTFO",
+          "pop": 1
+        },
+        {
+          "name": "Doug E. Fresh",
+          "pop": 1
+        },
+        {
+          "name": "Too Short",
+          "pop": 1,
+          "aliases": [
+            "Too $hort"
+          ]
+        },
+        {
+          "name": "EPMD",
+          "pop": 1
+        },
+        {
+          "name": "Rob Base and DJ E-Z Rock",
+          "pop": 1,
+          "aliases": [
+            "Rob Base"
+          ]
+        },
+        {
+          "name": "Heavy D & the Boyz",
+          "pop": 1,
+          "aliases": [
+            "Heavy D"
+          ]
+        },
+        {
+          "name": "Queen Latifah",
+          "pop": 1
+        },
+        {
+          "name": "Kool G Rap & DJ Polo",
+          "pop": 1,
+          "aliases": [
+            "Kool G Rap"
+          ]
+        },
+        {
+          "name": "Ultramagnetic MCs",
+          "pop": 1,
+          "aliases": [
+            "Ultramagnetic"
+          ]
+        },
+        {
+          "name": "Stetsasonic",
+          "pop": 1
+        },
+        {
+          "name": "Treacherous Three",
+          "pop": 1
+        },
+        {
+          "name": "Funky 4 + 1",
+          "pop": 1,
+          "aliases": [
+            "Funky Four Plus One"
+          ]
+        },
+        {
+          "name": "Cold Crush Brothers",
+          "pop": 1,
+          "aliases": [
+            "Cold Crush"
+          ]
+        },
+        {
+          "name": "Spoonie Gee",
+          "pop": 1
+        },
+        {
+          "name": "Roxanne Shanté",
+          "pop": 1
+        },
+        {
+          "name": "Mantronix",
+          "pop": 1
+        },
+        {
+          "name": "Schoolly D",
+          "pop": 1
+        },
+        {
+          "name": "Just-Ice",
+          "pop": 1
+        },
+        {
+          "name": "MC Shan",
+          "pop": 1
+        },
+        {
+          "name": "Jungle Brothers",
+          "pop": 1
+        },
+        {
+          "name": "Tone Lōc",
+          "pop": 1
+        },
+        {
+          "name": "Young MC",
+          "pop": 1
+        },
+        {
+          "name": "Kid 'n Play",
+          "pop": 1,
+          "aliases": [
+            "Kid and Play"
+          ]
+        },
+        {
+          "name": "Eazy-E",
+          "pop": 1
+        },
+        {
+          "name": "2 Live Crew",
+          "pop": 1
+        },
+        {
+          "name": "Fat Boys",
+          "pop": 1
+        },
+        {
+          "name": "The Sequence",
+          "pop": 1
+        },
+        {
+          "name": "Dana Dane",
+          "pop": 1
+        },
+        {
+          "name": "Digital Underground",
+          "pop": 1
+        },
+        {
+          "name": "Geto Boys",
+          "pop": 1,
+          "aliases": [
+            "Ghetto Boys"
+          ]
+        },
+        {
+          "name": "Marley Marl",
+          "pop": 1
+        },
+        {
+          "name": "Grandmaster Caz",
+          "pop": 1
+        },
+        {
+          "name": "Lovebug Starski",
+          "pop": 1
+        },
+        {
+          "name": "Sir Mix-a-Lot",
+          "pop": 1
+        },
+        {
+          "name": "Gang Starr",
+          "pop": 1
+        },
+        {
+          "name": "A Tribe Called Quest",
+          "pop": 1,
+          "aliases": [
+            "Tribe",
+            "ATCQ"
+          ]
+        },
+        {
+          "name": "Special Ed",
+          "pop": 1
+        },
+        {
+          "name": "3rd Bass",
+          "pop": 1,
+          "aliases": [
+            "Third Bass"
+          ]
+        },
+        {
+          "name": "Steady B",
+          "pop": 1
+        },
+        {
+          "name": "J.J. Fad",
+          "pop": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7257 @@
+{
+  "id": "general",
+  "prompts": [
+    {
+      "id": "general-01",
+      "text": "Name a song by the Beatles",
+      "answers": [
+        {
+          "name": "Hey Jude",
+          "pop": 22
+        },
+        {
+          "name": "Yesterday",
+          "pop": 14
+        },
+        {
+          "name": "Let It Be",
+          "pop": 12
+        },
+        {
+          "name": "Here Comes the Sun",
+          "pop": 9
+        },
+        {
+          "name": "Come Together",
+          "pop": 6
+        },
+        {
+          "name": "Yellow Submarine",
+          "pop": 6
+        },
+        {
+          "name": "Help!",
+          "pop": 4
+        },
+        {
+          "name": "I Want to Hold Your Hand",
+          "pop": 4
+        },
+        {
+          "name": "Twist and Shout",
+          "pop": 3
+        },
+        {
+          "name": "All You Need Is Love",
+          "pop": 3
+        },
+        {
+          "name": "Strawberry Fields Forever",
+          "aliases": [
+            "Strawberry Fields"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Eleanor Rigby",
+          "pop": 3
+        },
+        {
+          "name": "Penny Lane",
+          "pop": 2
+        },
+        {
+          "name": "A Hard Day's Night",
+          "aliases": [
+            "Hard Days Night"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Something",
+          "pop": 2
+        },
+        {
+          "name": "Blackbird",
+          "pop": 2
+        },
+        {
+          "name": "Love Me Do",
+          "pop": 2
+        },
+        {
+          "name": "She Loves You",
+          "pop": 2
+        },
+        {
+          "name": "Can't Buy Me Love",
+          "pop": 2
+        },
+        {
+          "name": "In My Life",
+          "pop": 2
+        },
+        {
+          "name": "Lucy in the Sky with Diamonds",
+          "aliases": [
+            "Lucy in the Sky"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Ob-La-Di, Ob-La-Da",
+          "aliases": [
+            "Obladi Oblada",
+            "Ob La Di Ob La Da"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Get Back",
+          "pop": 2
+        },
+        {
+          "name": "Revolution",
+          "pop": 1
+        },
+        {
+          "name": "Across the Universe",
+          "pop": 1
+        },
+        {
+          "name": "While My Guitar Gently Weeps",
+          "pop": 1
+        },
+        {
+          "name": "Ticket to Ride",
+          "pop": 1
+        },
+        {
+          "name": "Day Tripper",
+          "pop": 1
+        },
+        {
+          "name": "Paperback Writer",
+          "pop": 1
+        },
+        {
+          "name": "Drive My Car",
+          "pop": 1
+        },
+        {
+          "name": "Norwegian Wood (This Bird Has Flown)",
+          "aliases": [
+            "Norwegian Wood"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Michelle",
+          "pop": 1
+        },
+        {
+          "name": "Nowhere Man",
+          "pop": 1
+        },
+        {
+          "name": "With a Little Help from My Friends",
+          "aliases": [
+            "A Little Help from My Friends"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Sgt. Pepper's Lonely Hearts Club Band",
+          "aliases": [
+            "Sgt Pepper",
+            "Sergeant Pepper's Lonely Hearts Club Band"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "A Day in the Life",
+          "pop": 1
+        },
+        {
+          "name": "I Am the Walrus",
+          "pop": 1
+        },
+        {
+          "name": "Hello, Goodbye",
+          "pop": 1
+        },
+        {
+          "name": "The Long and Winding Road",
+          "pop": 1
+        },
+        {
+          "name": "Back in the U.S.S.R.",
+          "aliases": [
+            "Back in the USSR"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Helter Skelter",
+          "pop": 1
+        },
+        {
+          "name": "Taxman",
+          "pop": 1
+        },
+        {
+          "name": "Eight Days a Week",
+          "pop": 1
+        },
+        {
+          "name": "I Saw Her Standing There",
+          "pop": 1
+        },
+        {
+          "name": "All My Loving",
+          "pop": 1
+        },
+        {
+          "name": "Got to Get You into My Life",
+          "pop": 1
+        },
+        {
+          "name": "Here, There and Everywhere",
+          "pop": 1
+        },
+        {
+          "name": "Tomorrow Never Knows",
+          "pop": 1
+        },
+        {
+          "name": "Lady Madonna",
+          "pop": 1
+        },
+        {
+          "name": "Octopus's Garden",
+          "aliases": [
+            "Octopus Garden"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Maxwell's Silver Hammer",
+          "pop": 1
+        },
+        {
+          "name": "Golden Slumbers",
+          "pop": 1
+        },
+        {
+          "name": "Don't Let Me Down",
+          "pop": 1
+        },
+        {
+          "name": "The Ballad of John and Yoko",
+          "pop": 1
+        },
+        {
+          "name": "I Feel Fine",
+          "pop": 1
+        },
+        {
+          "name": "We Can Work It Out",
+          "pop": 1
+        },
+        {
+          "name": "Rain",
+          "pop": 1
+        },
+        {
+          "name": "Dear Prudence",
+          "pop": 1
+        },
+        {
+          "name": "Julia",
+          "pop": 1
+        },
+        {
+          "name": "Rocky Raccoon",
+          "pop": 1
+        },
+        {
+          "name": "Mother Nature's Son",
+          "pop": 1
+        },
+        {
+          "name": "Birthday",
+          "pop": 1
+        },
+        {
+          "name": "Two of Us",
+          "pop": 1
+        },
+        {
+          "name": "Because",
+          "pop": 1
+        },
+        {
+          "name": "Girl",
+          "pop": 1
+        },
+        {
+          "name": "If I Fell",
+          "pop": 1
+        },
+        {
+          "name": "And I Love Her",
+          "pop": 1
+        },
+        {
+          "name": "Please Please Me",
+          "pop": 1
+        },
+        {
+          "name": "From Me to You",
+          "pop": 1
+        },
+        {
+          "name": "P.S. I Love You",
+          "aliases": [
+            "PS I Love You"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Things We Said Today",
+          "pop": 1
+        },
+        {
+          "name": "I'm Only Sleeping",
+          "pop": 1
+        },
+        {
+          "name": "Good Day Sunshine",
+          "pop": 1
+        },
+        {
+          "name": "She Said She Said",
+          "pop": 1
+        },
+        {
+          "name": "Getting Better",
+          "pop": 1
+        },
+        {
+          "name": "When I'm Sixty-Four",
+          "aliases": [
+            "When I'm 64"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Fixing a Hole",
+          "pop": 1
+        },
+        {
+          "name": "Being for the Benefit of Mr. Kite!",
+          "aliases": [
+            "Mr Kite"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Magical Mystery Tour",
+          "pop": 1
+        },
+        {
+          "name": "The Fool on the Hill",
+          "pop": 1
+        },
+        {
+          "name": "Free as a Bird",
+          "pop": 1
+        },
+        {
+          "name": "Now and Then",
+          "pop": 1
+        },
+        {
+          "name": "I've Just Seen a Face",
+          "pop": 1
+        },
+        {
+          "name": "You've Got to Hide Your Love Away",
+          "pop": 1
+        },
+        {
+          "name": "Happiness Is a Warm Gun",
+          "pop": 1
+        },
+        {
+          "name": "Hey Bulldog",
+          "pop": 1
+        },
+        {
+          "name": "Old Brown Shoe",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-02",
+      "text": "Name a Grammy Best New Artist winner",
+      "rule": "Milli Vanilli's revoked win counts",
+      "answers": [
+        {
+          "name": "Adele",
+          "pop": 12
+        },
+        {
+          "name": "Billie Eilish",
+          "pop": 10
+        },
+        {
+          "name": "The Beatles",
+          "pop": 6
+        },
+        {
+          "name": "Amy Winehouse",
+          "pop": 6
+        },
+        {
+          "name": "Mariah Carey",
+          "pop": 5
+        },
+        {
+          "name": "Olivia Rodrigo",
+          "pop": 5
+        },
+        {
+          "name": "Alicia Keys",
+          "pop": 4
+        },
+        {
+          "name": "Dua Lipa",
+          "pop": 4
+        },
+        {
+          "name": "Chappell Roan",
+          "pop": 4
+        },
+        {
+          "name": "Christina Aguilera",
+          "pop": 3
+        },
+        {
+          "name": "Norah Jones",
+          "pop": 3
+        },
+        {
+          "name": "Sam Smith",
+          "pop": 3
+        },
+        {
+          "name": "Carrie Underwood",
+          "pop": 3
+        },
+        {
+          "name": "Milli Vanilli",
+          "pop": 3
+        },
+        {
+          "name": "Lauryn Hill",
+          "aliases": [
+            "Ms. Lauryn Hill"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Maroon 5",
+          "pop": 2
+        },
+        {
+          "name": "John Legend",
+          "pop": 2
+        },
+        {
+          "name": "Cyndi Lauper",
+          "pop": 2
+        },
+        {
+          "name": "Sheryl Crow",
+          "pop": 2
+        },
+        {
+          "name": "Megan Thee Stallion",
+          "aliases": [
+            "Megan the Stallion"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Tracy Chapman",
+          "pop": 2
+        },
+        {
+          "name": "Hootie & the Blowfish",
+          "aliases": [
+            "Hootie and the Blowfish",
+            "Hootie"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Culture Club",
+          "pop": 2
+        },
+        {
+          "name": "Chance the Rapper",
+          "aliases": [
+            "Chance"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Meghan Trainor",
+          "pop": 2
+        },
+        {
+          "name": "Sade",
+          "pop": 1
+        },
+        {
+          "name": "Evanescence",
+          "pop": 1
+        },
+        {
+          "name": "LeAnn Rimes",
+          "pop": 1
+        },
+        {
+          "name": "Toni Braxton",
+          "pop": 1
+        },
+        {
+          "name": "Carly Simon",
+          "pop": 1
+        },
+        {
+          "name": "Bette Midler",
+          "pop": 1
+        },
+        {
+          "name": "Natalie Cole",
+          "pop": 1
+        },
+        {
+          "name": "Tom Jones",
+          "pop": 1
+        },
+        {
+          "name": "The Carpenters",
+          "pop": 1
+        },
+        {
+          "name": "Crosby, Stills & Nash",
+          "aliases": [
+            "Crosby Stills and Nash",
+            "CSN"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Men at Work",
+          "pop": 1
+        },
+        {
+          "name": "Christopher Cross",
+          "pop": 1
+        },
+        {
+          "name": "Bon Iver",
+          "pop": 1
+        },
+        {
+          "name": "Fun.",
+          "pop": 1
+        },
+        {
+          "name": "Alessia Cara",
+          "pop": 1
+        },
+        {
+          "name": "Zac Brown Band",
+          "pop": 1
+        },
+        {
+          "name": "Esperanza Spalding",
+          "pop": 1
+        },
+        {
+          "name": "Samara Joy",
+          "pop": 1
+        },
+        {
+          "name": "Victoria Monét",
+          "pop": 1
+        },
+        {
+          "name": "Bobby Darin",
+          "pop": 1
+        },
+        {
+          "name": "Bob Newhart",
+          "pop": 1
+        },
+        {
+          "name": "Peter Nero",
+          "pop": 1
+        },
+        {
+          "name": "Robert Goulet",
+          "pop": 1
+        },
+        {
+          "name": "The Swingle Singers",
+          "aliases": [
+            "Ward Swingle"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Bobbie Gentry",
+          "pop": 1
+        },
+        {
+          "name": "José Feliciano",
+          "pop": 1
+        },
+        {
+          "name": "America",
+          "pop": 1
+        },
+        {
+          "name": "Marvin Hamlisch",
+          "pop": 1
+        },
+        {
+          "name": "Starland Vocal Band",
+          "pop": 1
+        },
+        {
+          "name": "Debby Boone",
+          "pop": 1
+        },
+        {
+          "name": "A Taste of Honey",
+          "pop": 1
+        },
+        {
+          "name": "Rickie Lee Jones",
+          "pop": 1
+        },
+        {
+          "name": "Sheena Easton",
+          "pop": 1
+        },
+        {
+          "name": "Bruce Hornsby and the Range",
+          "aliases": [
+            "Bruce Hornsby & the Range",
+            "Bruce Hornsby"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Jody Watley",
+          "pop": 1
+        },
+        {
+          "name": "Marc Cohn",
+          "pop": 1
+        },
+        {
+          "name": "Arrested Development",
+          "pop": 1
+        },
+        {
+          "name": "Paula Cole",
+          "pop": 1
+        },
+        {
+          "name": "Shelby Lynne",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-03",
+      "text": "Name a music artist known by just one name",
+      "answers": [
+        {
+          "name": "Madonna",
+          "pop": 18
+        },
+        {
+          "name": "Prince",
+          "pop": 10
+        },
+        {
+          "name": "Beyoncé",
+          "pop": 10
+        },
+        {
+          "name": "Rihanna",
+          "pop": 8
+        },
+        {
+          "name": "Adele",
+          "pop": 7
+        },
+        {
+          "name": "Cher",
+          "pop": 6
+        },
+        {
+          "name": "Drake",
+          "pop": 4
+        },
+        {
+          "name": "Eminem",
+          "pop": 3
+        },
+        {
+          "name": "Shakira",
+          "pop": 3
+        },
+        {
+          "name": "Sting",
+          "pop": 3
+        },
+        {
+          "name": "Bono",
+          "pop": 2
+        },
+        {
+          "name": "Usher",
+          "pop": 2
+        },
+        {
+          "name": "Lizzo",
+          "pop": 2
+        },
+        {
+          "name": "Pink",
+          "aliases": [
+            "P!nk"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Björk",
+          "pop": 2
+        },
+        {
+          "name": "Aaliyah",
+          "pop": 2
+        },
+        {
+          "name": "Lorde",
+          "pop": 2
+        },
+        {
+          "name": "Sia",
+          "pop": 2
+        },
+        {
+          "name": "SZA",
+          "pop": 2
+        },
+        {
+          "name": "Seal",
+          "pop": 1
+        },
+        {
+          "name": "Moby",
+          "pop": 1
+        },
+        {
+          "name": "Enya",
+          "pop": 1
+        },
+        {
+          "name": "Sade",
+          "pop": 1
+        },
+        {
+          "name": "Brandy",
+          "pop": 1
+        },
+        {
+          "name": "Monica",
+          "pop": 1
+        },
+        {
+          "name": "Ciara",
+          "pop": 1
+        },
+        {
+          "name": "Kesha",
+          "aliases": [
+            "Ke$ha"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Halsey",
+          "pop": 1
+        },
+        {
+          "name": "Ne-Yo",
+          "aliases": [
+            "Neyo"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Akon",
+          "pop": 1
+        },
+        {
+          "name": "Nelly",
+          "pop": 1
+        },
+        {
+          "name": "Ludacris",
+          "pop": 1
+        },
+        {
+          "name": "Common",
+          "pop": 1
+        },
+        {
+          "name": "Nas",
+          "pop": 1
+        },
+        {
+          "name": "Logic",
+          "pop": 1
+        },
+        {
+          "name": "Future",
+          "pop": 1
+        },
+        {
+          "name": "Donovan",
+          "pop": 1
+        },
+        {
+          "name": "Melanie",
+          "pop": 1
+        },
+        {
+          "name": "Dido",
+          "pop": 1
+        },
+        {
+          "name": "Duffy",
+          "pop": 1
+        },
+        {
+          "name": "Yanni",
+          "pop": 1
+        },
+        {
+          "name": "Liberace",
+          "pop": 1
+        },
+        {
+          "name": "Selena",
+          "pop": 1
+        },
+        {
+          "name": "Morrissey",
+          "pop": 1
+        },
+        {
+          "name": "Slash",
+          "pop": 1
+        },
+        {
+          "name": "Falco",
+          "pop": 1
+        },
+        {
+          "name": "Nena",
+          "pop": 1
+        },
+        {
+          "name": "Shaggy",
+          "pop": 1
+        },
+        {
+          "name": "Sisqó",
+          "pop": 1
+        },
+        {
+          "name": "Mýa",
+          "pop": 1
+        },
+        {
+          "name": "Tiësto",
+          "pop": 1
+        },
+        {
+          "name": "Avicii",
+          "pop": 1
+        },
+        {
+          "name": "Skrillex",
+          "pop": 1
+        },
+        {
+          "name": "Marshmello",
+          "pop": 1
+        },
+        {
+          "name": "Kygo",
+          "pop": 1
+        },
+        {
+          "name": "Zedd",
+          "pop": 1
+        },
+        {
+          "name": "Grimes",
+          "pop": 1
+        },
+        {
+          "name": "Robyn",
+          "pop": 1
+        },
+        {
+          "name": "Lulu",
+          "pop": 1
+        },
+        {
+          "name": "Rosalía",
+          "pop": 1
+        },
+        {
+          "name": "Anitta",
+          "pop": 1
+        },
+        {
+          "name": "Maluma",
+          "pop": 1
+        },
+        {
+          "name": "Raffi",
+          "pop": 1
+        },
+        {
+          "name": "Dion",
+          "pop": 1
+        },
+        {
+          "name": "Fabian",
+          "pop": 1
+        },
+        {
+          "name": "Charo",
+          "pop": 1
+        },
+        {
+          "name": "Jewel",
+          "pop": 1
+        },
+        {
+          "name": "Tiffany",
+          "pop": 1
+        },
+        {
+          "name": "Kehlani",
+          "pop": 1
+        },
+        {
+          "name": "Normani",
+          "pop": 1
+        },
+        {
+          "name": "Tinashe",
+          "pop": 1
+        },
+        {
+          "name": "Ashanti",
+          "pop": 1
+        },
+        {
+          "name": "Coolio",
+          "pop": 1
+        },
+        {
+          "name": "Ginuwine",
+          "pop": 1
+        },
+        {
+          "name": "Beck",
+          "pop": 1
+        },
+        {
+          "name": "Mika",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-04",
+      "text": "Name a Michael Jackson song",
+      "rule": "Solo songs only; duets count",
+      "answers": [
+        {
+          "name": "Billie Jean",
+          "pop": 20
+        },
+        {
+          "name": "Thriller",
+          "pop": 18
+        },
+        {
+          "name": "Beat It",
+          "pop": 12
+        },
+        {
+          "name": "Smooth Criminal",
+          "pop": 8
+        },
+        {
+          "name": "Man in the Mirror",
+          "pop": 5
+        },
+        {
+          "name": "Bad",
+          "pop": 5
+        },
+        {
+          "name": "Black or White",
+          "pop": 4
+        },
+        {
+          "name": "Don't Stop 'til You Get Enough",
+          "aliases": [
+            "Don't Stop Till You Get Enough"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Rock with You",
+          "pop": 3
+        },
+        {
+          "name": "The Way You Make Me Feel",
+          "pop": 3
+        },
+        {
+          "name": "Wanna Be Startin' Somethin'",
+          "aliases": [
+            "Wanna Be Starting Something"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Remember the Time",
+          "pop": 2
+        },
+        {
+          "name": "Heal the World",
+          "pop": 2
+        },
+        {
+          "name": "Earth Song",
+          "pop": 2
+        },
+        {
+          "name": "You Are Not Alone",
+          "pop": 2
+        },
+        {
+          "name": "Dirty Diana",
+          "pop": 2
+        },
+        {
+          "name": "Human Nature",
+          "pop": 2
+        },
+        {
+          "name": "P.Y.T. (Pretty Young Thing)",
+          "aliases": [
+            "PYT",
+            "Pretty Young Thing"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "They Don't Care About Us",
+          "pop": 2
+        },
+        {
+          "name": "Off the Wall",
+          "pop": 1
+        },
+        {
+          "name": "She's Out of My Life",
+          "pop": 1
+        },
+        {
+          "name": "Ben",
+          "pop": 1
+        },
+        {
+          "name": "Scream",
+          "pop": 1
+        },
+        {
+          "name": "Jam",
+          "pop": 1
+        },
+        {
+          "name": "In the Closet",
+          "pop": 1
+        },
+        {
+          "name": "Will You Be There",
+          "pop": 1
+        },
+        {
+          "name": "Leave Me Alone",
+          "pop": 1
+        },
+        {
+          "name": "Another Part of Me",
+          "pop": 1
+        },
+        {
+          "name": "Liberian Girl",
+          "pop": 1
+        },
+        {
+          "name": "Speed Demon",
+          "pop": 1
+        },
+        {
+          "name": "Say Say Say",
+          "pop": 1
+        },
+        {
+          "name": "The Girl Is Mine",
+          "pop": 1
+        },
+        {
+          "name": "Rockin' Robin",
+          "aliases": [
+            "Rocking Robin"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Got to Be There",
+          "pop": 1
+        },
+        {
+          "name": "I Just Can't Stop Loving You",
+          "pop": 1
+        },
+        {
+          "name": "You Rock My World",
+          "pop": 1
+        },
+        {
+          "name": "Butterflies",
+          "pop": 1
+        },
+        {
+          "name": "Blood on the Dance Floor",
+          "pop": 1
+        },
+        {
+          "name": "Stranger in Moscow",
+          "pop": 1
+        },
+        {
+          "name": "Childhood",
+          "pop": 1
+        },
+        {
+          "name": "Who Is It",
+          "pop": 1
+        },
+        {
+          "name": "Give In to Me",
+          "pop": 1
+        },
+        {
+          "name": "Dangerous",
+          "pop": 1
+        },
+        {
+          "name": "Gone Too Soon",
+          "pop": 1
+        },
+        {
+          "name": "Ghosts",
+          "pop": 1
+        },
+        {
+          "name": "Unbreakable",
+          "pop": 1
+        },
+        {
+          "name": "Love Never Felt So Good",
+          "pop": 1
+        },
+        {
+          "name": "Hold My Hand",
+          "pop": 1
+        },
+        {
+          "name": "This Is It",
+          "pop": 1
+        },
+        {
+          "name": "Workin' Day and Night",
+          "aliases": [
+            "Working Day and Night"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "One More Chance",
+          "pop": 1
+        },
+        {
+          "name": "Cry",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-05",
+      "text": "Name a musical instrument",
+      "answers": [
+        {
+          "name": "Guitar",
+          "pop": 30
+        },
+        {
+          "name": "Piano",
+          "pop": 25
+        },
+        {
+          "name": "Drums",
+          "aliases": [
+            "Drum",
+            "Drum kit"
+          ],
+          "pop": 15
+        },
+        {
+          "name": "Violin",
+          "aliases": [
+            "Fiddle"
+          ],
+          "pop": 8
+        },
+        {
+          "name": "Bass guitar",
+          "aliases": [
+            "Bass"
+          ],
+          "pop": 4
+        },
+        {
+          "name": "Saxophone",
+          "aliases": [
+            "Sax"
+          ],
+          "pop": 4
+        },
+        {
+          "name": "Trumpet",
+          "pop": 3
+        },
+        {
+          "name": "Flute",
+          "pop": 2
+        },
+        {
+          "name": "Cello",
+          "pop": 2
+        },
+        {
+          "name": "Harp",
+          "pop": 1
+        },
+        {
+          "name": "Clarinet",
+          "pop": 1
+        },
+        {
+          "name": "Ukulele",
+          "pop": 1
+        },
+        {
+          "name": "Banjo",
+          "pop": 1
+        },
+        {
+          "name": "Harmonica",
+          "pop": 1
+        },
+        {
+          "name": "Accordion",
+          "pop": 1
+        },
+        {
+          "name": "Keyboard",
+          "aliases": [
+            "Keys"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Organ",
+          "pop": 1
+        },
+        {
+          "name": "Trombone",
+          "pop": 1
+        },
+        {
+          "name": "Tuba",
+          "pop": 1
+        },
+        {
+          "name": "French horn",
+          "aliases": [
+            "Horn"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Oboe",
+          "pop": 1
+        },
+        {
+          "name": "Bassoon",
+          "pop": 1
+        },
+        {
+          "name": "Viola",
+          "pop": 1
+        },
+        {
+          "name": "Double bass",
+          "aliases": [
+            "Upright bass",
+            "Contrabass"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Xylophone",
+          "pop": 1
+        },
+        {
+          "name": "Marimba",
+          "pop": 1
+        },
+        {
+          "name": "Vibraphone",
+          "aliases": [
+            "Vibes"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Glockenspiel",
+          "pop": 1
+        },
+        {
+          "name": "Timpani",
+          "aliases": [
+            "Kettle drum"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Tambourine",
+          "pop": 1
+        },
+        {
+          "name": "Triangle",
+          "pop": 1
+        },
+        {
+          "name": "Cymbals",
+          "aliases": [
+            "Cymbal"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Mandolin",
+          "pop": 1
+        },
+        {
+          "name": "Sitar",
+          "pop": 1
+        },
+        {
+          "name": "Bagpipes",
+          "aliases": [
+            "Bagpipe"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Synthesizer",
+          "aliases": [
+            "Synth"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Theremin",
+          "pop": 1
+        },
+        {
+          "name": "Didgeridoo",
+          "pop": 1
+        },
+        {
+          "name": "Kazoo",
+          "pop": 1
+        },
+        {
+          "name": "Steel drum",
+          "aliases": [
+            "Steel pan"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Bongos",
+          "pop": 1
+        },
+        {
+          "name": "Congas",
+          "pop": 1
+        },
+        {
+          "name": "Cowbell",
+          "pop": 1
+        },
+        {
+          "name": "Harpsichord",
+          "pop": 1
+        },
+        {
+          "name": "Lute",
+          "pop": 1
+        },
+        {
+          "name": "Lyre",
+          "pop": 1
+        },
+        {
+          "name": "Zither",
+          "pop": 1
+        },
+        {
+          "name": "Dulcimer",
+          "pop": 1
+        },
+        {
+          "name": "Piccolo",
+          "pop": 1
+        },
+        {
+          "name": "Recorder",
+          "pop": 1
+        },
+        {
+          "name": "Tabla",
+          "pop": 1
+        },
+        {
+          "name": "Koto",
+          "pop": 1
+        },
+        {
+          "name": "Shamisen",
+          "pop": 1
+        },
+        {
+          "name": "Erhu",
+          "pop": 1
+        },
+        {
+          "name": "Balalaika",
+          "pop": 1
+        },
+        {
+          "name": "Bouzouki",
+          "pop": 1
+        },
+        {
+          "name": "Oud",
+          "pop": 1
+        },
+        {
+          "name": "Kalimba",
+          "aliases": [
+            "Thumb piano"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Melodica",
+          "pop": 1
+        },
+        {
+          "name": "Ocarina",
+          "pop": 1
+        },
+        {
+          "name": "Pan flute",
+          "aliases": [
+            "Panpipes"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Euphonium",
+          "pop": 1
+        },
+        {
+          "name": "Cornet",
+          "pop": 1
+        },
+        {
+          "name": "Flugelhorn",
+          "pop": 1
+        },
+        {
+          "name": "Sousaphone",
+          "pop": 1
+        },
+        {
+          "name": "Celesta",
+          "pop": 1
+        },
+        {
+          "name": "Castanets",
+          "pop": 1
+        },
+        {
+          "name": "Djembe",
+          "pop": 1
+        },
+        {
+          "name": "Washboard",
+          "pop": 1
+        },
+        {
+          "name": "Pedal steel guitar",
+          "aliases": [
+            "Steel guitar"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Autoharp",
+          "pop": 1
+        },
+        {
+          "name": "Hurdy-gurdy",
+          "pop": 1
+        },
+        {
+          "name": "Bodhrán",
+          "pop": 1
+        },
+        {
+          "name": "Cajón",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-06",
+      "text": "Name a member of a classic British rock band",
+      "rule": "Beatles/Stones/Who/Kinks/Zeppelin/Queen/Floyd/Sabbath",
+      "answers": [
+        {
+          "name": "Paul McCartney",
+          "aliases": [
+            "Macca"
+          ],
+          "pop": 20
+        },
+        {
+          "name": "John Lennon",
+          "pop": 18
+        },
+        {
+          "name": "Mick Jagger",
+          "pop": 15
+        },
+        {
+          "name": "Freddie Mercury",
+          "pop": 10
+        },
+        {
+          "name": "Ringo Starr",
+          "pop": 6
+        },
+        {
+          "name": "George Harrison",
+          "pop": 5
+        },
+        {
+          "name": "Ozzy Osbourne",
+          "aliases": [
+            "Ozzy"
+          ],
+          "pop": 5
+        },
+        {
+          "name": "Keith Richards",
+          "pop": 4
+        },
+        {
+          "name": "Robert Plant",
+          "pop": 3
+        },
+        {
+          "name": "Jimmy Page",
+          "pop": 3
+        },
+        {
+          "name": "Roger Daltrey",
+          "pop": 2
+        },
+        {
+          "name": "Pete Townshend",
+          "pop": 2
+        },
+        {
+          "name": "Brian May",
+          "pop": 2
+        },
+        {
+          "name": "David Gilmour",
+          "pop": 2
+        },
+        {
+          "name": "Roger Waters",
+          "pop": 2
+        },
+        {
+          "name": "Keith Moon",
+          "pop": 2
+        },
+        {
+          "name": "Charlie Watts",
+          "pop": 2
+        },
+        {
+          "name": "Ronnie Wood",
+          "aliases": [
+            "Ron Wood"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Ray Davies",
+          "pop": 1
+        },
+        {
+          "name": "John Bonham",
+          "aliases": [
+            "Bonzo"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Syd Barrett",
+          "pop": 1
+        },
+        {
+          "name": "Brian Jones",
+          "pop": 1
+        },
+        {
+          "name": "John Entwistle",
+          "pop": 1
+        },
+        {
+          "name": "Tony Iommi",
+          "pop": 1
+        },
+        {
+          "name": "Roger Taylor",
+          "pop": 1
+        },
+        {
+          "name": "John Deacon",
+          "pop": 1
+        },
+        {
+          "name": "John Paul Jones",
+          "pop": 1
+        },
+        {
+          "name": "Nick Mason",
+          "pop": 1
+        },
+        {
+          "name": "Richard Wright",
+          "aliases": [
+            "Rick Wright"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Bill Wyman",
+          "pop": 1
+        },
+        {
+          "name": "Mick Taylor",
+          "pop": 1
+        },
+        {
+          "name": "Pete Best",
+          "pop": 1
+        },
+        {
+          "name": "Stuart Sutcliffe",
+          "pop": 1
+        },
+        {
+          "name": "Geezer Butler",
+          "pop": 1
+        },
+        {
+          "name": "Bill Ward",
+          "pop": 1
+        },
+        {
+          "name": "Ronnie James Dio",
+          "aliases": [
+            "Dio"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Dave Davies",
+          "pop": 1
+        },
+        {
+          "name": "Mick Avory",
+          "pop": 1
+        },
+        {
+          "name": "Pete Quaife",
+          "pop": 1
+        },
+        {
+          "name": "Ian Stewart",
+          "pop": 1
+        },
+        {
+          "name": "Kenney Jones",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-07",
+      "text": "Name a Taylor Swift song",
+      "answers": [
+        {
+          "name": "Shake It Off",
+          "pop": 15
+        },
+        {
+          "name": "Love Story",
+          "pop": 12
+        },
+        {
+          "name": "Blank Space",
+          "pop": 8
+        },
+        {
+          "name": "Anti-Hero",
+          "aliases": [
+            "Antihero"
+          ],
+          "pop": 6
+        },
+        {
+          "name": "You Belong with Me",
+          "pop": 6
+        },
+        {
+          "name": "Cruel Summer",
+          "pop": 5
+        },
+        {
+          "name": "We Are Never Ever Getting Back Together",
+          "aliases": [
+            "Never Ever Getting Back Together"
+          ],
+          "pop": 4
+        },
+        {
+          "name": "All Too Well",
+          "pop": 4
+        },
+        {
+          "name": "Bad Blood",
+          "pop": 3
+        },
+        {
+          "name": "Style",
+          "pop": 3
+        },
+        {
+          "name": "Look What You Made Me Do",
+          "aliases": [
+            "LWYMMD"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "The Fate of Ophelia",
+          "pop": 3
+        },
+        {
+          "name": "22",
+          "pop": 2
+        },
+        {
+          "name": "I Knew You Were Trouble",
+          "pop": 2
+        },
+        {
+          "name": "Wildest Dreams",
+          "pop": 2
+        },
+        {
+          "name": "Teardrops on My Guitar",
+          "pop": 2
+        },
+        {
+          "name": "Delicate",
+          "pop": 2
+        },
+        {
+          "name": "Cardigan",
+          "pop": 2
+        },
+        {
+          "name": "Lover",
+          "pop": 2
+        },
+        {
+          "name": "Willow",
+          "pop": 1
+        },
+        {
+          "name": "Our Song",
+          "pop": 1
+        },
+        {
+          "name": "Tim McGraw",
+          "pop": 1
+        },
+        {
+          "name": "Fifteen",
+          "pop": 1
+        },
+        {
+          "name": "Mine",
+          "pop": 1
+        },
+        {
+          "name": "Back to December",
+          "pop": 1
+        },
+        {
+          "name": "Mean",
+          "pop": 1
+        },
+        {
+          "name": "Enchanted",
+          "pop": 1
+        },
+        {
+          "name": "Red",
+          "pop": 1
+        },
+        {
+          "name": "Begin Again",
+          "pop": 1
+        },
+        {
+          "name": "Out of the Woods",
+          "pop": 1
+        },
+        {
+          "name": "...Ready for It?",
+          "pop": 1
+        },
+        {
+          "name": "Gorgeous",
+          "pop": 1
+        },
+        {
+          "name": "End Game",
+          "pop": 1
+        },
+        {
+          "name": "ME!",
+          "pop": 1
+        },
+        {
+          "name": "You Need to Calm Down",
+          "pop": 1
+        },
+        {
+          "name": "The Man",
+          "pop": 1
+        },
+        {
+          "name": "The Archer",
+          "pop": 1
+        },
+        {
+          "name": "Exile",
+          "pop": 1
+        },
+        {
+          "name": "Betty",
+          "pop": 1
+        },
+        {
+          "name": "August",
+          "pop": 1
+        },
+        {
+          "name": "Champagne Problems",
+          "pop": 1
+        },
+        {
+          "name": "Lavender Haze",
+          "pop": 1
+        },
+        {
+          "name": "Karma",
+          "pop": 1
+        },
+        {
+          "name": "Bejeweled",
+          "pop": 1
+        },
+        {
+          "name": "Midnight Rain",
+          "pop": 1
+        },
+        {
+          "name": "Maroon",
+          "pop": 1
+        },
+        {
+          "name": "Snow on the Beach",
+          "pop": 1
+        },
+        {
+          "name": "Fortnight",
+          "pop": 1
+        },
+        {
+          "name": "Down Bad",
+          "pop": 1
+        },
+        {
+          "name": "So Long, London",
+          "pop": 1
+        },
+        {
+          "name": "The Tortured Poets Department",
+          "pop": 1
+        },
+        {
+          "name": "I Can Do It with a Broken Heart",
+          "pop": 1
+        },
+        {
+          "name": "State of Grace",
+          "pop": 1
+        },
+        {
+          "name": "Sparks Fly",
+          "pop": 1
+        },
+        {
+          "name": "Ours",
+          "pop": 1
+        },
+        {
+          "name": "Picture to Burn",
+          "pop": 1
+        },
+        {
+          "name": "White Horse",
+          "pop": 1
+        },
+        {
+          "name": "Should've Said No",
+          "pop": 1
+        },
+        {
+          "name": "Change",
+          "pop": 1
+        },
+        {
+          "name": "Safe & Sound",
+          "aliases": [
+            "Safe and Sound"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Everything Has Changed",
+          "pop": 1
+        },
+        {
+          "name": "Welcome to New York",
+          "pop": 1
+        },
+        {
+          "name": "New Romantics",
+          "pop": 1
+        },
+        {
+          "name": "Clean",
+          "pop": 1
+        },
+        {
+          "name": "Don't Blame Me",
+          "pop": 1
+        },
+        {
+          "name": "Getaway Car",
+          "pop": 1
+        },
+        {
+          "name": "Call It What You Want",
+          "pop": 1
+        },
+        {
+          "name": "Paper Rings",
+          "pop": 1
+        },
+        {
+          "name": "Cornelia Street",
+          "pop": 1
+        },
+        {
+          "name": "Death by a Thousand Cuts",
+          "pop": 1
+        },
+        {
+          "name": "Mirrorball",
+          "pop": 1
+        },
+        {
+          "name": "Invisible String",
+          "pop": 1
+        },
+        {
+          "name": "The 1",
+          "pop": 1
+        },
+        {
+          "name": "No Body, No Crime",
+          "pop": 1
+        },
+        {
+          "name": "Is It Over Now?",
+          "pop": 1
+        },
+        {
+          "name": "Mr. Perfectly Fine",
+          "pop": 1
+        },
+        {
+          "name": "Florida!!!",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-08",
+      "text": "Name a music festival",
+      "answers": [
+        {
+          "name": "Coachella",
+          "pop": 25
+        },
+        {
+          "name": "Woodstock",
+          "aliases": [
+            "Woodstock '99"
+          ],
+          "pop": 15
+        },
+        {
+          "name": "Glastonbury",
+          "aliases": [
+            "Glasto"
+          ],
+          "pop": 10
+        },
+        {
+          "name": "Lollapalooza",
+          "pop": 10
+        },
+        {
+          "name": "Bonnaroo",
+          "pop": 5
+        },
+        {
+          "name": "Electric Daisy Carnival",
+          "aliases": [
+            "EDC"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Tomorrowland",
+          "pop": 3
+        },
+        {
+          "name": "South by Southwest",
+          "aliases": [
+            "SXSW"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Ultra Music Festival",
+          "aliases": [
+            "Ultra"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Rock in Rio",
+          "pop": 2
+        },
+        {
+          "name": "Austin City Limits Music Festival",
+          "aliases": [
+            "Austin City Limits",
+            "ACL"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Live Aid",
+          "pop": 2
+        },
+        {
+          "name": "Stagecoach",
+          "pop": 2
+        },
+        {
+          "name": "Reading and Leeds",
+          "aliases": [
+            "Reading Festival",
+            "Leeds Festival",
+            "Reading & Leeds"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Download Festival",
+          "pop": 1
+        },
+        {
+          "name": "Isle of Wight Festival",
+          "pop": 1
+        },
+        {
+          "name": "Newport Jazz Festival",
+          "pop": 1
+        },
+        {
+          "name": "Newport Folk Festival",
+          "pop": 1
+        },
+        {
+          "name": "Montreux Jazz Festival",
+          "aliases": [
+            "Montreux"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Monterey Pop Festival",
+          "aliases": [
+            "Monterey Pop"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Altamont Free Concert",
+          "aliases": [
+            "Altamont"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Farm Aid",
+          "pop": 1
+        },
+        {
+          "name": "Lilith Fair",
+          "pop": 1
+        },
+        {
+          "name": "Vans Warped Tour",
+          "aliases": [
+            "Warped Tour"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Ozzfest",
+          "pop": 1
+        },
+        {
+          "name": "Governors Ball",
+          "pop": 1
+        },
+        {
+          "name": "Outside Lands",
+          "pop": 1
+        },
+        {
+          "name": "Pitchfork Music Festival",
+          "pop": 1
+        },
+        {
+          "name": "Primavera Sound",
+          "pop": 1
+        },
+        {
+          "name": "Roskilde Festival",
+          "aliases": [
+            "Roskilde"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Sziget Festival",
+          "aliases": [
+            "Sziget"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Fuji Rock Festival",
+          "aliases": [
+            "Fuji Rock"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Summer Sonic",
+          "pop": 1
+        },
+        {
+          "name": "Wacken Open Air",
+          "aliases": [
+            "Wacken"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Hellfest",
+          "pop": 1
+        },
+        {
+          "name": "Rolling Loud",
+          "pop": 1
+        },
+        {
+          "name": "Firefly Music Festival",
+          "aliases": [
+            "Firefly"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Electric Forest",
+          "pop": 1
+        },
+        {
+          "name": "Life Is Beautiful",
+          "pop": 1
+        },
+        {
+          "name": "Summerfest",
+          "pop": 1
+        },
+        {
+          "name": "CMA Fest",
+          "aliases": [
+            "CMA Music Festival"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "New Orleans Jazz & Heritage Festival",
+          "aliases": [
+            "Jazz Fest",
+            "Jazzfest",
+            "New Orleans Jazz Fest"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Essence Festival",
+          "aliases": [
+            "Essence Fest"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Afropunk",
+          "pop": 1
+        },
+        {
+          "name": "Mawazine",
+          "pop": 1
+        },
+        {
+          "name": "Exit Festival",
+          "pop": 1
+        },
+        {
+          "name": "Creamfields",
+          "pop": 1
+        },
+        {
+          "name": "Parklife",
+          "pop": 1
+        },
+        {
+          "name": "Bestival",
+          "pop": 1
+        },
+        {
+          "name": "Latitude Festival",
+          "pop": 1
+        },
+        {
+          "name": "Lowlands",
+          "pop": 1
+        },
+        {
+          "name": "Pukkelpop",
+          "pop": 1
+        },
+        {
+          "name": "Rock Werchter",
+          "pop": 1
+        },
+        {
+          "name": "Splendour in the Grass",
+          "pop": 1
+        },
+        {
+          "name": "Big Day Out",
+          "pop": 1
+        },
+        {
+          "name": "Movement Electronic Music Festival",
+          "aliases": [
+            "Movement"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Mad Cool",
+          "pop": 1
+        },
+        {
+          "name": "When We Were Young",
+          "pop": 1
+        },
+        {
+          "name": "Riot Fest",
+          "pop": 1
+        },
+        {
+          "name": "Hangout Music Festival",
+          "aliases": [
+            "Hangout Fest"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Monterey Jazz Festival",
+          "pop": 1
+        },
+        {
+          "name": "Sasquatch! Music Festival",
+          "aliases": [
+            "Sasquatch"
+          ],
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-09",
+      "text": "Name a song with \"love\" in the title",
+      "rule": "\"Love\" must appear as a whole word",
+      "answers": [
+        {
+          "name": "I Will Always Love You",
+          "pop": 8
+        },
+        {
+          "name": "Crazy in Love",
+          "pop": 6
+        },
+        {
+          "name": "Can't Help Falling in Love",
+          "pop": 6
+        },
+        {
+          "name": "Love Story",
+          "pop": 5
+        },
+        {
+          "name": "What's Love Got to Do with It",
+          "pop": 4
+        },
+        {
+          "name": "All You Need Is Love",
+          "pop": 4
+        },
+        {
+          "name": "Love Me Tender",
+          "pop": 4
+        },
+        {
+          "name": "Love Shack",
+          "pop": 3
+        },
+        {
+          "name": "We Found Love",
+          "pop": 3
+        },
+        {
+          "name": "Endless Love",
+          "pop": 2
+        },
+        {
+          "name": "Love on Top",
+          "pop": 2
+        },
+        {
+          "name": "Love Yourself",
+          "pop": 2
+        },
+        {
+          "name": "Love the Way You Lie",
+          "pop": 2
+        },
+        {
+          "name": "Love Me Do",
+          "pop": 2
+        },
+        {
+          "name": "Can't Buy Me Love",
+          "pop": 2
+        },
+        {
+          "name": "Addicted to Love",
+          "pop": 2
+        },
+        {
+          "name": "Crazy Little Thing Called Love",
+          "pop": 2
+        },
+        {
+          "name": "How Deep Is Your Love",
+          "pop": 2
+        },
+        {
+          "name": "I Want to Know What Love Is",
+          "pop": 2
+        },
+        {
+          "name": "Tainted Love",
+          "pop": 2
+        },
+        {
+          "name": "Whole Lotta Love",
+          "pop": 2
+        },
+        {
+          "name": "Love Me Like You Do",
+          "pop": 2
+        },
+        {
+          "name": "I Just Called to Say I Love You",
+          "pop": 2
+        },
+        {
+          "name": "Stop! In the Name of Love",
+          "pop": 2
+        },
+        {
+          "name": "Somebody to Love",
+          "pop": 2
+        },
+        {
+          "name": "I Love Rock 'n' Roll",
+          "aliases": [
+            "I Love Rock and Roll"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "The Power of Love",
+          "pop": 2
+        },
+        {
+          "name": "Can You Feel the Love Tonight",
+          "pop": 2
+        },
+        {
+          "name": "Burning Love",
+          "pop": 1
+        },
+        {
+          "name": "Love Is a Battlefield",
+          "pop": 1
+        },
+        {
+          "name": "Love Will Keep Us Together",
+          "pop": 1
+        },
+        {
+          "name": "Love Takes Time",
+          "pop": 1
+        },
+        {
+          "name": "This Love",
+          "pop": 1
+        },
+        {
+          "name": "Love You Like a Love Song",
+          "pop": 1
+        },
+        {
+          "name": "Love Hurts",
+          "pop": 1
+        },
+        {
+          "name": "Love Rollercoaster",
+          "pop": 1
+        },
+        {
+          "name": "Love Train",
+          "pop": 1
+        },
+        {
+          "name": "Love Will Tear Us Apart",
+          "pop": 1
+        },
+        {
+          "name": "Pride (In the Name of Love)",
+          "aliases": [
+            "Pride"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Love Galore",
+          "pop": 1
+        },
+        {
+          "name": "Love Lockdown",
+          "pop": 1
+        },
+        {
+          "name": "Love Me Harder",
+          "pop": 1
+        },
+        {
+          "name": "Silly Love Songs",
+          "pop": 1
+        },
+        {
+          "name": "Love Hangover",
+          "pop": 1
+        },
+        {
+          "name": "Love and Happiness",
+          "pop": 1
+        },
+        {
+          "name": "Love Me Two Times",
+          "pop": 1
+        },
+        {
+          "name": "Love Her Madly",
+          "pop": 1
+        },
+        {
+          "name": "Love Is All Around",
+          "pop": 1
+        },
+        {
+          "name": "Love Bites",
+          "pop": 1
+        },
+        {
+          "name": "Love in an Elevator",
+          "pop": 1
+        },
+        {
+          "name": "Love Song",
+          "pop": 1
+        },
+        {
+          "name": "Love Me",
+          "pop": 1
+        },
+        {
+          "name": "Love Sosa",
+          "pop": 1
+        },
+        {
+          "name": "Love on the Brain",
+          "pop": 1
+        },
+        {
+          "name": "Love the One You're With",
+          "pop": 1
+        },
+        {
+          "name": "Love Is Strange",
+          "pop": 1
+        },
+        {
+          "name": "Love Potion No. 9",
+          "aliases": [
+            "Love Potion Number 9"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Love Grows (Where My Rosemary Goes)",
+          "aliases": [
+            "Love Grows"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "To Love Somebody",
+          "pop": 1
+        },
+        {
+          "name": "Make You Feel My Love",
+          "pop": 1
+        },
+        {
+          "name": "Higher Love",
+          "pop": 1
+        },
+        {
+          "name": "Glory of Love",
+          "pop": 1
+        },
+        {
+          "name": "Real Love",
+          "pop": 1
+        },
+        {
+          "name": "Your Love",
+          "pop": 1
+        },
+        {
+          "name": "I'd Do Anything for Love (But I Won't Do That)",
+          "aliases": [
+            "I'd Do Anything for Love"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "One Love",
+          "pop": 1
+        },
+        {
+          "name": "Is This Love",
+          "pop": 1
+        },
+        {
+          "name": "Modern Love",
+          "pop": 1
+        },
+        {
+          "name": "Love Don't Cost a Thing",
+          "pop": 1
+        },
+        {
+          "name": "Dangerously in Love",
+          "pop": 1
+        },
+        {
+          "name": "Drunk in Love",
+          "pop": 1
+        },
+        {
+          "name": "Love Me Again",
+          "pop": 1
+        },
+        {
+          "name": "Love Again",
+          "pop": 1
+        },
+        {
+          "name": "Love Will Keep Us Alive",
+          "pop": 1
+        },
+        {
+          "name": "My Love",
+          "pop": 1
+        },
+        {
+          "name": "Where Is the Love?",
+          "pop": 1
+        },
+        {
+          "name": "Love in This Club",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-10",
+      "text": "Name a jazz musician",
+      "answers": [
+        {
+          "name": "Louis Armstrong",
+          "aliases": [
+            "Satchmo"
+          ],
+          "pop": 25
+        },
+        {
+          "name": "Miles Davis",
+          "pop": 15
+        },
+        {
+          "name": "John Coltrane",
+          "pop": 8
+        },
+        {
+          "name": "Duke Ellington",
+          "pop": 8
+        },
+        {
+          "name": "Ella Fitzgerald",
+          "pop": 6
+        },
+        {
+          "name": "Billie Holiday",
+          "pop": 5
+        },
+        {
+          "name": "Charlie Parker",
+          "aliases": [
+            "Bird"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Thelonious Monk",
+          "pop": 3
+        },
+        {
+          "name": "Dizzy Gillespie",
+          "aliases": [
+            "Dizzy"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Nina Simone",
+          "pop": 3
+        },
+        {
+          "name": "Nat King Cole",
+          "pop": 2
+        },
+        {
+          "name": "Herbie Hancock",
+          "pop": 2
+        },
+        {
+          "name": "Chet Baker",
+          "pop": 2
+        },
+        {
+          "name": "Dave Brubeck",
+          "pop": 2
+        },
+        {
+          "name": "Count Basie",
+          "pop": 2
+        },
+        {
+          "name": "Benny Goodman",
+          "pop": 2
+        },
+        {
+          "name": "Sarah Vaughan",
+          "pop": 1
+        },
+        {
+          "name": "Charles Mingus",
+          "pop": 1
+        },
+        {
+          "name": "Art Blakey",
+          "pop": 1
+        },
+        {
+          "name": "Bill Evans",
+          "pop": 1
+        },
+        {
+          "name": "Sonny Rollins",
+          "pop": 1
+        },
+        {
+          "name": "Stan Getz",
+          "pop": 1
+        },
+        {
+          "name": "Wynton Marsalis",
+          "pop": 1
+        },
+        {
+          "name": "Branford Marsalis",
+          "pop": 1
+        },
+        {
+          "name": "Ornette Coleman",
+          "pop": 1
+        },
+        {
+          "name": "Coleman Hawkins",
+          "pop": 1
+        },
+        {
+          "name": "Lester Young",
+          "pop": 1
+        },
+        {
+          "name": "Django Reinhardt",
+          "pop": 1
+        },
+        {
+          "name": "Glenn Miller",
+          "pop": 1
+        },
+        {
+          "name": "Cab Calloway",
+          "pop": 1
+        },
+        {
+          "name": "Fats Waller",
+          "pop": 1
+        },
+        {
+          "name": "Art Tatum",
+          "pop": 1
+        },
+        {
+          "name": "Oscar Peterson",
+          "pop": 1
+        },
+        {
+          "name": "Chick Corea",
+          "pop": 1
+        },
+        {
+          "name": "Wayne Shorter",
+          "pop": 1
+        },
+        {
+          "name": "Pat Metheny",
+          "pop": 1
+        },
+        {
+          "name": "Wes Montgomery",
+          "pop": 1
+        },
+        {
+          "name": "Jelly Roll Morton",
+          "pop": 1
+        },
+        {
+          "name": "Sidney Bechet",
+          "pop": 1
+        },
+        {
+          "name": "Bix Beiderbecke",
+          "pop": 1
+        },
+        {
+          "name": "Max Roach",
+          "pop": 1
+        },
+        {
+          "name": "Buddy Rich",
+          "pop": 1
+        },
+        {
+          "name": "Gene Krupa",
+          "pop": 1
+        },
+        {
+          "name": "Lionel Hampton",
+          "pop": 1
+        },
+        {
+          "name": "Cannonball Adderley",
+          "pop": 1
+        },
+        {
+          "name": "Kamasi Washington",
+          "pop": 1
+        },
+        {
+          "name": "Esperanza Spalding",
+          "pop": 1
+        },
+        {
+          "name": "Diana Krall",
+          "pop": 1
+        },
+        {
+          "name": "Gregory Porter",
+          "pop": 1
+        },
+        {
+          "name": "Sun Ra",
+          "pop": 1
+        },
+        {
+          "name": "Eric Dolphy",
+          "pop": 1
+        },
+        {
+          "name": "Pharoah Sanders",
+          "pop": 1
+        },
+        {
+          "name": "Alice Coltrane",
+          "pop": 1
+        },
+        {
+          "name": "McCoy Tyner",
+          "pop": 1
+        },
+        {
+          "name": "Keith Jarrett",
+          "pop": 1
+        },
+        {
+          "name": "Dexter Gordon",
+          "pop": 1
+        },
+        {
+          "name": "Clifford Brown",
+          "pop": 1
+        },
+        {
+          "name": "Lee Morgan",
+          "pop": 1
+        },
+        {
+          "name": "Horace Silver",
+          "pop": 1
+        },
+        {
+          "name": "Bud Powell",
+          "pop": 1
+        },
+        {
+          "name": "Tony Bennett",
+          "pop": 1
+        },
+        {
+          "name": "Billy Strayhorn",
+          "pop": 1
+        },
+        {
+          "name": "Earl Hines",
+          "pop": 1
+        },
+        {
+          "name": "Jaco Pastorius",
+          "pop": 1
+        },
+        {
+          "name": "Ahmad Jamal",
+          "pop": 1
+        },
+        {
+          "name": "Freddie Hubbard",
+          "pop": 1
+        },
+        {
+          "name": "Mary Lou Williams",
+          "pop": 1
+        },
+        {
+          "name": "Betty Carter",
+          "pop": 1
+        },
+        {
+          "name": "Cécile McLorin Salvant",
+          "pop": 1
+        },
+        {
+          "name": "Robert Glasper",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-11",
+      "text": "Name a Johnny Cash song",
+      "rule": "Covers and duets count",
+      "answers": [
+        {
+          "name": "Ring of Fire",
+          "pop": 25
+        },
+        {
+          "name": "Folsom Prison Blues",
+          "pop": 15
+        },
+        {
+          "name": "I Walk the Line",
+          "aliases": [
+            "Walk the Line"
+          ],
+          "pop": 15
+        },
+        {
+          "name": "Hurt",
+          "pop": 8
+        },
+        {
+          "name": "A Boy Named Sue",
+          "pop": 5
+        },
+        {
+          "name": "Jackson",
+          "pop": 3
+        },
+        {
+          "name": "Man in Black",
+          "pop": 2
+        },
+        {
+          "name": "One Piece at a Time",
+          "pop": 2
+        },
+        {
+          "name": "Get Rhythm",
+          "pop": 1
+        },
+        {
+          "name": "Cry! Cry! Cry!",
+          "pop": 1
+        },
+        {
+          "name": "Hey Porter",
+          "pop": 1
+        },
+        {
+          "name": "Big River",
+          "pop": 1
+        },
+        {
+          "name": "Home of the Blues",
+          "pop": 1
+        },
+        {
+          "name": "Ballad of a Teenage Queen",
+          "pop": 1
+        },
+        {
+          "name": "Guess Things Happen That Way",
+          "pop": 1
+        },
+        {
+          "name": "Don't Take Your Guns to Town",
+          "pop": 1
+        },
+        {
+          "name": "Five Feet High and Rising",
+          "pop": 1
+        },
+        {
+          "name": "Understand Your Man",
+          "pop": 1
+        },
+        {
+          "name": "The Ballad of Ira Hayes",
+          "aliases": [
+            "Ira Hayes"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "It Ain't Me Babe",
+          "pop": 1
+        },
+        {
+          "name": "Orange Blossom Special",
+          "pop": 1
+        },
+        {
+          "name": "Daddy Sang Bass",
+          "pop": 1
+        },
+        {
+          "name": "Sunday Mornin' Comin' Down",
+          "aliases": [
+            "Sunday Morning Coming Down"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "What Is Truth",
+          "pop": 1
+        },
+        {
+          "name": "Ghost Riders in the Sky",
+          "aliases": [
+            "Riders in the Sky"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Rusty Cage",
+          "pop": 1
+        },
+        {
+          "name": "Delia's Gone",
+          "pop": 1
+        },
+        {
+          "name": "The Man Comes Around",
+          "pop": 1
+        },
+        {
+          "name": "God's Gonna Cut You Down",
+          "pop": 1
+        },
+        {
+          "name": "Personal Jesus",
+          "pop": 1
+        },
+        {
+          "name": "One",
+          "pop": 1
+        },
+        {
+          "name": "I've Been Everywhere",
+          "pop": 1
+        },
+        {
+          "name": "Solitary Man",
+          "pop": 1
+        },
+        {
+          "name": "Bridge Over Troubled Water",
+          "pop": 1
+        },
+        {
+          "name": "Redemption Day",
+          "pop": 1
+        },
+        {
+          "name": "Ain't No Grave",
+          "pop": 1
+        },
+        {
+          "name": "San Quentin",
+          "pop": 1
+        },
+        {
+          "name": "Cocaine Blues",
+          "pop": 1
+        },
+        {
+          "name": "Flesh and Blood",
+          "pop": 1
+        },
+        {
+          "name": "Wreck of the Old 97",
+          "pop": 1
+        },
+        {
+          "name": "Luther Played the Boogie",
+          "pop": 1
+        },
+        {
+          "name": "Train of Love",
+          "pop": 1
+        },
+        {
+          "name": "There You Go",
+          "pop": 1
+        },
+        {
+          "name": "So Doggone Lonesome",
+          "pop": 1
+        },
+        {
+          "name": "I Still Miss Someone",
+          "pop": 1
+        },
+        {
+          "name": "Pickin' Time",
+          "pop": 1
+        },
+        {
+          "name": "Tennessee Flat Top Box",
+          "pop": 1
+        },
+        {
+          "name": "The Rebel – Johnny Yuma",
+          "pop": 1
+        },
+        {
+          "name": "Busted",
+          "pop": 1
+        },
+        {
+          "name": "Ragged Old Flag",
+          "pop": 1
+        },
+        {
+          "name": "If I Were a Carpenter",
+          "pop": 1
+        },
+        {
+          "name": "Girl from the North Country",
+          "pop": 1
+        },
+        {
+          "name": "Dark as a Dungeon",
+          "pop": 1
+        },
+        {
+          "name": "Give My Love to Rose",
+          "pop": 1
+        },
+        {
+          "name": "The Legend of John Henry's Hammer",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-12",
+      "text": "Name a record label",
+      "answers": [
+        {
+          "name": "Motown",
+          "pop": 20
+        },
+        {
+          "name": "Atlantic Records",
+          "aliases": [
+            "Atlantic"
+          ],
+          "pop": 6
+        },
+        {
+          "name": "Columbia Records",
+          "aliases": [
+            "Columbia"
+          ],
+          "pop": 6
+        },
+        {
+          "name": "Def Jam Recordings",
+          "aliases": [
+            "Def Jam"
+          ],
+          "pop": 6
+        },
+        {
+          "name": "Capitol Records",
+          "aliases": [
+            "Capitol"
+          ],
+          "pop": 5
+        },
+        {
+          "name": "Sony Music",
+          "aliases": [
+            "Sony"
+          ],
+          "pop": 4
+        },
+        {
+          "name": "Sun Records",
+          "aliases": [
+            "Sun"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Universal Music Group",
+          "aliases": [
+            "Universal",
+            "UMG"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Warner Records",
+          "aliases": [
+            "Warner Bros. Records",
+            "Warner Bros",
+            "Warner"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Death Row Records",
+          "aliases": [
+            "Death Row"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "EMI",
+          "pop": 3
+        },
+        {
+          "name": "Island Records",
+          "aliases": [
+            "Island"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Interscope Records",
+          "aliases": [
+            "Interscope"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Bad Boy Records",
+          "aliases": [
+            "Bad Boy"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Roc-A-Fella Records",
+          "aliases": [
+            "Roc-A-Fella",
+            "Rocafella"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Stax Records",
+          "aliases": [
+            "Stax"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Blue Note Records",
+          "aliases": [
+            "Blue Note"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "RCA Records",
+          "aliases": [
+            "RCA"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Cash Money Records",
+          "aliases": [
+            "Cash Money"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Chess Records",
+          "aliases": [
+            "Chess"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Verve Records",
+          "aliases": [
+            "Verve"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Impulse! Records",
+          "aliases": [
+            "Impulse"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Parlophone",
+          "pop": 1
+        },
+        {
+          "name": "Decca Records",
+          "aliases": [
+            "Decca"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Elektra Records",
+          "aliases": [
+            "Elektra"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Geffen Records",
+          "aliases": [
+            "Geffen"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "A&M Records",
+          "aliases": [
+            "A&M",
+            "A and M"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Virgin Records",
+          "aliases": [
+            "Virgin"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Arista Records",
+          "aliases": [
+            "Arista"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Epic Records",
+          "aliases": [
+            "Epic"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Republic Records",
+          "aliases": [
+            "Republic"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Mercury Records",
+          "aliases": [
+            "Mercury"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Polydor",
+          "pop": 1
+        },
+        {
+          "name": "Sub Pop",
+          "pop": 1
+        },
+        {
+          "name": "Matador Records",
+          "aliases": [
+            "Matador"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Merge Records",
+          "aliases": [
+            "Merge"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "4AD",
+          "pop": 1
+        },
+        {
+          "name": "Rough Trade",
+          "pop": 1
+        },
+        {
+          "name": "Factory Records",
+          "aliases": [
+            "Factory"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Creation Records",
+          "aliases": [
+            "Creation"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "XL Recordings",
+          "aliases": [
+            "XL"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Domino Recording Company",
+          "aliases": [
+            "Domino"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Warp Records",
+          "aliases": [
+            "Warp"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Ninja Tune",
+          "pop": 1
+        },
+        {
+          "name": "Stones Throw Records",
+          "aliases": [
+            "Stones Throw"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Top Dawg Entertainment",
+          "aliases": [
+            "TDE",
+            "Top Dawg"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Aftermath Entertainment",
+          "aliases": [
+            "Aftermath"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Shady Records",
+          "aliases": [
+            "Shady"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Young Money",
+          "pop": 1
+        },
+        {
+          "name": "Big Machine Records",
+          "aliases": [
+            "Big Machine"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Apple Records",
+          "pop": 1
+        },
+        {
+          "name": "Philadelphia International Records",
+          "aliases": [
+            "Philadelphia International"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Tamla",
+          "pop": 1
+        },
+        {
+          "name": "Sire Records",
+          "aliases": [
+            "Sire"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Asylum Records",
+          "aliases": [
+            "Asylum"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Reprise Records",
+          "aliases": [
+            "Reprise"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Chrysalis Records",
+          "aliases": [
+            "Chrysalis"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Jive Records",
+          "aliases": [
+            "Jive"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Tommy Boy Records",
+          "aliases": [
+            "Tommy Boy"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Sugar Hill Records",
+          "aliases": [
+            "Sugar Hill"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Ruthless Records",
+          "aliases": [
+            "Ruthless"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Rawkus Records",
+          "aliases": [
+            "Rawkus"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Epitaph Records",
+          "aliases": [
+            "Epitaph"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Fueled by Ramen",
+          "pop": 1
+        },
+        {
+          "name": "Roadrunner Records",
+          "aliases": [
+            "Roadrunner"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Metal Blade Records",
+          "aliases": [
+            "Metal Blade"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Nonesuch Records",
+          "aliases": [
+            "Nonesuch"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Deutsche Grammophon",
+          "pop": 1
+        },
+        {
+          "name": "ECM Records",
+          "aliases": [
+            "ECM"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Ghostly International",
+          "aliases": [
+            "Ghostly"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Ed Banger Records",
+          "aliases": [
+            "Ed Banger"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Mad Decent",
+          "pop": 1
+        },
+        {
+          "name": "Monstercat",
+          "pop": 1
+        },
+        {
+          "name": "Dischord Records",
+          "aliases": [
+            "Dischord"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "SST Records",
+          "aliases": [
+            "SST"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Stiff Records",
+          "aliases": [
+            "Stiff"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Saddle Creek Records",
+          "aliases": [
+            "Saddle Creek"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Jagjaguwar",
+          "pop": 1
+        },
+        {
+          "name": "Secretly Canadian",
+          "pop": 1
+        },
+        {
+          "name": "Dead Oceans",
+          "pop": 1
+        },
+        {
+          "name": "Vee-Jay Records",
+          "aliases": [
+            "Vee-Jay"
+          ],
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-13",
+      "text": "Name a Rolling Stones album",
+      "rule": "Studio, live, and compilation albums count",
+      "answers": [
+        {
+          "name": "Sticky Fingers",
+          "pop": 15
+        },
+        {
+          "name": "Exile on Main St.",
+          "aliases": [
+            "Exile on Main Street",
+            "Exile"
+          ],
+          "pop": 12
+        },
+        {
+          "name": "Let It Bleed",
+          "pop": 10
+        },
+        {
+          "name": "Some Girls",
+          "pop": 6
+        },
+        {
+          "name": "Beggars Banquet",
+          "pop": 6
+        },
+        {
+          "name": "Tattoo You",
+          "pop": 5
+        },
+        {
+          "name": "Aftermath",
+          "pop": 4
+        },
+        {
+          "name": "Hot Rocks 1964–1971",
+          "aliases": [
+            "Hot Rocks"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Forty Licks",
+          "aliases": [
+            "40 Licks"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Hackney Diamonds",
+          "pop": 3
+        },
+        {
+          "name": "Goats Head Soup",
+          "pop": 2
+        },
+        {
+          "name": "Black and Blue",
+          "pop": 2
+        },
+        {
+          "name": "Their Satanic Majesties Request",
+          "aliases": [
+            "Satanic Majesties"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Between the Buttons",
+          "pop": 2
+        },
+        {
+          "name": "It's Only Rock 'n Roll",
+          "aliases": [
+            "It's Only Rock and Roll"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Emotional Rescue",
+          "pop": 2
+        },
+        {
+          "name": "Steel Wheels",
+          "pop": 2
+        },
+        {
+          "name": "Voodoo Lounge",
+          "pop": 2
+        },
+        {
+          "name": "A Bigger Bang",
+          "pop": 1
+        },
+        {
+          "name": "Bridges to Babylon",
+          "pop": 1
+        },
+        {
+          "name": "Undercover",
+          "pop": 1
+        },
+        {
+          "name": "Dirty Work",
+          "pop": 1
+        },
+        {
+          "name": "Blue & Lonesome",
+          "aliases": [
+            "Blue and Lonesome"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Out of Our Heads",
+          "pop": 1
+        },
+        {
+          "name": "December's Children (And Everybody's)",
+          "aliases": [
+            "December's Children"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "The Rolling Stones",
+          "aliases": [
+            "England's Newest Hit Makers"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "12 X 5",
+          "aliases": [
+            "12x5",
+            "Twelve by Five"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "The Rolling Stones No. 2",
+          "pop": 1
+        },
+        {
+          "name": "The Rolling Stones, Now!",
+          "pop": 1
+        },
+        {
+          "name": "Get Yer Ya-Ya's Out!",
+          "aliases": [
+            "Ya-Ya's"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Love You Live",
+          "pop": 1
+        },
+        {
+          "name": "Still Life",
+          "pop": 1
+        },
+        {
+          "name": "Flashpoint",
+          "pop": 1
+        },
+        {
+          "name": "Stripped",
+          "pop": 1
+        },
+        {
+          "name": "No Security",
+          "pop": 1
+        },
+        {
+          "name": "Live Licks",
+          "pop": 1
+        },
+        {
+          "name": "Shine a Light",
+          "pop": 1
+        },
+        {
+          "name": "Big Hits (High Tide and Green Grass)",
+          "aliases": [
+            "Big Hits"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Through the Past, Darkly (Big Hits Vol. 2)",
+          "aliases": [
+            "Through the Past Darkly"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Flowers",
+          "pop": 1
+        },
+        {
+          "name": "Made in the Shade",
+          "pop": 1
+        },
+        {
+          "name": "Sucking in the Seventies",
+          "pop": 1
+        },
+        {
+          "name": "Rewind (1971–1984)",
+          "aliases": [
+            "Rewind"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Jump Back: The Best of the Rolling Stones",
+          "aliases": [
+            "Jump Back"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "GRRR!",
+          "pop": 1
+        },
+        {
+          "name": "Honk",
+          "pop": 1
+        },
+        {
+          "name": "Metamorphosis",
+          "pop": 1
+        },
+        {
+          "name": "Got Live If You Want It!",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-14",
+      "text": "Name a band or group with a number in its name",
+      "rule": "Digits or number words both count",
+      "answers": [
+        {
+          "name": "Maroon 5",
+          "pop": 12
+        },
+        {
+          "name": "U2",
+          "pop": 12
+        },
+        {
+          "name": "Blink-182",
+          "aliases": [
+            "Blink 182"
+          ],
+          "pop": 8
+        },
+        {
+          "name": "The Jackson 5",
+          "aliases": [
+            "Jackson Five"
+          ],
+          "pop": 6
+        },
+        {
+          "name": "One Direction",
+          "aliases": [
+            "1D"
+          ],
+          "pop": 4
+        },
+        {
+          "name": "Sum 41",
+          "pop": 3
+        },
+        {
+          "name": "3 Doors Down",
+          "aliases": [
+            "Three Doors Down"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Matchbox Twenty",
+          "aliases": [
+            "Matchbox 20"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Boyz II Men",
+          "aliases": [
+            "Boyz 2 Men"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "5 Seconds of Summer",
+          "aliases": [
+            "5SOS",
+            "Five Seconds of Summer"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Twenty One Pilots",
+          "aliases": [
+            "21 Pilots"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "The B-52's",
+          "aliases": [
+            "B-52s",
+            "B52s"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "UB40",
+          "pop": 2
+        },
+        {
+          "name": "Thirty Seconds to Mars",
+          "aliases": [
+            "30 Seconds to Mars"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Fifth Harmony",
+          "pop": 2
+        },
+        {
+          "name": "The 1975",
+          "pop": 2
+        },
+        {
+          "name": "Third Eye Blind",
+          "aliases": [
+            "3rd Eye Blind"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Nine Inch Nails",
+          "aliases": [
+            "NIN"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Four Tops",
+          "aliases": [
+            "4 Tops"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "OneRepublic",
+          "aliases": [
+            "One Republic"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Five Finger Death Punch",
+          "aliases": [
+            "5FDP"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "10cc",
+          "pop": 1
+        },
+        {
+          "name": "Three Dog Night",
+          "pop": 1
+        },
+        {
+          "name": "311",
+          "pop": 1
+        },
+        {
+          "name": "Three Days Grace",
+          "pop": 1
+        },
+        {
+          "name": "The Four Seasons",
+          "aliases": [
+            "Frankie Valli and the Four Seasons"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "98 Degrees",
+          "aliases": [
+            "98°"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "112",
+          "pop": 1
+        },
+        {
+          "name": "Level 42",
+          "pop": 1
+        },
+        {
+          "name": "4 Non Blondes",
+          "aliases": [
+            "Four Non Blondes"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Eve 6",
+          "pop": 1
+        },
+        {
+          "name": "Seven Mary Three",
+          "aliases": [
+            "7 Mary 3"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "10,000 Maniacs",
+          "aliases": [
+            "Ten Thousand Maniacs"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Ben Folds Five",
+          "pop": 1
+        },
+        {
+          "name": "The Dave Clark Five",
+          "aliases": [
+            "Dave Clark 5"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "MC5",
+          "pop": 1
+        },
+        {
+          "name": "Sixpence None the Richer",
+          "pop": 1
+        },
+        {
+          "name": "The 5th Dimension",
+          "aliases": [
+            "Fifth Dimension"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Front 242",
+          "pop": 1
+        },
+        {
+          "name": "2 Unlimited",
+          "pop": 1
+        },
+        {
+          "name": "East 17",
+          "pop": 1
+        },
+        {
+          "name": "S Club 7",
+          "pop": 1
+        },
+        {
+          "name": "Gang of Four",
+          "pop": 1
+        },
+        {
+          "name": "Ten Years After",
+          "pop": 1
+        },
+        {
+          "name": "Two Door Cinema Club",
+          "pop": 1
+        },
+        {
+          "name": "Apollo 440",
+          "pop": 1
+        },
+        {
+          "name": "808 State",
+          "pop": 1
+        },
+        {
+          "name": "Haircut 100",
+          "aliases": [
+            "Haircut One Hundred"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "All-4-One",
+          "aliases": [
+            "All 4 One"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Jurassic 5",
+          "pop": 1
+        },
+        {
+          "name": "Three 6 Mafia",
+          "pop": 1
+        },
+        {
+          "name": "Sevendust",
+          "pop": 1
+        },
+        {
+          "name": "Nine Days",
+          "pop": 1
+        },
+        {
+          "name": "The Three Degrees",
+          "pop": 1
+        },
+        {
+          "name": "Galaxie 500",
+          "pop": 1
+        },
+        {
+          "name": "Shed Seven",
+          "pop": 1
+        },
+        {
+          "name": "Eighth Wonder",
+          "pop": 1
+        },
+        {
+          "name": "13th Floor Elevators",
+          "aliases": [
+            "Thirteenth Floor Elevators"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "The 5.6.7.8's",
+          "pop": 1
+        },
+        {
+          "name": "Four Year Strong",
+          "pop": 1
+        },
+        {
+          "name": "702",
+          "pop": 1
+        },
+        {
+          "name": "5ive",
+          "aliases": [
+            "Five"
+          ],
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-15",
+      "text": "Name a Stevie Wonder song",
+      "rule": "Duets and covers count",
+      "answers": [
+        {
+          "name": "Superstition",
+          "pop": 25
+        },
+        {
+          "name": "Isn't She Lovely",
+          "pop": 12
+        },
+        {
+          "name": "I Just Called to Say I Love You",
+          "pop": 10
+        },
+        {
+          "name": "Sir Duke",
+          "pop": 6
+        },
+        {
+          "name": "Signed, Sealed, Delivered I'm Yours",
+          "aliases": [
+            "Signed Sealed Delivered"
+          ],
+          "pop": 6
+        },
+        {
+          "name": "You Are the Sunshine of My Life",
+          "pop": 6
+        },
+        {
+          "name": "Higher Ground",
+          "pop": 3
+        },
+        {
+          "name": "Living for the City",
+          "pop": 3
+        },
+        {
+          "name": "My Cherie Amour",
+          "pop": 3
+        },
+        {
+          "name": "I Wish",
+          "pop": 3
+        },
+        {
+          "name": "For Once in My Life",
+          "pop": 2
+        },
+        {
+          "name": "Uptight (Everything's Alright)",
+          "aliases": [
+            "Uptight"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Part-Time Lover",
+          "pop": 2
+        },
+        {
+          "name": "Ebony and Ivory",
+          "pop": 2
+        },
+        {
+          "name": "Master Blaster (Jammin')",
+          "aliases": [
+            "Master Blaster"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Overjoyed",
+          "pop": 1
+        },
+        {
+          "name": "Ribbon in the Sky",
+          "pop": 1
+        },
+        {
+          "name": "Fingertips",
+          "pop": 1
+        },
+        {
+          "name": "Happy Birthday",
+          "pop": 1
+        },
+        {
+          "name": "As",
+          "pop": 1
+        },
+        {
+          "name": "Boogie On Reggae Woman",
+          "pop": 1
+        },
+        {
+          "name": "Don't You Worry 'bout a Thing",
+          "pop": 1
+        },
+        {
+          "name": "Golden Lady",
+          "pop": 1
+        },
+        {
+          "name": "Lately",
+          "pop": 1
+        },
+        {
+          "name": "Knocks Me Off My Feet",
+          "pop": 1
+        },
+        {
+          "name": "Send One Your Love",
+          "pop": 1
+        },
+        {
+          "name": "That Girl",
+          "pop": 1
+        },
+        {
+          "name": "Do I Do",
+          "pop": 1
+        },
+        {
+          "name": "Pastime Paradise",
+          "pop": 1
+        },
+        {
+          "name": "Love's in Need of Love Today",
+          "pop": 1
+        },
+        {
+          "name": "Too High",
+          "pop": 1
+        },
+        {
+          "name": "Visions",
+          "pop": 1
+        },
+        {
+          "name": "You Haven't Done Nothin'",
+          "pop": 1
+        },
+        {
+          "name": "Yester-Me, Yester-You, Yesterday",
+          "pop": 1
+        },
+        {
+          "name": "A Place in the Sun",
+          "pop": 1
+        },
+        {
+          "name": "Blowin' in the Wind",
+          "pop": 1
+        },
+        {
+          "name": "I Was Made to Love Her",
+          "pop": 1
+        },
+        {
+          "name": "Heaven Help Us All",
+          "pop": 1
+        },
+        {
+          "name": "Never Had a Dream Come True",
+          "pop": 1
+        },
+        {
+          "name": "If You Really Love Me",
+          "pop": 1
+        },
+        {
+          "name": "Superwoman (Where Were You When I Needed You)",
+          "aliases": [
+            "Superwoman"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Another Star",
+          "pop": 1
+        },
+        {
+          "name": "Village Ghetto Land",
+          "pop": 1
+        },
+        {
+          "name": "All I Do",
+          "pop": 1
+        },
+        {
+          "name": "Skeletons",
+          "pop": 1
+        },
+        {
+          "name": "Go Home",
+          "pop": 1
+        },
+        {
+          "name": "These Three Words",
+          "pop": 1
+        },
+        {
+          "name": "We Can Work It Out",
+          "pop": 1
+        },
+        {
+          "name": "Jungle Fever",
+          "pop": 1
+        },
+        {
+          "name": "Contusion",
+          "pop": 1
+        },
+        {
+          "name": "I Ain't Gonna Stand for It",
+          "pop": 1
+        },
+        {
+          "name": "That's What Friends Are For",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-16",
+      "text": "Name a DJ or electronic music act",
+      "answers": [
+        {
+          "name": "Daft Punk",
+          "pop": 15
+        },
+        {
+          "name": "Calvin Harris",
+          "pop": 8
+        },
+        {
+          "name": "David Guetta",
+          "pop": 7
+        },
+        {
+          "name": "Avicii",
+          "pop": 7
+        },
+        {
+          "name": "Skrillex",
+          "pop": 5
+        },
+        {
+          "name": "Deadmau5",
+          "aliases": [
+            "Deadmaus"
+          ],
+          "pop": 4
+        },
+        {
+          "name": "Tiësto",
+          "pop": 4
+        },
+        {
+          "name": "Marshmello",
+          "pop": 4
+        },
+        {
+          "name": "The Chainsmokers",
+          "pop": 3
+        },
+        {
+          "name": "The Chemical Brothers",
+          "pop": 2
+        },
+        {
+          "name": "Kraftwerk",
+          "pop": 2
+        },
+        {
+          "name": "Moby",
+          "pop": 2
+        },
+        {
+          "name": "Diplo",
+          "pop": 2
+        },
+        {
+          "name": "Swedish House Mafia",
+          "pop": 2
+        },
+        {
+          "name": "Zedd",
+          "pop": 2
+        },
+        {
+          "name": "Kygo",
+          "pop": 2
+        },
+        {
+          "name": "Martin Garrix",
+          "pop": 2
+        },
+        {
+          "name": "Armin van Buuren",
+          "pop": 2
+        },
+        {
+          "name": "Fatboy Slim",
+          "pop": 2
+        },
+        {
+          "name": "The Prodigy",
+          "pop": 2
+        },
+        {
+          "name": "Fred again..",
+          "pop": 2
+        },
+        {
+          "name": "Steve Aoki",
+          "pop": 2
+        },
+        {
+          "name": "Paul Oakenfold",
+          "pop": 1
+        },
+        {
+          "name": "Aphex Twin",
+          "pop": 1
+        },
+        {
+          "name": "Disclosure",
+          "pop": 1
+        },
+        {
+          "name": "Flume",
+          "pop": 1
+        },
+        {
+          "name": "Odesza",
+          "pop": 1
+        },
+        {
+          "name": "Porter Robinson",
+          "pop": 1
+        },
+        {
+          "name": "Madeon",
+          "pop": 1
+        },
+        {
+          "name": "Justice",
+          "pop": 1
+        },
+        {
+          "name": "Afrojack",
+          "pop": 1
+        },
+        {
+          "name": "Hardwell",
+          "pop": 1
+        },
+        {
+          "name": "Alesso",
+          "pop": 1
+        },
+        {
+          "name": "Major Lazer",
+          "pop": 1
+        },
+        {
+          "name": "Kaskade",
+          "pop": 1
+        },
+        {
+          "name": "Above & Beyond",
+          "aliases": [
+            "Above and Beyond"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Eric Prydz",
+          "pop": 1
+        },
+        {
+          "name": "Carl Cox",
+          "pop": 1
+        },
+        {
+          "name": "Frankie Knuckles",
+          "pop": 1
+        },
+        {
+          "name": "Larry Levan",
+          "pop": 1
+        },
+        {
+          "name": "Juan Atkins",
+          "pop": 1
+        },
+        {
+          "name": "Derrick May",
+          "pop": 1
+        },
+        {
+          "name": "Kevin Saunderson",
+          "pop": 1
+        },
+        {
+          "name": "Jeff Mills",
+          "pop": 1
+        },
+        {
+          "name": "Richie Hawtin",
+          "pop": 1
+        },
+        {
+          "name": "Giorgio Moroder",
+          "pop": 1
+        },
+        {
+          "name": "Jean-Michel Jarre",
+          "pop": 1
+        },
+        {
+          "name": "Underworld",
+          "pop": 1
+        },
+        {
+          "name": "Orbital",
+          "pop": 1
+        },
+        {
+          "name": "Massive Attack",
+          "pop": 1
+        },
+        {
+          "name": "Portishead",
+          "pop": 1
+        },
+        {
+          "name": "Basement Jaxx",
+          "pop": 1
+        },
+        {
+          "name": "Groove Armada",
+          "pop": 1
+        },
+        {
+          "name": "Leftfield",
+          "pop": 1
+        },
+        {
+          "name": "Air",
+          "pop": 1
+        },
+        {
+          "name": "Röyksopp",
+          "pop": 1
+        },
+        {
+          "name": "Boards of Canada",
+          "pop": 1
+        },
+        {
+          "name": "Burial",
+          "pop": 1
+        },
+        {
+          "name": "Four Tet",
+          "pop": 1
+        },
+        {
+          "name": "Caribou",
+          "pop": 1
+        },
+        {
+          "name": "Jamie xx",
+          "pop": 1
+        },
+        {
+          "name": "Bonobo",
+          "pop": 1
+        },
+        {
+          "name": "Peggy Gou",
+          "pop": 1
+        },
+        {
+          "name": "Black Coffee",
+          "pop": 1
+        },
+        {
+          "name": "Charlotte de Witte",
+          "pop": 1
+        },
+        {
+          "name": "Amelie Lens",
+          "pop": 1
+        },
+        {
+          "name": "Solomun",
+          "pop": 1
+        },
+        {
+          "name": "Pendulum",
+          "pop": 1
+        },
+        {
+          "name": "Rudimental",
+          "pop": 1
+        },
+        {
+          "name": "Chase & Status",
+          "aliases": [
+            "Chase and Status"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Goldie",
+          "pop": 1
+        },
+        {
+          "name": "Excision",
+          "pop": 1
+        },
+        {
+          "name": "Illenium",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-17",
+      "text": "Name a song with a color in the title",
+      "rule": "Black, white, gray, gold, and silver count",
+      "answers": [
+        {
+          "name": "Purple Rain",
+          "pop": 15
+        },
+        {
+          "name": "Yellow Submarine",
+          "pop": 10
+        },
+        {
+          "name": "Paint It Black",
+          "pop": 8
+        },
+        {
+          "name": "Back in Black",
+          "pop": 6
+        },
+        {
+          "name": "Blue Suede Shoes",
+          "pop": 5
+        },
+        {
+          "name": "Brown Eyed Girl",
+          "pop": 4
+        },
+        {
+          "name": "Lady in Red",
+          "pop": 3
+        },
+        {
+          "name": "Yellow",
+          "pop": 3
+        },
+        {
+          "name": "Little Red Corvette",
+          "pop": 3
+        },
+        {
+          "name": "Purple Haze",
+          "pop": 3
+        },
+        {
+          "name": "Black Magic Woman",
+          "pop": 2
+        },
+        {
+          "name": "White Wedding",
+          "pop": 2
+        },
+        {
+          "name": "Red Red Wine",
+          "pop": 2
+        },
+        {
+          "name": "Nights in White Satin",
+          "pop": 2
+        },
+        {
+          "name": "Black Hole Sun",
+          "pop": 2
+        },
+        {
+          "name": "Mr. Blue Sky",
+          "pop": 2
+        },
+        {
+          "name": "Big Yellow Taxi",
+          "pop": 2
+        },
+        {
+          "name": "Blue (Da Ba Dee)",
+          "aliases": [
+            "Blue"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "White Christmas",
+          "pop": 2
+        },
+        {
+          "name": "Back to Black",
+          "pop": 2
+        },
+        {
+          "name": "Brown Sugar",
+          "pop": 2
+        },
+        {
+          "name": "Blue Monday",
+          "pop": 1
+        },
+        {
+          "name": "Green Onions",
+          "pop": 1
+        },
+        {
+          "name": "Blue Velvet",
+          "pop": 1
+        },
+        {
+          "name": "Blue Moon",
+          "pop": 1
+        },
+        {
+          "name": "Green River",
+          "pop": 1
+        },
+        {
+          "name": "Black Dog",
+          "pop": 1
+        },
+        {
+          "name": "White Rabbit",
+          "pop": 1
+        },
+        {
+          "name": "Pink Houses",
+          "pop": 1
+        },
+        {
+          "name": "Pink",
+          "pop": 1
+        },
+        {
+          "name": "Gold",
+          "pop": 1
+        },
+        {
+          "name": "Silver Springs",
+          "pop": 1
+        },
+        {
+          "name": "Yellow Ledbetter",
+          "pop": 1
+        },
+        {
+          "name": "Mellow Yellow",
+          "pop": 1
+        },
+        {
+          "name": "Black or White",
+          "pop": 1
+        },
+        {
+          "name": "Orange Crush",
+          "pop": 1
+        },
+        {
+          "name": "Red House",
+          "pop": 1
+        },
+        {
+          "name": "Behind Blue Eyes",
+          "pop": 1
+        },
+        {
+          "name": "Blue Bayou",
+          "pop": 1
+        },
+        {
+          "name": "Blue Eyes Crying in the Rain",
+          "pop": 1
+        },
+        {
+          "name": "Don't It Make My Brown Eyes Blue",
+          "pop": 1
+        },
+        {
+          "name": "Forever in Blue Jeans",
+          "pop": 1
+        },
+        {
+          "name": "Blue Jean",
+          "pop": 1
+        },
+        {
+          "name": "Blue Jeans",
+          "pop": 1
+        },
+        {
+          "name": "Black Velvet",
+          "pop": 1
+        },
+        {
+          "name": "Tie a Yellow Ribbon Round the Ole Oak Tree",
+          "aliases": [
+            "Tie a Yellow Ribbon"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Goodbye Yellow Brick Road",
+          "aliases": [
+            "Yellow Brick Road"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Red Rubber Ball",
+          "pop": 1
+        },
+        {
+          "name": "Green Light",
+          "pop": 1
+        },
+        {
+          "name": "White Room",
+          "pop": 1
+        },
+        {
+          "name": "White Riot",
+          "pop": 1
+        },
+        {
+          "name": "Black Skinhead",
+          "pop": 1
+        },
+        {
+          "name": "Black Beatles",
+          "pop": 1
+        },
+        {
+          "name": "Pink + White",
+          "aliases": [
+            "Pink and White"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Red",
+          "pop": 1
+        },
+        {
+          "name": "Golden Brown",
+          "pop": 1
+        },
+        {
+          "name": "Fade to Black",
+          "pop": 1
+        },
+        {
+          "name": "Black Widow",
+          "pop": 1
+        },
+        {
+          "name": "Blue Ain't Your Color",
+          "pop": 1
+        },
+        {
+          "name": "Red Solo Cup",
+          "pop": 1
+        },
+        {
+          "name": "99 Red Balloons",
+          "pop": 1
+        },
+        {
+          "name": "Grey Street",
+          "aliases": [
+            "Gray Street"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Black Water",
+          "pop": 1
+        },
+        {
+          "name": "Green, Green Grass of Home",
+          "pop": 1
+        },
+        {
+          "name": "Long Black Veil",
+          "pop": 1
+        },
+        {
+          "name": "Silver Bells",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-18",
+      "text": "Name a Country Music Hall of Fame member",
+      "answers": [
+        {
+          "name": "Johnny Cash",
+          "pop": 18
+        },
+        {
+          "name": "Dolly Parton",
+          "pop": 15
+        },
+        {
+          "name": "Willie Nelson",
+          "pop": 10
+        },
+        {
+          "name": "Garth Brooks",
+          "pop": 8
+        },
+        {
+          "name": "Hank Williams",
+          "pop": 5
+        },
+        {
+          "name": "Patsy Cline",
+          "pop": 5
+        },
+        {
+          "name": "Loretta Lynn",
+          "pop": 4
+        },
+        {
+          "name": "George Strait",
+          "pop": 4
+        },
+        {
+          "name": "Reba McEntire",
+          "aliases": [
+            "Reba"
+          ],
+          "pop": 4
+        },
+        {
+          "name": "Merle Haggard",
+          "pop": 3
+        },
+        {
+          "name": "Kenny Rogers",
+          "pop": 2
+        },
+        {
+          "name": "Elvis Presley",
+          "aliases": [
+            "Elvis"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Alan Jackson",
+          "pop": 2
+        },
+        {
+          "name": "George Jones",
+          "pop": 2
+        },
+        {
+          "name": "Waylon Jennings",
+          "pop": 2
+        },
+        {
+          "name": "Tammy Wynette",
+          "pop": 2
+        },
+        {
+          "name": "Kris Kristofferson",
+          "pop": 1
+        },
+        {
+          "name": "Randy Travis",
+          "pop": 1
+        },
+        {
+          "name": "Vince Gill",
+          "pop": 1
+        },
+        {
+          "name": "Alabama",
+          "pop": 1
+        },
+        {
+          "name": "Brooks & Dunn",
+          "aliases": [
+            "Brooks and Dunn"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Glen Campbell",
+          "pop": 1
+        },
+        {
+          "name": "Charley Pride",
+          "pop": 1
+        },
+        {
+          "name": "Conway Twitty",
+          "pop": 1
+        },
+        {
+          "name": "Emmylou Harris",
+          "pop": 1
+        },
+        {
+          "name": "The Judds",
+          "pop": 1
+        },
+        {
+          "name": "Toby Keith",
+          "pop": 1
+        },
+        {
+          "name": "Kenny Chesney",
+          "pop": 1
+        },
+        {
+          "name": "June Carter Cash",
+          "pop": 1
+        },
+        {
+          "name": "The Carter Family",
+          "pop": 1
+        },
+        {
+          "name": "The Everly Brothers",
+          "pop": 1
+        },
+        {
+          "name": "Jerry Lee Lewis",
+          "pop": 1
+        },
+        {
+          "name": "Ray Charles",
+          "pop": 1
+        },
+        {
+          "name": "Hank Williams Jr.",
+          "aliases": [
+            "Bocephus"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Jimmie Rodgers",
+          "pop": 1
+        },
+        {
+          "name": "Roy Acuff",
+          "pop": 1
+        },
+        {
+          "name": "Bill Monroe",
+          "pop": 1
+        },
+        {
+          "name": "Chet Atkins",
+          "pop": 1
+        },
+        {
+          "name": "Buck Owens",
+          "pop": 1
+        },
+        {
+          "name": "Gene Autry",
+          "pop": 1
+        },
+        {
+          "name": "Roy Rogers",
+          "pop": 1
+        },
+        {
+          "name": "Tex Ritter",
+          "pop": 1
+        },
+        {
+          "name": "Ernest Tubb",
+          "pop": 1
+        },
+        {
+          "name": "Eddy Arnold",
+          "pop": 1
+        },
+        {
+          "name": "Jim Reeves",
+          "pop": 1
+        },
+        {
+          "name": "Bob Wills",
+          "pop": 1
+        },
+        {
+          "name": "Kitty Wells",
+          "pop": 1
+        },
+        {
+          "name": "Minnie Pearl",
+          "pop": 1
+        },
+        {
+          "name": "Hank Snow",
+          "pop": 1
+        },
+        {
+          "name": "Marty Robbins",
+          "pop": 1
+        },
+        {
+          "name": "Lefty Frizzell",
+          "pop": 1
+        },
+        {
+          "name": "Brenda Lee",
+          "pop": 1
+        },
+        {
+          "name": "Ray Price",
+          "pop": 1
+        },
+        {
+          "name": "Roger Miller",
+          "pop": 1
+        },
+        {
+          "name": "Porter Wagoner",
+          "pop": 1
+        },
+        {
+          "name": "Bill Anderson",
+          "pop": 1
+        },
+        {
+          "name": "Don Williams",
+          "pop": 1
+        },
+        {
+          "name": "Barbara Mandrell",
+          "pop": 1
+        },
+        {
+          "name": "Ronnie Milsap",
+          "pop": 1
+        },
+        {
+          "name": "The Oak Ridge Boys",
+          "pop": 1
+        },
+        {
+          "name": "The Statler Brothers",
+          "pop": 1
+        },
+        {
+          "name": "Charlie Daniels",
+          "pop": 1
+        },
+        {
+          "name": "Ricky Skaggs",
+          "pop": 1
+        },
+        {
+          "name": "Dottie West",
+          "pop": 1
+        },
+        {
+          "name": "Ray Stevens",
+          "pop": 1
+        },
+        {
+          "name": "Marty Stuart",
+          "pop": 1
+        },
+        {
+          "name": "Keith Whitley",
+          "pop": 1
+        },
+        {
+          "name": "Patty Loveless",
+          "pop": 1
+        },
+        {
+          "name": "Tanya Tucker",
+          "pop": 1
+        },
+        {
+          "name": "John Anderson",
+          "pop": 1
+        },
+        {
+          "name": "Mel Tillis",
+          "pop": 1
+        },
+        {
+          "name": "Tom T. Hall",
+          "pop": 1
+        },
+        {
+          "name": "Bobby Bare",
+          "pop": 1
+        },
+        {
+          "name": "Jerry Reed",
+          "pop": 1
+        },
+        {
+          "name": "Jean Shepard",
+          "pop": 1
+        },
+        {
+          "name": "Connie Smith",
+          "pop": 1
+        },
+        {
+          "name": "Roy Clark",
+          "pop": 1
+        },
+        {
+          "name": "Jimmy Dean",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-19",
+      "text": "Name a Queen song",
+      "answers": [
+        {
+          "name": "Bohemian Rhapsody",
+          "pop": 35
+        },
+        {
+          "name": "We Will Rock You",
+          "pop": 15
+        },
+        {
+          "name": "Don't Stop Me Now",
+          "pop": 10
+        },
+        {
+          "name": "Another One Bites the Dust",
+          "pop": 8
+        },
+        {
+          "name": "We Are the Champions",
+          "pop": 8
+        },
+        {
+          "name": "Somebody to Love",
+          "pop": 4
+        },
+        {
+          "name": "Under Pressure",
+          "pop": 4
+        },
+        {
+          "name": "Killer Queen",
+          "pop": 3
+        },
+        {
+          "name": "Radio Ga Ga",
+          "aliases": [
+            "Radio Gaga"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "I Want to Break Free",
+          "pop": 2
+        },
+        {
+          "name": "Crazy Little Thing Called Love",
+          "pop": 2
+        },
+        {
+          "name": "Fat Bottomed Girls",
+          "pop": 2
+        },
+        {
+          "name": "The Show Must Go On",
+          "pop": 2
+        },
+        {
+          "name": "Who Wants to Live Forever",
+          "pop": 2
+        },
+        {
+          "name": "Bicycle Race",
+          "pop": 1
+        },
+        {
+          "name": "A Kind of Magic",
+          "aliases": [
+            "Kind of Magic"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Innuendo",
+          "pop": 1
+        },
+        {
+          "name": "I Want It All",
+          "pop": 1
+        },
+        {
+          "name": "These Are the Days of Our Lives",
+          "pop": 1
+        },
+        {
+          "name": "Flash",
+          "aliases": [
+            "Flash's Theme"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Seven Seas of Rhye",
+          "pop": 1
+        },
+        {
+          "name": "You're My Best Friend",
+          "pop": 1
+        },
+        {
+          "name": "Tie Your Mother Down",
+          "pop": 1
+        },
+        {
+          "name": "Spread Your Wings",
+          "pop": 1
+        },
+        {
+          "name": "Hammer to Fall",
+          "pop": 1
+        },
+        {
+          "name": "One Vision",
+          "pop": 1
+        },
+        {
+          "name": "Friends Will Be Friends",
+          "pop": 1
+        },
+        {
+          "name": "It's a Hard Life",
+          "pop": 1
+        },
+        {
+          "name": "Play the Game",
+          "pop": 1
+        },
+        {
+          "name": "Save Me",
+          "pop": 1
+        },
+        {
+          "name": "Love of My Life",
+          "pop": 1
+        },
+        {
+          "name": "'39",
+          "pop": 1
+        },
+        {
+          "name": "Now I'm Here",
+          "pop": 1
+        },
+        {
+          "name": "Keep Yourself Alive",
+          "pop": 1
+        },
+        {
+          "name": "Stone Cold Crazy",
+          "pop": 1
+        },
+        {
+          "name": "The Prophet's Song",
+          "pop": 1
+        },
+        {
+          "name": "Good Old-Fashioned Lover Boy",
+          "pop": 1
+        },
+        {
+          "name": "Brighton Rock",
+          "pop": 1
+        },
+        {
+          "name": "Too Much Love Will Kill You",
+          "pop": 1
+        },
+        {
+          "name": "Heaven for Everyone",
+          "pop": 1
+        },
+        {
+          "name": "Breakthru",
+          "pop": 1
+        },
+        {
+          "name": "The Miracle",
+          "pop": 1
+        },
+        {
+          "name": "Headlong",
+          "pop": 1
+        },
+        {
+          "name": "I'm Going Slightly Mad",
+          "pop": 1
+        },
+        {
+          "name": "Princes of the Universe",
+          "pop": 1
+        },
+        {
+          "name": "Mustapha",
+          "pop": 1
+        },
+        {
+          "name": "Body Language",
+          "pop": 1
+        },
+        {
+          "name": "Las Palabras de Amor",
+          "pop": 1
+        },
+        {
+          "name": "Back Chat",
+          "pop": 1
+        },
+        {
+          "name": "Sheer Heart Attack",
+          "pop": 1
+        },
+        {
+          "name": "Ogre Battle",
+          "pop": 1
+        },
+        {
+          "name": "Liar",
+          "pop": 1
+        },
+        {
+          "name": "Death on Two Legs",
+          "pop": 1
+        },
+        {
+          "name": "Mother Love",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-20",
+      "text": "Name a classical composer",
+      "rule": "Film composers count",
+      "answers": [
+        {
+          "name": "Wolfgang Amadeus Mozart",
+          "aliases": [
+            "Mozart"
+          ],
+          "pop": 30
+        },
+        {
+          "name": "Ludwig van Beethoven",
+          "aliases": [
+            "Beethoven"
+          ],
+          "pop": 25
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "aliases": [
+            "Bach",
+            "J.S. Bach"
+          ],
+          "pop": 12
+        },
+        {
+          "name": "Pyotr Ilyich Tchaikovsky",
+          "aliases": [
+            "Tchaikovsky"
+          ],
+          "pop": 5
+        },
+        {
+          "name": "Antonio Vivaldi",
+          "aliases": [
+            "Vivaldi"
+          ],
+          "pop": 4
+        },
+        {
+          "name": "Frédéric Chopin",
+          "aliases": [
+            "Chopin"
+          ],
+          "pop": 4
+        },
+        {
+          "name": "George Frideric Handel",
+          "aliases": [
+            "Handel"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Johannes Brahms",
+          "aliases": [
+            "Brahms"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Claude Debussy",
+          "aliases": [
+            "Debussy"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Richard Wagner",
+          "aliases": [
+            "Wagner"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Joseph Haydn",
+          "aliases": [
+            "Haydn"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Franz Schubert",
+          "aliases": [
+            "Schubert"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Giuseppe Verdi",
+          "aliases": [
+            "Verdi"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Giacomo Puccini",
+          "aliases": [
+            "Puccini"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Sergei Rachmaninoff",
+          "aliases": [
+            "Rachmaninoff",
+            "Rachmaninov"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Igor Stravinsky",
+          "aliases": [
+            "Stravinsky"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Gustav Mahler",
+          "aliases": [
+            "Mahler"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Antonín Dvořák",
+          "aliases": [
+            "Dvorak"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Franz Liszt",
+          "aliases": [
+            "Liszt"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Felix Mendelssohn",
+          "aliases": [
+            "Mendelssohn"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Robert Schumann",
+          "aliases": [
+            "Schumann"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Clara Schumann",
+          "pop": 1
+        },
+        {
+          "name": "Edvard Grieg",
+          "aliases": [
+            "Grieg"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Edward Elgar",
+          "aliases": [
+            "Elgar"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Gustav Holst",
+          "aliases": [
+            "Holst"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Maurice Ravel",
+          "aliases": [
+            "Ravel"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Erik Satie",
+          "aliases": [
+            "Satie"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Camille Saint-Saëns",
+          "aliases": [
+            "Saint-Saens"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Sergei Prokofiev",
+          "aliases": [
+            "Prokofiev"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Dmitri Shostakovich",
+          "aliases": [
+            "Shostakovich"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Gioachino Rossini",
+          "aliases": [
+            "Rossini"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Georges Bizet",
+          "aliases": [
+            "Bizet"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Johann Strauss II",
+          "aliases": [
+            "Strauss",
+            "Johann Strauss"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Richard Strauss",
+          "pop": 1
+        },
+        {
+          "name": "Aaron Copland",
+          "aliases": [
+            "Copland"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "George Gershwin",
+          "aliases": [
+            "Gershwin"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Leonard Bernstein",
+          "aliases": [
+            "Bernstein"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Philip Glass",
+          "pop": 1
+        },
+        {
+          "name": "John Cage",
+          "pop": 1
+        },
+        {
+          "name": "Steve Reich",
+          "pop": 1
+        },
+        {
+          "name": "Henry Purcell",
+          "aliases": [
+            "Purcell"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Claudio Monteverdi",
+          "aliases": [
+            "Monteverdi"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Johann Pachelbel",
+          "aliases": [
+            "Pachelbel"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Georg Philipp Telemann",
+          "aliases": [
+            "Telemann"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Domenico Scarlatti",
+          "aliases": [
+            "Scarlatti"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Modest Mussorgsky",
+          "aliases": [
+            "Mussorgsky"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Nikolai Rimsky-Korsakov",
+          "aliases": [
+            "Rimsky-Korsakov"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Jean Sibelius",
+          "aliases": [
+            "Sibelius"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Samuel Barber",
+          "pop": 1
+        },
+        {
+          "name": "Ralph Vaughan Williams",
+          "aliases": [
+            "Vaughan Williams"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Benjamin Britten",
+          "aliases": [
+            "Britten"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Hector Berlioz",
+          "aliases": [
+            "Berlioz"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Anton Bruckner",
+          "aliases": [
+            "Bruckner"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Gabriel Fauré",
+          "aliases": [
+            "Faure"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Jacques Offenbach",
+          "aliases": [
+            "Offenbach"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Niccolò Paganini",
+          "aliases": [
+            "Paganini"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Hildegard von Bingen",
+          "pop": 1
+        },
+        {
+          "name": "Arnold Schoenberg",
+          "aliases": [
+            "Schoenberg"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Arvo Pärt",
+          "pop": 1
+        },
+        {
+          "name": "John Williams",
+          "pop": 1
+        },
+        {
+          "name": "Hans Zimmer",
+          "pop": 1
+        },
+        {
+          "name": "Ennio Morricone",
+          "aliases": [
+            "Morricone"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Alexander Borodin",
+          "aliases": [
+            "Borodin"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Antonio Salieri",
+          "aliases": [
+            "Salieri"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Christoph Willibald Gluck",
+          "aliases": [
+            "Gluck"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Luigi Boccherini",
+          "aliases": [
+            "Boccherini"
+          ],
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-21",
+      "text": "Name an artist with \"Lil\" or \"Little\" in their name",
+      "answers": [
+        {
+          "name": "Lil Wayne",
+          "pop": 20
+        },
+        {
+          "name": "Little Richard",
+          "pop": 15
+        },
+        {
+          "name": "Lil Nas X",
+          "pop": 10
+        },
+        {
+          "name": "Lil' Kim",
+          "pop": 6
+        },
+        {
+          "name": "Lil Jon",
+          "pop": 5
+        },
+        {
+          "name": "Lil Uzi Vert",
+          "pop": 4
+        },
+        {
+          "name": "Lil Baby",
+          "pop": 4
+        },
+        {
+          "name": "Little Mix",
+          "pop": 3
+        },
+        {
+          "name": "Lil Yachty",
+          "pop": 2
+        },
+        {
+          "name": "Little Big Town",
+          "pop": 2
+        },
+        {
+          "name": "Lil Durk",
+          "pop": 2
+        },
+        {
+          "name": "Lil Peep",
+          "pop": 2
+        },
+        {
+          "name": "Little Simz",
+          "pop": 2
+        },
+        {
+          "name": "Lil Pump",
+          "pop": 1
+        },
+        {
+          "name": "Lil Dicky",
+          "pop": 1
+        },
+        {
+          "name": "Lil Bow Wow",
+          "aliases": [
+            "Bow Wow"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Lil Romeo",
+          "aliases": [
+            "Romeo"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Lil Mama",
+          "pop": 1
+        },
+        {
+          "name": "Lil Scrappy",
+          "pop": 1
+        },
+        {
+          "name": "Lil Flip",
+          "pop": 1
+        },
+        {
+          "name": "Lil B",
+          "pop": 1
+        },
+        {
+          "name": "Lil Tecca",
+          "pop": 1
+        },
+        {
+          "name": "Lil Mosey",
+          "pop": 1
+        },
+        {
+          "name": "Lil Skies",
+          "pop": 1
+        },
+        {
+          "name": "Lil Tjay",
+          "pop": 1
+        },
+        {
+          "name": "Lil Boosie",
+          "aliases": [
+            "Boosie Badazz",
+            "Boosie"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Lil Xan",
+          "pop": 1
+        },
+        {
+          "name": "Lil Zane",
+          "pop": 1
+        },
+        {
+          "name": "Lil' Mo",
+          "pop": 1
+        },
+        {
+          "name": "Lil Wyte",
+          "pop": 1
+        },
+        {
+          "name": "Lil Louis",
+          "pop": 1
+        },
+        {
+          "name": "Lil Rob",
+          "pop": 1
+        },
+        {
+          "name": "Lil Keed",
+          "pop": 1
+        },
+        {
+          "name": "Lil Tracy",
+          "pop": 1
+        },
+        {
+          "name": "Lil Gotit",
+          "pop": 1
+        },
+        {
+          "name": "Lil Loaded",
+          "pop": 1
+        },
+        {
+          "name": "Lil Twist",
+          "pop": 1
+        },
+        {
+          "name": "Lil Cease",
+          "pop": 1
+        },
+        {
+          "name": "Lil Ugly Mane",
+          "pop": 1
+        },
+        {
+          "name": "Little Feat",
+          "pop": 1
+        },
+        {
+          "name": "Little Walter",
+          "pop": 1
+        },
+        {
+          "name": "Little Eva",
+          "pop": 1
+        },
+        {
+          "name": "Little Steven",
+          "aliases": [
+            "Little Steven Van Zandt"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Little Anthony and the Imperials",
+          "aliases": [
+            "Little Anthony"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Little Willie John",
+          "pop": 1
+        },
+        {
+          "name": "Little Milton",
+          "pop": 1
+        },
+        {
+          "name": "Little River Band",
+          "pop": 1
+        },
+        {
+          "name": "Little Dragon",
+          "pop": 1
+        },
+        {
+          "name": "Little Jimmy Dickens",
+          "pop": 1
+        },
+        {
+          "name": "Little Texas",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-22",
+      "text": "Name an artist who recorded for Motown",
+      "rule": "Tamla, Gordy, and later Motown eras all count",
+      "answers": [
+        {
+          "name": "Stevie Wonder",
+          "pop": 15
+        },
+        {
+          "name": "The Supremes",
+          "aliases": [
+            "Diana Ross and the Supremes"
+          ],
+          "pop": 12
+        },
+        {
+          "name": "Marvin Gaye",
+          "pop": 12
+        },
+        {
+          "name": "The Jackson 5",
+          "aliases": [
+            "Jackson Five"
+          ],
+          "pop": 8
+        },
+        {
+          "name": "Diana Ross",
+          "pop": 8
+        },
+        {
+          "name": "The Temptations",
+          "pop": 8
+        },
+        {
+          "name": "Smokey Robinson",
+          "pop": 5
+        },
+        {
+          "name": "The Miracles",
+          "aliases": [
+            "Smokey Robinson and the Miracles"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Michael Jackson",
+          "pop": 3
+        },
+        {
+          "name": "Four Tops",
+          "pop": 3
+        },
+        {
+          "name": "Lionel Richie",
+          "pop": 2
+        },
+        {
+          "name": "The Commodores",
+          "pop": 2
+        },
+        {
+          "name": "Gladys Knight & the Pips",
+          "aliases": [
+            "Gladys Knight and the Pips",
+            "Gladys Knight"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Martha and the Vandellas",
+          "aliases": [
+            "Martha Reeves and the Vandellas",
+            "Martha Reeves"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Rick James",
+          "pop": 2
+        },
+        {
+          "name": "Boyz II Men",
+          "aliases": [
+            "Boyz 2 Men"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Mary Wells",
+          "pop": 1
+        },
+        {
+          "name": "The Marvelettes",
+          "pop": 1
+        },
+        {
+          "name": "Tammi Terrell",
+          "pop": 1
+        },
+        {
+          "name": "The Isley Brothers",
+          "pop": 1
+        },
+        {
+          "name": "Teena Marie",
+          "pop": 1
+        },
+        {
+          "name": "DeBarge",
+          "pop": 1
+        },
+        {
+          "name": "Jr. Walker & the All Stars",
+          "aliases": [
+            "Junior Walker",
+            "Jr. Walker"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "The Contours",
+          "pop": 1
+        },
+        {
+          "name": "Edwin Starr",
+          "pop": 1
+        },
+        {
+          "name": "Jimmy Ruffin",
+          "pop": 1
+        },
+        {
+          "name": "David Ruffin",
+          "pop": 1
+        },
+        {
+          "name": "Kim Weston",
+          "pop": 1
+        },
+        {
+          "name": "Brenda Holloway",
+          "pop": 1
+        },
+        {
+          "name": "The Spinners",
+          "pop": 1
+        },
+        {
+          "name": "Rare Earth",
+          "pop": 1
+        },
+        {
+          "name": "Rockwell",
+          "pop": 1
+        },
+        {
+          "name": "Thelma Houston",
+          "pop": 1
+        },
+        {
+          "name": "The Velvelettes",
+          "pop": 1
+        },
+        {
+          "name": "The Originals",
+          "pop": 1
+        },
+        {
+          "name": "Barrett Strong",
+          "pop": 1
+        },
+        {
+          "name": "Eddie Kendricks",
+          "pop": 1
+        },
+        {
+          "name": "Shorty Long",
+          "pop": 1
+        },
+        {
+          "name": "Jermaine Jackson",
+          "pop": 1
+        },
+        {
+          "name": "The Undisputed Truth",
+          "pop": 1
+        },
+        {
+          "name": "Mary Jane Girls",
+          "pop": 1
+        },
+        {
+          "name": "Ne-Yo",
+          "aliases": [
+            "Neyo"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Migos",
+          "pop": 1
+        },
+        {
+          "name": "Lil Baby",
+          "pop": 1
+        },
+        {
+          "name": "Lil Yachty",
+          "pop": 1
+        },
+        {
+          "name": "City Girls",
+          "pop": 1
+        },
+        {
+          "name": "Kem",
+          "pop": 1
+        },
+        {
+          "name": "India.Arie",
+          "aliases": [
+            "India Arie"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Brian McKnight",
+          "pop": 1
+        },
+        {
+          "name": "Queen Latifah",
+          "pop": 1
+        },
+        {
+          "name": "Shanice",
+          "pop": 1
+        },
+        {
+          "name": "Johnny Gill",
+          "pop": 1
+        },
+        {
+          "name": "Chico DeBarge",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-23",
+      "text": "Name an album that won the Grammy for Album of the Year",
+      "answers": [
+        {
+          "name": "Thriller",
+          "pop": 20
+        },
+        {
+          "name": "Rumours",
+          "pop": 8
+        },
+        {
+          "name": "21",
+          "pop": 6
+        },
+        {
+          "name": "Sgt. Pepper's Lonely Hearts Club Band",
+          "aliases": [
+            "Sgt Pepper",
+            "Sergeant Pepper"
+          ],
+          "pop": 5
+        },
+        {
+          "name": "Jagged Little Pill",
+          "pop": 4
+        },
+        {
+          "name": "1989",
+          "pop": 4
+        },
+        {
+          "name": "Folklore",
+          "pop": 4
+        },
+        {
+          "name": "Songs in the Key of Life",
+          "pop": 3
+        },
+        {
+          "name": "Midnights",
+          "pop": 3
+        },
+        {
+          "name": "Random Access Memories",
+          "pop": 3
+        },
+        {
+          "name": "Tapestry",
+          "pop": 3
+        },
+        {
+          "name": "Graceland",
+          "pop": 3
+        },
+        {
+          "name": "The Joshua Tree",
+          "pop": 3
+        },
+        {
+          "name": "The Miseducation of Lauryn Hill",
+          "aliases": [
+            "Miseducation"
+          ],
+          "pop": 3
+        },
+        {
+          "name": "Cowboy Carter",
+          "pop": 3
+        },
+        {
+          "name": "The Bodyguard",
+          "pop": 2
+        },
+        {
+          "name": "Fearless",
+          "pop": 2
+        },
+        {
+          "name": "Harry's House",
+          "pop": 2
+        },
+        {
+          "name": "When We All Fall Asleep, Where Do We Go?",
+          "aliases": [
+            "When We All Fall Asleep"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "25",
+          "pop": 2
+        },
+        {
+          "name": "Supernatural",
+          "pop": 2
+        },
+        {
+          "name": "Speakerboxxx/The Love Below",
+          "aliases": [
+            "Speakerboxxx",
+            "The Love Below"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "Saturday Night Fever",
+          "pop": 2
+        },
+        {
+          "name": "Bridge over Troubled Water",
+          "pop": 2
+        },
+        {
+          "name": "Golden Hour",
+          "pop": 1
+        },
+        {
+          "name": "24K Magic",
+          "aliases": [
+            "24 Karat Magic"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Babel",
+          "pop": 1
+        },
+        {
+          "name": "The Suburbs",
+          "pop": 1
+        },
+        {
+          "name": "Morning Phase",
+          "pop": 1
+        },
+        {
+          "name": "We Are",
+          "pop": 1
+        },
+        {
+          "name": "Come Away with Me",
+          "pop": 1
+        },
+        {
+          "name": "Genius Loves Company",
+          "pop": 1
+        },
+        {
+          "name": "How to Dismantle an Atomic Bomb",
+          "pop": 1
+        },
+        {
+          "name": "Taking the Long Way",
+          "pop": 1
+        },
+        {
+          "name": "River: The Joni Letters",
+          "aliases": [
+            "River"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Raising Sand",
+          "pop": 1
+        },
+        {
+          "name": "O Brother, Where Art Thou?",
+          "aliases": [
+            "O Brother"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Two Against Nature",
+          "pop": 1
+        },
+        {
+          "name": "Time Out of Mind",
+          "pop": 1
+        },
+        {
+          "name": "Falling into You",
+          "pop": 1
+        },
+        {
+          "name": "MTV Unplugged",
+          "pop": 1
+        },
+        {
+          "name": "Unplugged",
+          "pop": 1
+        },
+        {
+          "name": "Unforgettable... with Love",
+          "aliases": [
+            "Unforgettable"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Back on the Block",
+          "pop": 1
+        },
+        {
+          "name": "Nick of Time",
+          "pop": 1
+        },
+        {
+          "name": "Faith",
+          "pop": 1
+        },
+        {
+          "name": "No Jacket Required",
+          "pop": 1
+        },
+        {
+          "name": "Can't Slow Down",
+          "pop": 1
+        },
+        {
+          "name": "Toto IV",
+          "pop": 1
+        },
+        {
+          "name": "Double Fantasy",
+          "pop": 1
+        },
+        {
+          "name": "Christopher Cross",
+          "pop": 1
+        },
+        {
+          "name": "52nd Street",
+          "pop": 1
+        },
+        {
+          "name": "Still Crazy After All These Years",
+          "pop": 1
+        },
+        {
+          "name": "Fulfillingness' First Finale",
+          "aliases": [
+            "Fulfillingness"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Innervisions",
+          "pop": 1
+        },
+        {
+          "name": "The Concert for Bangladesh",
+          "aliases": [
+            "Concert for Bangla Desh"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Blood, Sweat & Tears",
+          "aliases": [
+            "Blood Sweat and Tears"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "By the Time I Get to Phoenix",
+          "pop": 1
+        },
+        {
+          "name": "A Man and His Music",
+          "pop": 1
+        },
+        {
+          "name": "September of My Years",
+          "pop": 1
+        },
+        {
+          "name": "Getz/Gilberto",
+          "aliases": [
+            "Getz Gilberto"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "The Barbra Streisand Album",
+          "pop": 1
+        },
+        {
+          "name": "The First Family",
+          "pop": 1
+        },
+        {
+          "name": "Judy at Carnegie Hall",
+          "pop": 1
+        },
+        {
+          "name": "The Button-Down Mind of Bob Newhart",
+          "aliases": [
+            "Button-Down Mind"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Come Dance with Me!",
+          "pop": 1
+        },
+        {
+          "name": "The Music from Peter Gunn",
+          "aliases": [
+            "Peter Gunn"
+          ],
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "general-24",
+      "text": "Name an Eminem song",
+      "rule": "Features count",
+      "answers": [
+        {
+          "name": "Lose Yourself",
+          "pop": 30
+        },
+        {
+          "name": "The Real Slim Shady",
+          "pop": 15
+        },
+        {
+          "name": "Without Me",
+          "pop": 10
+        },
+        {
+          "name": "Stan",
+          "pop": 8
+        },
+        {
+          "name": "My Name Is",
+          "pop": 6
+        },
+        {
+          "name": "Mockingbird",
+          "pop": 4
+        },
+        {
+          "name": "Love the Way You Lie",
+          "pop": 4
+        },
+        {
+          "name": "Rap God",
+          "pop": 4
+        },
+        {
+          "name": "'Till I Collapse",
+          "pop": 3
+        },
+        {
+          "name": "Not Afraid",
+          "pop": 3
+        },
+        {
+          "name": "Cleanin' Out My Closet",
+          "aliases": [
+            "Cleaning Out My Closet"
+          ],
+          "pop": 2
+        },
+        {
+          "name": "When I'm Gone",
+          "pop": 2
+        },
+        {
+          "name": "The Way I Am",
+          "pop": 2
+        },
+        {
+          "name": "The Monster",
+          "pop": 2
+        },
+        {
+          "name": "Godzilla",
+          "pop": 2
+        },
+        {
+          "name": "Houdini",
+          "pop": 2
+        },
+        {
+          "name": "Forgot About Dre",
+          "pop": 2
+        },
+        {
+          "name": "Sing for the Moment",
+          "pop": 1
+        },
+        {
+          "name": "Superman",
+          "pop": 1
+        },
+        {
+          "name": "Like Toy Soldiers",
+          "pop": 1
+        },
+        {
+          "name": "Just Lose It",
+          "pop": 1
+        },
+        {
+          "name": "Mosh",
+          "pop": 1
+        },
+        {
+          "name": "Ass Like That",
+          "pop": 1
+        },
+        {
+          "name": "Kim",
+          "pop": 1
+        },
+        {
+          "name": "Guilty Conscience",
+          "pop": 1
+        },
+        {
+          "name": "Role Model",
+          "pop": 1
+        },
+        {
+          "name": "White America",
+          "pop": 1
+        },
+        {
+          "name": "Business",
+          "pop": 1
+        },
+        {
+          "name": "Square Dance",
+          "pop": 1
+        },
+        {
+          "name": "Soldier",
+          "pop": 1
+        },
+        {
+          "name": "Berzerk",
+          "pop": 1
+        },
+        {
+          "name": "Survival",
+          "pop": 1
+        },
+        {
+          "name": "Lighters",
+          "pop": 1
+        },
+        {
+          "name": "Fast Lane",
+          "pop": 1
+        },
+        {
+          "name": "Beautiful",
+          "pop": 1
+        },
+        {
+          "name": "We Made You",
+          "pop": 1
+        },
+        {
+          "name": "Crack a Bottle",
+          "pop": 1
+        },
+        {
+          "name": "Old Time's Sake",
+          "pop": 1
+        },
+        {
+          "name": "3 a.m.",
+          "aliases": [
+            "3am"
+          ],
+          "pop": 1
+        },
+        {
+          "name": "Space Bound",
+          "pop": 1
+        },
+        {
+          "name": "No Love",
+          "pop": 1
+        },
+        {
+          "name": "Won't Back Down",
+          "pop": 1
+        },
+        {
+          "name": "Cinderella Man",
+          "pop": 1
+        },
+        {
+          "name": "Walk on Water",
+          "pop": 1
+        },
+        {
+          "name": "River",
+          "pop": 1
+        },
+        {
+          "name": "Venom",
+          "pop": 1
+        },
+        {
+          "name": "Killshot",
+          "pop": 1
+        },
+        {
+          "name": "Lucky You",
+          "pop": 1
+        },
+        {
+          "name": "Fall",
+          "pop": 1
+        },
+        {
+          "name": "Darkness",
+          "pop": 1
+        },
+        {
+          "name": "Tobey",
+          "pop": 1
+        },
+        {
+          "name": "Headlights",
+          "pop": 1
+        },
+        {
+          "name": "Legacy",
+          "pop": 1
+        },
+        {
+          "name": "Phenomenal",
+          "pop": 1
+        },
+        {
+          "name": "Shake That",
+          "pop": 1
+        },
+        {
+          "name": "Hailie's Song",
+          "pop": 1
+        },
+        {
+          "name": "Renegade",
+          "pop": 1
+        },
+        {
+          "name": "Smack That",
+          "pop": 1
+        },
+        {
+          "name": "Airplanes, Part II",
+          "aliases": [
+            "Airplanes Part 2"
+          ],
+          "pop": 1
+        }
+      ]
+    }
+  ]
+}

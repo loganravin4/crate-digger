@@ -1,0 +1,5153 @@
+{
+  "id": "pop",
+  "prompts": [
+    {
+      "id": "pop-01",
+      "text": "Name a song by Madonna",
+      "answers": [
+        {
+          "name": "Like a Prayer",
+          "pop": 25
+        },
+        {
+          "name": "Like a Virgin",
+          "pop": 18
+        },
+        {
+          "name": "Vogue",
+          "pop": 14
+        },
+        {
+          "name": "Material Girl",
+          "pop": 14
+        },
+        {
+          "name": "Papa Don't Preach",
+          "pop": 5
+        },
+        {
+          "name": "La Isla Bonita",
+          "pop": 4
+        },
+        {
+          "name": "Hung Up",
+          "pop": 4
+        },
+        {
+          "name": "Holiday",
+          "pop": 3
+        },
+        {
+          "name": "Into the Groove",
+          "pop": 3
+        },
+        {
+          "name": "Express Yourself",
+          "pop": 2
+        },
+        {
+          "name": "Frozen",
+          "pop": 2
+        },
+        {
+          "name": "Ray of Light",
+          "pop": 2
+        },
+        {
+          "name": "Music",
+          "pop": 2
+        },
+        {
+          "name": "Lucky Star",
+          "pop": 1
+        },
+        {
+          "name": "Borderline",
+          "pop": 1
+        },
+        {
+          "name": "Crazy for You",
+          "pop": 1
+        },
+        {
+          "name": "Live to Tell",
+          "pop": 1
+        },
+        {
+          "name": "Open Your Heart",
+          "pop": 1
+        },
+        {
+          "name": "Cherish",
+          "pop": 1
+        },
+        {
+          "name": "Justify My Love",
+          "pop": 1
+        },
+        {
+          "name": "Erotica",
+          "pop": 1
+        },
+        {
+          "name": "Take a Bow",
+          "pop": 1
+        },
+        {
+          "name": "Secret",
+          "pop": 1
+        },
+        {
+          "name": "Don't Cry for Me Argentina",
+          "pop": 1
+        },
+        {
+          "name": "Beautiful Stranger",
+          "pop": 1
+        },
+        {
+          "name": "American Pie",
+          "pop": 1
+        },
+        {
+          "name": "Don't Tell Me",
+          "pop": 1
+        },
+        {
+          "name": "What It Feels Like for a Girl",
+          "pop": 1
+        },
+        {
+          "name": "Die Another Day",
+          "pop": 1
+        },
+        {
+          "name": "4 Minutes",
+          "pop": 1,
+          "aliases": [
+            "Four Minutes"
+          ]
+        },
+        {
+          "name": "Celebration",
+          "pop": 1
+        },
+        {
+          "name": "Give Me All Your Luvin'",
+          "pop": 1,
+          "aliases": [
+            "Give Me All Your Loving"
+          ]
+        },
+        {
+          "name": "Burning Up",
+          "pop": 1
+        },
+        {
+          "name": "Dress You Up",
+          "pop": 1
+        },
+        {
+          "name": "Angel",
+          "pop": 1
+        },
+        {
+          "name": "Who's That Girl",
+          "pop": 1
+        },
+        {
+          "name": "Causing a Commotion",
+          "pop": 1
+        },
+        {
+          "name": "True Blue",
+          "pop": 1
+        },
+        {
+          "name": "Oh Father",
+          "pop": 1
+        },
+        {
+          "name": "Dear Jessie",
+          "pop": 1
+        },
+        {
+          "name": "Keep It Together",
+          "pop": 1
+        },
+        {
+          "name": "Hanky Panky",
+          "pop": 1
+        },
+        {
+          "name": "This Used to Be My Playground",
+          "pop": 1
+        },
+        {
+          "name": "Rain",
+          "pop": 1
+        },
+        {
+          "name": "Deeper and Deeper",
+          "pop": 1
+        },
+        {
+          "name": "Bad Girl",
+          "pop": 1
+        },
+        {
+          "name": "Fever",
+          "pop": 1
+        },
+        {
+          "name": "I'll Remember",
+          "pop": 1
+        },
+        {
+          "name": "Human Nature",
+          "pop": 1
+        },
+        {
+          "name": "Bedtime Story",
+          "pop": 1
+        },
+        {
+          "name": "You'll See",
+          "pop": 1
+        },
+        {
+          "name": "The Power of Good-Bye",
+          "pop": 1
+        },
+        {
+          "name": "Drowned World/Substitute for Love",
+          "pop": 1,
+          "aliases": [
+            "Drowned World"
+          ]
+        },
+        {
+          "name": "Nothing Really Matters",
+          "pop": 1
+        },
+        {
+          "name": "American Life",
+          "pop": 1
+        },
+        {
+          "name": "Hollywood",
+          "pop": 1
+        },
+        {
+          "name": "Sorry",
+          "pop": 1
+        },
+        {
+          "name": "Get Together",
+          "pop": 1
+        },
+        {
+          "name": "Jump",
+          "pop": 1
+        },
+        {
+          "name": "Miles Away",
+          "pop": 1
+        },
+        {
+          "name": "Give It 2 Me",
+          "pop": 1,
+          "aliases": [
+            "Give It to Me"
+          ]
+        },
+        {
+          "name": "Girl Gone Wild",
+          "pop": 1
+        },
+        {
+          "name": "Turn Up the Radio",
+          "pop": 1
+        },
+        {
+          "name": "Masterpiece",
+          "pop": 1
+        },
+        {
+          "name": "Living for Love",
+          "pop": 1
+        },
+        {
+          "name": "Ghosttown",
+          "pop": 1,
+          "aliases": [
+            "Ghost Town"
+          ]
+        },
+        {
+          "name": "Bitch I'm Madonna",
+          "pop": 1
+        },
+        {
+          "name": "Medellín",
+          "pop": 1
+        },
+        {
+          "name": "Physical Attraction",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-02",
+      "text": "Name a song by Taylor Swift",
+      "answers": [
+        {
+          "name": "Shake It Off",
+          "pop": 15
+        },
+        {
+          "name": "Love Story",
+          "pop": 12
+        },
+        {
+          "name": "Blank Space",
+          "pop": 9
+        },
+        {
+          "name": "Anti-Hero",
+          "pop": 7
+        },
+        {
+          "name": "You Belong with Me",
+          "pop": 7
+        },
+        {
+          "name": "Cruel Summer",
+          "pop": 6
+        },
+        {
+          "name": "All Too Well",
+          "pop": 4
+        },
+        {
+          "name": "We Are Never Ever Getting Back Together",
+          "pop": 4,
+          "aliases": [
+            "We Are Never Getting Back Together",
+            "Never Ever Getting Back Together"
+          ]
+        },
+        {
+          "name": "Look What You Made Me Do",
+          "pop": 3
+        },
+        {
+          "name": "I Knew You Were Trouble",
+          "pop": 3,
+          "aliases": [
+            "I Knew You Were Trouble When You Walked In"
+          ]
+        },
+        {
+          "name": "Style",
+          "pop": 3
+        },
+        {
+          "name": "Bad Blood",
+          "pop": 3
+        },
+        {
+          "name": "22",
+          "pop": 2,
+          "aliases": [
+            "Twenty Two"
+          ]
+        },
+        {
+          "name": "Wildest Dreams",
+          "pop": 2
+        },
+        {
+          "name": "Lover",
+          "pop": 2
+        },
+        {
+          "name": "Cardigan",
+          "pop": 2
+        },
+        {
+          "name": "Our Song",
+          "pop": 2
+        },
+        {
+          "name": "Teardrops on My Guitar",
+          "pop": 2
+        },
+        {
+          "name": "The Fate of Ophelia",
+          "pop": 2
+        },
+        {
+          "name": "Tim McGraw",
+          "pop": 1
+        },
+        {
+          "name": "Picture to Burn",
+          "pop": 1
+        },
+        {
+          "name": "Should've Said No",
+          "pop": 1,
+          "aliases": [
+            "Should Have Said No"
+          ]
+        },
+        {
+          "name": "Fifteen",
+          "pop": 1
+        },
+        {
+          "name": "White Horse",
+          "pop": 1
+        },
+        {
+          "name": "Fearless",
+          "pop": 1
+        },
+        {
+          "name": "The Best Day",
+          "pop": 1
+        },
+        {
+          "name": "Mine",
+          "pop": 1
+        },
+        {
+          "name": "Back to December",
+          "pop": 1
+        },
+        {
+          "name": "Mean",
+          "pop": 1
+        },
+        {
+          "name": "Sparks Fly",
+          "pop": 1
+        },
+        {
+          "name": "Speak Now",
+          "pop": 1
+        },
+        {
+          "name": "Dear John",
+          "pop": 1
+        },
+        {
+          "name": "Ours",
+          "pop": 1
+        },
+        {
+          "name": "Enchanted",
+          "pop": 1
+        },
+        {
+          "name": "Long Live",
+          "pop": 1
+        },
+        {
+          "name": "Red",
+          "pop": 1
+        },
+        {
+          "name": "Begin Again",
+          "pop": 1
+        },
+        {
+          "name": "State of Grace",
+          "pop": 1
+        },
+        {
+          "name": "Everything Has Changed",
+          "pop": 1
+        },
+        {
+          "name": "Safe & Sound",
+          "pop": 1,
+          "aliases": [
+            "Safe and Sound"
+          ]
+        },
+        {
+          "name": "Welcome to New York",
+          "pop": 1
+        },
+        {
+          "name": "Out of the Woods",
+          "pop": 1
+        },
+        {
+          "name": "New Romantics",
+          "pop": 1
+        },
+        {
+          "name": "Clean",
+          "pop": 1
+        },
+        {
+          "name": "Delicate",
+          "pop": 1
+        },
+        {
+          "name": "...Ready for It?",
+          "pop": 1
+        },
+        {
+          "name": "End Game",
+          "pop": 1
+        },
+        {
+          "name": "Gorgeous",
+          "pop": 1
+        },
+        {
+          "name": "Getaway Car",
+          "pop": 1
+        },
+        {
+          "name": "I Don't Wanna Live Forever",
+          "pop": 1,
+          "aliases": [
+            "I Dont Want to Live Forever"
+          ]
+        },
+        {
+          "name": "ME!",
+          "pop": 1
+        },
+        {
+          "name": "You Need to Calm Down",
+          "pop": 1
+        },
+        {
+          "name": "The Man",
+          "pop": 1
+        },
+        {
+          "name": "Paper Rings",
+          "pop": 1
+        },
+        {
+          "name": "Cornelia Street",
+          "pop": 1
+        },
+        {
+          "name": "Exile",
+          "pop": 1
+        },
+        {
+          "name": "August",
+          "pop": 1
+        },
+        {
+          "name": "The 1",
+          "pop": 1,
+          "aliases": [
+            "The One"
+          ]
+        },
+        {
+          "name": "Betty",
+          "pop": 1
+        },
+        {
+          "name": "Mirrorball",
+          "pop": 1
+        },
+        {
+          "name": "Willow",
+          "pop": 1
+        },
+        {
+          "name": "Champagne Problems",
+          "pop": 1
+        },
+        {
+          "name": "No Body, No Crime",
+          "pop": 1
+        },
+        {
+          "name": "Lavender Haze",
+          "pop": 1
+        },
+        {
+          "name": "Karma",
+          "pop": 1
+        },
+        {
+          "name": "Bejeweled",
+          "pop": 1
+        },
+        {
+          "name": "Midnight Rain",
+          "pop": 1
+        },
+        {
+          "name": "Maroon",
+          "pop": 1
+        },
+        {
+          "name": "Snow on the Beach",
+          "pop": 1
+        },
+        {
+          "name": "Is It Over Now?",
+          "pop": 1
+        },
+        {
+          "name": "Fortnight",
+          "pop": 1
+        },
+        {
+          "name": "Florida!!!",
+          "pop": 1
+        },
+        {
+          "name": "Down Bad",
+          "pop": 1
+        },
+        {
+          "name": "I Can Do It with a Broken Heart",
+          "pop": 1
+        },
+        {
+          "name": "Opalite",
+          "pop": 1
+        },
+        {
+          "name": "Elizabeth Taylor",
+          "pop": 1
+        },
+        {
+          "name": "Father Figure",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-03",
+      "text": "Name a song by Michael Jackson",
+      "rule": "Jackson 5 and Jacksons songs count",
+      "answers": [
+        {
+          "name": "Billie Jean",
+          "pop": 20
+        },
+        {
+          "name": "Thriller",
+          "pop": 18
+        },
+        {
+          "name": "Beat It",
+          "pop": 12
+        },
+        {
+          "name": "Smooth Criminal",
+          "pop": 8
+        },
+        {
+          "name": "Man in the Mirror",
+          "pop": 6
+        },
+        {
+          "name": "Black or White",
+          "pop": 5
+        },
+        {
+          "name": "Bad",
+          "pop": 4
+        },
+        {
+          "name": "The Way You Make Me Feel",
+          "pop": 3
+        },
+        {
+          "name": "Don't Stop 'Til You Get Enough",
+          "pop": 3,
+          "aliases": [
+            "Dont Stop Till You Get Enough"
+          ]
+        },
+        {
+          "name": "Rock with You",
+          "pop": 3
+        },
+        {
+          "name": "Remember the Time",
+          "pop": 3
+        },
+        {
+          "name": "Wanna Be Startin' Somethin'",
+          "pop": 2,
+          "aliases": [
+            "Wanna Be Starting Something"
+          ]
+        },
+        {
+          "name": "Human Nature",
+          "pop": 2
+        },
+        {
+          "name": "P.Y.T. (Pretty Young Thing)",
+          "pop": 2,
+          "aliases": [
+            "PYT",
+            "Pretty Young Thing"
+          ]
+        },
+        {
+          "name": "They Don't Care About Us",
+          "pop": 2
+        },
+        {
+          "name": "Earth Song",
+          "pop": 2
+        },
+        {
+          "name": "Heal the World",
+          "pop": 2
+        },
+        {
+          "name": "ABC",
+          "pop": 2
+        },
+        {
+          "name": "I Want You Back",
+          "pop": 2
+        },
+        {
+          "name": "You Are Not Alone",
+          "pop": 1
+        },
+        {
+          "name": "Scream",
+          "pop": 1
+        },
+        {
+          "name": "Dirty Diana",
+          "pop": 1
+        },
+        {
+          "name": "Leave Me Alone",
+          "pop": 1
+        },
+        {
+          "name": "Liberian Girl",
+          "pop": 1
+        },
+        {
+          "name": "Another Part of Me",
+          "pop": 1
+        },
+        {
+          "name": "Speed Demon",
+          "pop": 1
+        },
+        {
+          "name": "I Just Can't Stop Loving You",
+          "pop": 1
+        },
+        {
+          "name": "In the Closet",
+          "pop": 1
+        },
+        {
+          "name": "Jam",
+          "pop": 1
+        },
+        {
+          "name": "Dangerous",
+          "pop": 1
+        },
+        {
+          "name": "Will You Be There",
+          "pop": 1
+        },
+        {
+          "name": "Give In to Me",
+          "pop": 1
+        },
+        {
+          "name": "Who Is It",
+          "pop": 1
+        },
+        {
+          "name": "Gone Too Soon",
+          "pop": 1
+        },
+        {
+          "name": "Keep the Faith",
+          "pop": 1
+        },
+        {
+          "name": "Stranger in Moscow",
+          "pop": 1
+        },
+        {
+          "name": "Childhood",
+          "pop": 1
+        },
+        {
+          "name": "Ghosts",
+          "pop": 1
+        },
+        {
+          "name": "Blood on the Dance Floor",
+          "pop": 1
+        },
+        {
+          "name": "You Rock My World",
+          "pop": 1
+        },
+        {
+          "name": "Butterflies",
+          "pop": 1
+        },
+        {
+          "name": "Cry",
+          "pop": 1
+        },
+        {
+          "name": "Unbreakable",
+          "pop": 1
+        },
+        {
+          "name": "Off the Wall",
+          "pop": 1
+        },
+        {
+          "name": "She's Out of My Life",
+          "pop": 1
+        },
+        {
+          "name": "Workin' Day and Night",
+          "pop": 1,
+          "aliases": [
+            "Working Day and Night"
+          ]
+        },
+        {
+          "name": "The Girl Is Mine",
+          "pop": 1
+        },
+        {
+          "name": "Say Say Say",
+          "pop": 1
+        },
+        {
+          "name": "Rockin' Robin",
+          "pop": 1,
+          "aliases": [
+            "Rocking Robin"
+          ]
+        },
+        {
+          "name": "Ben",
+          "pop": 1
+        },
+        {
+          "name": "Got to Be There",
+          "pop": 1
+        },
+        {
+          "name": "This Is It",
+          "pop": 1
+        },
+        {
+          "name": "Hollywood Tonight",
+          "pop": 1
+        },
+        {
+          "name": "Love Never Felt So Good",
+          "pop": 1
+        },
+        {
+          "name": "Xscape",
+          "pop": 1
+        },
+        {
+          "name": "I'll Be There",
+          "pop": 1
+        },
+        {
+          "name": "The Love You Save",
+          "pop": 1
+        },
+        {
+          "name": "Blame It on the Boogie",
+          "pop": 1
+        },
+        {
+          "name": "Can You Feel It",
+          "pop": 1
+        },
+        {
+          "name": "Shake Your Body (Down to the Ground)",
+          "pop": 1,
+          "aliases": [
+            "Shake Your Body"
+          ]
+        },
+        {
+          "name": "Dancing Machine",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-04",
+      "text": "Name a song by Britney Spears",
+      "answers": [
+        {
+          "name": "...Baby One More Time",
+          "pop": 30,
+          "aliases": [
+            "Hit Me Baby One More Time"
+          ]
+        },
+        {
+          "name": "Toxic",
+          "pop": 20
+        },
+        {
+          "name": "Oops!... I Did It Again",
+          "pop": 15
+        },
+        {
+          "name": "Womanizer",
+          "pop": 5
+        },
+        {
+          "name": "Gimme More",
+          "pop": 4
+        },
+        {
+          "name": "I'm a Slave 4 U",
+          "pop": 3,
+          "aliases": [
+            "I'm a Slave for You"
+          ]
+        },
+        {
+          "name": "Circus",
+          "pop": 3
+        },
+        {
+          "name": "Stronger",
+          "pop": 2
+        },
+        {
+          "name": "Lucky",
+          "pop": 2
+        },
+        {
+          "name": "Sometimes",
+          "pop": 2
+        },
+        {
+          "name": "(You Drive Me) Crazy",
+          "pop": 2,
+          "aliases": [
+            "Crazy"
+          ]
+        },
+        {
+          "name": "Everytime",
+          "pop": 2,
+          "aliases": [
+            "Every Time"
+          ]
+        },
+        {
+          "name": "Piece of Me",
+          "pop": 2
+        },
+        {
+          "name": "Till the World Ends",
+          "pop": 2
+        },
+        {
+          "name": "I'm Not a Girl, Not Yet a Woman",
+          "pop": 2
+        },
+        {
+          "name": "Hold Me Closer",
+          "pop": 2
+        },
+        {
+          "name": "Radar",
+          "pop": 1
+        },
+        {
+          "name": "If U Seek Amy",
+          "pop": 1,
+          "aliases": [
+            "If You Seek Amy"
+          ]
+        },
+        {
+          "name": "3",
+          "pop": 1,
+          "aliases": [
+            "Three"
+          ]
+        },
+        {
+          "name": "Hold It Against Me",
+          "pop": 1
+        },
+        {
+          "name": "I Wanna Go",
+          "pop": 1
+        },
+        {
+          "name": "Criminal",
+          "pop": 1
+        },
+        {
+          "name": "Scream & Shout",
+          "pop": 1,
+          "aliases": [
+            "Scream and Shout"
+          ]
+        },
+        {
+          "name": "Work Bitch",
+          "pop": 1,
+          "aliases": [
+            "Work B**ch"
+          ]
+        },
+        {
+          "name": "Ooh La La",
+          "pop": 1
+        },
+        {
+          "name": "Perfume",
+          "pop": 1
+        },
+        {
+          "name": "Make Me...",
+          "pop": 1
+        },
+        {
+          "name": "Slumber Party",
+          "pop": 1
+        },
+        {
+          "name": "Me Against the Music",
+          "pop": 1
+        },
+        {
+          "name": "Overprotected",
+          "pop": 1
+        },
+        {
+          "name": "Boys",
+          "pop": 1
+        },
+        {
+          "name": "I Love Rock 'n' Roll",
+          "pop": 1,
+          "aliases": [
+            "I Love Rock and Roll"
+          ]
+        },
+        {
+          "name": "My Prerogative",
+          "pop": 1
+        },
+        {
+          "name": "Do Somethin'",
+          "pop": 1,
+          "aliases": [
+            "Do Something"
+          ]
+        },
+        {
+          "name": "Born to Make You Happy",
+          "pop": 1
+        },
+        {
+          "name": "From the Bottom of My Broken Heart",
+          "pop": 1
+        },
+        {
+          "name": "Don't Let Me Be the Last to Know",
+          "pop": 1
+        },
+        {
+          "name": "Break the Ice",
+          "pop": 1
+        },
+        {
+          "name": "Outrageous",
+          "pop": 1
+        },
+        {
+          "name": "Anticipating",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-05",
+      "text": "Name a song by Lady Gaga",
+      "answers": [
+        {
+          "name": "Poker Face",
+          "pop": 20
+        },
+        {
+          "name": "Bad Romance",
+          "pop": 20
+        },
+        {
+          "name": "Just Dance",
+          "pop": 10
+        },
+        {
+          "name": "Shallow",
+          "pop": 8
+        },
+        {
+          "name": "Telephone",
+          "pop": 6
+        },
+        {
+          "name": "Born This Way",
+          "pop": 5
+        },
+        {
+          "name": "Paparazzi",
+          "pop": 4
+        },
+        {
+          "name": "Die with a Smile",
+          "pop": 4
+        },
+        {
+          "name": "Alejandro",
+          "pop": 3
+        },
+        {
+          "name": "Rain on Me",
+          "pop": 3
+        },
+        {
+          "name": "Applause",
+          "pop": 2
+        },
+        {
+          "name": "Million Reasons",
+          "pop": 2
+        },
+        {
+          "name": "The Edge of Glory",
+          "pop": 2
+        },
+        {
+          "name": "Abracadabra",
+          "pop": 2
+        },
+        {
+          "name": "Hold My Hand",
+          "pop": 1
+        },
+        {
+          "name": "Judas",
+          "pop": 1
+        },
+        {
+          "name": "Marry the Night",
+          "pop": 1
+        },
+        {
+          "name": "You and I",
+          "pop": 1
+        },
+        {
+          "name": "LoveGame",
+          "pop": 1,
+          "aliases": [
+            "Love Game"
+          ]
+        },
+        {
+          "name": "Eh, Eh (Nothing Else I Can Say)",
+          "pop": 1,
+          "aliases": [
+            "Eh Eh"
+          ]
+        },
+        {
+          "name": "Beautiful, Dirty, Rich",
+          "pop": 1
+        },
+        {
+          "name": "Boys Boys Boys",
+          "pop": 1
+        },
+        {
+          "name": "Dance in the Dark",
+          "pop": 1
+        },
+        {
+          "name": "Speechless",
+          "pop": 1
+        },
+        {
+          "name": "Monster",
+          "pop": 1
+        },
+        {
+          "name": "Bloody Mary",
+          "pop": 1
+        },
+        {
+          "name": "Hair",
+          "pop": 1
+        },
+        {
+          "name": "Scheiße",
+          "pop": 1,
+          "aliases": [
+            "Scheisse"
+          ]
+        },
+        {
+          "name": "Government Hooker",
+          "pop": 1
+        },
+        {
+          "name": "Americano",
+          "pop": 1
+        },
+        {
+          "name": "Do What U Want",
+          "pop": 1,
+          "aliases": [
+            "Do What You Want"
+          ]
+        },
+        {
+          "name": "G.U.Y.",
+          "pop": 1
+        },
+        {
+          "name": "Aura",
+          "pop": 1
+        },
+        {
+          "name": "Venus",
+          "pop": 1
+        },
+        {
+          "name": "Perfect Illusion",
+          "pop": 1
+        },
+        {
+          "name": "John Wayne",
+          "pop": 1
+        },
+        {
+          "name": "Joanne",
+          "pop": 1
+        },
+        {
+          "name": "Diamond Heart",
+          "pop": 1
+        },
+        {
+          "name": "Always Remember Us This Way",
+          "pop": 1
+        },
+        {
+          "name": "I'll Never Love Again",
+          "pop": 1
+        },
+        {
+          "name": "Til It Happens to You",
+          "pop": 1,
+          "aliases": [
+            "Till It Happens to You"
+          ]
+        },
+        {
+          "name": "Stupid Love",
+          "pop": 1
+        },
+        {
+          "name": "911",
+          "pop": 1,
+          "aliases": [
+            "Nine One One"
+          ]
+        },
+        {
+          "name": "Sour Candy",
+          "pop": 1
+        },
+        {
+          "name": "Alice",
+          "pop": 1
+        },
+        {
+          "name": "Free Woman",
+          "pop": 1
+        },
+        {
+          "name": "Replay",
+          "pop": 1
+        },
+        {
+          "name": "Babylon",
+          "pop": 1
+        },
+        {
+          "name": "Enigma",
+          "pop": 1
+        },
+        {
+          "name": "Disease",
+          "pop": 1
+        },
+        {
+          "name": "Vanish into You",
+          "pop": 1
+        },
+        {
+          "name": "Cheek to Cheek",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-06",
+      "text": "Name a song by Whitney Houston",
+      "answers": [
+        {
+          "name": "I Will Always Love You",
+          "pop": 35
+        },
+        {
+          "name": "I Wanna Dance with Somebody (Who Loves Me)",
+          "pop": 25,
+          "aliases": [
+            "I Wanna Dance with Somebody",
+            "I Want to Dance with Somebody"
+          ]
+        },
+        {
+          "name": "Greatest Love of All",
+          "pop": 6
+        },
+        {
+          "name": "How Will I Know",
+          "pop": 5
+        },
+        {
+          "name": "I Have Nothing",
+          "pop": 3
+        },
+        {
+          "name": "I'm Every Woman",
+          "pop": 3
+        },
+        {
+          "name": "Saving All My Love for You",
+          "pop": 3
+        },
+        {
+          "name": "One Moment in Time",
+          "pop": 2
+        },
+        {
+          "name": "It's Not Right but It's Okay",
+          "pop": 2
+        },
+        {
+          "name": "My Love Is Your Love",
+          "pop": 2
+        },
+        {
+          "name": "Higher Love",
+          "pop": 2
+        },
+        {
+          "name": "So Emotional",
+          "pop": 1
+        },
+        {
+          "name": "Didn't We Almost Have It All",
+          "pop": 1
+        },
+        {
+          "name": "Where Do Broken Hearts Go",
+          "pop": 1
+        },
+        {
+          "name": "You Give Good Love",
+          "pop": 1
+        },
+        {
+          "name": "Hold Me",
+          "pop": 1
+        },
+        {
+          "name": "Love Will Save the Day",
+          "pop": 1
+        },
+        {
+          "name": "Run to You",
+          "pop": 1
+        },
+        {
+          "name": "Queen of the Night",
+          "pop": 1
+        },
+        {
+          "name": "I'm Your Baby Tonight",
+          "pop": 1
+        },
+        {
+          "name": "All the Man That I Need",
+          "pop": 1
+        },
+        {
+          "name": "Miracle",
+          "pop": 1
+        },
+        {
+          "name": "My Name Is Not Susan",
+          "pop": 1
+        },
+        {
+          "name": "Exhale (Shoop Shoop)",
+          "pop": 1,
+          "aliases": [
+            "Exhale"
+          ]
+        },
+        {
+          "name": "Count on Me",
+          "pop": 1
+        },
+        {
+          "name": "Why Does It Hurt So Bad",
+          "pop": 1
+        },
+        {
+          "name": "Step by Step",
+          "pop": 1
+        },
+        {
+          "name": "I Believe in You and Me",
+          "pop": 1
+        },
+        {
+          "name": "When You Believe",
+          "pop": 1
+        },
+        {
+          "name": "Heartbreak Hotel",
+          "pop": 1
+        },
+        {
+          "name": "Same Script, Different Cast",
+          "pop": 1
+        },
+        {
+          "name": "If I Told You That",
+          "pop": 1
+        },
+        {
+          "name": "Could I Have This Kiss Forever",
+          "pop": 1
+        },
+        {
+          "name": "I Learned from the Best",
+          "pop": 1
+        },
+        {
+          "name": "Try It on My Own",
+          "pop": 1
+        },
+        {
+          "name": "Whatchulookinat",
+          "pop": 1,
+          "aliases": [
+            "What You Looking At"
+          ]
+        },
+        {
+          "name": "I Look to You",
+          "pop": 1
+        },
+        {
+          "name": "Million Dollar Bill",
+          "pop": 1
+        },
+        {
+          "name": "Celebrate",
+          "pop": 1
+        },
+        {
+          "name": "Jesus Loves Me",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-07",
+      "text": "Name a song by Rihanna",
+      "rule": "Featured credits count",
+      "answers": [
+        {
+          "name": "Umbrella",
+          "pop": 25
+        },
+        {
+          "name": "Diamonds",
+          "pop": 10
+        },
+        {
+          "name": "We Found Love",
+          "pop": 8
+        },
+        {
+          "name": "Work",
+          "pop": 6
+        },
+        {
+          "name": "Only Girl (In the World)",
+          "pop": 5,
+          "aliases": [
+            "Only Girl"
+          ]
+        },
+        {
+          "name": "Rude Boy",
+          "pop": 4
+        },
+        {
+          "name": "Disturbia",
+          "pop": 4
+        },
+        {
+          "name": "Don't Stop the Music",
+          "pop": 4
+        },
+        {
+          "name": "Pon de Replay",
+          "pop": 4
+        },
+        {
+          "name": "SOS",
+          "pop": 3
+        },
+        {
+          "name": "Love on the Brain",
+          "pop": 3
+        },
+        {
+          "name": "What's My Name?",
+          "pop": 3
+        },
+        {
+          "name": "S&M",
+          "pop": 3,
+          "aliases": [
+            "S and M"
+          ]
+        },
+        {
+          "name": "Love the Way You Lie",
+          "pop": 3
+        },
+        {
+          "name": "Needed Me",
+          "pop": 2
+        },
+        {
+          "name": "Stay",
+          "pop": 2
+        },
+        {
+          "name": "Bitch Better Have My Money",
+          "pop": 2,
+          "aliases": [
+            "BBHMM"
+          ]
+        },
+        {
+          "name": "FourFiveSeconds",
+          "pop": 2,
+          "aliases": [
+            "Four Five Seconds",
+            "4 5 Seconds"
+          ]
+        },
+        {
+          "name": "Take a Bow",
+          "pop": 2
+        },
+        {
+          "name": "Where Have You Been",
+          "pop": 2
+        },
+        {
+          "name": "Lift Me Up",
+          "pop": 2
+        },
+        {
+          "name": "This Is What You Came For",
+          "pop": 2
+        },
+        {
+          "name": "Wild Thoughts",
+          "pop": 2
+        },
+        {
+          "name": "Shut Up and Drive",
+          "pop": 1
+        },
+        {
+          "name": "Hate That I Love You",
+          "pop": 1
+        },
+        {
+          "name": "Unfaithful",
+          "pop": 1
+        },
+        {
+          "name": "If It's Lovin' That You Want",
+          "pop": 1
+        },
+        {
+          "name": "Break It Off",
+          "pop": 1
+        },
+        {
+          "name": "Russian Roulette",
+          "pop": 1
+        },
+        {
+          "name": "Te Amo",
+          "pop": 1
+        },
+        {
+          "name": "Hard",
+          "pop": 1
+        },
+        {
+          "name": "Rockstar 101",
+          "pop": 1
+        },
+        {
+          "name": "Cheers (Drink to That)",
+          "pop": 1,
+          "aliases": [
+            "Cheers"
+          ]
+        },
+        {
+          "name": "California King Bed",
+          "pop": 1
+        },
+        {
+          "name": "Man Down",
+          "pop": 1
+        },
+        {
+          "name": "Talk That Talk",
+          "pop": 1
+        },
+        {
+          "name": "Birthday Cake",
+          "pop": 1
+        },
+        {
+          "name": "You Da One",
+          "pop": 1
+        },
+        {
+          "name": "Pour It Up",
+          "pop": 1
+        },
+        {
+          "name": "Kiss It Better",
+          "pop": 1
+        },
+        {
+          "name": "Sex with Me",
+          "pop": 1
+        },
+        {
+          "name": "Desperado",
+          "pop": 1
+        },
+        {
+          "name": "Consideration",
+          "pop": 1
+        },
+        {
+          "name": "Rehab",
+          "pop": 1
+        },
+        {
+          "name": "Run This Town",
+          "pop": 1
+        },
+        {
+          "name": "Live Your Life",
+          "pop": 1
+        },
+        {
+          "name": "The Monster",
+          "pop": 1
+        },
+        {
+          "name": "Princess of China",
+          "pop": 1
+        },
+        {
+          "name": "Numb",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-08",
+      "text": "Name a song by Katy Perry",
+      "answers": [
+        {
+          "name": "Firework",
+          "pop": 18
+        },
+        {
+          "name": "Roar",
+          "pop": 15
+        },
+        {
+          "name": "I Kissed a Girl",
+          "pop": 12
+        },
+        {
+          "name": "Teenage Dream",
+          "pop": 8
+        },
+        {
+          "name": "California Gurls",
+          "pop": 8,
+          "aliases": [
+            "California Girls"
+          ]
+        },
+        {
+          "name": "Dark Horse",
+          "pop": 7
+        },
+        {
+          "name": "Hot n Cold",
+          "pop": 6,
+          "aliases": [
+            "Hot and Cold"
+          ]
+        },
+        {
+          "name": "Last Friday Night (T.G.I.F.)",
+          "pop": 4,
+          "aliases": [
+            "Last Friday Night",
+            "TGIF"
+          ]
+        },
+        {
+          "name": "E.T.",
+          "pop": 3
+        },
+        {
+          "name": "Part of Me",
+          "pop": 3
+        },
+        {
+          "name": "The One That Got Away",
+          "pop": 2
+        },
+        {
+          "name": "Wide Awake",
+          "pop": 2
+        },
+        {
+          "name": "Chained to the Rhythm",
+          "pop": 2
+        },
+        {
+          "name": "Waking Up in Vegas",
+          "pop": 1
+        },
+        {
+          "name": "Thinking of You",
+          "pop": 1
+        },
+        {
+          "name": "Ur So Gay",
+          "pop": 1
+        },
+        {
+          "name": "One of the Boys",
+          "pop": 1
+        },
+        {
+          "name": "Unconditionally",
+          "pop": 1
+        },
+        {
+          "name": "Walking on Air",
+          "pop": 1
+        },
+        {
+          "name": "Birthday",
+          "pop": 1
+        },
+        {
+          "name": "This Is How We Do",
+          "pop": 1
+        },
+        {
+          "name": "Legendary Lovers",
+          "pop": 1
+        },
+        {
+          "name": "Rise",
+          "pop": 1
+        },
+        {
+          "name": "Swish Swish",
+          "pop": 1
+        },
+        {
+          "name": "Bon Appétit",
+          "pop": 1
+        },
+        {
+          "name": "Witness",
+          "pop": 1
+        },
+        {
+          "name": "Hey Hey Hey",
+          "pop": 1
+        },
+        {
+          "name": "Never Really Over",
+          "pop": 1
+        },
+        {
+          "name": "Harleys in Hawaii",
+          "pop": 1
+        },
+        {
+          "name": "Small Talk",
+          "pop": 1
+        },
+        {
+          "name": "Smile",
+          "pop": 1
+        },
+        {
+          "name": "Daisies",
+          "pop": 1
+        },
+        {
+          "name": "Not the End of the World",
+          "pop": 1
+        },
+        {
+          "name": "Cozy Little Christmas",
+          "pop": 1
+        },
+        {
+          "name": "Electric",
+          "pop": 1
+        },
+        {
+          "name": "Woman's World",
+          "pop": 1
+        },
+        {
+          "name": "Lifetimes",
+          "pop": 1
+        },
+        {
+          "name": "Peacock",
+          "pop": 1
+        },
+        {
+          "name": "Circle the Drain",
+          "pop": 1
+        },
+        {
+          "name": "Who Am I Living For?",
+          "pop": 1
+        },
+        {
+          "name": "Mannequin",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-09",
+      "text": "Name a song by Ariana Grande",
+      "answers": [
+        {
+          "name": "Thank U, Next",
+          "pop": 20,
+          "aliases": [
+            "Thank You Next"
+          ]
+        },
+        {
+          "name": "7 Rings",
+          "pop": 15,
+          "aliases": [
+            "Seven Rings"
+          ]
+        },
+        {
+          "name": "Positions",
+          "pop": 6
+        },
+        {
+          "name": "Problem",
+          "pop": 6
+        },
+        {
+          "name": "Into You",
+          "pop": 5
+        },
+        {
+          "name": "Side to Side",
+          "pop": 5
+        },
+        {
+          "name": "No Tears Left to Cry",
+          "pop": 5
+        },
+        {
+          "name": "Dangerous Woman",
+          "pop": 4
+        },
+        {
+          "name": "God Is a Woman",
+          "pop": 3
+        },
+        {
+          "name": "Break Free",
+          "pop": 3
+        },
+        {
+          "name": "We Can't Be Friends (Wait for Your Love)",
+          "pop": 3,
+          "aliases": [
+            "We Can't Be Friends"
+          ]
+        },
+        {
+          "name": "Yes, And?",
+          "pop": 3
+        },
+        {
+          "name": "The Way",
+          "pop": 2
+        },
+        {
+          "name": "One Last Time",
+          "pop": 2
+        },
+        {
+          "name": "Bang Bang",
+          "pop": 2
+        },
+        {
+          "name": "Break Up with Your Girlfriend, I'm Bored",
+          "pop": 2,
+          "aliases": [
+            "Break Up with Your Girlfriend"
+          ]
+        },
+        {
+          "name": "34+35",
+          "pop": 2,
+          "aliases": [
+            "34 35",
+            "Thirty Four Thirty Five"
+          ]
+        },
+        {
+          "name": "Santa Tell Me",
+          "pop": 2
+        },
+        {
+          "name": "Love Me Harder",
+          "pop": 1
+        },
+        {
+          "name": "Popular",
+          "pop": 1
+        },
+        {
+          "name": "Stuck with U",
+          "pop": 1,
+          "aliases": [
+            "Stuck with You"
+          ]
+        },
+        {
+          "name": "Rain on Me",
+          "pop": 1
+        },
+        {
+          "name": "Baby I",
+          "pop": 1
+        },
+        {
+          "name": "Right There",
+          "pop": 1
+        },
+        {
+          "name": "Almost Is Never Enough",
+          "pop": 1
+        },
+        {
+          "name": "Honeymoon Avenue",
+          "pop": 1
+        },
+        {
+          "name": "Tattooed Heart",
+          "pop": 1
+        },
+        {
+          "name": "Focus",
+          "pop": 1
+        },
+        {
+          "name": "Be Alright",
+          "pop": 1
+        },
+        {
+          "name": "Everyday",
+          "pop": 1
+        },
+        {
+          "name": "Moonlight",
+          "pop": 1
+        },
+        {
+          "name": "Greedy",
+          "pop": 1
+        },
+        {
+          "name": "Breathin",
+          "pop": 1,
+          "aliases": [
+            "Breathing"
+          ]
+        },
+        {
+          "name": "Sweetener",
+          "pop": 1
+        },
+        {
+          "name": "The Light Is Coming",
+          "pop": 1
+        },
+        {
+          "name": "Successful",
+          "pop": 1
+        },
+        {
+          "name": "R.E.M.",
+          "pop": 1
+        },
+        {
+          "name": "Imagine",
+          "pop": 1
+        },
+        {
+          "name": "Needy",
+          "pop": 1
+        },
+        {
+          "name": "NASA",
+          "pop": 1
+        },
+        {
+          "name": "Fake Smile",
+          "pop": 1
+        },
+        {
+          "name": "Bad Idea",
+          "pop": 1
+        },
+        {
+          "name": "Ghostin",
+          "pop": 1,
+          "aliases": [
+            "Ghosting"
+          ]
+        },
+        {
+          "name": "In My Head",
+          "pop": 1
+        },
+        {
+          "name": "Bloodline",
+          "pop": 1
+        },
+        {
+          "name": "Boyfriend",
+          "pop": 1
+        },
+        {
+          "name": "Monopoly",
+          "pop": 1
+        },
+        {
+          "name": "Just Like Magic",
+          "pop": 1
+        },
+        {
+          "name": "POV",
+          "pop": 1
+        },
+        {
+          "name": "Motive",
+          "pop": 1
+        },
+        {
+          "name": "Supernatural",
+          "pop": 1
+        },
+        {
+          "name": "The Boy Is Mine",
+          "pop": 1
+        },
+        {
+          "name": "Twilight Zone",
+          "pop": 1
+        },
+        {
+          "name": "Bye",
+          "pop": 1
+        },
+        {
+          "name": "Dandelion",
+          "pop": 1
+        },
+        {
+          "name": "Eternal Sunshine",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-10",
+      "text": "Name a song by BTS",
+      "rule": "Group releases only",
+      "answers": [
+        {
+          "name": "Dynamite",
+          "pop": 25
+        },
+        {
+          "name": "Butter",
+          "pop": 15
+        },
+        {
+          "name": "Boy with Luv",
+          "pop": 8,
+          "aliases": [
+            "Boy with Love"
+          ]
+        },
+        {
+          "name": "DNA",
+          "pop": 6
+        },
+        {
+          "name": "Fake Love",
+          "pop": 6
+        },
+        {
+          "name": "Idol",
+          "pop": 4
+        },
+        {
+          "name": "Spring Day",
+          "pop": 4
+        },
+        {
+          "name": "Blood Sweat & Tears",
+          "pop": 3,
+          "aliases": [
+            "Blood Sweat and Tears"
+          ]
+        },
+        {
+          "name": "Mic Drop",
+          "pop": 3
+        },
+        {
+          "name": "Permission to Dance",
+          "pop": 3
+        },
+        {
+          "name": "Life Goes On",
+          "pop": 2
+        },
+        {
+          "name": "Fire",
+          "pop": 2
+        },
+        {
+          "name": "Dope",
+          "pop": 2
+        },
+        {
+          "name": "ON",
+          "pop": 2
+        },
+        {
+          "name": "My Universe",
+          "pop": 2
+        },
+        {
+          "name": "No More Dream",
+          "pop": 1
+        },
+        {
+          "name": "We Are Bulletproof Pt. 2",
+          "pop": 1,
+          "aliases": [
+            "We Are Bulletproof Part 2",
+            "We Are Bulletproof"
+          ]
+        },
+        {
+          "name": "Boy in Luv",
+          "pop": 1,
+          "aliases": [
+            "Boy in Love"
+          ]
+        },
+        {
+          "name": "Danger",
+          "pop": 1
+        },
+        {
+          "name": "Just One Day",
+          "pop": 1
+        },
+        {
+          "name": "I Need U",
+          "pop": 1,
+          "aliases": [
+            "I Need You"
+          ]
+        },
+        {
+          "name": "Run",
+          "pop": 1
+        },
+        {
+          "name": "Save Me",
+          "pop": 1
+        },
+        {
+          "name": "Not Today",
+          "pop": 1
+        },
+        {
+          "name": "Spine Breaker",
+          "pop": 1
+        },
+        {
+          "name": "Silver Spoon",
+          "pop": 1,
+          "aliases": [
+            "Baepsae"
+          ]
+        },
+        {
+          "name": "Butterfly",
+          "pop": 1
+        },
+        {
+          "name": "Young Forever",
+          "pop": 1
+        },
+        {
+          "name": "Epiphany",
+          "pop": 1
+        },
+        {
+          "name": "Euphoria",
+          "pop": 1
+        },
+        {
+          "name": "Serendipity",
+          "pop": 1
+        },
+        {
+          "name": "Singularity",
+          "pop": 1
+        },
+        {
+          "name": "Blue & Grey",
+          "pop": 1,
+          "aliases": [
+            "Blue and Grey"
+          ]
+        },
+        {
+          "name": "Anpanman",
+          "pop": 1
+        },
+        {
+          "name": "Airplane Pt. 2",
+          "pop": 1,
+          "aliases": [
+            "Airplane Part 2"
+          ]
+        },
+        {
+          "name": "Magic Shop",
+          "pop": 1
+        },
+        {
+          "name": "Answer: Love Myself",
+          "pop": 1,
+          "aliases": [
+            "Love Myself"
+          ]
+        },
+        {
+          "name": "Make It Right",
+          "pop": 1
+        },
+        {
+          "name": "Dionysus",
+          "pop": 1
+        },
+        {
+          "name": "Mikrokosmos",
+          "pop": 1
+        },
+        {
+          "name": "Home",
+          "pop": 1
+        },
+        {
+          "name": "Black Swan",
+          "pop": 1
+        },
+        {
+          "name": "Filter",
+          "pop": 1
+        },
+        {
+          "name": "My Time",
+          "pop": 1
+        },
+        {
+          "name": "Inner Child",
+          "pop": 1
+        },
+        {
+          "name": "Telepathy",
+          "pop": 1
+        },
+        {
+          "name": "Film Out",
+          "pop": 1
+        },
+        {
+          "name": "Yet to Come",
+          "pop": 1
+        },
+        {
+          "name": "Take Two",
+          "pop": 1
+        },
+        {
+          "name": "Pied Piper",
+          "pop": 1
+        },
+        {
+          "name": "Go Go",
+          "pop": 1
+        },
+        {
+          "name": "21st Century Girl",
+          "pop": 1
+        },
+        {
+          "name": "Am I Wrong",
+          "pop": 1
+        },
+        {
+          "name": "Lie",
+          "pop": 1
+        },
+        {
+          "name": "Stigma",
+          "pop": 1
+        },
+        {
+          "name": "First Love",
+          "pop": 1
+        },
+        {
+          "name": "Reflection",
+          "pop": 1
+        },
+        {
+          "name": "So What",
+          "pop": 1
+        },
+        {
+          "name": "Jamais Vu",
+          "pop": 1
+        },
+        {
+          "name": "War of Hormone",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-11",
+      "text": "Name a song co-written by Max Martin",
+      "answers": [
+        {
+          "name": "...Baby One More Time",
+          "pop": 12,
+          "aliases": [
+            "Hit Me Baby One More Time"
+          ]
+        },
+        {
+          "name": "I Want It That Way",
+          "pop": 10
+        },
+        {
+          "name": "Blinding Lights",
+          "pop": 8
+        },
+        {
+          "name": "Shake It Off",
+          "pop": 7
+        },
+        {
+          "name": "Oops!... I Did It Again",
+          "pop": 5
+        },
+        {
+          "name": "Since U Been Gone",
+          "pop": 5,
+          "aliases": [
+            "Since You Been Gone"
+          ]
+        },
+        {
+          "name": "I Kissed a Girl",
+          "pop": 4
+        },
+        {
+          "name": "Teenage Dream",
+          "pop": 3
+        },
+        {
+          "name": "Blank Space",
+          "pop": 3
+        },
+        {
+          "name": "Roar",
+          "pop": 3
+        },
+        {
+          "name": "Can't Stop the Feeling!",
+          "pop": 3
+        },
+        {
+          "name": "Everybody (Backstreet's Back)",
+          "pop": 3,
+          "aliases": [
+            "Everybody",
+            "Backstreets Back"
+          ]
+        },
+        {
+          "name": "Problem",
+          "pop": 2
+        },
+        {
+          "name": "Dark Horse",
+          "pop": 2
+        },
+        {
+          "name": "California Gurls",
+          "pop": 2,
+          "aliases": [
+            "California Girls"
+          ]
+        },
+        {
+          "name": "It's My Life",
+          "pop": 2
+        },
+        {
+          "name": "Can't Feel My Face",
+          "pop": 2
+        },
+        {
+          "name": "Hot n Cold",
+          "pop": 2,
+          "aliases": [
+            "Hot and Cold"
+          ]
+        },
+        {
+          "name": "Love Me Like You Do",
+          "pop": 2
+        },
+        {
+          "name": "7 Rings",
+          "pop": 2,
+          "aliases": [
+            "Seven Rings"
+          ]
+        },
+        {
+          "name": "We Are Never Ever Getting Back Together",
+          "pop": 2,
+          "aliases": [
+            "We Are Never Getting Back Together"
+          ]
+        },
+        {
+          "name": "I Knew You Were Trouble",
+          "pop": 2
+        },
+        {
+          "name": "Bad Blood",
+          "pop": 2
+        },
+        {
+          "name": "Save Your Tears",
+          "pop": 2
+        },
+        {
+          "name": "Style",
+          "pop": 1
+        },
+        {
+          "name": "Wildest Dreams",
+          "pop": 1
+        },
+        {
+          "name": "22",
+          "pop": 1,
+          "aliases": [
+            "Twenty Two"
+          ]
+        },
+        {
+          "name": "Delicate",
+          "pop": 1
+        },
+        {
+          "name": "...Ready for It?",
+          "pop": 1
+        },
+        {
+          "name": "End Game",
+          "pop": 1
+        },
+        {
+          "name": "Gorgeous",
+          "pop": 1
+        },
+        {
+          "name": "New Romantics",
+          "pop": 1
+        },
+        {
+          "name": "Larger than Life",
+          "pop": 1
+        },
+        {
+          "name": "As Long as You Love Me",
+          "pop": 1
+        },
+        {
+          "name": "Quit Playing Games (with My Heart)",
+          "pop": 1,
+          "aliases": [
+            "Quit Playing Games"
+          ]
+        },
+        {
+          "name": "Show Me the Meaning of Being Lonely",
+          "pop": 1
+        },
+        {
+          "name": "Shape of My Heart",
+          "pop": 1
+        },
+        {
+          "name": "Tearin' Up My Heart",
+          "pop": 1,
+          "aliases": [
+            "Tearing Up My Heart"
+          ]
+        },
+        {
+          "name": "It's Gonna Be Me",
+          "pop": 1
+        },
+        {
+          "name": "I Want You Back",
+          "pop": 1
+        },
+        {
+          "name": "That's the Way It Is",
+          "pop": 1
+        },
+        {
+          "name": "(You Drive Me) Crazy",
+          "pop": 1
+        },
+        {
+          "name": "Stronger",
+          "pop": 1
+        },
+        {
+          "name": "Lucky",
+          "pop": 1
+        },
+        {
+          "name": "3",
+          "pop": 1,
+          "aliases": [
+            "Three"
+          ]
+        },
+        {
+          "name": "If U Seek Amy",
+          "pop": 1,
+          "aliases": [
+            "If You Seek Amy"
+          ]
+        },
+        {
+          "name": "Hold It Against Me",
+          "pop": 1
+        },
+        {
+          "name": "Behind These Hazel Eyes",
+          "pop": 1
+        },
+        {
+          "name": "My Life Would Suck Without You",
+          "pop": 1
+        },
+        {
+          "name": "So What",
+          "pop": 1
+        },
+        {
+          "name": "Raise Your Glass",
+          "pop": 1
+        },
+        {
+          "name": "F**kin' Perfect",
+          "pop": 1,
+          "aliases": [
+            "Fuckin Perfect",
+            "Fucking Perfect"
+          ]
+        },
+        {
+          "name": "Just Like Fire",
+          "pop": 1
+        },
+        {
+          "name": "Last Friday Night (T.G.I.F.)",
+          "pop": 1,
+          "aliases": [
+            "Last Friday Night",
+            "TGIF"
+          ]
+        },
+        {
+          "name": "E.T.",
+          "pop": 1
+        },
+        {
+          "name": "Part of Me",
+          "pop": 1
+        },
+        {
+          "name": "Wide Awake",
+          "pop": 1
+        },
+        {
+          "name": "Birthday",
+          "pop": 1
+        },
+        {
+          "name": "Chained to the Rhythm",
+          "pop": 1
+        },
+        {
+          "name": "Break Free",
+          "pop": 1
+        },
+        {
+          "name": "Bang Bang",
+          "pop": 1
+        },
+        {
+          "name": "Love Me Harder",
+          "pop": 1
+        },
+        {
+          "name": "Into You",
+          "pop": 1
+        },
+        {
+          "name": "Side to Side",
+          "pop": 1
+        },
+        {
+          "name": "No Tears Left to Cry",
+          "pop": 1
+        },
+        {
+          "name": "God Is a Woman",
+          "pop": 1
+        },
+        {
+          "name": "Break Up with Your Girlfriend, I'm Bored",
+          "pop": 1,
+          "aliases": [
+            "Break Up with Your Girlfriend"
+          ]
+        },
+        {
+          "name": "Yes, And?",
+          "pop": 1
+        },
+        {
+          "name": "We Can't Be Friends (Wait for Your Love)",
+          "pop": 1,
+          "aliases": [
+            "We Can't Be Friends"
+          ]
+        },
+        {
+          "name": "Hands to Myself",
+          "pop": 1
+        },
+        {
+          "name": "Domino",
+          "pop": 1
+        },
+        {
+          "name": "DJ Got Us Fallin' in Love",
+          "pop": 1,
+          "aliases": [
+            "DJ Got Us Falling in Love"
+          ]
+        },
+        {
+          "name": "Send My Love (To Your New Lover)",
+          "pop": 1,
+          "aliases": [
+            "Send My Love"
+          ]
+        },
+        {
+          "name": "Higher Power",
+          "pop": 1
+        },
+        {
+          "name": "My Universe",
+          "pop": 1
+        },
+        {
+          "name": "Show Me Love",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-12",
+      "text": "Name a studio album by Taylor Swift",
+      "answers": [
+        {
+          "name": "1989",
+          "pop": 20,
+          "aliases": [
+            "Nineteen Eighty Nine"
+          ]
+        },
+        {
+          "name": "Red",
+          "pop": 12
+        },
+        {
+          "name": "Folklore",
+          "pop": 11
+        },
+        {
+          "name": "Fearless",
+          "pop": 10
+        },
+        {
+          "name": "Reputation",
+          "pop": 10,
+          "aliases": [
+            "Rep"
+          ]
+        },
+        {
+          "name": "Midnights",
+          "pop": 9
+        },
+        {
+          "name": "Lover",
+          "pop": 7
+        },
+        {
+          "name": "Speak Now",
+          "pop": 5
+        },
+        {
+          "name": "The Tortured Poets Department",
+          "pop": 5,
+          "aliases": [
+            "TTPD"
+          ]
+        },
+        {
+          "name": "The Life of a Showgirl",
+          "pop": 5,
+          "aliases": [
+            "Showgirl"
+          ]
+        },
+        {
+          "name": "Taylor Swift",
+          "pop": 3,
+          "aliases": [
+            "Debut",
+            "Self-Titled"
+          ]
+        },
+        {
+          "name": "Evermore",
+          "pop": 3
+        }
+      ]
+    },
+    {
+      "id": "pop-13",
+      "text": "Name a studio album by Mariah Carey",
+      "answers": [
+        {
+          "name": "Daydream",
+          "pop": 18
+        },
+        {
+          "name": "Butterfly",
+          "pop": 15
+        },
+        {
+          "name": "Music Box",
+          "pop": 12
+        },
+        {
+          "name": "The Emancipation of Mimi",
+          "pop": 12,
+          "aliases": [
+            "Mimi"
+          ]
+        },
+        {
+          "name": "Merry Christmas",
+          "pop": 10
+        },
+        {
+          "name": "Mariah Carey",
+          "pop": 7,
+          "aliases": [
+            "Self-Titled",
+            "Debut"
+          ]
+        },
+        {
+          "name": "Glitter",
+          "pop": 6
+        },
+        {
+          "name": "Rainbow",
+          "pop": 4
+        },
+        {
+          "name": "Emotions",
+          "pop": 4
+        },
+        {
+          "name": "E=MC²",
+          "pop": 3,
+          "aliases": [
+            "E=MC2",
+            "E MC2"
+          ]
+        },
+        {
+          "name": "Charmbracelet",
+          "pop": 2
+        },
+        {
+          "name": "Memoirs of an Imperfect Angel",
+          "pop": 2
+        },
+        {
+          "name": "Merry Christmas II You",
+          "pop": 2,
+          "aliases": [
+            "Merry Christmas 2 You",
+            "Merry Christmas to You"
+          ]
+        },
+        {
+          "name": "Me. I Am Mariah... The Elusive Chanteuse",
+          "pop": 1,
+          "aliases": [
+            "Me I Am Mariah",
+            "The Elusive Chanteuse"
+          ]
+        },
+        {
+          "name": "Caution",
+          "pop": 1
+        },
+        {
+          "name": "Here for It All",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-14",
+      "text": "Name a member of the Spice Girls",
+      "answers": [
+        {
+          "name": "Victoria Beckham",
+          "pop": 25,
+          "aliases": [
+            "Posh Spice",
+            "Posh",
+            "Victoria Adams"
+          ]
+        },
+        {
+          "name": "Mel B",
+          "pop": 20,
+          "aliases": [
+            "Melanie Brown",
+            "Scary Spice",
+            "Scary",
+            "Mel Brown"
+          ]
+        },
+        {
+          "name": "Geri Halliwell",
+          "pop": 20,
+          "aliases": [
+            "Ginger Spice",
+            "Ginger",
+            "Geri Horner",
+            "Geri"
+          ]
+        },
+        {
+          "name": "Emma Bunton",
+          "pop": 18,
+          "aliases": [
+            "Baby Spice",
+            "Baby",
+            "Emma"
+          ]
+        },
+        {
+          "name": "Mel C",
+          "pop": 17,
+          "aliases": [
+            "Melanie Chisholm",
+            "Sporty Spice",
+            "Sporty",
+            "Melanie C"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pop-15",
+      "text": "Name a member of One Direction",
+      "answers": [
+        {
+          "name": "Harry Styles",
+          "pop": 40,
+          "aliases": [
+            "Harry"
+          ]
+        },
+        {
+          "name": "Zayn Malik",
+          "pop": 18,
+          "aliases": [
+            "Zayn"
+          ]
+        },
+        {
+          "name": "Niall Horan",
+          "pop": 15,
+          "aliases": [
+            "Niall"
+          ]
+        },
+        {
+          "name": "Louis Tomlinson",
+          "pop": 14,
+          "aliases": [
+            "Louis"
+          ]
+        },
+        {
+          "name": "Liam Payne",
+          "pop": 13,
+          "aliases": [
+            "Liam"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pop-16",
+      "text": "Name a member of BTS",
+      "answers": [
+        {
+          "name": "Jungkook",
+          "pop": 25,
+          "aliases": [
+            "Jeon Jungkook",
+            "JK"
+          ]
+        },
+        {
+          "name": "V",
+          "pop": 16,
+          "aliases": [
+            "Kim Taehyung",
+            "Taehyung",
+            "Tae"
+          ]
+        },
+        {
+          "name": "Jimin",
+          "pop": 16,
+          "aliases": [
+            "Park Jimin"
+          ]
+        },
+        {
+          "name": "RM",
+          "pop": 12,
+          "aliases": [
+            "Kim Namjoon",
+            "Namjoon",
+            "Rap Monster"
+          ]
+        },
+        {
+          "name": "Suga",
+          "pop": 11,
+          "aliases": [
+            "Min Yoongi",
+            "Yoongi",
+            "Agust D"
+          ]
+        },
+        {
+          "name": "Jin",
+          "pop": 10,
+          "aliases": [
+            "Kim Seokjin",
+            "Seokjin"
+          ]
+        },
+        {
+          "name": "J-Hope",
+          "pop": 10,
+          "aliases": [
+            "Jung Hoseok",
+            "Hoseok"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pop-17",
+      "text": "Name a member of *NSYNC or the Backstreet Boys",
+      "answers": [
+        {
+          "name": "Justin Timberlake",
+          "pop": 35,
+          "aliases": [
+            "JT",
+            "Justin"
+          ]
+        },
+        {
+          "name": "Nick Carter",
+          "pop": 10,
+          "aliases": [
+            "Nick"
+          ]
+        },
+        {
+          "name": "Lance Bass",
+          "pop": 8,
+          "aliases": [
+            "Lance"
+          ]
+        },
+        {
+          "name": "JC Chasez",
+          "pop": 6,
+          "aliases": [
+            "JC",
+            "Joshua Chasez"
+          ]
+        },
+        {
+          "name": "Joey Fatone",
+          "pop": 6,
+          "aliases": [
+            "Joey"
+          ]
+        },
+        {
+          "name": "AJ McLean",
+          "pop": 6,
+          "aliases": [
+            "AJ"
+          ]
+        },
+        {
+          "name": "Brian Littrell",
+          "pop": 5,
+          "aliases": [
+            "Brian"
+          ]
+        },
+        {
+          "name": "Chris Kirkpatrick",
+          "pop": 4,
+          "aliases": [
+            "Chris"
+          ]
+        },
+        {
+          "name": "Howie Dorough",
+          "pop": 4,
+          "aliases": [
+            "Howie D",
+            "Howie"
+          ]
+        },
+        {
+          "name": "Kevin Richardson",
+          "pop": 4,
+          "aliases": [
+            "Kevin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pop-18",
+      "text": "Name a Grammy Best New Artist winner",
+      "rule": "Any year through 2025, revoked wins included",
+      "answers": [
+        {
+          "name": "Billie Eilish",
+          "pop": 12
+        },
+        {
+          "name": "Adele",
+          "pop": 10
+        },
+        {
+          "name": "Olivia Rodrigo",
+          "pop": 9
+        },
+        {
+          "name": "Chappell Roan",
+          "pop": 9
+        },
+        {
+          "name": "Dua Lipa",
+          "pop": 7
+        },
+        {
+          "name": "Amy Winehouse",
+          "pop": 5
+        },
+        {
+          "name": "Sam Smith",
+          "pop": 5
+        },
+        {
+          "name": "Christina Aguilera",
+          "pop": 4
+        },
+        {
+          "name": "Mariah Carey",
+          "pop": 4
+        },
+        {
+          "name": "The Beatles",
+          "pop": 3
+        },
+        {
+          "name": "Alicia Keys",
+          "pop": 3
+        },
+        {
+          "name": "Norah Jones",
+          "pop": 2
+        },
+        {
+          "name": "Maroon 5",
+          "pop": 2
+        },
+        {
+          "name": "John Legend",
+          "pop": 2
+        },
+        {
+          "name": "Carrie Underwood",
+          "pop": 2
+        },
+        {
+          "name": "Lauryn Hill",
+          "pop": 2
+        },
+        {
+          "name": "Megan Thee Stallion",
+          "pop": 2
+        },
+        {
+          "name": "Meghan Trainor",
+          "pop": 2
+        },
+        {
+          "name": "Cyndi Lauper",
+          "pop": 2
+        },
+        {
+          "name": "Milli Vanilli",
+          "pop": 2
+        },
+        {
+          "name": "Culture Club",
+          "pop": 1
+        },
+        {
+          "name": "Sheryl Crow",
+          "pop": 1
+        },
+        {
+          "name": "Evanescence",
+          "pop": 1
+        },
+        {
+          "name": "Macklemore & Ryan Lewis",
+          "pop": 1,
+          "aliases": [
+            "Macklemore",
+            "Macklemore and Ryan Lewis"
+          ]
+        },
+        {
+          "name": "Chance the Rapper",
+          "pop": 1
+        },
+        {
+          "name": "Alessia Cara",
+          "pop": 1
+        },
+        {
+          "name": "Toni Braxton",
+          "pop": 1
+        },
+        {
+          "name": "Tracy Chapman",
+          "pop": 1
+        },
+        {
+          "name": "Sade",
+          "pop": 1
+        },
+        {
+          "name": "Bon Iver",
+          "pop": 1
+        },
+        {
+          "name": "Fun.",
+          "pop": 1
+        },
+        {
+          "name": "Esperanza Spalding",
+          "pop": 1
+        },
+        {
+          "name": "Zac Brown Band",
+          "pop": 1
+        },
+        {
+          "name": "Samara Joy",
+          "pop": 1
+        },
+        {
+          "name": "Victoria Monét",
+          "pop": 1
+        },
+        {
+          "name": "LeAnn Rimes",
+          "pop": 1
+        },
+        {
+          "name": "Hootie & the Blowfish",
+          "pop": 1,
+          "aliases": [
+            "Hootie and the Blowfish",
+            "Hootie"
+          ]
+        },
+        {
+          "name": "Paula Cole",
+          "pop": 1
+        },
+        {
+          "name": "Shelby Lynne",
+          "pop": 1
+        },
+        {
+          "name": "Arrested Development",
+          "pop": 1
+        },
+        {
+          "name": "Marc Cohn",
+          "pop": 1
+        },
+        {
+          "name": "Jody Watley",
+          "pop": 1
+        },
+        {
+          "name": "Bruce Hornsby and the Range",
+          "pop": 1,
+          "aliases": [
+            "Bruce Hornsby",
+            "Bruce Hornsby & the Range"
+          ]
+        },
+        {
+          "name": "Men at Work",
+          "pop": 1
+        },
+        {
+          "name": "Sheena Easton",
+          "pop": 1
+        },
+        {
+          "name": "Christopher Cross",
+          "pop": 1
+        },
+        {
+          "name": "Rickie Lee Jones",
+          "pop": 1
+        },
+        {
+          "name": "A Taste of Honey",
+          "pop": 1
+        },
+        {
+          "name": "Debby Boone",
+          "pop": 1
+        },
+        {
+          "name": "Starland Vocal Band",
+          "pop": 1
+        },
+        {
+          "name": "Natalie Cole",
+          "pop": 1
+        },
+        {
+          "name": "Marvin Hamlisch",
+          "pop": 1
+        },
+        {
+          "name": "Bette Midler",
+          "pop": 1
+        },
+        {
+          "name": "America",
+          "pop": 1
+        },
+        {
+          "name": "Carly Simon",
+          "pop": 1
+        },
+        {
+          "name": "The Carpenters",
+          "pop": 1
+        },
+        {
+          "name": "Crosby, Stills & Nash",
+          "pop": 1,
+          "aliases": [
+            "Crosby Stills and Nash",
+            "CSN"
+          ]
+        },
+        {
+          "name": "José Feliciano",
+          "pop": 1
+        },
+        {
+          "name": "Bobbie Gentry",
+          "pop": 1
+        },
+        {
+          "name": "Tom Jones",
+          "pop": 1
+        },
+        {
+          "name": "The Swingle Singers",
+          "pop": 1
+        },
+        {
+          "name": "Robert Goulet",
+          "pop": 1
+        },
+        {
+          "name": "Peter Nero",
+          "pop": 1
+        },
+        {
+          "name": "Bob Newhart",
+          "pop": 1
+        },
+        {
+          "name": "Bobby Darin",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-19",
+      "text": "Name a Super Bowl halftime show performer",
+      "rule": "Headliners or featured guests, any year",
+      "answers": [
+        {
+          "name": "Michael Jackson",
+          "pop": 8
+        },
+        {
+          "name": "Beyoncé",
+          "pop": 8
+        },
+        {
+          "name": "Rihanna",
+          "pop": 8
+        },
+        {
+          "name": "Lady Gaga",
+          "pop": 6
+        },
+        {
+          "name": "Katy Perry",
+          "pop": 6
+        },
+        {
+          "name": "Shakira",
+          "pop": 6
+        },
+        {
+          "name": "Jennifer Lopez",
+          "pop": 5,
+          "aliases": [
+            "J.Lo"
+          ]
+        },
+        {
+          "name": "The Weeknd",
+          "pop": 5
+        },
+        {
+          "name": "Usher",
+          "pop": 5
+        },
+        {
+          "name": "Bruno Mars",
+          "pop": 5
+        },
+        {
+          "name": "Justin Timberlake",
+          "pop": 5,
+          "aliases": [
+            "JT"
+          ]
+        },
+        {
+          "name": "Janet Jackson",
+          "pop": 4
+        },
+        {
+          "name": "Kendrick Lamar",
+          "pop": 4
+        },
+        {
+          "name": "Bad Bunny",
+          "pop": 4
+        },
+        {
+          "name": "Madonna",
+          "pop": 4
+        },
+        {
+          "name": "Prince",
+          "pop": 3
+        },
+        {
+          "name": "Coldplay",
+          "pop": 2
+        },
+        {
+          "name": "Dr. Dre",
+          "pop": 2,
+          "aliases": [
+            "Dre"
+          ]
+        },
+        {
+          "name": "Eminem",
+          "pop": 2
+        },
+        {
+          "name": "Snoop Dogg",
+          "pop": 2,
+          "aliases": [
+            "Snoop"
+          ]
+        },
+        {
+          "name": "Maroon 5",
+          "pop": 2
+        },
+        {
+          "name": "Bruce Springsteen",
+          "pop": 2,
+          "aliases": [
+            "Springsteen"
+          ]
+        },
+        {
+          "name": "Paul McCartney",
+          "pop": 2
+        },
+        {
+          "name": "The Rolling Stones",
+          "pop": 2
+        },
+        {
+          "name": "Britney Spears",
+          "pop": 2
+        },
+        {
+          "name": "*NSYNC",
+          "pop": 2,
+          "aliases": [
+            "N Sync"
+          ]
+        },
+        {
+          "name": "U2",
+          "pop": 2
+        },
+        {
+          "name": "Black Eyed Peas",
+          "pop": 1
+        },
+        {
+          "name": "Missy Elliott",
+          "pop": 1
+        },
+        {
+          "name": "SZA",
+          "pop": 1
+        },
+        {
+          "name": "Alicia Keys",
+          "pop": 1
+        },
+        {
+          "name": "Nicki Minaj",
+          "pop": 1
+        },
+        {
+          "name": "The Who",
+          "pop": 1
+        },
+        {
+          "name": "Tom Petty and the Heartbreakers",
+          "pop": 1,
+          "aliases": [
+            "Tom Petty",
+            "Tom Petty & the Heartbreakers"
+          ]
+        },
+        {
+          "name": "Aerosmith",
+          "pop": 1
+        },
+        {
+          "name": "Shania Twain",
+          "pop": 1
+        },
+        {
+          "name": "No Doubt",
+          "pop": 1,
+          "aliases": [
+            "Gwen Stefani"
+          ]
+        },
+        {
+          "name": "Sting",
+          "pop": 1
+        },
+        {
+          "name": "Red Hot Chili Peppers",
+          "pop": 1,
+          "aliases": [
+            "RHCP"
+          ]
+        },
+        {
+          "name": "Lenny Kravitz",
+          "pop": 1
+        },
+        {
+          "name": "Destiny's Child",
+          "pop": 1
+        },
+        {
+          "name": "Travis Scott",
+          "pop": 1
+        },
+        {
+          "name": "Big Boi",
+          "pop": 1
+        },
+        {
+          "name": "J Balvin",
+          "pop": 1
+        },
+        {
+          "name": "Mary J. Blige",
+          "pop": 1
+        },
+        {
+          "name": "50 Cent",
+          "pop": 1,
+          "aliases": [
+            "Fifty Cent"
+          ]
+        },
+        {
+          "name": "Anderson .Paak",
+          "pop": 1
+        },
+        {
+          "name": "LMFAO",
+          "pop": 1
+        },
+        {
+          "name": "M.I.A.",
+          "pop": 1
+        },
+        {
+          "name": "CeeLo Green",
+          "pop": 1,
+          "aliases": [
+            "Cee Lo Green"
+          ]
+        },
+        {
+          "name": "Slash",
+          "pop": 1
+        },
+        {
+          "name": "Nelly",
+          "pop": 1
+        },
+        {
+          "name": "P. Diddy",
+          "pop": 1,
+          "aliases": [
+            "Diddy",
+            "Puff Daddy",
+            "Sean Combs"
+          ]
+        },
+        {
+          "name": "Kid Rock",
+          "pop": 1
+        },
+        {
+          "name": "Jessica Simpson",
+          "pop": 1
+        },
+        {
+          "name": "Christina Aguilera",
+          "pop": 1
+        },
+        {
+          "name": "Enrique Iglesias",
+          "pop": 1
+        },
+        {
+          "name": "Phil Collins",
+          "pop": 1
+        },
+        {
+          "name": "Toni Braxton",
+          "pop": 1
+        },
+        {
+          "name": "Gloria Estefan",
+          "pop": 1
+        },
+        {
+          "name": "Stevie Wonder",
+          "pop": 1
+        },
+        {
+          "name": "Big Bad Voodoo Daddy",
+          "pop": 1
+        },
+        {
+          "name": "Boyz II Men",
+          "pop": 1,
+          "aliases": [
+            "Boys II Men",
+            "Boyz 2 Men"
+          ]
+        },
+        {
+          "name": "Smokey Robinson",
+          "pop": 1
+        },
+        {
+          "name": "The Temptations",
+          "pop": 1
+        },
+        {
+          "name": "Queen Latifah",
+          "pop": 1
+        },
+        {
+          "name": "James Brown",
+          "pop": 1
+        },
+        {
+          "name": "ZZ Top",
+          "pop": 1
+        },
+        {
+          "name": "The Blues Brothers",
+          "pop": 1
+        },
+        {
+          "name": "Diana Ross",
+          "pop": 1
+        },
+        {
+          "name": "Patti LaBelle",
+          "pop": 1
+        },
+        {
+          "name": "Tony Bennett",
+          "pop": 1
+        },
+        {
+          "name": "Clint Black",
+          "pop": 1
+        },
+        {
+          "name": "Tanya Tucker",
+          "pop": 1
+        },
+        {
+          "name": "Travis Tritt",
+          "pop": 1
+        },
+        {
+          "name": "The Judds",
+          "pop": 1,
+          "aliases": [
+            "Wynonna Judd"
+          ]
+        },
+        {
+          "name": "New Kids on the Block",
+          "pop": 1,
+          "aliases": [
+            "NKOTB"
+          ]
+        },
+        {
+          "name": "Chubby Checker",
+          "pop": 1
+        },
+        {
+          "name": "H.E.R.",
+          "pop": 1
+        },
+        {
+          "name": "Ludacris",
+          "pop": 1
+        },
+        {
+          "name": "Lil Jon",
+          "pop": 1
+        },
+        {
+          "name": "will.i.am",
+          "pop": 1,
+          "aliases": [
+            "Will I Am"
+          ]
+        },
+        {
+          "name": "Jermaine Dupri",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-20",
+      "text": "Name a Eurovision Song Contest winner",
+      "rule": "Winning act, 1956 through 2025",
+      "answers": [
+        {
+          "name": "ABBA",
+          "pop": 35
+        },
+        {
+          "name": "Måneskin",
+          "pop": 10
+        },
+        {
+          "name": "Céline Dion",
+          "pop": 8
+        },
+        {
+          "name": "Loreen",
+          "pop": 6
+        },
+        {
+          "name": "Conchita Wurst",
+          "pop": 4,
+          "aliases": [
+            "Conchita"
+          ]
+        },
+        {
+          "name": "Lordi",
+          "pop": 3
+        },
+        {
+          "name": "Bucks Fizz",
+          "pop": 2
+        },
+        {
+          "name": "Johnny Logan",
+          "pop": 2
+        },
+        {
+          "name": "Katrina and the Waves",
+          "pop": 2,
+          "aliases": [
+            "Katrina & the Waves"
+          ]
+        },
+        {
+          "name": "Netta",
+          "pop": 2
+        },
+        {
+          "name": "Alexander Rybak",
+          "pop": 2
+        },
+        {
+          "name": "Duncan Laurence",
+          "pop": 2
+        },
+        {
+          "name": "Måns Zelmerlöw",
+          "pop": 2
+        },
+        {
+          "name": "Nemo",
+          "pop": 2
+        },
+        {
+          "name": "Kalush Orchestra",
+          "pop": 2,
+          "aliases": [
+            "Kalush"
+          ]
+        },
+        {
+          "name": "Lena",
+          "pop": 1
+        },
+        {
+          "name": "Dana International",
+          "pop": 1
+        },
+        {
+          "name": "Brotherhood of Man",
+          "pop": 1
+        },
+        {
+          "name": "Sandie Shaw",
+          "pop": 1
+        },
+        {
+          "name": "Lulu",
+          "pop": 1
+        },
+        {
+          "name": "JJ",
+          "pop": 1,
+          "aliases": [
+            "Johannes Pietsch"
+          ]
+        },
+        {
+          "name": "Jamala",
+          "pop": 1
+        },
+        {
+          "name": "Salvador Sobral",
+          "pop": 1
+        },
+        {
+          "name": "Emmelie de Forest",
+          "pop": 1
+        },
+        {
+          "name": "Ell & Nikki",
+          "pop": 1,
+          "aliases": [
+            "Ell and Nikki"
+          ]
+        },
+        {
+          "name": "Dima Bilan",
+          "pop": 1
+        },
+        {
+          "name": "Marija Šerifović",
+          "pop": 1
+        },
+        {
+          "name": "Helena Paparizou",
+          "pop": 1,
+          "aliases": [
+            "Elena Paparizou"
+          ]
+        },
+        {
+          "name": "Ruslana",
+          "pop": 1
+        },
+        {
+          "name": "Sertab Erener",
+          "pop": 1
+        },
+        {
+          "name": "Marie N",
+          "pop": 1
+        },
+        {
+          "name": "Tanel Padar, Dave Benton & 2XL",
+          "pop": 1,
+          "aliases": [
+            "Tanel Padar",
+            "Dave Benton",
+            "2XL"
+          ]
+        },
+        {
+          "name": "Olsen Brothers",
+          "pop": 1,
+          "aliases": [
+            "Brodrene Olsen",
+            "Brødrene Olsen"
+          ]
+        },
+        {
+          "name": "Charlotte Nilsson",
+          "pop": 1,
+          "aliases": [
+            "Charlotte Perrelli"
+          ]
+        },
+        {
+          "name": "Eimear Quinn",
+          "pop": 1
+        },
+        {
+          "name": "Secret Garden",
+          "pop": 1
+        },
+        {
+          "name": "Paul Harrington and Charlie McGettigan",
+          "pop": 1,
+          "aliases": [
+            "Paul Harrington",
+            "Charlie McGettigan"
+          ]
+        },
+        {
+          "name": "Niamh Kavanagh",
+          "pop": 1
+        },
+        {
+          "name": "Linda Martin",
+          "pop": 1
+        },
+        {
+          "name": "Carola",
+          "pop": 1
+        },
+        {
+          "name": "Toto Cutugno",
+          "pop": 1
+        },
+        {
+          "name": "Riva",
+          "pop": 1
+        },
+        {
+          "name": "Sandra Kim",
+          "pop": 1
+        },
+        {
+          "name": "Bobbysocks!",
+          "pop": 1
+        },
+        {
+          "name": "Herreys",
+          "pop": 1
+        },
+        {
+          "name": "Corinne Hermès",
+          "pop": 1
+        },
+        {
+          "name": "Nicole",
+          "pop": 1
+        },
+        {
+          "name": "Teach-In",
+          "pop": 1
+        },
+        {
+          "name": "Milk and Honey",
+          "pop": 1,
+          "aliases": [
+            "Milk & Honey",
+            "Gali Atari"
+          ]
+        },
+        {
+          "name": "Izhar Cohen and Alphabeta",
+          "pop": 1,
+          "aliases": [
+            "Izhar Cohen",
+            "Alphabeta"
+          ]
+        },
+        {
+          "name": "Marie Myriam",
+          "pop": 1
+        },
+        {
+          "name": "Vicky Leandros",
+          "pop": 1
+        },
+        {
+          "name": "Anne-Marie David",
+          "pop": 1
+        },
+        {
+          "name": "Séverine",
+          "pop": 1
+        },
+        {
+          "name": "Dana",
+          "pop": 1
+        },
+        {
+          "name": "Salomé",
+          "pop": 1
+        },
+        {
+          "name": "Lenny Kuhr",
+          "pop": 1
+        },
+        {
+          "name": "Frida Boccara",
+          "pop": 1
+        },
+        {
+          "name": "Massiel",
+          "pop": 1
+        },
+        {
+          "name": "Udo Jürgens",
+          "pop": 1
+        },
+        {
+          "name": "France Gall",
+          "pop": 1
+        },
+        {
+          "name": "Gigliola Cinquetti",
+          "pop": 1
+        },
+        {
+          "name": "Grethe and Jørgen Ingmann",
+          "pop": 1,
+          "aliases": [
+            "Grethe & Jorgen Ingmann",
+            "Grethe and Jorgen Ingmann"
+          ]
+        },
+        {
+          "name": "Isabelle Aubret",
+          "pop": 1
+        },
+        {
+          "name": "Jean-Claude Pascal",
+          "pop": 1
+        },
+        {
+          "name": "Jacqueline Boyer",
+          "pop": 1
+        },
+        {
+          "name": "Teddy Scholten",
+          "pop": 1
+        },
+        {
+          "name": "André Claveau",
+          "pop": 1
+        },
+        {
+          "name": "Corry Brokken",
+          "pop": 1
+        },
+        {
+          "name": "Lys Assia",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-21",
+      "text": "Name a pop star known by a one-word name",
+      "rule": "Solo acts only",
+      "answers": [
+        {
+          "name": "Madonna",
+          "pop": 15
+        },
+        {
+          "name": "Rihanna",
+          "pop": 12
+        },
+        {
+          "name": "Beyoncé",
+          "pop": 12
+        },
+        {
+          "name": "Adele",
+          "pop": 10
+        },
+        {
+          "name": "Cher",
+          "pop": 8
+        },
+        {
+          "name": "Prince",
+          "pop": 5
+        },
+        {
+          "name": "Shakira",
+          "pop": 5
+        },
+        {
+          "name": "Usher",
+          "pop": 3
+        },
+        {
+          "name": "Sia",
+          "pop": 2
+        },
+        {
+          "name": "Lorde",
+          "pop": 2
+        },
+        {
+          "name": "Pink",
+          "pop": 2,
+          "aliases": [
+            "P!nk"
+          ]
+        },
+        {
+          "name": "Drake",
+          "pop": 2
+        },
+        {
+          "name": "Lizzo",
+          "pop": 2
+        },
+        {
+          "name": "Halsey",
+          "pop": 1
+        },
+        {
+          "name": "Kesha",
+          "pop": 1,
+          "aliases": [
+            "Ke$ha"
+          ]
+        },
+        {
+          "name": "Seal",
+          "pop": 1
+        },
+        {
+          "name": "Sting",
+          "pop": 1
+        },
+        {
+          "name": "Brandy",
+          "pop": 1
+        },
+        {
+          "name": "Aaliyah",
+          "pop": 1
+        },
+        {
+          "name": "Ciara",
+          "pop": 1
+        },
+        {
+          "name": "Ashanti",
+          "pop": 1
+        },
+        {
+          "name": "Monica",
+          "pop": 1
+        },
+        {
+          "name": "Mýa",
+          "pop": 1
+        },
+        {
+          "name": "Selena",
+          "pop": 1
+        },
+        {
+          "name": "Zayn",
+          "pop": 1
+        },
+        {
+          "name": "Robyn",
+          "pop": 1
+        },
+        {
+          "name": "Duffy",
+          "pop": 1
+        },
+        {
+          "name": "Dido",
+          "pop": 1
+        },
+        {
+          "name": "Enya",
+          "pop": 1
+        },
+        {
+          "name": "Björk",
+          "pop": 1
+        },
+        {
+          "name": "Jewel",
+          "pop": 1
+        },
+        {
+          "name": "Tiffany",
+          "pop": 1
+        },
+        {
+          "name": "Akon",
+          "pop": 1
+        },
+        {
+          "name": "Ne-Yo",
+          "pop": 1
+        },
+        {
+          "name": "Sisqó",
+          "pop": 1
+        },
+        {
+          "name": "Shaggy",
+          "pop": 1
+        },
+        {
+          "name": "Fergie",
+          "pop": 1
+        },
+        {
+          "name": "Psy",
+          "pop": 1
+        },
+        {
+          "name": "Lisa",
+          "pop": 1
+        },
+        {
+          "name": "Rosé",
+          "pop": 1
+        },
+        {
+          "name": "Jennie",
+          "pop": 1
+        },
+        {
+          "name": "Jisoo",
+          "pop": 1
+        },
+        {
+          "name": "Jungkook",
+          "pop": 1
+        },
+        {
+          "name": "Jimin",
+          "pop": 1
+        },
+        {
+          "name": "IU",
+          "pop": 1
+        },
+        {
+          "name": "BoA",
+          "pop": 1
+        },
+        {
+          "name": "Rosalía",
+          "pop": 1
+        },
+        {
+          "name": "Anitta",
+          "pop": 1
+        },
+        {
+          "name": "Kehlani",
+          "pop": 1
+        },
+        {
+          "name": "SZA",
+          "pop": 1
+        },
+        {
+          "name": "Raye",
+          "pop": 1
+        },
+        {
+          "name": "Tyla",
+          "pop": 1
+        },
+        {
+          "name": "Birdy",
+          "pop": 1
+        },
+        {
+          "name": "Tinashe",
+          "pop": 1
+        },
+        {
+          "name": "Normani",
+          "pop": 1
+        },
+        {
+          "name": "Anastacia",
+          "pop": 1
+        },
+        {
+          "name": "JoJo",
+          "pop": 1
+        },
+        {
+          "name": "Lauv",
+          "pop": 1
+        },
+        {
+          "name": "Labrinth",
+          "pop": 1
+        },
+        {
+          "name": "Stromae",
+          "pop": 1
+        },
+        {
+          "name": "Mika",
+          "pop": 1
+        },
+        {
+          "name": "Grimes",
+          "pop": 1
+        },
+        {
+          "name": "Thalía",
+          "pop": 1
+        },
+        {
+          "name": "Lulu",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-22",
+      "text": "Name a pop act that got its start on a TV talent show",
+      "rule": "Includes groups formed on a show",
+      "answers": [
+        {
+          "name": "Kelly Clarkson",
+          "pop": 15
+        },
+        {
+          "name": "One Direction",
+          "pop": 10
+        },
+        {
+          "name": "Carrie Underwood",
+          "pop": 8
+        },
+        {
+          "name": "Harry Styles",
+          "pop": 4
+        },
+        {
+          "name": "Little Mix",
+          "pop": 3
+        },
+        {
+          "name": "Fifth Harmony",
+          "pop": 3
+        },
+        {
+          "name": "Camila Cabello",
+          "pop": 3
+        },
+        {
+          "name": "Leona Lewis",
+          "pop": 2
+        },
+        {
+          "name": "Adam Lambert",
+          "pop": 2
+        },
+        {
+          "name": "Jennifer Hudson",
+          "pop": 2
+        },
+        {
+          "name": "Susan Boyle",
+          "pop": 2
+        },
+        {
+          "name": "Christina Aguilera",
+          "pop": 2
+        },
+        {
+          "name": "Britney Spears",
+          "pop": 2
+        },
+        {
+          "name": "Justin Timberlake",
+          "pop": 1
+        },
+        {
+          "name": "Usher",
+          "pop": 1
+        },
+        {
+          "name": "Beyoncé",
+          "pop": 1
+        },
+        {
+          "name": "Kelly Rowland",
+          "pop": 1
+        },
+        {
+          "name": "LeAnn Rimes",
+          "pop": 1
+        },
+        {
+          "name": "Fantasia",
+          "pop": 1,
+          "aliases": [
+            "Fantasia Barrino"
+          ]
+        },
+        {
+          "name": "Jordin Sparks",
+          "pop": 1
+        },
+        {
+          "name": "Clay Aiken",
+          "pop": 1
+        },
+        {
+          "name": "Daughtry",
+          "pop": 1,
+          "aliases": [
+            "Chris Daughtry"
+          ]
+        },
+        {
+          "name": "Ruben Studdard",
+          "pop": 1
+        },
+        {
+          "name": "Katharine McPhee",
+          "pop": 1
+        },
+        {
+          "name": "David Cook",
+          "pop": 1
+        },
+        {
+          "name": "Phillip Phillips",
+          "pop": 1
+        },
+        {
+          "name": "Scotty McCreery",
+          "pop": 1
+        },
+        {
+          "name": "Kellie Pickler",
+          "pop": 1
+        },
+        {
+          "name": "Lauren Alaina",
+          "pop": 1
+        },
+        {
+          "name": "Gabby Barrett",
+          "pop": 1
+        },
+        {
+          "name": "Haley Reinhart",
+          "pop": 1
+        },
+        {
+          "name": "Bo Bice",
+          "pop": 1
+        },
+        {
+          "name": "Tori Kelly",
+          "pop": 1
+        },
+        {
+          "name": "Zayn Malik",
+          "pop": 1,
+          "aliases": [
+            "Zayn"
+          ]
+        },
+        {
+          "name": "Niall Horan",
+          "pop": 1
+        },
+        {
+          "name": "Louis Tomlinson",
+          "pop": 1
+        },
+        {
+          "name": "Liam Payne",
+          "pop": 1
+        },
+        {
+          "name": "Normani",
+          "pop": 1
+        },
+        {
+          "name": "Olly Murs",
+          "pop": 1
+        },
+        {
+          "name": "Will Young",
+          "pop": 1
+        },
+        {
+          "name": "Gareth Gates",
+          "pop": 1
+        },
+        {
+          "name": "Girls Aloud",
+          "pop": 1
+        },
+        {
+          "name": "Hear'Say",
+          "pop": 1
+        },
+        {
+          "name": "Liberty X",
+          "pop": 1
+        },
+        {
+          "name": "JLS",
+          "pop": 1
+        },
+        {
+          "name": "Alexandra Burke",
+          "pop": 1
+        },
+        {
+          "name": "James Arthur",
+          "pop": 1
+        },
+        {
+          "name": "Cher Lloyd",
+          "pop": 1
+        },
+        {
+          "name": "Rebecca Ferguson",
+          "pop": 1
+        },
+        {
+          "name": "Matt Cardle",
+          "pop": 1
+        },
+        {
+          "name": "Shayne Ward",
+          "pop": 1
+        },
+        {
+          "name": "Joe McElderry",
+          "pop": 1
+        },
+        {
+          "name": "Ella Henderson",
+          "pop": 1
+        },
+        {
+          "name": "Danity Kane",
+          "pop": 1
+        },
+        {
+          "name": "O-Town",
+          "pop": 1
+        },
+        {
+          "name": "Paul Potts",
+          "pop": 1
+        },
+        {
+          "name": "Diversity",
+          "pop": 1
+        },
+        {
+          "name": "Jackie Evancho",
+          "pop": 1
+        },
+        {
+          "name": "Grace VanderWaal",
+          "pop": 1
+        },
+        {
+          "name": "Cassadee Pope",
+          "pop": 1
+        },
+        {
+          "name": "Guy Sebastian",
+          "pop": 1
+        },
+        {
+          "name": "Jessica Mauboy",
+          "pop": 1
+        },
+        {
+          "name": "No Angels",
+          "pop": 1
+        },
+        {
+          "name": "Twice",
+          "pop": 1
+        },
+        {
+          "name": "Wanna One",
+          "pop": 1
+        },
+        {
+          "name": "IZ*ONE",
+          "pop": 1
+        },
+        {
+          "name": "I.O.I",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-23",
+      "text": "Name a pop singer who came up on Disney Channel",
+      "rule": "Mickey Mouse Club alums count",
+      "answers": [
+        {
+          "name": "Miley Cyrus",
+          "pop": 20,
+          "aliases": [
+            "Hannah Montana"
+          ]
+        },
+        {
+          "name": "Selena Gomez",
+          "pop": 18
+        },
+        {
+          "name": "Demi Lovato",
+          "pop": 12
+        },
+        {
+          "name": "Olivia Rodrigo",
+          "pop": 8
+        },
+        {
+          "name": "Sabrina Carpenter",
+          "pop": 6
+        },
+        {
+          "name": "Hilary Duff",
+          "pop": 5,
+          "aliases": [
+            "Lizzie McGuire"
+          ]
+        },
+        {
+          "name": "Jonas Brothers",
+          "pop": 5
+        },
+        {
+          "name": "Britney Spears",
+          "pop": 3
+        },
+        {
+          "name": "Justin Timberlake",
+          "pop": 3
+        },
+        {
+          "name": "Christina Aguilera",
+          "pop": 3
+        },
+        {
+          "name": "Zendaya",
+          "pop": 2
+        },
+        {
+          "name": "Vanessa Hudgens",
+          "pop": 2
+        },
+        {
+          "name": "Nick Jonas",
+          "pop": 2
+        },
+        {
+          "name": "Dove Cameron",
+          "pop": 2
+        },
+        {
+          "name": "Ashley Tisdale",
+          "pop": 1
+        },
+        {
+          "name": "Zac Efron",
+          "pop": 1
+        },
+        {
+          "name": "Joe Jonas",
+          "pop": 1
+        },
+        {
+          "name": "Kevin Jonas",
+          "pop": 1
+        },
+        {
+          "name": "Raven-Symoné",
+          "pop": 1,
+          "aliases": [
+            "Raven Symone",
+            "Raven"
+          ]
+        },
+        {
+          "name": "Bridgit Mendler",
+          "pop": 1
+        },
+        {
+          "name": "Sofia Carson",
+          "pop": 1
+        },
+        {
+          "name": "China Anne McClain",
+          "pop": 1
+        },
+        {
+          "name": "Bella Thorne",
+          "pop": 1
+        },
+        {
+          "name": "Corbin Bleu",
+          "pop": 1
+        },
+        {
+          "name": "Ross Lynch",
+          "pop": 1
+        },
+        {
+          "name": "Laura Marano",
+          "pop": 1
+        },
+        {
+          "name": "Joshua Bassett",
+          "pop": 1
+        },
+        {
+          "name": "Olivia Holt",
+          "pop": 1
+        },
+        {
+          "name": "Meg Donnelly",
+          "pop": 1
+        },
+        {
+          "name": "Debby Ryan",
+          "pop": 1
+        },
+        {
+          "name": "Emily Osment",
+          "pop": 1
+        },
+        {
+          "name": "Mitchel Musso",
+          "pop": 1
+        },
+        {
+          "name": "Aly & AJ",
+          "pop": 1,
+          "aliases": [
+            "Aly and AJ"
+          ]
+        },
+        {
+          "name": "Lindsay Lohan",
+          "pop": 1
+        },
+        {
+          "name": "Christy Carlson Romano",
+          "pop": 1
+        },
+        {
+          "name": "The Cheetah Girls",
+          "pop": 1
+        },
+        {
+          "name": "Adrienne Bailon",
+          "pop": 1
+        },
+        {
+          "name": "Kiely Williams",
+          "pop": 1
+        },
+        {
+          "name": "Sabrina Bryan",
+          "pop": 1
+        },
+        {
+          "name": "JC Chasez",
+          "pop": 1
+        }
+      ]
+    },
+    {
+      "id": "pop-24",
+      "text": "Name a song with \"dance\" in the title",
+      "rule": "Title has dance, dancing, or dancer",
+      "answers": [
+        {
+          "name": "Dancing Queen",
+          "pop": 20
+        },
+        {
+          "name": "I Wanna Dance with Somebody (Who Loves Me)",
+          "pop": 15,
+          "aliases": [
+            "I Wanna Dance with Somebody",
+            "I Want to Dance with Somebody"
+          ]
+        },
+        {
+          "name": "Just Dance",
+          "pop": 12
+        },
+        {
+          "name": "Dance Monkey",
+          "pop": 6
+        },
+        {
+          "name": "Dancing On My Own",
+          "pop": 5
+        },
+        {
+          "name": "Tiny Dancer",
+          "pop": 5
+        },
+        {
+          "name": "Shut Up and Dance",
+          "pop": 4
+        },
+        {
+          "name": "One Dance",
+          "pop": 4
+        },
+        {
+          "name": "Dancing in the Dark",
+          "pop": 3
+        },
+        {
+          "name": "Dance the Night",
+          "pop": 3
+        },
+        {
+          "name": "Let's Dance",
+          "pop": 2
+        },
+        {
+          "name": "Dancing in the Street",
+          "pop": 2
+        },
+        {
+          "name": "The Safety Dance",
+          "pop": 2
+        },
+        {
+          "name": "Dancing with a Stranger",
+          "pop": 2
+        },
+        {
+          "name": "Dancing in the Moonlight",
+          "pop": 2
+        },
+        {
+          "name": "Private Dancer",
+          "pop": 1
+        },
+        {
+          "name": "Save the Last Dance for Me",
+          "pop": 1,
+          "aliases": [
+            "Save the Last Dance"
+          ]
+        },
+        {
+          "name": "Dancing with Myself",
+          "pop": 1
+        },
+        {
+          "name": "Last Dance",
+          "pop": 1
+        },
+        {
+          "name": "Dance Again",
+          "pop": 1
+        },
+        {
+          "name": "Dancing on the Ceiling",
+          "pop": 1
+        },
+        {
+          "name": "Dance Hall Days",
+          "pop": 1
+        },
+        {
+          "name": "Dance, Dance",
+          "pop": 1
+        },
+        {
+          "name": "Dance with My Father",
+          "pop": 1
+        },
+        {
+          "name": "Dance in the Dark",
+          "pop": 1
+        },
+        {
+          "name": "Dance for You",
+          "pop": 1
+        },
+        {
+          "name": "Dancing Machine",
+          "pop": 1
+        },
+        {
+          "name": "The Dance",
+          "pop": 1
+        },
+        {
+          "name": "Dance to the Music",
+          "pop": 1
+        },
+        {
+          "name": "Dance into the Light",
+          "pop": 1
+        },
+        {
+          "name": "Dancing Days",
+          "pop": 1
+        },
+        {
+          "name": "Dancing with the Devil",
+          "pop": 1
+        },
+        {
+          "name": "Dance with Me",
+          "pop": 1
+        },
+        {
+          "name": "Dancing with Tears in My Eyes",
+          "pop": 1
+        },
+        {
+          "name": "Dance wiv Me",
+          "pop": 1
+        },
+        {
+          "name": "Dancing Lasha Tumbai",
+          "pop": 1
+        },
+        {
+          "name": "Dancing with Our Hands Tied",
+          "pop": 1
+        },
+        {
+          "name": "Dancing in the Flames",
+          "pop": 1
+        },
+        {
+          "name": "Dance (Disco Heat)",
+          "pop": 1,
+          "aliases": [
+            "Disco Heat"
+          ]
+        },
+        {
+          "name": "Dancing Barefoot",
+          "pop": 1
+        },
+        {
+          "name": "Dance Yourself Clean",
+          "pop": 1
+        },
+        {
+          "name": "Dance Me to the End of Love",
+          "pop": 1
+        },
+        {
+          "name": "Dancing Through Life",
+          "pop": 1
+        },
+        {
+          "name": "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah)",
+          "pop": 1,
+          "aliases": [
+            "Dance Dance Dance"
+          ]
+        },
+        {
+          "name": "Dancing",
+          "pop": 1
+        },
+        {
+          "name": "Dancing Shoes",
+          "pop": 1
+        },
+        {
+          "name": "Dancin'",
+          "pop": 1
+        }
+      ]
+    }
+  ]
+}
