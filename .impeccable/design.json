@@ -1,0 +1,711 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-18T21:40:36Z",
+  "title": "Design System: Crate Digger",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Bin Ink",
+        "canonical": "#16130f",
+        "cssVar": "--ink",
+        "tonalRamp": [
+          "#0c0b09",
+          "#272522",
+          "#44413e",
+          "#64615c",
+          "#85827d",
+          "#a8a4a0",
+          "#cbc9c5",
+          "#f0eeeb"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Raised Ink",
+        "canonical": "#221e18",
+        "cssVar": "--ink-2",
+        "tonalRamp": [
+          "#0d0b08",
+          "#272521",
+          "#45413c",
+          "#65615a",
+          "#86827b",
+          "#a8a49e",
+          "#ccc9c3",
+          "#f1eeea"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Rule Ink",
+        "canonical": "#39332a",
+        "cssVar": "--ink-3",
+        "tonalRamp": [
+          "#0d0b07",
+          "#28241f",
+          "#46413a",
+          "#666057",
+          "#888178",
+          "#aaa49c",
+          "#cdc8c1",
+          "#f2eee8"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cream Paper",
+        "canonical": "#f3ecdd",
+        "cssVar": "--paper",
+        "tonalRamp": [
+          "#0d0b07",
+          "#28251e",
+          "#464238",
+          "#666155",
+          "#888275",
+          "#aaa49a",
+          "#cdc9bf",
+          "#f2eee7"
+        ]
+      },
+      "paper-dim": {
+        "role": "neutral",
+        "displayName": "Faded Paper",
+        "canonical": "#cfc5b1",
+        "cssVar": "--paper-dim",
+        "tonalRamp": [
+          "#0e0b05",
+          "#29241b",
+          "#484134",
+          "#686050",
+          "#8a8170",
+          "#aca495",
+          "#cfc8bc",
+          "#f3eee4"
+        ]
+      },
+      "paper-mute": {
+        "role": "neutral",
+        "displayName": "Worn Paper",
+        "canonical": "#a89e8a",
+        "cssVar": "--paper-mute",
+        "tonalRamp": [
+          "#0e0b05",
+          "#29241a",
+          "#484134",
+          "#69604f",
+          "#8a816f",
+          "#aca495",
+          "#cfc8bb",
+          "#f3eee3"
+        ]
+      },
+      "field-ochre": {
+        "role": "primary",
+        "displayName": "Sleeve Ochre",
+        "canonical": "#e4ae1f",
+        "cssVar": "--field-ochre",
+        "tonalRamp": [
+          "#190600",
+          "#3a1e00",
+          "#5f3a00",
+          "#865700",
+          "#a97900",
+          "#c79f41",
+          "#e6c57d",
+          "#ffebb5"
+        ]
+      },
+      "on-ochre": {
+        "role": "primary",
+        "displayName": "Ink on Ochre",
+        "canonical": "#16130f",
+        "cssVar": "--on-ochre",
+        "tonalRamp": [
+          "#0c0b09",
+          "#272522",
+          "#44413e",
+          "#64615c",
+          "#85827d",
+          "#a8a4a0",
+          "#cbc9c5",
+          "#f0eeeb"
+        ]
+      },
+      "on-ochre-mute": {
+        "role": "primary",
+        "displayName": "Ochre Small Print",
+        "canonical": "#3d300c",
+        "cssVar": "--on-ochre-mute",
+        "tonalRamp": [
+          "#100a01",
+          "#2c2410",
+          "#4b4127",
+          "#6d603f",
+          "#8f8160",
+          "#b0a487",
+          "#d2c8b0",
+          "#f6eedb"
+        ]
+      },
+      "field-vermilion": {
+        "role": "secondary",
+        "displayName": "Press Vermilion",
+        "canonical": "#bf3a22",
+        "cssVar": "--field-vermilion",
+        "tonalRamp": [
+          "#250000",
+          "#4e0000",
+          "#7a1705",
+          "#a9301a",
+          "#d1553e",
+          "#ed836d",
+          "#ffae9b",
+          "#ffdaca"
+        ]
+      },
+      "on-vermilion": {
+        "role": "secondary",
+        "displayName": "Cream on Vermilion",
+        "canonical": "#f3ecdd",
+        "cssVar": "--on-vermilion",
+        "tonalRamp": [
+          "#0d0b07",
+          "#28251e",
+          "#464238",
+          "#666155",
+          "#888275",
+          "#aaa49a",
+          "#cdc9bf",
+          "#f2eee7"
+        ]
+      },
+      "on-vermilion-mute": {
+        "role": "secondary",
+        "displayName": "Vermilion Small Print",
+        "canonical": "#fff3ed",
+        "cssVar": "--on-vermilion-mute",
+        "tonalRamp": [
+          "#0e0a08",
+          "#292421",
+          "#48403d",
+          "#685f5a",
+          "#8a807b",
+          "#aca39f",
+          "#cfc7c4",
+          "#f3edea"
+        ]
+      },
+      "field-cobalt": {
+        "role": "tertiary",
+        "displayName": "Label Cobalt",
+        "canonical": "#2b57a6",
+        "cssVar": "--field-cobalt",
+        "tonalRamp": [
+          "#000827",
+          "#0a224e",
+          "#1f3f7a",
+          "#365fa8",
+          "#5681ce",
+          "#7fa5e8",
+          "#a9caff",
+          "#d6f0ff"
+        ]
+      },
+      "on-cobalt": {
+        "role": "tertiary",
+        "displayName": "Cream on Cobalt",
+        "canonical": "#f3ecdd",
+        "cssVar": "--on-cobalt",
+        "tonalRamp": [
+          "#0d0b07",
+          "#28251e",
+          "#464238",
+          "#666155",
+          "#888275",
+          "#aaa49a",
+          "#cdc9bf",
+          "#f2eee7"
+        ]
+      },
+      "on-cobalt-mute": {
+        "role": "tertiary",
+        "displayName": "Cobalt Small Print",
+        "canonical": "#dfe6f4",
+        "cssVar": "--on-cobalt-mute",
+        "tonalRamp": [
+          "#090b0f",
+          "#22252c",
+          "#3e424b",
+          "#5c616c",
+          "#7d828e",
+          "#a0a5af",
+          "#c5c9d2",
+          "#ebeff5"
+        ]
+      },
+      "tier-white-label": {
+        "role": "tier",
+        "displayName": "White Label",
+        "canonical": "#f3ecdd",
+        "cssVar": "--tier-white-label",
+        "tonalRamp": [
+          "#0d0b07",
+          "#28251e",
+          "#464238",
+          "#666155",
+          "#888275",
+          "#aaa49a",
+          "#cdc9bf",
+          "#f2eee7"
+        ]
+      },
+      "tier-b-side": {
+        "role": "tier",
+        "displayName": "B-Side",
+        "canonical": "#e4ae1f",
+        "cssVar": "--tier-b-side",
+        "tonalRamp": [
+          "#190600",
+          "#3a1e00",
+          "#5f3a00",
+          "#865700",
+          "#a97900",
+          "#c79f41",
+          "#e6c57d",
+          "#ffebb5"
+        ]
+      },
+      "tier-album-track": {
+        "role": "tier",
+        "displayName": "Album Track",
+        "canonical": "#7ea6de",
+        "cssVar": "--tier-album-track",
+        "tonalRamp": [
+          "#010b1e",
+          "#112541",
+          "#274368",
+          "#406292",
+          "#6084b6",
+          "#88a7d3",
+          "#b1cbf0",
+          "#dbf0ff"
+        ]
+      },
+      "tier-radio-edit": {
+        "role": "tier",
+        "displayName": "Radio Edit",
+        "canonical": "#a89e8a",
+        "cssVar": "--tier-radio-edit",
+        "tonalRamp": [
+          "#0e0b05",
+          "#29241a",
+          "#484134",
+          "#69604f",
+          "#8a816f",
+          "#aca495",
+          "#cfc8bb",
+          "#f3eee3"
+        ]
+      },
+      "tier-miss": {
+        "role": "tier",
+        "displayName": "Miss",
+        "canonical": "#8c8272",
+        "cssVar": "--tier-miss",
+        "tonalRamp": [
+          "#0e0b06",
+          "#29241c",
+          "#484136",
+          "#696052",
+          "#8a8172",
+          "#aca497",
+          "#cfc8bd",
+          "#f3eee5"
+        ]
+      },
+      "back-ink": {
+        "role": "neutral",
+        "displayName": "Back Ink",
+        "canonical": "#3d362c",
+        "cssVar": "--back-ink",
+        "tonalRamp": [
+          "#0d0b07",
+          "#29241e",
+          "#474139",
+          "#676056",
+          "#898177",
+          "#aba49b",
+          "#cec8c0",
+          "#f2eee7"
+        ]
+      },
+      "back-mute": {
+        "role": "neutral",
+        "displayName": "Back Mute",
+        "canonical": "#5b5245",
+        "cssVar": "--back-mute",
+        "tonalRamp": [
+          "#0e0b06",
+          "#29241d",
+          "#484137",
+          "#686054",
+          "#8a8174",
+          "#aca498",
+          "#cfc8bf",
+          "#f3eee6"
+        ]
+      },
+      "back-faint": {
+        "role": "neutral",
+        "displayName": "Back Faint",
+        "canonical": "#6c6151",
+        "cssVar": "--back-faint",
+        "tonalRamp": [
+          "#0e0a05",
+          "#2a241b",
+          "#494135",
+          "#6a6051",
+          "#8b8171",
+          "#ada496",
+          "#d0c8bc",
+          "#f4ede4"
+        ]
+      },
+      "back-rule": {
+        "role": "neutral",
+        "displayName": "Back Rule",
+        "canonical": "#d8ceba",
+        "cssVar": "--back-rule",
+        "tonalRamp": [
+          "#0e0b05",
+          "#29241b",
+          "#484134",
+          "#686050",
+          "#8a8170",
+          "#aca495",
+          "#cfc8bc",
+          "#f3eee4"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus Cream",
+        "canonical": "#f3ecdd",
+        "cssVar": "--focus",
+        "tonalRamp": [
+          "#0d0b07",
+          "#28251e",
+          "#464238",
+          "#666155",
+          "#888275",
+          "#aaa49a",
+          "#cdc9bf",
+          "#f2eee7"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home hero and policy titles; the same condensed voice is container-fitted on sleeves."
+      },
+      "display-score": {
+        "displayName": "Display Score",
+        "purpose": "Final score on the back cover."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Fixed Track, Clock, and Score slots during play."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles such as Liner notes."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "The matched answer on the reveal; tracklist answers at smaller sizes."
+      },
+      "label-wide": {
+        "displayName": "Label Wide",
+        "purpose": "Buttons, wordmark, cover lead, typed answer."
+      },
+      "body-lead": {
+        "displayName": "Body Lead",
+        "purpose": "Home pitch and pack blurb, 40 to 44ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Liner notes and policy pages, about 46ch."
+      },
+      "body-sm": {
+        "displayName": "Body Small",
+        "purpose": "Rules, helper text, reveal notes, footer."
+      },
+      "label": {
+        "displayName": "Small Print",
+        "purpose": "Catalog lines, slot labels, form labels, captions, tier names, nav."
+      }
+    },
+    "shadows": [],
+    "surfaces": [
+      {
+        "name": "vinyl",
+        "value": "radial-gradient(circle at 50% 50%, transparent 0 33%, rgba(243,236,221,0.07) 33.4% 33.8%, transparent 34.2%), radial-gradient(circle at 50% 50%, transparent 0 70%, rgba(243,236,221,0.06) 70.3% 70.6%, transparent 71%), repeating-radial-gradient(circle at 50% 50%, #0c0a07 0 2px, #1b1813 2px 3px)",
+        "purpose": "Record groove surface; the only gradient in the system."
+      },
+      {
+        "name": "cover-offset",
+        "value": "full-size var(--field) block behind the back cover, translate(12px, -12px)",
+        "purpose": "Front cover peeking out behind the back cover; depth by overlap, not a shadow."
+      }
+    ],
+    "focus": [
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid var(--focus); outline-offset: 3px",
+        "purpose": "Global :focus-visible ring."
+      },
+      {
+        "name": "focus-ring-on-field",
+        "value": "outline-color: var(--on)",
+        "purpose": "Ring inside .on-field surfaces takes the pack on-color."
+      },
+      {
+        "name": "focus-answer",
+        "value": "border-bottom-width: 4px; padding-bottom: 6px; outline: none",
+        "purpose": "The answer line thickens its underline instead of showing a ring."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Entrance curve for every keyframed entrance (--ease-out)."
+      },
+      {
+        "name": "disc-out",
+        "value": "640ms ease-out; translateY(-62%) rotate(-50deg) to rest",
+        "purpose": "Signature: the disc slides out from under the sleeve on reveal."
+      },
+      {
+        "name": "sleeve-in",
+        "value": "420ms ease-out; translateX(10%) and opacity 0 to rest",
+        "purpose": "A new sleeve flips forward in the crate on each prompt."
+      },
+      {
+        "name": "rise",
+        "value": "360ms ease-out, 260ms delay; translateY(8px) and opacity 0 to rest",
+        "purpose": "Reveal result text and intro copy settle in after the disc."
+      },
+      {
+        "name": "clock-low",
+        "value": "1s steps(1) infinite; opacity 0.4 at 50%",
+        "purpose": "Hard blink on the clock at 5 seconds or less, in ochre."
+      },
+      {
+        "name": "hover-lift",
+        "value": "200ms ease-out; translateY(-4px)",
+        "purpose": "Crate sleeve hover."
+      },
+      {
+        "name": "press",
+        "value": "150ms; translateY(1px) on :active",
+        "purpose": "Filled buttons press down."
+      },
+      {
+        "name": "color-transition",
+        "value": "150ms background-color, color",
+        "purpose": "Button and link hover fills."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "160ms linear opacity fade; clock blink off",
+        "purpose": "Replaces disc-out, sleeve-in, and rise under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ],
+    "containers": [
+      {
+        "name": "play",
+        "value": "34rem",
+        "purpose": "Play and back-cover column."
+      },
+      {
+        "name": "notes",
+        "value": "42rem",
+        "purpose": "Policy pages."
+      },
+      {
+        "name": "home",
+        "value": "76rem",
+        "purpose": "Home page."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Flat paper block with an expanded label (Dig, Next track, Play today). Hover fills with the pack field.",
+      "html": "<button class=\"ds-btn-ink\">Next track <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M3 10h13M11 5l5 5-5 5\"/></svg></button>",
+      "css": ".ds-btn-ink { display: inline-flex; align-items: center; gap: 12px; min-height: 48px; padding: 0 20px; border: 0; border-radius: 0; background: var(--paper); color: var(--ink); font-family: var(--font-archivo), \"Archivo\", sans-serif; text-transform: uppercase; font-weight: 800; font-stretch: 125%; letter-spacing: -0.02em; font-size: 1rem; cursor: pointer; transition: background-color 150ms, color 150ms, transform 150ms; } .ds-btn-ink:hover { background: var(--field-ochre); color: var(--on-ochre); } .ds-btn-ink:active { transform: translateY(1px); } .ds-btn-ink:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }"
+    },
+    {
+      "name": "Field Button",
+      "kind": "button",
+      "refersTo": "button-field-cobalt",
+      "description": "The pack field as a 56px block for the screen's main action (Drop the needle, Share the tracklist).",
+      "html": "<button class=\"ds-btn-field\">Drop the needle <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M3 10h13M11 5l5 5-5 5\"/></svg></button>",
+      "css": ".ds-btn-field { display: inline-flex; align-items: center; justify-content: space-between; gap: 40px; min-height: 56px; padding: 0 20px; border: 0; border-radius: 0; background: var(--field-cobalt); color: var(--on-cobalt); font-family: var(--font-archivo), \"Archivo\", sans-serif; text-transform: uppercase; font-weight: 800; font-stretch: 125%; letter-spacing: -0.02em; font-size: 1.125rem; cursor: pointer; transition: transform 150ms; } .ds-btn-field:active { transform: translateY(1px); } .ds-btn-field:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action on ink: 2px cream border that fills with paper on hover.",
+      "html": "<button class=\"ds-btn-outline\">Practice <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M2 5h4l8 10h4M2 15h4l2-2.5M12 7.5 14 5h4M15 2l3 3-3 3M15 12l3 3-3 3\"/></svg></button>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 56px; padding: 0 20px; border: 2px solid var(--paper); border-radius: 0; background: transparent; color: var(--paper); font-family: var(--font-archivo), \"Archivo\", sans-serif; text-transform: uppercase; font-weight: 800; font-stretch: 125%; letter-spacing: -0.02em; font-size: 1rem; cursor: pointer; transition: background-color 150ms, color 150ms; } .ds-btn-outline:hover { background: var(--paper); color: var(--ink); } .ds-btn-outline:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }"
+    },
+    {
+      "name": "Answer Line",
+      "kind": "input",
+      "refersTo": "answer-line",
+      "description": "The answer as a title line: underline only, thickening on focus, with no box and no ring.",
+      "html": "<div class=\"ds-answer\"><label class=\"ds-answer-label\" for=\"ds-answer\">Your answer</label><input id=\"ds-answer\" class=\"ds-answer-input\" placeholder=\"Dig for something rare…\" autocomplete=\"off\"></div>",
+      "css": ".ds-answer { background: var(--ink); padding: 16px; } .ds-answer-label { display: block; color: var(--paper-mute); font-family: var(--font-franklin), \"Libre Franklin\", sans-serif; font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.08em; line-height: 1.35; text-transform: uppercase; } .ds-answer-input { width: 100%; margin-top: 4px; padding: 0 0 8px; border: 0; border-bottom: 2px solid var(--paper); border-radius: 0; background: transparent; color: var(--paper); caret-color: currentColor; font-family: var(--font-archivo), \"Archivo\", sans-serif; text-transform: uppercase; font-weight: 800; font-stretch: 125%; letter-spacing: -0.02em; font-size: 1.375rem; outline: none; } .ds-answer-input::placeholder { color: var(--paper-mute); text-transform: none; font-family: var(--font-franklin), \"Libre Franklin\", sans-serif; font-weight: 500; font-stretch: 100%; letter-spacing: normal; font-size: 1rem; } .ds-answer-input:focus { border-bottom-width: 4px; padding-bottom: 6px; }"
+    },
+    {
+      "name": "Back Link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Small-print back link to the crate, 44px tall.",
+      "html": "<a class=\"ds-nav-link\" href=\"#\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M17 10H4M9 5l-5 5 5 5\"/></svg>Crate</a>",
+      "css": ".ds-nav-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: var(--paper-dim); text-decoration: none; font-family: var(--font-franklin), \"Libre Franklin\", sans-serif; font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.08em; line-height: 1.35; text-transform: uppercase; transition: color 150ms; } .ds-nav-link:hover { color: var(--paper); } .ds-nav-link:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }"
+    },
+    {
+      "name": "Sleeve",
+      "kind": "card",
+      "refersTo": "sleeve-vermilion",
+      "description": "Square front cover in one pack field: catalog line pinned to the top, condensed name pinned to the bottom, sized in cqw.",
+      "html": "<a class=\"ds-sleeve\" href=\"#\"><span class=\"ds-sleeve-cat\"><span>Crate Digger · Breaks &amp; Bars</span><span>CRT-02</span></span><span class=\"ds-sleeve-name\">Hip-Hop</span><span class=\"ds-sleeve-status\"><span>Today&rsquo;s set is waiting</span><span>No. 001</span></span></a>",
+      "css": ".ds-sleeve { container-type: inline-size; display: flex; flex-direction: column; aspect-ratio: 1; width: 280px; padding: 7cqw; background: var(--field-vermilion); color: var(--on-vermilion); text-decoration: none; transition: transform 200ms ease-out; } .ds-sleeve:hover { transform: translateY(-4px); } .ds-sleeve:active { transform: translateY(0); } .ds-sleeve:focus-visible { outline: 2px solid var(--on-vermilion); outline-offset: 3px; } .ds-sleeve-cat, .ds-sleeve-status { display: flex; justify-content: space-between; gap: 12px; color: var(--on-vermilion-mute); font-family: var(--font-franklin), \"Libre Franklin\", sans-serif; font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.08em; line-height: 1.35; text-transform: uppercase; font-variant-numeric: tabular-nums; } .ds-sleeve-name { margin-top: auto; white-space: nowrap; font-family: var(--font-archivo), \"Archivo\", sans-serif; text-transform: uppercase; font-weight: 900; font-stretch: 62%; line-height: 0.88; letter-spacing: -0.005em; line-height: 0.82; font-size: 24cqw; } .ds-sleeve-status { margin-top: 5cqw; padding-top: 3cqw; border-top: 1px solid currentColor; }"
+    },
+    {
+      "name": "Vinyl Disc",
+      "kind": "custom",
+      "refersTo": "disc-label",
+      "description": "The signature: grooved vinyl that slides out from under the sleeve, its center label printed with points and tier.",
+      "html": "<div class=\"ds-disc\" aria-hidden=\"true\"><div class=\"ds-disc-label\"><span class=\"ds-disc-pts\">+90</span><span class=\"ds-disc-tier\">White Label</span></div></div>",
+      "css": "@keyframes ds-disc-out { from { transform: translateY(-62%) rotate(-50deg); } to { transform: none; } } .ds-disc { container-type: inline-size; position: relative; width: 200px; aspect-ratio: 1; border-radius: 9999px; background: radial-gradient(circle at 50% 50%, transparent 0 33%, rgba(243,236,221,0.07) 33.4% 33.8%, transparent 34.2%), radial-gradient(circle at 50% 50%, transparent 0 70%, rgba(243,236,221,0.06) 70.3% 70.6%, transparent 71%), repeating-radial-gradient(circle at 50% 50%, #0c0a07 0 2px, #1b1813 2px 3px); animation: ds-disc-out 640ms cubic-bezier(0.16, 1, 0.3, 1) both; } .ds-disc-label { position: absolute; inset: 29%; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 9999px; background: var(--tier-white-label); color: var(--ink); text-align: center; } .ds-disc-pts { font-family: var(--font-archivo), \"Archivo\", sans-serif; text-transform: uppercase; font-weight: 900; font-stretch: 62%; line-height: 0.88; letter-spacing: -0.005em; font-size: 17cqw; font-variant-numeric: tabular-nums; } .ds-disc-tier { margin-top: 1cqw; max-width: 74%; font-family: var(--font-franklin), \"Libre Franklin\", sans-serif; font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.08em; line-height: 1.35; text-transform: uppercase; font-size: 4.4cqw; line-height: 1.25; } @media (prefers-reduced-motion: reduce) { .ds-disc { animation: ds-fade 160ms linear both; } } @keyframes ds-fade { from { opacity: 0; } }"
+    },
+    {
+      "name": "Tier Marks",
+      "kind": "chip",
+      "refersTo": "disc-label",
+      "description": "18px record center labels, from White Label to Miss: the fuller the label, the rarer the pull.",
+      "html": "<div class=\"ds-tiers\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" aria-hidden=\"true\"><circle cx=\"9\" cy=\"9\" r=\"7.5\" fill=\"none\" stroke=\"var(--tier-white-label)\" stroke-width=\"1.5\"/><circle cx=\"9\" cy=\"9\" r=\"5\" fill=\"var(--tier-white-label)\"/><circle cx=\"9\" cy=\"9\" r=\"1\" fill=\"var(--ink)\"/></svg><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" aria-hidden=\"true\"><circle cx=\"9\" cy=\"9\" r=\"7.5\" fill=\"none\" stroke=\"var(--tier-b-side)\" stroke-width=\"1.5\"/><circle cx=\"9\" cy=\"9\" r=\"4\" fill=\"var(--tier-b-side)\"/><circle cx=\"9\" cy=\"9\" r=\"1\" fill=\"var(--ink)\"/></svg><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" aria-hidden=\"true\"><circle cx=\"9\" cy=\"9\" r=\"7.5\" fill=\"none\" stroke=\"var(--tier-album-track)\" stroke-width=\"1.5\"/><path d=\"M9 4a5 5 0 0 1 0 10z\" fill=\"var(--tier-album-track)\"/><circle cx=\"9\" cy=\"9\" r=\"1\" fill=\"var(--ink)\"/></svg><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" aria-hidden=\"true\"><circle cx=\"9\" cy=\"9\" r=\"7.5\" fill=\"none\" stroke=\"var(--tier-radio-edit)\" stroke-width=\"1.5\"/><circle cx=\"9\" cy=\"9\" r=\"1\" fill=\"var(--ink)\"/></svg><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" aria-hidden=\"true\"><path d=\"M5 5l8 8M13 5l-8 8\" stroke=\"var(--tier-miss)\" stroke-width=\"2\"/></svg></div>",
+      "css": ".ds-tiers { display: inline-flex; gap: 12px; padding: 12px; background: var(--ink); }"
+    },
+    {
+      "name": "Clock Switch",
+      "kind": "custom",
+      "refersTo": "nav-link",
+      "description": "Square-track switch in the small-print voice that turns the 30-second clock off.",
+      "html": "<button class=\"ds-switch\" role=\"switch\" aria-checked=\"true\"><span>Clock</span><span class=\"ds-switch-track\" aria-hidden=\"true\"><span class=\"ds-switch-thumb\"></span></span><span class=\"ds-switch-val\">30s</span></button>",
+      "css": ".ds-switch { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0; border: 0; background: transparent; color: var(--paper-dim); cursor: pointer; font-family: var(--font-franklin), \"Libre Franklin\", sans-serif; font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.08em; line-height: 1.35; text-transform: uppercase; } .ds-switch:hover { color: var(--paper); } .ds-switch:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; } .ds-switch-track { position: relative; display: inline-block; width: 28px; height: 16px; border: 1px solid currentColor; } .ds-switch-thumb { position: absolute; top: 2px; left: 2px; width: 10px; height: 10px; background: currentColor; transform: translateX(12px); transition: transform 200ms ease-out; } .ds-switch[aria-checked=\"false\"] .ds-switch-thumb { transform: none; } .ds-switch-val { width: 36px; text-align: left; font-variant-numeric: tabular-nums; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Hard-Bop Sleeve",
+    "overview": "Every daily set is a new LP. The prompt is a front cover: one flat field of pack color, a catalog line in small print, and the subject stacked huge in condensed grotesque. The results are the back cover on cream paper stock, with a tracklist and liner notes. Around the sleeves is a warm ink board, the record-store bin they sit in. The system is a print object first and an interface second, so it looks like offset ink, not like screens: flat fields, hard edges, no light, no glass.\n\nDensity is low on the cover and tight in the small print. One monumental line of type owns each sleeve, while everything functional (catalog numbers, track counts, labels, captions) is pushed into small uppercase Franklin with open tracking, the way a label prints its fine print. Depth comes only from one flat field overlapping another: the record disc slides out from under the sleeve, and the front cover peeks out behind the back cover. The interface ships in one dark scheme on purpose, with no light/dark switch.\n\nThe signature is the disc. On every answer, a vinyl record slides out from under the sleeve on a long ease-out, and its center label is printed with the points and the tier. The record motif repeats at small scale as the tier marks, which are drawn as center labels: the fuller the label, the rarer the pull.",
+    "keyCharacteristics": [
+      "Flat color fields with no box-shadows, no glass, and no gradients except the vinyl's own grooves.",
+      "One field color per pack (General ochre, Hip-Hop vermilion, Pop cobalt), carried by a tone class that rebinds `--field`, `--on`, and `--on-mute`.",
+      "Archivo used only at the ends of its width axis: condensed 900 for monuments, expanded 800 for titles and buttons.",
+      "Libre Franklin small print for catalog lines and labels, with tabular numerals everywhere numbers sit in fixed slots.",
+      "Square corners on every rectangle; the only curves are records."
+    ],
+    "rules": [
+      {
+        "name": "The One Field Per Sleeve Rule",
+        "body": "A sleeve is one flat field of its pack color, edge to edge. Pack color is applied by the `tone-*` class, never hard-coded, so every component that says \"field\" follows the pack.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink and Paper Rule",
+        "body": "Ink is the board; paper is reserved for objects printed on stock: the back cover, disc center labels, the test-pressing label, and the face of ink buttons. Never use paper as a generic card surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Label Ladder Rule",
+        "body": "Tier colors appear only on tier marks and disc labels. They are not UI accents, link colors, or status colors.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Widths Rule",
+        "body": "Archivo is never set at its default width. Condensed (62%, 900) is for monuments and numbers; expanded (125%, 800) is for titles, answers, and buttons. Both are always uppercase.",
+        "section": "typography"
+      },
+      {
+        "name": "The Fixed Slots Rule",
+        "body": "Every number that changes in place (track, clock, score, points, issue number, date, stats) is tabular, so values change without the layout moving.",
+        "section": "typography"
+      },
+      {
+        "name": "The Small Print Rule",
+        "body": "Supporting information goes into the Label voice, not into lighter or smaller body text. Placeholders are the exception: they drop to sentence-case Franklin 1rem so the empty answer line reads as an invitation, not a title.",
+        "section": "typography"
+      },
+      {
+        "name": "The Overlap-Only Rule",
+        "body": "Depth comes only from one flat field overlapping another, and every overlap is a real object (a disc, a front cover). No shadows, glows, blurs, or glass.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Groove Exception Rule",
+        "body": "Gradients exist only as the vinyl's grooves. No gradient ever fills a sleeve, button, or background.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square and Circle Rule",
+        "body": "Everything is a square or a circle. If it is not a record, it has no rounded corners.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** give every pack exactly one field color through a `tone-*` class, and use `--field`, `--on`, and `--on-mute` in components so they follow the pack.",
+      "**Do** set monuments and numbers in Archivo 900 at 62% width and titles and buttons in Archivo 800 at 125% width, always uppercase.",
+      "**Do** put catalog lines, labels, and captions in the Label voice (Franklin 600, 0.6875rem, 0.08em tracking, uppercase).",
+      "**Do** use tabular numerals for any number that changes in place.",
+      "**Do** size type and padding on a sleeve in `cqw` so the cover scales as one object.",
+      "**Do** express depth by overlapping flat fields that stand for real objects: a disc under a sleeve, a front cover behind a back cover.",
+      "**Do** run entrances on `cubic-bezier(0.16, 1, 0.3, 1)` and give each one a reduced-motion fade.",
+      "**Do** keep the 2px cream focus ring (offset 3px), switching to the on-color on field surfaces."
+    ],
+    "donts": [
+      "**Don't** use box-shadows, glows, blurs, or translucent glass.",
+      "**Don't** use gradients anywhere except the vinyl grooves.",
+      "**Don't** round the corners of any rectangle; circles are only for records and their labels.",
+      "**Don't** set Archivo at its default width, or set either display voice in mixed case.",
+      "**Don't** put two field colors on one sleeve or tint a sleeve with a gradient.",
+      "**Don't** use tier colors as general UI accents.",
+      "**Don't** use paper as a generic card surface; it is the back-cover stock and the record label.",
+      "**Don't** add a light theme; the system ships one dark scheme by design."
+    ]
+  }
+}
