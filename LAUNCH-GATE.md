@@ -43,15 +43,7 @@ None.
 
 - **Answer lists are visible to anyone who reads the client bundle.** No backend means a determined player could cheat. That's acceptable for a casual daily game with no prizes.
 - **Rarity comes from authored estimates, not measured data.** The UI labels it as an estimate everywhere.
-- **Some trivia facts may be wrong.** The content writers flagged their least certain lists:
-  - Country Music Hall of Fame
-  - Motown signings
-  - Max Martin co-writes
-  - Pre-2000 Super Bowl acts
-  - Some 1990s R&B groups
-  - Pre-1990 hip-hop debut years
-
-  These are worth a human spot-check before launch.
+- **A few trivia facts remain uncertain.** Every flagged list was fact-checked against web sources on 2026-11-18. Still open: Jeezy's "raised in Atlanta" status; Eazy-E, DJ Paul, and Juicy J on "in a group before going solo"; and "We Can't Be Friends" as a Max Martin co-write, which rests on one source.
 
 ## Not checked (and why)
 

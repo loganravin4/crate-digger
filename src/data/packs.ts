@@ -11,6 +11,8 @@ export type PackMeta = {
   blurb: string;
   /** CSS custom-property suffix: --field-<tone>, --on-<tone>. */
   tone: "ochre" | "vermilion" | "cobalt";
+  /** Average uppercase glyph width (em) of this pack's display voice, for fitting cover type. */
+  glyph: number;
 };
 
 export const PACKS: PackMeta[] = [
@@ -20,6 +22,7 @@ export const PACKS: PackMeta[] = [
     series: "The Whole Shop",
     blurb: "Every genre, every decade. Beatles to Bad Bunny, Motown to Eurovision.",
     tone: "ochre",
+    glyph: 0.46,
   },
   {
     id: "hiphop",
@@ -27,6 +30,7 @@ export const PACKS: PackMeta[] = [
     series: "Breaks & Bars",
     blurb: "Rap and R&B from the Bronx block parties to now. Crews, cities, producers.",
     tone: "vermilion",
+    glyph: 0.9,
   },
   {
     id: "pop",
@@ -34,6 +38,7 @@ export const PACKS: PackMeta[] = [
     series: "Chart Material",
     blurb: "Divas, boy bands, Max Martin, and Eurovision. The eighties through today.",
     tone: "cobalt",
+    glyph: 0.52,
   },
 ];
 

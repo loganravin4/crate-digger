@@ -6,6 +6,7 @@ const archivo = Archivo({
   variable: "--font-archivo",
   subsets: ["latin"],
   axes: ["wdth"],
+  style: ["normal", "italic"],
   display: "swap",
 });
 

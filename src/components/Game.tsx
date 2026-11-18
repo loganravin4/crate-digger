@@ -9,7 +9,7 @@ import { match } from "@/lib/match";
 import { pointsFor, ROUNDS, SECONDS, tierFor, TIERS } from "@/lib/score";
 import { loadRun, loadSettings, recordFinish, saveRun, saveSettings, type Pick, type Run, type Stats } from "@/lib/storage";
 import { BackCover } from "./BackCover";
-import { CoverType } from "./CoverType";
+import { CoverType, fitCover } from "./CoverType";
 import { ArrowLeft, ArrowRight } from "./icons";
 
 type Phase = "loading" | "intro" | "playing" | "revealed" | "done";
@@ -152,8 +152,10 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
   }
 
   return (
-    <main className={`tone-${meta.tone} mx-auto flex min-h-dvh w-full max-w-[34rem] flex-col`}>
-      <header className="flex items-center justify-between px-4 py-3 sm:px-0">
+    <main
+      className={`tone-${meta.tone} mx-auto flex min-h-dvh w-full max-w-[34rem] flex-col xl:grid xl:max-w-[72rem] xl:grid-cols-[32rem_minmax(0,1fr)] xl:grid-rows-[auto_1fr] xl:gap-x-[18rem] xl:pb-16`}
+    >
+      <header className="flex items-center justify-between px-4 py-3 sm:px-0 xl:col-span-2 xl:py-6">
         <Link
           href="/"
           className="smallprint inline-flex min-h-11 items-center gap-2 text-paper-dim no-underline hover:text-paper"
@@ -163,6 +165,32 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
         </Link>
         <TimerSwitch relaxed={relaxed} onToggle={toggleRelaxed} />
       </header>
+
+      <div className="relative xl:self-center">
+      {/* Landscape only: the record rests just proud of the sleeve's right edge, then slides out on a result. */}
+      <div
+        aria-hidden
+        className={`vinyl absolute top-[10%] left-[10%] hidden aspect-square w-[80%] rounded-full transition-transform duration-[640ms] ease-[cubic-bezier(0.16,1,0.3,1)] [container-type:inline-size] motion-reduce:transition-none xl:block ${
+          phase === "revealed" ? "translate-x-[81%] rotate-0" : "translate-x-[28%] -rotate-90"
+        }`}
+      >
+        <div
+          className="absolute inset-[29%] flex flex-col items-center justify-center rounded-full text-center"
+          style={{
+            background: phase === "revealed" && lastPick ? `var(--tier-${lastPick.tier})` : "var(--field)",
+            color: phase === "revealed" ? "var(--ink)" : "var(--on)",
+          }}
+        >
+          {phase === "revealed" && lastPick ? (
+            <>
+              <span className="display-condensed tnum text-[15cqw]">+{lastPick.points}</span>
+              <span className="smallprint mt-[1cqw] max-w-[74%] text-[3.6cqw] leading-tight">{TIERS[lastPick.tier].label}</span>
+            </>
+          ) : (
+            <span className="smallprint text-[3.6cqw]">{meta.name}</span>
+          )}
+        </div>
+      </div>
 
       {/* The sleeve. Fixed slots in the catalog line never move; only values change. */}
       <section
@@ -184,25 +212,26 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
           </div>
           <div className="mt-auto">
             {phase === "loading" ? (
-              <p className="display-condensed text-[18cqw]" id="cover-title">
+              <p className="voice" style={{ fontSize: fitCover(meta.name, meta.glyph) }} id="cover-title">
                 {meta.name}
               </p>
             ) : phase === "intro" ? (
-              <h1 id="cover-title" className="display-condensed text-[min(26cqw,6rem)]">
+              <h1 id="cover-title" className="voice" style={{ fontSize: fitCover(meta.name, meta.glyph) }}>
                 {meta.name}
                 <span className="sr-only">, today&rsquo;s set</span>
               </h1>
             ) : shown ? (
-              <CoverType text={shown.text} id="cover-title" />
+              <CoverType text={shown.text} glyph={meta.glyph} id="cover-title" />
             ) : null}
             {(phase === "playing" || phase === "revealed") && shown?.rule && (
-              <p className="mt-[3cqw] max-w-[40ch] text-sm font-medium leading-snug text-on-mute">{shown.rule}</p>
+              <p className="mt-[3cqw] max-w-[40ch] text-sm font-medium leading-snug text-on-mute [overflow-wrap:anywhere]">{shown.rule}</p>
             )}
           </div>
         </div>
       </section>
+      </div>
 
-      <section className="relative flex flex-1 flex-col px-4 pb-8 sm:px-0">
+      <section className="relative flex flex-1 flex-col px-4 pb-8 sm:px-0 xl:h-[32rem] xl:justify-end xl:self-center xl:pb-0">
         {phase === "intro" && (
           <Intro
             resume={round > 0}
@@ -296,7 +325,7 @@ function Slots({ round, remaining, relaxed, total }: { round: number; remaining:
       <div className="text-center">
         <dt className="smallprint text-paper-mute">Clock</dt>
         <dd
-          className={`display-condensed tnum mt-1 text-4xl ${low ? "clock-low text-[var(--field-ochre)]" : ""}`}
+          className={`display-condensed tnum mt-1 text-4xl ${low ? "clock-low text-[var(--alert)]" : ""}`}
         >
           {relaxed ? "—" : `0:${String(remaining).padStart(2, "0")}`}
         </dd>
@@ -341,7 +370,7 @@ function Intro({
       <button
         type="button"
         onClick={onStart}
-        className="display-wide mt-7 inline-flex min-h-14 w-full items-center justify-between bg-[var(--field)] px-5 text-lg text-[var(--on)] transition-transform duration-150 active:translate-y-px sm:w-auto sm:gap-10"
+        className="display-wide mt-7 inline-flex min-h-14 w-full items-center justify-between bg-[var(--field)] px-5 text-lg text-[var(--on)] transition-[background-color,color,transform] duration-150 hover:bg-paper hover:text-ink active:translate-y-px sm:w-auto sm:gap-10"
       >
         {resume ? `Resume at track ${round + 1}` : "Drop the needle"}
         <ArrowRight className="size-5" />
@@ -377,7 +406,7 @@ function Reveal({
     <div className="flex flex-col items-center">
       {/* The disc slides out from under the sleeve, label printed with the result. */}
       {/* Disc is 58% wide and tucks 14% under the sleeve; the result clears its bottom edge. */}
-      <div aria-hidden className="relative -mt-[14%] h-0 w-full">
+      <div aria-hidden className="relative -mt-[14%] h-0 w-full xl:hidden">
         <div className="disc-out vinyl relative mx-auto aspect-square w-[58%] rounded-full [container-type:inline-size]">
           <div
             className="absolute inset-[29%] flex flex-col items-center justify-center rounded-full text-center"
@@ -388,7 +417,7 @@ function Reveal({
           </div>
         </div>
       </div>
-      <div className="rise mt-[calc(58%+1.25rem)] w-full" role="status" aria-live="polite">
+      <div className="rise mt-[calc(58%+1.25rem)] w-full xl:mt-0" role="status" aria-live="polite">
         <p className="sr-only">
           {pick.matched ? `${pick.matched}: ${tier.label}, plus ${pick.points} points.` : `${tier.label}. No points.`}
         </p>

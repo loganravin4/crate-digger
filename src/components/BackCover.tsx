@@ -165,7 +165,7 @@ export function BackCover({
         <button
           type="button"
           onClick={share}
-          className="display-wide inline-flex min-h-14 flex-1 items-center justify-between bg-[var(--field)] px-5 text-lg text-[var(--on)] transition-transform duration-150 active:translate-y-px"
+          className="display-wide inline-flex min-h-14 flex-1 items-center justify-between bg-[var(--field)] px-5 text-lg text-[var(--on)] transition-[background-color,color,transform] duration-150 hover:bg-paper hover:text-ink active:translate-y-px"
         >
           {shared === "copied" ? "Copied to clipboard" : shared === "failed" ? "Couldn't copy" : "Share the tracklist"}
           <ShareIcon className="size-5" />

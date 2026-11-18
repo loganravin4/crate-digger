@@ -19,8 +19,8 @@
   --on-ochre-mute: #3d300c;
 
   --field-vermilion: #bf3a22;
-  --on-vermilion: #f3ecdd;
-  --on-vermilion-mute: #fff3ed;
+  --on-vermilion: #fffaf5;
+  --on-vermilion-mute: #f3ecdd;
 
   --field-cobalt: #2b57a6;
   --on-cobalt: #f3ecdd;
@@ -94,16 +94,19 @@ a {
 
 .tone-ochre {
   --field: var(--field-ochre);
+  --alert: var(--field-ochre);
   --on: var(--on-ochre);
   --on-mute: var(--on-ochre-mute);
 }
 .tone-vermilion {
   --field: var(--field-vermilion);
+  --alert: #e0563b;
   --on: var(--on-vermilion);
   --on-mute: var(--on-vermilion-mute);
 }
 .tone-cobalt {
   --field: var(--field-cobalt);
+  --alert: #8fb2e6;
   --on: var(--on-cobalt);
   --on-mute: var(--on-cobalt-mute);
 }
@@ -211,4 +214,62 @@ a {
 /* The answer is a title line: focus thickens the underline instead of boxing it. */
 #answer:focus-visible {
   outline: none;
+}
+
+/* Crate: on wide screens the sleeves lean into each other at staggered heights,
+   and whichever one you point at comes forward. Depth by overlap only. */
+@media (min-width: 64rem) {
+  .crate-slot {
+    margin-left: -0.875rem;
+    transform: translateY(calc(mod(var(--i), 2) * 1.25rem));
+    transition: transform 220ms var(--ease-out);
+  }
+  .crate-slot:first-child {
+    margin-left: 0;
+  }
+  .crate-slot:hover,
+  .crate-slot:focus-within {
+    z-index: 20;
+    transform: translateY(calc(mod(var(--i), 2) * 1.25rem - 0.5rem));
+  }
+}
+@media (min-width: 64rem) and (prefers-reduced-motion: reduce) {
+  .crate-slot {
+    transition: none;
+  }
+}
+
+/* Each pack's label voice: one family, set differently per label.
+   General: condensed upright. Hip-Hop: extended, like a rap logo. Pop: condensed italic. */
+.voice {
+  font-family: var(--font-archivo), sans-serif;
+  font-weight: var(--voice-weight, 900);
+  font-stretch: var(--voice-stretch, 62%);
+  font-style: var(--voice-style, normal);
+  letter-spacing: var(--voice-tracking, -0.005em);
+  line-height: var(--voice-leading, 0.88);
+  text-transform: uppercase;
+}
+.tone-vermilion {
+  --voice-stretch: 125%;
+  --voice-tracking: -0.035em;
+  --voice-leading: 0.9;
+}
+.tone-cobalt {
+  --voice-weight: 800;
+  --voice-stretch: 72%;
+  --voice-style: italic;
+  --voice-tracking: -0.01em;
+}
+
+/* Selection follows the pack: field on ink, inverted on the sleeve itself. */
+[class*="tone-"] ::selection {
+  background: var(--field);
+  color: var(--on);
+}
+[class*="tone-"] .on-field ::selection,
+.on-field::selection,
+.on-field ::selection {
+  background: var(--on);
+  color: var(--field);
 }

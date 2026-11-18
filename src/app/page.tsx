@@ -65,9 +65,9 @@ export default function Home() {
         <h2 id="crate-title" className="sr-only">
           Pick a pack
         </h2>
-        <ul className="-mx-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-4 sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0 lg:grid-cols-4">
+        <ul className="-mx-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-4 sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0 lg:flex lg:gap-0 lg:pb-10">
           {PACKS.map((p, i) => (
-            <li key={p.id} className="sleeve w-[82%] shrink-0 snap-start sm:w-auto">
+            <li key={p.id} className="sleeve crate-slot relative w-[82%] shrink-0 snap-start sm:w-auto lg:flex-1" style={{ "--i": i } as React.CSSProperties}>
               <Link
                 href={`/play/${p.id}`}
                 className={`tone-${p.tone} on-field group relative flex aspect-square flex-col bg-field p-[7cqw] text-on no-underline transition-transform duration-200 ease-out hover:-translate-y-1 active:translate-y-0`}
@@ -82,8 +82,8 @@ export default function Home() {
                 </span>
                 <span className="mt-auto">
                   <span
-                    className="display-condensed mt-[0.08em] block whitespace-nowrap leading-[0.82]"
-                    style={{ fontSize: `${Math.min(30, 84 / (p.name.length * 0.5)).toFixed(2)}cqw` }}
+                    className="voice mt-[0.08em] block whitespace-nowrap"
+                    style={{ fontSize: `${Math.min(30, 80 / (p.name.length * p.glyph * 1.08)).toFixed(2)}cqw` }}
                   >
                     {p.name}
                   </span>
@@ -95,7 +95,7 @@ export default function Home() {
               </Link>
             </li>
           ))}
-          <li className="sleeve w-[82%] shrink-0 snap-start sm:w-auto">
+          <li className="sleeve crate-slot relative w-[82%] shrink-0 snap-start sm:w-auto lg:flex-1" style={{ "--i": PACKS.length } as React.CSSProperties}>
             <div className="relative flex aspect-square flex-col items-center justify-center bg-ink-2 p-[7cqw] text-center">
               <div aria-hidden className="vinyl absolute inset-[9%] rounded-full" />
               <div className="relative flex aspect-square w-[44%] flex-col items-center justify-center rounded-full bg-paper p-3 text-ink">

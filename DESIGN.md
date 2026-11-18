@@ -12,8 +12,8 @@ colors:
   on-ochre: "#16130f"
   on-ochre-mute: "#3d300c"
   field-vermilion: "#bf3a22"
-  on-vermilion: "#f3ecdd"
-  on-vermilion-mute: "#fff3ed"
+  on-vermilion: "#fffaf5"
+  on-vermilion-mute: "#f3ecdd"
   field-cobalt: "#2b57a6"
   on-cobalt: "#f3ecdd"
   on-cobalt-mute: "#dfe6f4"
@@ -205,10 +205,10 @@ The signature is the disc. On every answer, a vinyl record slides out from under
 A warm ink ground and cream paper, with three saturated print fields and a small tier ladder that reads as record labels.
 
 ### Primary
-- **Sleeve Ochre** (field-ochre): the General pack's field and the house signal color. Off-pack it also carries text selection, the low-clock warning on every pack, and the hover of the home page's ink button. Text on it is ink (on-ochre), with a dark olive-brown (on-ochre-mute) for its small print.
+- **Sleeve Ochre** (field-ochre): the General pack's field and the house signal color. Outside a pack it carries the home page's text selection and the hover of its "Play today's General" button, which is a General action. Text on it is ink (on-ochre), with a dark olive-brown (on-ochre-mute) for its small print.
 
 ### Secondary
-- **Press Vermilion** (field-vermilion): the Hip-Hop pack's field. Text on it is cream (on-vermilion); its small print token (on-vermilion-mute) is a brighter warm white, not a dimmer one, to keep small text legible on the red.
+- **Press Vermilion** (field-vermilion): the Hip-Hop pack's field. Text on it is a near-white warm cream (on-vermilion, 5.3:1), and its small print is the house cream (on-vermilion-mute, 4.6:1). Mute is always the dimmer of the pair.
 
 ### Tertiary
 - **Label Cobalt** (field-cobalt): the Pop pack's field. Text on it is cream (on-cobalt), small print a cool pale blue (on-cobalt-mute).
@@ -237,6 +237,7 @@ A warm ink ground and cream paper, with three saturated print fields and a small
 
 **The Label Ladder Rule.** Tier colors appear only on tier marks and disc labels. They are not UI accents, link colors, or status colors.
 
+**The Pack Alert Rule.** Each pack has an `--alert` color for the low-clock warning on the ink board: ochre for General, a lifted vermilion (#e0563b) for Hip-Hop, and a pale cobalt (#8fb2e6) for Pop. All three pass 3:1 or better on ink at clock size. Text selection follows the pack too: field on ink, inverted on the sleeve.
 ## Typography
 
 **Display Font:** Archivo (variable, with the `wdth` axis loaded), falling back to sans-serif
@@ -259,6 +260,7 @@ A warm ink ground and cream paper, with three saturated print fields and a small
 ### Named Rules
 **The Two Widths Rule.** Archivo is never set at its default width. Condensed (62%, 900) is for monuments and numbers; expanded (125%, 800) is for titles, answers, and buttons. Both are always uppercase.
 
+**The Label Voice Rule.** Each pack sets its cover subject and pack name in its own Archivo voice, the `.voice` class driven by `--voice-*` tokens on the tone: General is condensed 62% at 900, upright. Hip-Hop is extended 125% at 900, like a rap logo. Pop is condensed 72% at 800, italic. Cover type is fitted with the pack's `glyph` width (0.46, 0.9, 0.52 em), and words never break, including at hyphens.
 **The Fixed Slots Rule.** Every number that changes in place (track, clock, score, points, issue number, date, stats) is tabular, so values change without the layout moving.
 
 **The Small Print Rule.** Supporting information goes into the Label voice, not into lighter or smaller body text. Placeholders are the exception: they drop to sentence-case Franklin 1rem so the empty answer line reads as an invitation, not a title.
@@ -284,6 +286,7 @@ The vinyl surface is the one gradient: a repeating radial groove pattern (#0c0a0
 ### Named Rules
 **The Overlap-Only Rule.** Depth comes only from one flat field overlapping another, and every overlap is a real object (a disc, a front cover). No shadows, glows, blurs, or glass.
 
+**The Crate Rule.** At 64rem and wider the home sleeves lean into each other: each overlaps the one before it by 0.875rem, at alternating heights. The one you point at or focus comes forward and lifts 0.5rem. At 80rem and wider, the play screen goes landscape. The record rests just proud of the sleeve's right edge and slides out sideways on a result, with the controls in their own column.
 **The Groove Exception Rule.** Gradients exist only as the vinyl's grooves. No gradient ever fills a sleeve, button, or background.
 
 ## Shapes
