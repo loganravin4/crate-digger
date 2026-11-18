@@ -631,6 +631,38 @@
         {
           "name": "Father Figure",
           "pop": 1
+        },
+        {
+          "name": "Eldest Daughter",
+          "pop": 1
+        },
+        {
+          "name": "Ruin the Friendship",
+          "pop": 1
+        },
+        {
+          "name": "Actually Romantic",
+          "pop": 1
+        },
+        {
+          "name": "Wi$h Li$t",
+          "pop": 1
+        },
+        {
+          "name": "Wood",
+          "pop": 1
+        },
+        {
+          "name": "Cancelled!",
+          "pop": 1
+        },
+        {
+          "name": "Honey",
+          "pop": 1
+        },
+        {
+          "name": "The Life of a Showgirl",
+          "pop": 1
         }
       ]
     },
@@ -1328,6 +1360,32 @@
         },
         {
           "name": "Cheek to Cheek",
+          "pop": 1
+        },
+        {
+          "name": "Garden of Eden",
+          "pop": 1
+        },
+        {
+          "name": "Perfect Celebrity",
+          "pop": 1
+        },
+        {
+          "name": "Zombieboy",
+          "pop": 1,
+          "aliases": [
+            "Zombie Boy"
+          ]
+        },
+        {
+          "name": "How Bad Do U Want Me",
+          "pop": 1,
+          "aliases": [
+            "How Bad Do You Want Me"
+          ]
+        },
+        {
+          "name": "The Dead Dance",
           "pop": 1
         }
       ]
@@ -2534,13 +2592,6 @@
           "pop": 2
         },
         {
-          "name": "7 Rings",
-          "pop": 2,
-          "aliases": [
-            "Seven Rings"
-          ]
-        },
-        {
           "name": "We Are Never Ever Getting Back Together",
           "pop": 2,
           "aliases": [
@@ -2800,6 +2851,22 @@
         },
         {
           "name": "Show Me Love",
+          "pop": 1
+        },
+        {
+          "name": "The Fate of Ophelia",
+          "pop": 2
+        },
+        {
+          "name": "Opalite",
+          "pop": 1
+        },
+        {
+          "name": "Elizabeth Taylor",
+          "pop": 1
+        },
+        {
+          "name": "Father Figure",
           "pop": 1
         }
       ]
@@ -3204,7 +3271,7 @@
     {
       "id": "pop-18",
       "text": "Name a Grammy Best New Artist winner",
-      "rule": "Any year through 2025, revoked wins included",
+      "rule": "Any year through 2026, revoked wins included",
       "answers": [
         {
           "name": "Billie Eilish",
@@ -3481,6 +3548,10 @@
         {
           "name": "Bobby Darin",
           "pop": 1
+        },
+        {
+          "name": "Olivia Dean",
+          "pop": 3
         }
       ]
     },
@@ -3872,13 +3943,17 @@
         {
           "name": "Jermaine Dupri",
           "pop": 1
+        },
+        {
+          "name": "Ricky Martin",
+          "pop": 1
         }
       ]
     },
     {
       "id": "pop-20",
       "text": "Name a Eurovision Song Contest winner",
-      "rule": "Winning act, 1956 through 2025",
+      "rule": "Winning act, 1956 through 2026",
       "answers": [
         {
           "name": "ABBA",
@@ -4115,11 +4190,12 @@
           ]
         },
         {
-          "name": "Izhar Cohen and Alphabeta",
+          "name": "Izhar Cohen and the Alphabeta",
           "pop": 1,
           "aliases": [
             "Izhar Cohen",
-            "Alphabeta"
+            "Alphabeta",
+            "Izhar Cohen and Alphabeta"
           ]
         },
         {
@@ -4204,6 +4280,10 @@
         },
         {
           "name": "Lys Assia",
+          "pop": 1
+        },
+        {
+          "name": "Dara",
           "pop": 1
         }
       ]
@@ -4480,7 +4560,7 @@
     {
       "id": "pop-22",
       "text": "Name a pop act that got its start on a TV talent show",
-      "rule": "Includes groups formed on a show",
+      "rule": "Competed on one before breaking through; groups formed on a show count",
       "answers": [
         {
           "name": "Kelly Clarkson",
@@ -5145,6 +5225,10 @@
         },
         {
           "name": "Dancin'",
+          "pop": 1
+        },
+        {
+          "name": "The Dead Dance",
           "pop": 1
         }
       ]

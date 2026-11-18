@@ -2203,7 +2203,7 @@
     {
       "id": "hiphop-11",
       "text": "Name a hip-hop or R&B record label",
-      "rule": "Labels and imprints count",
+      "rule": "Labels and imprints with real hip-hop or R&B history, majors included",
       "answers": [
         {
           "name": "Def Jam",
@@ -4131,6 +4131,10 @@
           "pop": 2
         },
         {
+          "name": "GNX",
+          "pop": 3
+        },
+        {
           "name": "Relapse",
           "pop": 1
         },
@@ -4550,10 +4554,6 @@
         },
         {
           "name": "Pimp C",
-          "pop": 2
-        },
-        {
-          "name": "Scarface",
           "pop": 2
         },
         {

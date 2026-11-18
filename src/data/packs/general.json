@@ -677,6 +677,10 @@
         {
           "name": "Shelby Lynne",
           "pop": 1
+        },
+        {
+          "name": "Olivia Dean",
+          "pop": 2
         }
       ]
     },
@@ -1585,7 +1589,7 @@
     {
       "id": "general-06",
       "text": "Name a member of a classic British rock band",
-      "rule": "Beatles/Stones/Who/Kinks/Zeppelin/Queen/Floyd/Sabbath",
+      "rule": "Beatles, Stones, Who, Kinks, Zeppelin, Queen, Floyd, Sabbath",
       "answers": [
         {
           "name": "Paul McCartney",
@@ -2093,6 +2097,53 @@
         },
         {
           "name": "Florida!!!",
+          "pop": 1
+        },
+        {
+          "name": "Opalite",
+          "pop": 2
+        },
+        {
+          "name": "Elizabeth Taylor",
+          "pop": 1
+        },
+        {
+          "name": "Father Figure",
+          "pop": 1
+        },
+        {
+          "name": "Eldest Daughter",
+          "pop": 1
+        },
+        {
+          "name": "Ruin the Friendship",
+          "pop": 1
+        },
+        {
+          "name": "Actually Romantic",
+          "pop": 1
+        },
+        {
+          "pop": 1,
+          "name": "Wish List",
+          "aliases": [
+            "Wi$h Li$t"
+          ]
+        },
+        {
+          "name": "Wood",
+          "pop": 1
+        },
+        {
+          "name": "Cancelled!",
+          "pop": 1
+        },
+        {
+          "name": "Honey",
+          "pop": 1
+        },
+        {
+          "name": "The Life of a Showgirl",
           "pop": 1
         }
       ]
@@ -5536,6 +5587,376 @@
         {
           "name": "Jimmy Dean",
           "pop": 1
+        },
+        {
+          "name": "Tim McGraw",
+          "pop": 2
+        },
+        {
+          "name": "The Stanley Brothers",
+          "pop": 1
+        },
+        {
+          "name": "Paul Overstreet",
+          "pop": 1
+        },
+        {
+          "name": "Tony Brown",
+          "pop": 1
+        },
+        {
+          "name": "James Burton",
+          "pop": 1
+        },
+        {
+          "pop": 1,
+          "name": "Flatt and Scruggs",
+          "aliases": [
+            "Flatt & Scruggs",
+            "Lester Flatt",
+            "Earl Scruggs"
+          ]
+        },
+        {
+          "name": "Little Jimmy Dickens",
+          "pop": 1
+        },
+        {
+          "name": "Sons of the Pioneers",
+          "pop": 1
+        },
+        {
+          "name": "The Louvin Brothers",
+          "pop": 1
+        },
+        {
+          "name": "Sonny James",
+          "pop": 1
+        },
+        {
+          "name": "Faron Young",
+          "pop": 1
+        },
+        {
+          "name": "Webb Pierce",
+          "pop": 1
+        },
+        {
+          "name": "Tennessee Ernie Ford",
+          "pop": 1
+        },
+        {
+          "name": "Hank Thompson",
+          "pop": 1
+        },
+        {
+          "name": "Grandpa Jones",
+          "pop": 1
+        },
+        {
+          "name": "Uncle Dave Macon",
+          "pop": 1
+        },
+        {
+          "name": "Red Foley",
+          "pop": 1
+        },
+        {
+          "name": "Patsy Montana",
+          "pop": 1
+        },
+        {
+          "name": "Merle Travis",
+          "pop": 1
+        },
+        {
+          "name": "Don Gibson",
+          "pop": 1
+        },
+        {
+          "name": "The Jordanaires",
+          "pop": 1
+        },
+        {
+          "name": "Ferlin Husky",
+          "pop": 1
+        },
+        {
+          "name": "Mac Wiseman",
+          "pop": 1
+        },
+        {
+          "pop": 1,
+          "name": "Jim Ed Brown and the Browns",
+          "aliases": [
+            "The Browns",
+            "Jim Ed Brown"
+          ]
+        },
+        {
+          "name": "Carl Smith",
+          "pop": 1
+        },
+        {
+          "name": "Floyd Cramer",
+          "pop": 1
+        },
+        {
+          "name": "Pee Wee King",
+          "pop": 1
+        },
+        {
+          "name": "Jimmie Davis",
+          "pop": 1
+        },
+        {
+          "name": "Sam Phillips",
+          "pop": 1
+        },
+        {
+          "name": "Owen Bradley",
+          "pop": 1
+        },
+        {
+          "name": "Cindy Walker",
+          "pop": 1
+        },
+        {
+          "name": "Harlan Howard",
+          "pop": 1
+        },
+        {
+          "name": "The Delmore Brothers",
+          "pop": 1
+        },
+        {
+          "name": "Homer and Jethro",
+          "pop": 1
+        },
+        {
+          "name": "Bill Carlisle",
+          "pop": 1
+        },
+        {
+          "name": "Floyd Tillman",
+          "pop": 1
+        },
+        {
+          "name": "Vernon Dalhart",
+          "pop": 1
+        },
+        {
+          "name": "George Morgan",
+          "pop": 1
+        },
+        {
+          "name": "Johnny Bond",
+          "pop": 1
+        },
+        {
+          "name": "Ernest Stoneman",
+          "pop": 1
+        },
+        {
+          "name": "Charlie McCoy",
+          "pop": 1
+        },
+        {
+          "pop": 1,
+          "name": "Hargus \"Pig\" Robbins",
+          "aliases": [
+            "Pig Robbins",
+            "Hargus Robbins"
+          ]
+        },
+        {
+          "name": "Grady Martin",
+          "pop": 1
+        },
+        {
+          "name": "Johnny Gimble",
+          "pop": 1
+        },
+        {
+          "name": "Pete Drake",
+          "pop": 1
+        },
+        {
+          "name": "Eddie Bayers",
+          "pop": 1
+        },
+        {
+          "name": "Harold Bradley",
+          "pop": 1
+        },
+        {
+          "pop": 1,
+          "name": "\"Cowboy\" Jack Clement",
+          "aliases": [
+            "Cowboy Jack Clement",
+            "Jack Clement"
+          ]
+        },
+        {
+          "name": "Billy Sherrill",
+          "pop": 1
+        },
+        {
+          "name": "Fred Rose",
+          "pop": 1
+        },
+        {
+          "name": "Don Schlitz",
+          "pop": 1
+        },
+        {
+          "name": "Dean Dillon",
+          "pop": 1
+        },
+        {
+          "name": "Bob McDill",
+          "pop": 1
+        },
+        {
+          "name": "Hank Cochran",
+          "pop": 1
+        },
+        {
+          "name": "Bobby Braddock",
+          "pop": 1
+        },
+        {
+          "pop": 1,
+          "name": "Felice and Boudleaux Bryant",
+          "aliases": [
+            "Boudleaux Bryant",
+            "Felice Bryant",
+            "The Bryants"
+          ]
+        },
+        {
+          "pop": 1,
+          "name": "The Duke of Paducah",
+          "aliases": [
+            "Whitey Ford",
+            "Duke of Paducah"
+          ]
+        },
+        {
+          "name": "Rod Brasfield",
+          "pop": 1
+        },
+        {
+          "name": "Jerry Bradley",
+          "pop": 1
+        },
+        {
+          "name": "Joe Galante",
+          "pop": 1
+        },
+        {
+          "name": "Don Law",
+          "pop": 1
+        },
+        {
+          "name": "Ken Nelson",
+          "pop": 1
+        },
+        {
+          "name": "Fred Foster",
+          "pop": 1
+        },
+        {
+          "name": "Ralph Emery",
+          "pop": 1
+        },
+        {
+          "name": "DeFord Bailey",
+          "pop": 1
+        },
+        {
+          "name": "Jim Foglesong",
+          "pop": 1
+        },
+        {
+          "name": "Frances Preston",
+          "pop": 1
+        },
+        {
+          "name": "Jo Walker-Meador",
+          "pop": 1
+        },
+        {
+          "pop": 1,
+          "name": "E.W. \"Bud\" Wendell",
+          "aliases": [
+            "Bud Wendell"
+          ]
+        },
+        {
+          "name": "Wesley Rose",
+          "pop": 1
+        },
+        {
+          "name": "Jack Stapp",
+          "pop": 1
+        },
+        {
+          "name": "Cliffie Stone",
+          "pop": 1
+        },
+        {
+          "name": "Grant Turner",
+          "pop": 1
+        },
+        {
+          "name": "Roy Horton",
+          "pop": 1
+        },
+        {
+          "name": "Ralph Peer",
+          "pop": 1
+        },
+        {
+          "name": "Hubert Long",
+          "pop": 1
+        },
+        {
+          "name": "Connie B. Gay",
+          "pop": 1
+        },
+        {
+          "name": "Paul Cohen",
+          "pop": 1
+        },
+        {
+          "name": "Art Satherley",
+          "pop": 1
+        },
+        {
+          "name": "Jim Denny",
+          "pop": 1
+        },
+        {
+          "pop": 1,
+          "name": "George D. Hay",
+          "aliases": [
+            "George Hay"
+          ]
+        },
+        {
+          "pop": 1,
+          "name": "J.L. Frank",
+          "aliases": [
+            "Joe Frank"
+          ]
+        },
+        {
+          "pop": 1,
+          "name": "Stephen H. Sholes",
+          "aliases": [
+            "Steve Sholes"
+          ]
         }
       ]
     },
@@ -6998,6 +7419,13 @@
             "Peter Gunn"
           ],
           "pop": 1
+        },
+        {
+          "name": "DeBÍ TiRAR MáS FOToS",
+          "aliases": [
+            "Debi Tirar Mas Fotos"
+          ],
+          "pop": 2
         }
       ]
     },
@@ -7135,14 +7563,6 @@
         },
         {
           "name": "Survival",
-          "pop": 1
-        },
-        {
-          "name": "Lighters",
-          "pop": 1
-        },
-        {
-          "name": "Fast Lane",
           "pop": 1
         },
         {
