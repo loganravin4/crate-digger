@@ -6,7 +6,7 @@
 
 ```
 Who: Music lovers who know more than the radio does, on their phone once a day (commute, bed, group chat).
-Job: Type the rarest correct answer to six music prompts, then share the score. The one action: dig.
+Job: Type the rarest correct answer to seven music prompts, then share the score. The one action: dig.
 Kind: Browser game (daily trivia), general deck plus genre packs.
 Mode: Experience (the play screen); pack picker and results are Operate.
 Material: none; prompt and answer content authored for v1 (src/data/packs/*.json), each answer carries a fixed tier assigned from Wikipedia pageview evidence plus judgment (scripts/rarity/).
@@ -27,7 +27,7 @@ Music lovers who take pride in knowing the deep end of a catalog: record-store r
 
 ## Product Purpose
 
-A daily music trivia game where any correct answer scores, but the rarer it is the more it scores. Each pack (General, Hip-Hop, Pop, and more later) serves the same six prompts to everyone on a given day. Success means a player comes back daily and shares results.
+A daily music trivia game where any correct answer scores, but the rarer it is the more it scores. Each pack (General, Hip-Hop, Pop, and more later) serves the same seven prompts to everyone on a given day. Success means a player comes back daily and shares results.
 
 ## Positioning
 
@@ -45,7 +45,7 @@ The game rewards knowing the B-side, not the hit. Naming "Purple Rain" is safe; 
 - Wrong answers don't end a round: the player keeps guessing until the clock runs out or they pass. Typo matches ask "did you mean…?" first. Empty submissions are refused.
 - An answer missing from the list is scored as not found; the game cannot verify answers outside its list.
 - Stats and streaks live in localStorage only.
-- Fixed-point tiers (our own vocabulary), shallow to deep: Radio Edit 10, Staff Pick 15 (the "obscure" pick everyone makes), Album Track 30, B-Side 60, White Label 85, Holy Grail 100 (one designated gem per prompt). Max 600 over six rounds.
+- Fixed-point tiers (our own vocabulary), shallow to deep: Radio Edit 10, Staff Pick 15 (the "obscure" pick everyone makes), Album Track 30, B-Side 60, White Label 85, Holy Grail 100 (one designated gem per prompt). Max 700 over seven rounds.
 - The play screen is "The Dig": a canvas cross-section of a record shop; the answer drops as a record to its tier's depth, with synthesized sound (mutable).
 
 ## Brand Commitments
@@ -77,3 +77,9 @@ WCAG 2.2 AA. The timer must be pausable or extendable for players who need more 
 - Email, SMS, reviews, testimonials: none.
 - Ads, analytics, pixels, data sale or sharing: none. Only localStorage game state (strictly necessary), so no consent banner is needed.
 - Government entity: no.
+
+## Open decisions for the backend version
+
+- **Capture unmatched answers.** Real players give correct answers too niche for the authored lists (seen in playtesting: Michael Jackson's "Loving You"). When a backend exists (Supabase or similar), log every rejected guess per prompt, without personal data. Frequent rejects are review candidates: add them to the list with a tier, or add an alias for a near-miss spelling.
+- **Re-tier from real play.** Once enough daily runs exist, blend actual answer frequency into tiers, keeping one designated holy grail per prompt. Until then, tiers stay research plus judgment.
+- **Wider sources when polling.** Wikipedia pageviews miss deep catalog. Add a second popularity source (for example Spotify or Last.fm play counts) for songs and artists when the pipeline moves server-side.

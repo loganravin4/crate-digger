@@ -549,7 +549,6 @@ function Landed({
 }) {
   const info = pick.tier ? TIERS[pick.tier] : null;
   const answer = pick.matched ? prompt.answers.find((a) => a.name === pick.matched) : null;
-  const grail = prompt.answers.find((a) => a.tier === "holy-grail");
   const last = round >= ROUNDS;
   return (
     <div className="pointer-events-auto fixed inset-x-0 bottom-0 z-20 mx-auto w-full max-w-[40rem] px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
@@ -566,11 +565,6 @@ function Landed({
         <p className="mt-2 text-base">
           <strong>{info ? info.label : "No find"}.</strong> {answer?.quip ?? (info ? `${info.note}.` : "Nothing landed this time.")}
         </p>
-        {grail && grail.name !== pick.matched && (
-          <p className="mt-2 text-sm text-[var(--back-mute)]">
-            The holy grail in this crate: <strong className="text-ink">{grail.name}</strong>
-          </p>
-        )}
         <div className="mt-4 flex items-center justify-between gap-4 border-t border-[var(--back-rule)] pt-3">
           <p className="smallprint tnum text-[var(--back-mute)]">
             Total <span className="display-condensed ml-1 align-middle text-2xl text-ink">{total}</span>

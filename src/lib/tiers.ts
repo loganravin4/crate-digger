@@ -12,18 +12,20 @@ export type TierInfo = {
   stratum: string;
   note: string;
   glyph: string;
+  /** Share-text mark, colored to match the tier's in-game color. */
+  emoji: string;
 };
 
 export const TIERS: Record<TierId, TierInfo> = {
-  "radio-edit": { label: "Radio Edit", points: 10, stratum: "Front rack", note: "The one everybody says first", glyph: "○" },
-  "staff-pick": { label: "Staff Pick", points: 15, stratum: "Staff picks shelf", note: "The obscure pick everyone thinks only they know", glyph: "◇" },
-  "album-track": { label: "Album Track", points: 30, stratum: "Used bins", note: "Solid. Real fans know it", glyph: "◐" },
-  "b-side": { label: "B-Side", points: 60, stratum: "Back room", note: "Now you're digging", glyph: "●" },
-  "white-label": { label: "White Label", points: 85, stratum: "Basement", note: "Almost nobody pulls this one", glyph: "◉" },
-  "holy-grail": { label: "Holy Grail", points: 100, stratum: "The vault", note: "The record every digger is looking for", glyph: "✦" },
+  "radio-edit": { label: "Radio Edit", points: 10, stratum: "Front rack", note: "The one everybody says first", glyph: "○", emoji: "⚫" },
+  "staff-pick": { label: "Staff Pick", points: 15, stratum: "Staff picks shelf", note: "The obscure pick everyone thinks only they know", glyph: "◇", emoji: "🟣" },
+  "album-track": { label: "Album Track", points: 30, stratum: "Used bins", note: "Solid. Real fans know it", glyph: "◐", emoji: "🔵" },
+  "b-side": { label: "B-Side", points: 60, stratum: "Back room", note: "Now you're digging", glyph: "●", emoji: "🟡" },
+  "white-label": { label: "White Label", points: 85, stratum: "Basement", note: "Almost nobody pulls this one", glyph: "◉", emoji: "⚪" },
+  "holy-grail": { label: "Holy Grail", points: 100, stratum: "The vault", note: "The record every digger is looking for", glyph: "✦", emoji: "🏆" },
 };
 
-export const MISS = { label: "No find", points: 0, glyph: "×" } as const;
+export const MISS = { label: "No find", points: 0, glyph: "×", emoji: "✖️" } as const;
 
 export function isTier(v: unknown): v is TierId {
   return typeof v === "string" && (TIER_IDS as readonly string[]).includes(v);

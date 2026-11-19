@@ -74,3 +74,12 @@ export function SpeakerIcon({ on, className }: { on: boolean; className?: string
     </svg>
   );
 }
+
+export function ImageIcon({ className }: P) {
+  return (
+    <svg {...base} className={className}>
+      <path d="M3 4h14v12H3zM3 13l4-4 3 3 2-2 5 5" />
+      <circle cx="13.5" cy="7.5" r="1.2" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
