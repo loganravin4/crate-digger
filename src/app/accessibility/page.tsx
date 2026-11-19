@@ -13,10 +13,11 @@ export default function AccessibilityPage() {
       <p>We aim for Crate Digger to meet WCAG 2.2 Level AA.</p>
       <h2>What we&rsquo;ve built in</h2>
       <ul className="list-disc space-y-2 pl-5">
-        <li>The whole game plays by keyboard: type, press Enter to dig, press Enter again for the next track.</li>
+        <li>The whole game plays by keyboard: type, press Enter to dig, and press Enter again for the next track. A typo prompt (&ldquo;did you mean…?&rdquo;) takes Enter for yes and Escape for no.</li>
+        <li>Sound is optional and off with one switch; nothing depends on hearing it.</li>
         <li>The 30-second clock can be turned off at any time with the Clock switch. Your setting is remembered.</li>
         <li>Results are announced to screen readers, and the clock gives a single warning at 10 seconds.</li>
-        <li>Animations are reduced to simple fades when your system asks for reduced motion.</li>
+        <li>With reduced motion on, records land instantly instead of falling through the shop.</li>
         <li>Text meets AA contrast against every pack color.</li>
       </ul>
       <h2>Known gaps</h2>

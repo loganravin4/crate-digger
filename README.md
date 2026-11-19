@@ -9,6 +9,8 @@ npm run build && npm run lint
 ```
 
 - Prompt content lives in `src/data/packs/*.json` (`PackFile` in `src/data/types.ts`). Register a new pack in `src/data/packs.ts`.
-- `pop` on each answer is a seeded rarity estimate (1-100), not measured data. Points are `100 * (1 - sqrt(pop / 100))`, floor 5, max 90.
+- Each answer has a fixed `tier` (`src/lib/tiers.ts`): Radio Edit 10, Staff Pick 15, Album Track 30, B-Side 60, White Label 85, Holy Grail 100 (one per prompt).
+- Tiers are assigned from popularity evidence: write context hints in `scripts/rarity/hints/<pack>.json`, run `node scripts/rarity/research.mjs <pack>` to pull two months of Wikipedia pageviews per answer into `scripts/rarity/evidence/<pack>.json`, then tier by judgment.
+- The play scene is a canvas engine in `src/components/dig/world.ts`; sounds are synthesized in `src/lib/sound.ts`.
 - Daily deal: `src/lib/daily.ts` (same six prompts per pack per local date, no repeats within a cycle). Matching: `src/lib/match.ts`.
 - Set `NEXT_PUBLIC_SITE_URL` in production for canonical, sitemap, and OG URLs.

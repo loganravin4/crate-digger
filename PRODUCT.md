@@ -9,7 +9,7 @@ Who: Music lovers who know more than the radio does, on their phone once a day (
 Job: Type the rarest correct answer to six music prompts, then share the score. The one action: dig.
 Kind: Browser game (daily trivia), general deck plus genre packs.
 Mode: Experience (the play screen); pack picker and results are Operate.
-Material: none; prompt and answer content authored for v1 (src/data/packs/*.json), rarity scores are seeded estimates.
+Material: none; prompt and answer content authored for v1 (src/data/packs/*.json), each answer carries a fixed tier assigned from Wikipedia pageview evidence plus judgment (scripts/rarity/).
 Constraints: Next.js App Router + TypeScript + Tailwind, no backend, works offline, deploy target Vercel.
 ```
 
@@ -41,10 +41,12 @@ The game rewards knowing the B-side, not the hit. Naming "Purple Rain" is safe; 
 
 ## Capabilities and Constraints
 
-- Rarity in v1 comes from `pop` estimates authored with each answer, not measured player data. The UI must not claim "X% of players said this". Label it as an estimate. A backend that counts real answers is a possible later version.
+- Rarity comes from a fixed tier on each answer, assigned from two months of Wikipedia pageviews read in the prompt's context and hand-checked (`scripts/rarity/research.mjs`, evidence in `scripts/rarity/evidence/`). It is not measured player data, so the UI must never claim "X% of players said this". A backend that counts real answers is a possible later version.
+- Wrong answers don't end a round: the player keeps guessing until the clock runs out or they pass. Typo matches ask "did you mean…?" first. Empty submissions are refused.
 - An answer missing from the list is scored as not found; the game cannot verify answers outside its list.
 - Stats and streaks live in localStorage only.
-- Score tiers (our own vocabulary): Radio Edit, Album Track, B-Side, White Label.
+- Fixed-point tiers (our own vocabulary), shallow to deep: Radio Edit 10, Staff Pick 15 (the "obscure" pick everyone makes), Album Track 30, B-Side 60, White Label 85, Holy Grail 100 (one designated gem per prompt). Max 600 over six rounds.
+- The play screen is "The Dig": a canvas cross-section of a record shop; the answer drops as a record to its tier's depth, with synthesized sound (mutable).
 
 ## Brand Commitments
 
@@ -59,7 +61,7 @@ No player counts, testimonials, press, or user numbers exist. Don't invent any.
 
 1. Obscure and correct beats famous; the scoring must make that feel earned.
 2. One short daily ritual: done in under three minutes, no account.
-3. Honest about what the game knows: estimated rarity, a finite answer list.
+3. Honest about what the game knows: researched tiers, not player counts, and a finite answer list.
 4. Genre packs feel like home turf, but one system holds them together.
 
 ## Accessibility & Inclusion
