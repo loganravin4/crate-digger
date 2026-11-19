@@ -7,294 +7,297 @@
       "answers": [
         {
           "name": "Like a Prayer",
-          "pop": 25
+          "tier": "radio-edit"
         },
         {
           "name": "Like a Virgin",
-          "pop": 18
+          "tier": "radio-edit"
         },
         {
           "name": "Vogue",
-          "pop": 14
+          "tier": "radio-edit"
         },
         {
           "name": "Material Girl",
-          "pop": 14
+          "tier": "radio-edit"
         },
         {
           "name": "Papa Don't Preach",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "La Isla Bonita",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Hung Up",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Holiday",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Into the Groove",
-          "pop": 3
+          "tier": "staff-pick",
+          "quip": "Born in Desperately Seeking Susan, raised on the dance floor."
         },
         {
           "name": "Express Yourself",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Frozen",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Ray of Light",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Music",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lucky Star",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Borderline",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Crazy for You",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Live to Tell",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Open Your Heart",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Cherish",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Justify My Love",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "The video MTV wouldn't air, which only helped."
         },
         {
           "name": "Erotica",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Take a Bow",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Secret",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Don't Cry for Me Argentina",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Beautiful Stranger",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "American Pie",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Don't Tell Me",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "What It Feels Like for a Girl",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Die Another Day",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "4 Minutes",
-          "pop": 1,
           "aliases": [
             "Four Minutes"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Celebration",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Give Me All Your Luvin'",
-          "pop": 1,
           "aliases": [
             "Give Me All Your Loving"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Burning Up",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dress You Up",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Angel",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Who's That Girl",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Causing a Commotion",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "True Blue",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Oh Father",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dear Jessie",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Keep It Together",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Hanky Panky",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "This Used to Be My Playground",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rain",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Deeper and Deeper",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Bad Girl",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Fever",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "I'll Remember",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Human Nature",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Bedtime Story",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Written with Björk, and it sounds like it."
         },
         {
           "name": "You'll See",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Power of Good-Bye",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Drowned World/Substitute for Love",
-          "pop": 1,
           "aliases": [
             "Drowned World"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Nothing Really Matters",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "American Life",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hollywood",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Sorry",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Get Together",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jump",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Miles Away",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Give It 2 Me",
-          "pop": 1,
           "aliases": [
             "Give It to Me"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Girl Gone Wild",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Turn Up the Radio",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Masterpiece",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Living for Love",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ghosttown",
-          "pop": 1,
           "aliases": [
             "Ghost Town"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Bitch I'm Madonna",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Medellín",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Physical Attraction",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -304,365 +307,368 @@
       "answers": [
         {
           "name": "Shake It Off",
-          "pop": 15
+          "tier": "radio-edit"
         },
         {
           "name": "Love Story",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "Blank Space",
-          "pop": 9
+          "tier": "radio-edit"
         },
         {
           "name": "Anti-Hero",
-          "pop": 7
+          "tier": "radio-edit"
         },
         {
           "name": "You Belong with Me",
-          "pop": 7
+          "tier": "radio-edit"
         },
         {
           "name": "Cruel Summer",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "All Too Well",
-          "pop": 4
+          "tier": "staff-pick",
+          "quip": "Ten minutes, one scarf, endless debate."
         },
         {
           "name": "We Are Never Ever Getting Back Together",
-          "pop": 4,
           "aliases": [
             "We Are Never Getting Back Together",
             "Never Ever Getting Back Together"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Look What You Made Me Do",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "I Knew You Were Trouble",
-          "pop": 3,
           "aliases": [
             "I Knew You Were Trouble When You Walked In"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Style",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Bad Blood",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "22",
-          "pop": 2,
           "aliases": [
             "Twenty Two"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Wildest Dreams",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lover",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Cardigan",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Our Song",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Teardrops on My Guitar",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "The Fate of Ophelia",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Tim McGraw",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Her debut single, named for a future duet partner."
         },
         {
           "name": "Picture to Burn",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Should've Said No",
-          "pop": 1,
           "aliases": [
             "Should Have Said No"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Fifteen",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "White Horse",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Fearless",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "The Best Day",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Mine",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Back to December",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Mean",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Sparks Fly",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Speak Now",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dear John",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Ours",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Enchanted",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Long Live",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Speak Now's closer, a thank-you to her band and fans."
         },
         {
           "name": "Red",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Begin Again",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "State of Grace",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Everything Has Changed",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Safe & Sound",
-          "pop": 1,
           "aliases": [
             "Safe and Sound"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Welcome to New York",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Out of the Woods",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "New Romantics",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Clean",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Delicate",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "...Ready for It?",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "End Game",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Gorgeous",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Getaway Car",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "I Don't Wanna Live Forever",
-          "pop": 1,
           "aliases": [
             "I Dont Want to Live Forever"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "ME!",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "You Need to Calm Down",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "The Man",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Paper Rings",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Cornelia Street",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Exile",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "August",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The 1",
-          "pop": 1,
           "aliases": [
             "The One"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Betty",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Mirrorball",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Willow",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Champagne Problems",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "No Body, No Crime",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lavender Haze",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Karma",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Bejeweled",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Midnight Rain",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Maroon",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Snow on the Beach",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Is It Over Now?",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Fortnight",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Florida!!!",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Down Bad",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "I Can Do It with a Broken Heart",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Opalite",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Elizabeth Taylor",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Father Figure",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Eldest Daughter",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ruin the Friendship",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Actually Romantic",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Wi$h Li$t",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Wood",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Cancelled!",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Honey",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Life of a Showgirl",
-          "pop": 1
+          "tier": "b-side"
         }
       ]
     },
@@ -673,266 +679,268 @@
       "answers": [
         {
           "name": "Billie Jean",
-          "pop": 20
+          "tier": "radio-edit"
         },
         {
           "name": "Thriller",
-          "pop": 18
+          "tier": "radio-edit"
         },
         {
           "name": "Beat It",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "Smooth Criminal",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "Man in the Mirror",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Black or White",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Bad",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "The Way You Make Me Feel",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Don't Stop 'Til You Get Enough",
-          "pop": 3,
           "aliases": [
             "Dont Stop Till You Get Enough"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Rock with You",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Remember the Time",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Wanna Be Startin' Somethin'",
-          "pop": 2,
           "aliases": [
             "Wanna Be Starting Something"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Human Nature",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "Smooth enough that Miles Davis covered it."
         },
         {
           "name": "P.Y.T. (Pretty Young Thing)",
-          "pop": 2,
           "aliases": [
             "PYT",
             "Pretty Young Thing"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "They Don't Care About Us",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Earth Song",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Heal the World",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "ABC",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "I Want You Back",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "You Are Not Alone",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Scream",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Dirty Diana",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Leave Me Alone",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Liberian Girl",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Another Part of Me",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Speed Demon",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "I Just Can't Stop Loving You",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "In the Closet",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Jam",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dangerous",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Will You Be There",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Give In to Me",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Who Is It",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Gone Too Soon",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "His tender tribute to Ryan White."
         },
         {
           "name": "Keep the Faith",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Stranger in Moscow",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Childhood",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ghosts",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Blood on the Dance Floor",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "You Rock My World",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Butterflies",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Cry",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Unbreakable",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Off the Wall",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "She's Out of My Life",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Workin' Day and Night",
-          "pop": 1,
           "aliases": [
             "Working Day and Night"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "The Girl Is Mine",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Say Say Say",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rockin' Robin",
-          "pop": 1,
           "aliases": [
             "Rocking Robin"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Ben",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Got to Be There",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "This Is It",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Hollywood Tonight",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Love Never Felt So Good",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Xscape",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "I'll Be There",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "The Love You Save",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Blame It on the Boogie",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Can You Feel It",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Shake Your Body (Down to the Ground)",
-          "pop": 1,
           "aliases": [
             "Shake Your Body"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Dancing Machine",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -942,193 +950,196 @@
       "answers": [
         {
           "name": "...Baby One More Time",
-          "pop": 30,
           "aliases": [
             "Hit Me Baby One More Time"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Toxic",
-          "pop": 20
+          "tier": "radio-edit"
         },
         {
           "name": "Oops!... I Did It Again",
-          "pop": 15
+          "tier": "radio-edit"
         },
         {
           "name": "Womanizer",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Gimme More",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "I'm a Slave 4 U",
-          "pop": 3,
           "aliases": [
             "I'm a Slave for You"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Circus",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Stronger",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lucky",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Sometimes",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "(You Drive Me) Crazy",
-          "pop": 2,
           "aliases": [
             "Crazy"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Everytime",
-          "pop": 2,
           "aliases": [
             "Every Time"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "A piano ballad she co-wrote herself."
         },
         {
           "name": "Piece of Me",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "Blackout's knowing wink at the tabloids."
         },
         {
           "name": "Till the World Ends",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "I'm Not a Girl, Not Yet a Woman",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Hold Me Closer",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Radar",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "If U Seek Amy",
-          "pop": 1,
           "aliases": [
             "If You Seek Amy"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "3",
-          "pop": 1,
           "aliases": [
             "Three"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Hold It Against Me",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "I Wanna Go",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Criminal",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Scream & Shout",
-          "pop": 1,
           "aliases": [
             "Scream and Shout"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Work Bitch",
-          "pop": 1,
           "aliases": [
             "Work B**ch"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Ooh La La",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Perfume",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Make Me...",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Slumber Party",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Me Against the Music",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Overprotected",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Boys",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "I Love Rock 'n' Roll",
-          "pop": 1,
           "aliases": [
             "I Love Rock and Roll"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "My Prerogative",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Do Somethin'",
-          "pop": 1,
           "aliases": [
             "Do Something"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Born to Make You Happy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "From the Bottom of My Broken Heart",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Don't Let Me Be the Last to Know",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Co-written by Shania Twain. Yes, that Shania."
         },
         {
           "name": "Break the Ice",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Outrageous",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Anticipating",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -1138,255 +1149,257 @@
       "answers": [
         {
           "name": "Poker Face",
-          "pop": 20
+          "tier": "radio-edit"
         },
         {
           "name": "Bad Romance",
-          "pop": 20
+          "tier": "radio-edit"
         },
         {
           "name": "Just Dance",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "Shallow",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "Telephone",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Born This Way",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Paparazzi",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Die with a Smile",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Alejandro",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Rain on Me",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Applause",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Million Reasons",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "The Edge of Glory",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Abracadabra",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Hold My Hand",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Judas",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Marry the Night",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "You and I",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "LoveGame",
-          "pop": 1,
           "aliases": [
             "Love Game"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Eh, Eh (Nothing Else I Can Say)",
-          "pop": 1,
           "aliases": [
             "Eh Eh"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Beautiful, Dirty, Rich",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Boys Boys Boys",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dance in the Dark",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "The Fame Monster cut Little Monsters swear by."
         },
         {
           "name": "Speechless",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Monster",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Bloody Mary",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Hair",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Scheiße",
-          "pop": 1,
           "aliases": [
             "Scheisse"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Government Hooker",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Americano",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Do What U Want",
-          "pop": 1,
           "aliases": [
             "Do What You Want"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "G.U.Y.",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Aura",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Venus",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Perfect Illusion",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "John Wayne",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Joanne",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Named for the aunt she never got to meet."
         },
         {
           "name": "Diamond Heart",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Always Remember Us This Way",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "I'll Never Love Again",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Til It Happens to You",
-          "pop": 1,
           "aliases": [
             "Till It Happens to You"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Stupid Love",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "911",
-          "pop": 1,
           "aliases": [
             "Nine One One"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Sour Candy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Alice",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Free Woman",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Replay",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Babylon",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Enigma",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Disease",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Vanish into You",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Cheek to Cheek",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Garden of Eden",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Perfect Celebrity",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Zombieboy",
-          "pop": 1,
           "aliases": [
             "Zombie Boy"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "How Bad Do U Want Me",
-          "pop": 1,
           "aliases": [
             "How Bad Do You Want Me"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "The Dead Dance",
-          "pop": 1
+          "tier": "b-side"
         }
       ]
     },
@@ -1396,173 +1409,176 @@
       "answers": [
         {
           "name": "I Will Always Love You",
-          "pop": 35
+          "tier": "radio-edit"
         },
         {
           "name": "I Wanna Dance with Somebody (Who Loves Me)",
-          "pop": 25,
           "aliases": [
             "I Wanna Dance with Somebody",
             "I Want to Dance with Somebody"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Greatest Love of All",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "How Will I Know",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "I Have Nothing",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "I'm Every Woman",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Saving All My Love for You",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "One Moment in Time",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "The anthem of the 1988 Seoul Olympics."
         },
         {
           "name": "It's Not Right but It's Okay",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "Late-'90s Whitney, serving a flawless kiss-off."
         },
         {
           "name": "My Love Is Your Love",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Higher Love",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "So Emotional",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Didn't We Almost Have It All",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Where Do Broken Hearts Go",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "You Give Good Love",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hold Me",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Her 1984 duet with Teddy Pendergrass, pre-stardom."
         },
         {
           "name": "Love Will Save the Day",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Run to You",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Queen of the Night",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "I'm Your Baby Tonight",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "All the Man That I Need",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Miracle",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "My Name Is Not Susan",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Exhale (Shoop Shoop)",
-          "pop": 1,
           "aliases": [
             "Exhale"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Count on Me",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Why Does It Hurt So Bad",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Step by Step",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "I Believe in You and Me",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "When You Believe",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Heartbreak Hotel",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Same Script, Different Cast",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "If I Told You That",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Could I Have This Kiss Forever",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "I Learned from the Best",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Try It on My Own",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Whatchulookinat",
-          "pop": 1,
           "aliases": [
             "What You Looking At"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "I Look to You",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Million Dollar Bill",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Celebrate",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jesus Loves Me",
-          "pop": 1
+          "tier": "b-side"
         }
       ]
     },
@@ -1573,215 +1589,218 @@
       "answers": [
         {
           "name": "Umbrella",
-          "pop": 25
+          "tier": "radio-edit"
         },
         {
           "name": "Diamonds",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "We Found Love",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "Work",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Only Girl (In the World)",
-          "pop": 5,
           "aliases": [
             "Only Girl"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Rude Boy",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Disturbia",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Don't Stop the Music",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Pon de Replay",
-          "pop": 4
+          "tier": "staff-pick",
+          "quip": "Where it all started, back in 2005."
         },
         {
           "name": "SOS",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Love on the Brain",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "What's My Name?",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "S&M",
-          "pop": 3,
           "aliases": [
             "S and M"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Love the Way You Lie",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Needed Me",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Stay",
-          "pop": 2
+          "tier": "radio-edit"
         },
         {
           "name": "Bitch Better Have My Money",
-          "pop": 2,
           "aliases": [
             "BBHMM"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "FourFiveSeconds",
-          "pop": 2,
           "aliases": [
             "Four Five Seconds",
             "4 5 Seconds"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Take a Bow",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Where Have You Been",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lift Me Up",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "This Is What You Came For",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Wild Thoughts",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Shut Up and Drive",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hate That I Love You",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Unfaithful",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "If It's Lovin' That You Want",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Break It Off",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Russian Roulette",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Te Amo",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hard",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Rockstar 101",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "That's Slash on guitar. Really."
         },
         {
           "name": "Cheers (Drink to That)",
-          "pop": 1,
           "aliases": [
             "Cheers"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "California King Bed",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Man Down",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Talk That Talk",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Birthday Cake",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "You Da One",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Pour It Up",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Kiss It Better",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "ANTI's slow-burn fan favorite."
         },
         {
           "name": "Sex with Me",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Desperado",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Consideration",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rehab",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Run This Town",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Live Your Life",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "The Monster",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Princess of China",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Numb",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -1791,177 +1810,179 @@
       "answers": [
         {
           "name": "Firework",
-          "pop": 18
+          "tier": "radio-edit"
         },
         {
           "name": "Roar",
-          "pop": 15
+          "tier": "radio-edit"
         },
         {
           "name": "I Kissed a Girl",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "Teenage Dream",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "California Gurls",
-          "pop": 8,
           "aliases": [
             "California Girls"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Dark Horse",
-          "pop": 7
+          "tier": "radio-edit"
         },
         {
           "name": "Hot n Cold",
-          "pop": 6,
           "aliases": [
             "Hot and Cold"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Last Friday Night (T.G.I.F.)",
-          "pop": 4,
           "aliases": [
             "Last Friday Night",
             "TGIF"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "E.T.",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Part of Me",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "The One That Got Away",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Wide Awake",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Chained to the Rhythm",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Waking Up in Vegas",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Thinking of You",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Ur So Gay",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Her 2007 buzz track, before she kissed a girl."
         },
         {
           "name": "One of the Boys",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Unconditionally",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Walking on Air",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Birthday",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "This Is How We Do",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Legendary Lovers",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rise",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Swish Swish",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Bon Appétit",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Witness",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hey Hey Hey",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Never Really Over",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Harleys in Hawaii",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Small Talk",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Smile",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Daisies",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Not the End of the World",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Cozy Little Christmas",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Her 2018 holiday single. Cozy, as promised."
         },
         {
           "name": "Electric",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Woman's World",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lifetimes",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Peacock",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Circle the Drain",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Who Am I Living For?",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Mannequin",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -1971,252 +1992,255 @@
       "answers": [
         {
           "name": "Thank U, Next",
-          "pop": 20,
           "aliases": [
             "Thank You Next"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "7 Rings",
-          "pop": 15,
           "aliases": [
             "Seven Rings"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Positions",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Problem",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Into You",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Side to Side",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "No Tears Left to Cry",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Dangerous Woman",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "God Is a Woman",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Break Free",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "We Can't Be Friends (Wait for Your Love)",
-          "pop": 3,
           "aliases": [
             "We Can't Be Friends"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Yes, And?",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "The Way",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "One Last Time",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Bang Bang",
-          "pop": 2
+          "tier": "radio-edit"
         },
         {
           "name": "Break Up with Your Girlfriend, I'm Bored",
-          "pop": 2,
           "aliases": [
             "Break Up with Your Girlfriend"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "34+35",
-          "pop": 2,
           "aliases": [
             "34 35",
             "Thirty Four Thirty Five"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Santa Tell Me",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Love Me Harder",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Popular",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Stuck with U",
-          "pop": 1,
           "aliases": [
             "Stuck with You"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Rain on Me",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Baby I",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Right There",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Almost Is Never Enough",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "With Nathan Sykes, for The Mortal Instruments."
         },
         {
           "name": "Honeymoon Avenue",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Yours Truly's opener, and a true fan's first answer."
         },
         {
           "name": "Tattooed Heart",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Focus",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Be Alright",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Everyday",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Moonlight",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Greedy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Breathin",
-          "pop": 1,
           "aliases": [
             "Breathing"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Sweetener",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Light Is Coming",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Successful",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "R.E.M.",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Imagine",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Needy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "NASA",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Fake Smile",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Bad Idea",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ghostin",
-          "pop": 1,
           "aliases": [
             "Ghosting"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "The thank u, next ballad that wrecks everyone."
         },
         {
           "name": "In My Head",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bloodline",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Boyfriend",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Monopoly",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Just Like Magic",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "POV",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Motive",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Supernatural",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Boy Is Mine",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Twilight Zone",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bye",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dandelion",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Eternal Sunshine",
-          "pop": 1
+          "tier": "b-side"
         }
       ]
     },
@@ -2227,271 +2251,274 @@
       "answers": [
         {
           "name": "Dynamite",
-          "pop": 25
+          "tier": "radio-edit"
         },
         {
           "name": "Butter",
-          "pop": 15
+          "tier": "radio-edit"
         },
         {
           "name": "Boy with Luv",
-          "pop": 8,
           "aliases": [
             "Boy with Love"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "DNA",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Fake Love",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Idol",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Spring Day",
-          "pop": 4
+          "tier": "staff-pick",
+          "quip": "The one ARMY calls their masterpiece."
         },
         {
           "name": "Blood Sweat & Tears",
-          "pop": 3,
           "aliases": [
             "Blood Sweat and Tears"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Mic Drop",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Permission to Dance",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Life Goes On",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Fire",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Dope",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "ON",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "My Universe",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "No More Dream",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Where it all began: the 2013 debut."
         },
         {
           "name": "We Are Bulletproof Pt. 2",
-          "pop": 1,
           "aliases": [
             "We Are Bulletproof Part 2",
             "We Are Bulletproof"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Boy in Luv",
-          "pop": 1,
           "aliases": [
             "Boy in Love"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Danger",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Just One Day",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "I Need U",
-          "pop": 1,
           "aliases": [
             "I Need You"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Run",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Save Me",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Not Today",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Spine Breaker",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "A 2014 deep cut roasting pricey status jackets."
         },
         {
           "name": "Silver Spoon",
-          "pop": 1,
           "aliases": [
             "Baepsae"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Butterfly",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Young Forever",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Epiphany",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Euphoria",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Serendipity",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Singularity",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Blue & Grey",
-          "pop": 1,
           "aliases": [
             "Blue and Grey"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Anpanman",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Airplane Pt. 2",
-          "pop": 1,
           "aliases": [
             "Airplane Part 2"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Magic Shop",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Answer: Love Myself",
-          "pop": 1,
           "aliases": [
             "Love Myself"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Make It Right",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dionysus",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Mikrokosmos",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Home",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Black Swan",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Filter",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "My Time",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Inner Child",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Telepathy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Film Out",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Yet to Come",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Take Two",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Pied Piper",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Go Go",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "21st Century Girl",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Am I Wrong",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lie",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Stigma",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "First Love",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Reflection",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "So What",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jamais Vu",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "War of Hormone",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -2501,373 +2528,376 @@
       "answers": [
         {
           "name": "...Baby One More Time",
-          "pop": 12,
           "aliases": [
             "Hit Me Baby One More Time"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "I Want It That Way",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "Blinding Lights",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "Shake It Off",
-          "pop": 7
+          "tier": "radio-edit"
         },
         {
           "name": "Oops!... I Did It Again",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Since U Been Gone",
-          "pop": 5,
           "aliases": [
             "Since You Been Gone"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "I Kissed a Girl",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Teenage Dream",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Blank Space",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Roar",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Can't Stop the Feeling!",
-          "pop": 3
+          "tier": "staff-pick",
+          "quip": "Timberlake's Trolls smash, Oscar-nominated."
         },
         {
           "name": "Everybody (Backstreet's Back)",
-          "pop": 3,
           "aliases": [
             "Everybody",
             "Backstreets Back"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Problem",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Dark Horse",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "California Gurls",
-          "pop": 2,
           "aliases": [
             "California Girls"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "It's My Life",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "Bon Jovi's 2000 comeback had Swedish help."
         },
         {
           "name": "Can't Feel My Face",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Hot n Cold",
-          "pop": 2,
           "aliases": [
             "Hot and Cold"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Love Me Like You Do",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "We Are Never Ever Getting Back Together",
-          "pop": 2,
           "aliases": [
             "We Are Never Getting Back Together"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "I Knew You Were Trouble",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Bad Blood",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Save Your Tears",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Style",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Wildest Dreams",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "22",
-          "pop": 1,
           "aliases": [
             "Twenty Two"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Delicate",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "...Ready for It?",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "End Game",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Gorgeous",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "New Romantics",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Larger than Life",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "As Long as You Love Me",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Quit Playing Games (with My Heart)",
-          "pop": 1,
           "aliases": [
             "Quit Playing Games"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Show Me the Meaning of Being Lonely",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Shape of My Heart",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Tearin' Up My Heart",
-          "pop": 1,
           "aliases": [
             "Tearing Up My Heart"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "It's Gonna Be Me",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "I Want You Back",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "That's the Way It Is",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Céline Dion, by way of Stockholm."
         },
         {
           "name": "(You Drive Me) Crazy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Stronger",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lucky",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "3",
-          "pop": 1,
           "aliases": [
             "Three"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "If U Seek Amy",
-          "pop": 1,
           "aliases": [
             "If You Seek Amy"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Hold It Against Me",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Behind These Hazel Eyes",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "My Life Would Suck Without You",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "So What",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Raise Your Glass",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "F**kin' Perfect",
-          "pop": 1,
           "aliases": [
             "Fuckin Perfect",
             "Fucking Perfect"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Just Like Fire",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Last Friday Night (T.G.I.F.)",
-          "pop": 1,
           "aliases": [
             "Last Friday Night",
             "TGIF"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "E.T.",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Part of Me",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Wide Awake",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Birthday",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Chained to the Rhythm",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Break Free",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Bang Bang",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Love Me Harder",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Into You",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Side to Side",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "No Tears Left to Cry",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "God Is a Woman",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Break Up with Your Girlfriend, I'm Bored",
-          "pop": 1,
           "aliases": [
             "Break Up with Your Girlfriend"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Yes, And?",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "We Can't Be Friends (Wait for Your Love)",
-          "pop": 1,
           "aliases": [
             "We Can't Be Friends"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Hands to Myself",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Domino",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "DJ Got Us Fallin' in Love",
-          "pop": 1,
           "aliases": [
             "DJ Got Us Falling in Love"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Send My Love (To Your New Lover)",
-          "pop": 1,
           "aliases": [
             "Send My Love"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Higher Power",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "My Universe",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Show Me Love",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Fate of Ophelia",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Opalite",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Elizabeth Taylor",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Father Figure",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -2877,67 +2907,70 @@
       "answers": [
         {
           "name": "1989",
-          "pop": 20,
           "aliases": [
             "Nineteen Eighty Nine"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Red",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "Folklore",
-          "pop": 11
+          "tier": "radio-edit"
         },
         {
           "name": "Fearless",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "Reputation",
-          "pop": 10,
           "aliases": [
             "Rep"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Midnights",
-          "pop": 9
+          "tier": "radio-edit"
         },
         {
           "name": "Lover",
-          "pop": 7
+          "tier": "album-track"
         },
         {
           "name": "Speak Now",
-          "pop": 5
+          "tier": "staff-pick",
+          "quip": "The one she wrote entirely on her own."
         },
         {
           "name": "The Tortured Poets Department",
-          "pop": 5,
           "aliases": [
             "TTPD"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "The Life of a Showgirl",
-          "pop": 5,
           "aliases": [
             "Showgirl"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Taylor Swift",
-          "pop": 3,
           "aliases": [
             "Debut",
             "Self-Titled"
-          ]
+          ],
+          "tier": "holy-grail",
+          "quip": "The 2006 debut, cowboy boots and all."
         },
         {
           "name": "Evermore",
-          "pop": 3
+          "tier": "staff-pick",
+          "quip": "Folklore's surprise sister, five months later."
         }
       ]
     },
@@ -2947,86 +2980,88 @@
       "answers": [
         {
           "name": "Daydream",
-          "pop": 18
+          "tier": "radio-edit"
         },
         {
           "name": "Butterfly",
-          "pop": 15
+          "tier": "radio-edit"
         },
         {
           "name": "Music Box",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "The Emancipation of Mimi",
-          "pop": 12,
           "aliases": [
             "Mimi"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Merry Christmas",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "Mariah Carey",
-          "pop": 7,
           "aliases": [
             "Self-Titled",
             "Debut"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Glitter",
-          "pop": 6
+          "tier": "staff-pick",
+          "quip": "Panned in 2001, redeemed by #JusticeForGlitter."
         },
         {
           "name": "Rainbow",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Emotions",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "E=MC²",
-          "pop": 3,
           "aliases": [
             "E=MC2",
             "E MC2"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Charmbracelet",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Memoirs of an Imperfect Angel",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Merry Christmas II You",
-          "pop": 2,
           "aliases": [
             "Merry Christmas 2 You",
             "Merry Christmas to You"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Me. I Am Mariah... The Elusive Chanteuse",
-          "pop": 1,
           "aliases": [
             "Me I Am Mariah",
             "The Elusive Chanteuse"
-          ]
+          ],
+          "tier": "holy-grail",
+          "quip": "Titled after a drawing she made as a little girl."
         },
         {
           "name": "Caution",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Here for It All",
-          "pop": 1
+          "tier": "b-side"
         }
       ]
     },
@@ -3036,51 +3071,52 @@
       "answers": [
         {
           "name": "Victoria Beckham",
-          "pop": 25,
           "aliases": [
             "Posh Spice",
             "Posh",
             "Victoria Adams"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Mel B",
-          "pop": 20,
           "aliases": [
             "Melanie Brown",
             "Scary Spice",
             "Scary",
             "Mel Brown"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Geri Halliwell",
-          "pop": 20,
           "aliases": [
             "Ginger Spice",
             "Ginger",
             "Geri Horner",
             "Geri"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Emma Bunton",
-          "pop": 18,
           "aliases": [
             "Baby Spice",
             "Baby",
             "Emma"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Mel C",
-          "pop": 17,
           "aliases": [
             "Melanie Chisholm",
             "Sporty Spice",
             "Sporty",
             "Melanie C"
-          ]
+          ],
+          "tier": "holy-grail",
+          "quip": "Sporty Spice, tracksuit and all."
         }
       ]
     },
@@ -3090,38 +3126,39 @@
       "answers": [
         {
           "name": "Harry Styles",
-          "pop": 40,
           "aliases": [
             "Harry"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Zayn Malik",
-          "pop": 18,
           "aliases": [
             "Zayn"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Niall Horan",
-          "pop": 15,
           "aliases": [
             "Niall"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Louis Tomlinson",
-          "pop": 14,
           "aliases": [
             "Louis"
-          ]
+          ],
+          "tier": "holy-grail",
+          "quip": "The one from Doncaster. Fans never forget him."
         },
         {
           "name": "Liam Payne",
-          "pop": 13,
           "aliases": [
             "Liam"
-          ]
+          ],
+          "tier": "radio-edit"
         }
       ]
     },
@@ -3131,61 +3168,62 @@
       "answers": [
         {
           "name": "Jungkook",
-          "pop": 25,
           "aliases": [
             "Jeon Jungkook",
             "JK"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "V",
-          "pop": 16,
           "aliases": [
             "Kim Taehyung",
             "Taehyung",
             "Tae"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Jimin",
-          "pop": 16,
           "aliases": [
             "Park Jimin"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "RM",
-          "pop": 12,
           "aliases": [
             "Kim Namjoon",
             "Namjoon",
             "Rap Monster"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Suga",
-          "pop": 11,
           "aliases": [
             "Min Yoongi",
             "Yoongi",
             "Agust D"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Jin",
-          "pop": 10,
           "aliases": [
             "Kim Seokjin",
             "Seokjin"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "J-Hope",
-          "pop": 10,
           "aliases": [
             "Jung Hoseok",
             "Hoseok"
-          ]
+          ],
+          "tier": "holy-grail",
+          "quip": "First South Korean act to headline Lollapalooza."
         }
       ]
     },
@@ -3195,76 +3233,77 @@
       "answers": [
         {
           "name": "Justin Timberlake",
-          "pop": 35,
           "aliases": [
             "JT",
             "Justin"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Nick Carter",
-          "pop": 10,
           "aliases": [
             "Nick"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Lance Bass",
-          "pop": 8,
           "aliases": [
             "Lance"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "JC Chasez",
-          "pop": 6,
           "aliases": [
             "JC",
             "Joshua Chasez"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Joey Fatone",
-          "pop": 6,
           "aliases": [
             "Joey"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "AJ McLean",
-          "pop": 6,
           "aliases": [
             "AJ"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Brian Littrell",
-          "pop": 5,
           "aliases": [
             "Brian"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Chris Kirkpatrick",
-          "pop": 4,
           "aliases": [
             "Chris"
-          ]
+          ],
+          "tier": "holy-grail",
+          "quip": "The guy who started *NSYNC. Respect."
         },
         {
           "name": "Howie Dorough",
-          "pop": 4,
           "aliases": [
             "Howie D",
             "Howie"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Kevin Richardson",
-          "pop": 4,
           "aliases": [
             "Kevin"
-          ]
+          ],
+          "tier": "b-side"
         }
       ]
     },
@@ -3275,283 +3314,286 @@
       "answers": [
         {
           "name": "Billie Eilish",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "Adele",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "Olivia Rodrigo",
-          "pop": 9
+          "tier": "radio-edit"
         },
         {
           "name": "Chappell Roan",
-          "pop": 9
+          "tier": "radio-edit"
         },
         {
           "name": "Dua Lipa",
-          "pop": 7
+          "tier": "radio-edit"
         },
         {
           "name": "Amy Winehouse",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Sam Smith",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Christina Aguilera",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Mariah Carey",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "The Beatles",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Alicia Keys",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Norah Jones",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Maroon 5",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "John Legend",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Carrie Underwood",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lauryn Hill",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Megan Thee Stallion",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Meghan Trainor",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Cyndi Lauper",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Milli Vanilli",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "The only Best New Artist win ever taken back."
         },
         {
           "name": "Culture Club",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Sheryl Crow",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Evanescence",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Macklemore & Ryan Lewis",
-          "pop": 1,
           "aliases": [
             "Macklemore",
             "Macklemore and Ryan Lewis"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Chance the Rapper",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Alessia Cara",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Toni Braxton",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Tracy Chapman",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Sade",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Bon Iver",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Fun.",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Esperanza Spalding",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "The jazz bassist who beat Justin Bieber in 2011."
         },
         {
           "name": "Zac Brown Band",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Samara Joy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Victoria Monét",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "LeAnn Rimes",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hootie & the Blowfish",
-          "pop": 1,
           "aliases": [
             "Hootie and the Blowfish",
             "Hootie"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Paula Cole",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Shelby Lynne",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Arrested Development",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Marc Cohn",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jody Watley",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bruce Hornsby and the Range",
-          "pop": 1,
           "aliases": [
             "Bruce Hornsby",
             "Bruce Hornsby & the Range"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Men at Work",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Sheena Easton",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Christopher Cross",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rickie Lee Jones",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "A Taste of Honey",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Debby Boone",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Starland Vocal Band",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Natalie Cole",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Marvin Hamlisch",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bette Midler",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "America",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Carly Simon",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Carpenters",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Crosby, Stills & Nash",
-          "pop": 1,
           "aliases": [
             "Crosby Stills and Nash",
             "CSN"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "José Feliciano",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bobbie Gentry",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Tom Jones",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Swingle Singers",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Robert Goulet",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Peter Nero",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bob Newhart",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "A stand-up comic who won with a comedy album."
         },
         {
           "name": "Bobby Darin",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Olivia Dean",
-          "pop": 3
+          "tier": "album-track"
         }
       ]
     },
@@ -3562,391 +3604,394 @@
       "answers": [
         {
           "name": "Michael Jackson",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "Beyoncé",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "Rihanna",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "Lady Gaga",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Katy Perry",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Shakira",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Jennifer Lopez",
-          "pop": 5,
           "aliases": [
             "J.Lo"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "The Weeknd",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Usher",
-          "pop": 5
+          "tier": "album-track"
         },
         {
           "name": "Bruno Mars",
-          "pop": 5
+          "tier": "album-track"
         },
         {
           "name": "Justin Timberlake",
-          "pop": 5,
           "aliases": [
             "JT"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Janet Jackson",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Kendrick Lamar",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Bad Bunny",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Madonna",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Prince",
-          "pop": 3
+          "tier": "staff-pick",
+          "quip": "Purple Rain in an actual downpour, 2007."
         },
         {
           "name": "Coldplay",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Dr. Dre",
-          "pop": 2,
           "aliases": [
             "Dre"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Eminem",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Snoop Dogg",
-          "pop": 2,
           "aliases": [
             "Snoop"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Maroon 5",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Bruce Springsteen",
-          "pop": 2,
           "aliases": [
             "Springsteen"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Paul McCartney",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "The Rolling Stones",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Britney Spears",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "*NSYNC",
-          "pop": 2,
           "aliases": [
             "N Sync"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "U2",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Black Eyed Peas",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Missy Elliott",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Nearly stole Katy Perry's 2015 show."
         },
         {
           "name": "SZA",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Alicia Keys",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Nicki Minaj",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Who",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Tom Petty and the Heartbreakers",
-          "pop": 1,
           "aliases": [
             "Tom Petty",
             "Tom Petty & the Heartbreakers"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Aerosmith",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Shania Twain",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "No Doubt",
-          "pop": 1,
           "aliases": [
             "Gwen Stefani"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Sting",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Red Hot Chili Peppers",
-          "pop": 1,
           "aliases": [
             "RHCP"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Lenny Kravitz",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Destiny's Child",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Travis Scott",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Big Boi",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "J Balvin",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Mary J. Blige",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "50 Cent",
-          "pop": 1,
           "aliases": [
             "Fifty Cent"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Anderson .Paak",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "LMFAO",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "M.I.A.",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "CeeLo Green",
-          "pop": 1,
           "aliases": [
             "Cee Lo Green"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Slash",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Nelly",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "P. Diddy",
-          "pop": 1,
           "aliases": [
             "Diddy",
             "Puff Daddy",
             "Sean Combs"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Kid Rock",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Jessica Simpson",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Christina Aguilera",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Enrique Iglesias",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Phil Collins",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Toni Braxton",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Gloria Estefan",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Stevie Wonder",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Big Bad Voodoo Daddy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Boyz II Men",
-          "pop": 1,
           "aliases": [
             "Boys II Men",
             "Boyz 2 Men"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Smokey Robinson",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Temptations",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Queen Latifah",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "James Brown",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "ZZ Top",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Blues Brothers",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "1997: Aykroyd, Jim Belushi and John Goodman in shades."
         },
         {
           "name": "Diana Ross",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Patti LaBelle",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Tony Bennett",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Clint Black",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Tanya Tucker",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Travis Tritt",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Judds",
-          "pop": 1,
           "aliases": [
             "Wynonna Judd"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "New Kids on the Block",
-          "pop": 1,
           "aliases": [
             "NKOTB"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Chubby Checker",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "H.E.R.",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ludacris",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Jon",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "will.i.am",
-          "pop": 1,
           "aliases": [
             "Will I Am"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Jermaine Dupri",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ricky Martin",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -3957,334 +4002,337 @@
       "answers": [
         {
           "name": "ABBA",
-          "pop": 35
+          "tier": "radio-edit"
         },
         {
           "name": "Måneskin",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "Céline Dion",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "Loreen",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Conchita Wurst",
-          "pop": 4,
           "aliases": [
             "Conchita"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Lordi",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Bucks Fizz",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Johnny Logan",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "Won twice as a singer, once more as a writer."
         },
         {
           "name": "Katrina and the Waves",
-          "pop": 2,
           "aliases": [
             "Katrina & the Waves"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Walking on Sunshine, then Eurovision gold in 1997."
         },
         {
           "name": "Netta",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Alexander Rybak",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Duncan Laurence",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Måns Zelmerlöw",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Nemo",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Kalush Orchestra",
-          "pop": 2,
           "aliases": [
             "Kalush"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Lena",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Dana International",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Brotherhood of Man",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Sandie Shaw",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Lulu",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "JJ",
-          "pop": 1,
           "aliases": [
             "Johannes Pietsch"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Jamala",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Salvador Sobral",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Emmelie de Forest",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Ell & Nikki",
-          "pop": 1,
           "aliases": [
             "Ell and Nikki"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Dima Bilan",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Marija Šerifović",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Helena Paparizou",
-          "pop": 1,
           "aliases": [
             "Elena Paparizou"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Ruslana",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Sertab Erener",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Marie N",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Tanel Padar, Dave Benton & 2XL",
-          "pop": 1,
           "aliases": [
             "Tanel Padar",
             "Dave Benton",
             "2XL"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Olsen Brothers",
-          "pop": 1,
           "aliases": [
             "Brodrene Olsen",
             "Brødrene Olsen"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Charlotte Nilsson",
-          "pop": 1,
           "aliases": [
             "Charlotte Perrelli"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Eimear Quinn",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Secret Garden",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Paul Harrington and Charlie McGettigan",
-          "pop": 1,
           "aliases": [
             "Paul Harrington",
             "Charlie McGettigan"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Niamh Kavanagh",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Linda Martin",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Carola",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Toto Cutugno",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Riva",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Sandra Kim",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bobbysocks!",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Herreys",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Corinne Hermès",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Nicole",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Teach-In",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Milk and Honey",
-          "pop": 1,
           "aliases": [
             "Milk & Honey",
             "Gali Atari"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Izhar Cohen and the Alphabeta",
-          "pop": 1,
           "aliases": [
             "Izhar Cohen",
             "Alphabeta",
             "Izhar Cohen and Alphabeta"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Marie Myriam",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Vicky Leandros",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Anne-Marie David",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Séverine",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dana",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Salomé",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lenny Kuhr",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Frida Boccara",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Massiel",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Udo Jürgens",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "France Gall",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Gigliola Cinquetti",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Grethe and Jørgen Ingmann",
-          "pop": 1,
           "aliases": [
             "Grethe & Jorgen Ingmann",
             "Grethe and Jorgen Ingmann"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Isabelle Aubret",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jean-Claude Pascal",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jacqueline Boyer",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Teddy Scholten",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "André Claveau",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Corry Brokken",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lys Assia",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Won the very first contest, for Switzerland in 1956."
         },
         {
           "name": "Dara",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -4295,265 +4343,272 @@
       "answers": [
         {
           "name": "Madonna",
-          "pop": 15
+          "tier": "radio-edit"
         },
         {
           "name": "Rihanna",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "Beyoncé",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "Adele",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "Cher",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "Prince",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Shakira",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Usher",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Sia",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lorde",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Pink",
-          "pop": 2,
           "aliases": [
             "P!nk"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Drake",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lizzo",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Halsey",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Kesha",
-          "pop": 1,
           "aliases": [
             "Ke$ha"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Seal",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Sting",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Brandy",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Aaliyah",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Ciara",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Ashanti",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Monica",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Mýa",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Selena",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Zayn",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Robyn",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Swedish pop royalty, still dancing on her own."
         },
         {
           "name": "Duffy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dido",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Enya",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Björk",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Iceland's finest export. Swan dress optional."
         },
         {
           "name": "Jewel",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Tiffany",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Akon",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Ne-Yo",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Sisqó",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Shaggy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Fergie",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Psy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lisa",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rosé",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Jennie",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Jisoo",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jungkook",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Jimin",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "IU",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "BoA",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "K-pop's original queen, a star since age 13."
         },
         {
           "name": "Rosalía",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Anitta",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Kehlani",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "SZA",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Raye",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Tyla",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Birdy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Tinashe",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Normani",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Anastacia",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "JoJo",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lauv",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Labrinth",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Stromae",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Mika",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Grimes",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Thalía",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lulu",
-          "pop": 1
+          "tier": "white-label"
+        },
+        {
+          "name": "Pitbull",
+          "tier": "album-track"
         }
       ]
     },
@@ -4564,280 +4619,287 @@
       "answers": [
         {
           "name": "Kelly Clarkson",
-          "pop": 15
+          "tier": "radio-edit"
         },
         {
           "name": "One Direction",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "Carrie Underwood",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "Harry Styles",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Little Mix",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Fifth Harmony",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Camila Cabello",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Leona Lewis",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Adam Lambert",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Jennifer Hudson",
-          "pop": 2
+          "tier": "radio-edit"
         },
         {
           "name": "Susan Boyle",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Christina Aguilera",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Britney Spears",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "A Star Search kid before the Mickey Mouse Club."
         },
         {
           "name": "Justin Timberlake",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Usher",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Beyoncé",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Girls Tyme lost on Star Search. Destiny had other plans."
         },
         {
           "name": "Kelly Rowland",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "LeAnn Rimes",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Fantasia",
-          "pop": 1,
           "aliases": [
             "Fantasia Barrino"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Jordin Sparks",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Clay Aiken",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Daughtry",
-          "pop": 1,
           "aliases": [
             "Chris Daughtry"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Ruben Studdard",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Katharine McPhee",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "David Cook",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Phillip Phillips",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Scotty McCreery",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Kellie Pickler",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lauren Alaina",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Gabby Barrett",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Haley Reinhart",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bo Bice",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Tori Kelly",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Zayn Malik",
-          "pop": 1,
           "aliases": [
             "Zayn"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Niall Horan",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Louis Tomlinson",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Liam Payne",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Normani",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Olly Murs",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Will Young",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Gareth Gates",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Girls Aloud",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hear'Say",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Liberty X",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "The Popstars runners-up who outlasted Hear'Say."
         },
         {
           "name": "JLS",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Alexandra Burke",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "James Arthur",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Cher Lloyd",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rebecca Ferguson",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Matt Cardle",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Shayne Ward",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Joe McElderry",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ella Henderson",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Danity Kane",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "O-Town",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Paul Potts",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Diversity",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jackie Evancho",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Grace VanderWaal",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Cassadee Pope",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Guy Sebastian",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jessica Mauboy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "No Angels",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Twice",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Wanna One",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "IZ*ONE",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "I.O.I",
-          "pop": 1
+          "tier": "white-label"
+        },
+        {
+          "name": "Melanie Martinez",
+          "tier": "b-side"
         }
       ]
     },
@@ -4848,176 +4910,179 @@
       "answers": [
         {
           "name": "Miley Cyrus",
-          "pop": 20,
           "aliases": [
             "Hannah Montana"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Selena Gomez",
-          "pop": 18
+          "tier": "radio-edit"
         },
         {
           "name": "Demi Lovato",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "Olivia Rodrigo",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "Sabrina Carpenter",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Hilary Duff",
-          "pop": 5,
           "aliases": [
             "Lizzie McGuire"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Jonas Brothers",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Britney Spears",
-          "pop": 3
+          "tier": "staff-pick",
+          "quip": "A Mouseketeer at 11, years before her first hit."
         },
         {
           "name": "Justin Timberlake",
-          "pop": 3
+          "tier": "staff-pick",
+          "quip": "A Mouseketeer with Britney, Christina and Ryan Gosling."
         },
         {
           "name": "Christina Aguilera",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Zendaya",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Vanessa Hudgens",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Nick Jonas",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Dove Cameron",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Ashley Tisdale",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Zac Efron",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Joe Jonas",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Kevin Jonas",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Raven-Symoné",
-          "pop": 1,
           "aliases": [
             "Raven Symone",
             "Raven"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Bridgit Mendler",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Sofia Carson",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "China Anne McClain",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Bella Thorne",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Corbin Bleu",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Ross Lynch",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Laura Marano",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Joshua Bassett",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Olivia Holt",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Meg Donnelly",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Debby Ryan",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Emily Osment",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Mitchel Musso",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Aly & AJ",
-          "pop": 1,
           "aliases": [
             "Aly and AJ"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Lindsay Lohan",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Christy Carlson Romano",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Cheetah Girls",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Adrienne Bailon",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Kiely Williams",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Sabrina Bryan",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "JC Chasez",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Mouseketeer first, *NSYNC heartthrob second."
         }
       ]
     },
@@ -5028,208 +5093,215 @@
       "answers": [
         {
           "name": "Dancing Queen",
-          "pop": 20
+          "tier": "radio-edit"
         },
         {
           "name": "I Wanna Dance with Somebody (Who Loves Me)",
-          "pop": 15,
           "aliases": [
             "I Wanna Dance with Somebody",
             "I Want to Dance with Somebody"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Just Dance",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "Dance Monkey",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Dancing On My Own",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Tiny Dancer",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Shut Up and Dance",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "One Dance",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Dancing in the Dark",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Dance the Night",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Let's Dance",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Dancing in the Street",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "The Safety Dance",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Dancing with a Stranger",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Dancing in the Moonlight",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "King Harvest's hit, written by Sherman Kelly."
         },
         {
           "name": "Private Dancer",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Save the Last Dance for Me",
-          "pop": 1,
           "aliases": [
             "Save the Last Dance"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Dancing with Myself",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Gen X recorded it first, then Billy Idol went solo."
         },
         {
           "name": "Last Dance",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Dance Again",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dancing on the Ceiling",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Dance Hall Days",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dance, Dance",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dance with My Father",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Dance in the Dark",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dance for You",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dancing Machine",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Dance",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dance to the Music",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dance into the Light",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dancing Days",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dancing with the Devil",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dance with Me",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dancing with Tears in My Eyes",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dance wiv Me",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dancing Lasha Tumbai",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Ukraine's glittering 2007 Eurovision runner-up."
         },
         {
           "name": "Dancing with Our Hands Tied",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dancing in the Flames",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dance (Disco Heat)",
-          "pop": 1,
           "aliases": [
             "Disco Heat"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Dancing Barefoot",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dance Yourself Clean",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dance Me to the End of Love",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dancing Through Life",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah)",
-          "pop": 1,
           "aliases": [
             "Dance Dance Dance"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Dancing",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dancing Shoes",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dancin'",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Dead Dance",
-          "pop": 1
+          "tier": "b-side"
+        },
+        {
+          "name": "I Hope You Dance",
+          "tier": "album-track"
         }
       ]
     }

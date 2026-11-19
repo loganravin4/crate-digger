@@ -8,348 +8,351 @@
       "answers": [
         {
           "name": "Not Like Us",
-          "pop": 24
+          "tier": "radio-edit"
         },
         {
           "name": "HUMBLE.",
-          "pop": 20
+          "tier": "radio-edit"
         },
         {
           "name": "Alright",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "Swimming Pools (Drank)",
-          "pop": 7,
           "aliases": [
             "Swimming Pools"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Money Trees",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "DNA.",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "King Kunta",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Euphoria",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "All the Stars",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "luther",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "tv off",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Bitch, Don't Kill My Vibe",
-          "pop": 3,
           "aliases": [
             "Don't Kill My Vibe"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "m.A.A.d city",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "LOVE.",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Like That",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "squabble up",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "N95",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "LOYALTY.",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Backseat Freestyle",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Poetic Justice",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "i",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Control",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Meet the Grahams",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "The Blacker the Berry",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "These Walls",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Sing About Me, I'm Dying of Thirst",
-          "pop": 1,
           "aliases": [
             "Sing About Me",
             "Dying of Thirst"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Twelve minutes that turned a lot of casual fans into lifers."
         },
         {
           "name": "The Art of Peer Pressure",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Sherane a.k.a Master Splinter's Daughter",
-          "pop": 1,
           "aliases": [
             "Sherane"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "good kid",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Compton",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Real",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Count Me Out",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Die Hard",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "United in Grief",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rich Spirit",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Father Time",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Savior",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Silent Hill",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Auntie Diaries",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Mother I Sober",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "We Cry Together",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Purple Hearts",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Crown",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Worldwide Steppers",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Mr. Morale",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "6:16 in LA",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "wacced out murals",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "hey now",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "reincarnated",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "man at the garden",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "dodger blue",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "peekaboo",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "heart pt. 6",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "gnx",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "gloria",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Heart Part 4",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Heart Part 5",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Rigamortus",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Section.80's breathless jazz sprint. Somebody did the homework."
         },
         {
           "name": "A.D.H.D",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hol' Up",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ronald Reagan Era",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "A Section.80 deep cut from before the stadium years. Respect."
         },
         {
           "name": "FEAR.",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "XXX.",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "PRIDE.",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "LUST.",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "ELEMENT.",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "FEEL.",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "YAH.",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "GOD.",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "DUCKWORTH.",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "BLOOD.",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "u",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Momma",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Hood Politics",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "How Much a Dollar Cost",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Mortal Man",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Institutionalized",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Wesley's Theory",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "King's Dead",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Family Ties",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Big Shot",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Pray for Me",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Recipe",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -360,225 +363,228 @@
       "answers": [
         {
           "name": "Juicy",
-          "pop": 30
+          "tier": "radio-edit"
         },
         {
           "name": "Hypnotize",
-          "pop": 18
+          "tier": "radio-edit"
         },
         {
           "name": "Big Poppa",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "Mo Money Mo Problems",
-          "pop": 8,
           "aliases": [
             "Mo Money More Problems"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "One More Chance",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Sky's the Limit",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Ten Crack Commandments",
-          "pop": 3,
           "aliases": [
             "10 Crack Commandments"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "A rulebook in rhyme, and every Biggie head can recite it."
         },
         {
           "name": "Warning",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Notorious Thugs",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Gimme the Loot",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "Big trading verses with himself. Still a jaw-dropper."
         },
         {
           "name": "Ready to Die",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Unbelievable",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Suicidal Thoughts",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Kick in the Door",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Who Shot Ya?",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Going Back to Cali",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Party and Bullshit",
-          "pop": 2,
           "aliases": [
             "Party and BS"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Get Money",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Everyday Struggle",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Things Done Changed",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Machine Gun Funk",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The What",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "I Got a Story to Tell",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Somebody's Gotta Die",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "What's Beef?",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Nasty Boy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Nasty Girl",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dead Wrong",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Notorious B.I.G.",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Spit Your Game",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Victory",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Long Kiss Goodnight",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "My Downfall",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "You're Nobody (Til Somebody Kills You)",
-          "pop": 1,
           "aliases": [
             "You're Nobody"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Miss U",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Playa Hater",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "I Love the Dough",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Friend of Mine",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Respect",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Can't You See",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Player's Anthem",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Flava in Ya Ear (Remix)",
-          "pop": 1,
           "aliases": [
             "Flava in Ya Ear"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Only You",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Runnin' (Dying to Live)",
-          "pop": 1,
           "aliases": [
             "Runnin'"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Just Playing (Dreams)",
-          "pop": 1,
           "aliases": [
             "Dreams",
             "Just Playing"
-          ]
+          ],
+          "tier": "holy-grail",
+          "quip": "Big daydreaming about R&B singers on a B-side. Deep pull."
         },
         {
           "name": "Last Day",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Rap Phenomenon",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dangerous MC's",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The World Is Filled...",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Another",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -589,264 +595,267 @@
       "answers": [
         {
           "name": "California Love",
-          "pop": 28
+          "tier": "radio-edit"
         },
         {
           "name": "Changes",
-          "pop": 18
+          "tier": "radio-edit"
         },
         {
           "name": "Dear Mama",
-          "pop": 15
+          "tier": "radio-edit"
         },
         {
           "name": "Hit 'Em Up",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "I Ain't Mad at Cha",
-          "pop": 4,
           "aliases": [
             "Ain't Mad at Cha",
             "I Ain't Mad at Ya"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "All Eyez on Me",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Ambitionz Az a Ridah",
-          "pop": 3,
           "aliases": [
             "Ambitions as a Rider",
             "Ambitionz as a Ridah"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "I Get Around",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Keep Ya Head Up",
-          "pop": 3,
           "aliases": [
             "Keep Your Head Up"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Hail Mary",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Brenda's Got a Baby",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "Pure storytelling from 2Pacalypse Now. The heart of it all."
         },
         {
           "name": "How Do U Want It",
-          "pop": 2,
           "aliases": [
             "How Do You Want It"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "To Live & Die in L.A.",
-          "pop": 2,
           "aliases": [
             "To Live and Die in LA"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Life Goes On",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Do for Love",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Ghetto Gospel",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Thugz Mansion",
-          "pop": 2,
           "aliases": [
             "Thugs Mansion"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "2 of Amerikaz Most Wanted",
-          "pop": 2,
           "aliases": [
             "Two of Americas Most Wanted",
             "2 of Americaz Most Wanted"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Picture Me Rollin'",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "So Many Tears",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Me Against the World's quiet gut punch. A real head's pick."
         },
         {
           "name": "Me Against the World",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "If I Die 2Nite",
-          "pop": 1,
           "aliases": [
             "If I Die Tonight"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Until the End of Time",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Unconditional Love",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hold Ya Head",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Trapped",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Temptations",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Old School",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Krazy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Only God Can Judge Me",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Shorty Wanna Be a Thug",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Can't C Me",
-          "pop": 1,
           "aliases": [
             "Can't See Me"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Toss It Up",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Smile",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Runnin' (Dying to Live)",
-          "pop": 1,
           "aliases": [
             "Runnin'"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Letter 2 My Unborn",
-          "pop": 1,
           "aliases": [
             "Letter to My Unborn"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Better Dayz",
-          "pop": 1,
           "aliases": [
             "Better Days"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Thug Passion",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Heartz of Men",
-          "pop": 1,
           "aliases": [
             "Hearts of Men"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Got My Mind Made Up",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Holler If Ya Hear Me",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Pain",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lord Knows",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Death Around the Corner",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ballad of a Dead Soulja",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Blasphemy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bomb First (My Second Reply)",
-          "pop": 1,
           "aliases": [
             "Bomb First"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "White Man'z World",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "A Makaveli deep cut with real weight. Serious digging."
         },
         {
           "name": "Against All Odds",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Wonda Why They Call U",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Run tha Streetz",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Tradin' War Stories",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Life of an Outlaw",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Can U Get Away",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -857,276 +866,279 @@
       "answers": [
         {
           "name": "Hey Ya!",
-          "pop": 35
+          "tier": "radio-edit"
         },
         {
           "name": "Ms. Jackson",
-          "pop": 20,
           "aliases": [
             "Miss Jackson"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Roses",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "B.O.B",
-          "pop": 6,
           "aliases": [
             "Bombs Over Baghdad",
             "BOB (Bombs Over Baghdad)"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "So Fresh, So Clean",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "The Way You Move",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Elevators (Me & You)",
-          "pop": 3,
           "aliases": [
             "Elevators"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Rosa Parks",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "SpottieOttieDopaliscious",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "Mostly spoken word over horns, and somehow a classic. Taste."
         },
         {
           "name": "Aquemini",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Player's Ball",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Southernplayalisticadillacmuzik",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "ATLiens",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Prototype",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Git Up, Git Out",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Da Art of Storytellin'",
-          "pop": 1,
           "aliases": [
             "Art of Storytelling"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Aquemini storytelling at its peak. Of course you went there."
         },
         {
           "name": "GhettoMusick",
-          "pop": 1,
           "aliases": [
             "Ghetto Musick"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Morris Brown",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Idlewild Blue (Don'tchu Worry 'Bout Me)",
-          "pop": 1,
           "aliases": [
             "Idlewild Blue"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Mighty \"O\"",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hollywood Divorce",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Return of the \"G\"",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Liberation",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Synthesizer",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Skew It on the Bar-B",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Chonkyfire",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Y'All Scared",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jazzy Belle",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Wheelz of Steel",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Two Dope Boyz (In a Cadillac)",
-          "pop": 1,
           "aliases": [
             "Two Dope Boyz"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "13th Floor/Growing Old",
-          "pop": 1,
           "aliases": [
             "13th Floor"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Babylon",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Crumblin' Erb",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Deep in the debut. That's a front-to-back listener talking."
         },
         {
           "name": "Hootie Hoo",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Ain't No Thang",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Claimin' True",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Gasoline Dreams",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Snappin' & Trappin'",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Spaghetti Junction",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Humble Mumble",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Red Velvet",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Toilet Tisha",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Xplosion",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Slum Beautiful",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "I'll Call Before I Come",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Unhappy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bowtie",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Rooster",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "War",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Church",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Flip Flop Rock",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Knowing",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Happy Valentine's Day",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Spread",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "She Lives in My Lap",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Behold a Lady",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Pink & Blue",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Love Hater",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Vibrate",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Take Off Your Cool",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dracula's Wedding",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Train",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -1137,220 +1149,223 @@
       "answers": [
         {
           "name": "Drop It Like It's Hot",
-          "pop": 25
+          "tier": "radio-edit"
         },
         {
           "name": "Gin and Juice",
-          "pop": 20
+          "tier": "radio-edit"
         },
         {
           "name": "Young, Wild & Free",
-          "pop": 8,
           "aliases": [
             "Young Wild and Free"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Still D.R.E.",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "The Next Episode",
-          "pop": 8,
           "aliases": [
             "Smoke Weed Everyday"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Nuthin' but a \"G\" Thang",
-          "pop": 6,
           "aliases": [
             "Nothin but a G Thang",
             "G Thang"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Who Am I (What's My Name)?",
-          "pop": 5,
           "aliases": [
             "What's My Name",
             "Who Am I"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Beautiful",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Sensual Seduction",
-          "pop": 2,
           "aliases": [
             "Sexual Eruption"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Signs",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "California Gurls",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Ain't No Fun (If the Homies Can't Have None)",
-          "pop": 2,
           "aliases": [
             "Ain't No Fun"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Doggy Dogg World",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Murder Was the Case",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "So big it became a short film and a whole soundtrack."
         },
         {
           "name": "Lodi Dodi",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Snoop's Slick Rick remake. Doggystyle heads always bring it up."
         },
         {
           "name": "Gz and Hustlas",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Tha Shiznit",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Serial Killa",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Pump Pump",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lay Low",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Snoop's Upside Ya Head",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Vapors",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Snoop Dogg (What's My Name Pt. 2)",
-          "pop": 1,
           "aliases": [
             "What's My Name Pt 2"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Wrong Idea",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Candy (Drippin' Like Water)",
-          "pop": 1,
           "aliases": [
             "Candy"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "From tha Chuuuch to da Palace",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Let's Get Blown",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Ups & Downs",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Vato",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "That's That Shit",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "I Wanna Rock",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Gangsta Luv",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Wet",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Sweat",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Peaches N Cream",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lavender",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Kush",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hennessy n Buddah",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "A Tha Last Meal deep cut. You actually played the whole CD."
         },
         {
           "name": "Doggfather",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Still a G Thang",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Woof!",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Deep Cover",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Buttons",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Boss' Life",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Imagine",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Holidae In",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "2 of Amerikaz Most Wanted",
-          "pop": 1,
           "aliases": [
             "Two of Americas Most Wanted"
-          ]
+          ],
+          "tier": "album-track"
         }
       ]
     },
@@ -1361,197 +1376,200 @@
       "answers": [
         {
           "name": "Yeah!",
-          "pop": 35
+          "tier": "radio-edit"
         },
         {
           "name": "U Got It Bad",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "U Remind Me",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "Burn",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "OMG",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "You Make Me Wanna...",
-          "pop": 5
+          "tier": "album-track"
         },
         {
           "name": "Confessions Part II",
-          "pop": 5,
           "aliases": [
             "Confessions",
             "Confessions Part 2"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "My Boo",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Nice & Slow",
-          "pop": 3,
           "aliases": [
             "Nice and Slow"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "His first Hot 100 No. 1. The day-ones never forget it."
         },
         {
           "name": "DJ Got Us Fallin' in Love",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Love in This Club",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Without You",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Climax",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "The Diplo-produced slow burn critics adored. Taste, noted."
         },
         {
           "name": "Scream",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Caught Up",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "U Don't Have to Call",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lovers and Friends",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "More",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "There Goes My Baby",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Papers",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hey Daddy (Daddy's Home)",
-          "pop": 1,
           "aliases": [
             "Hey Daddy",
             "Daddy's Home"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Moving Mountains",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Trading Places",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Freak",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Think of You",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "My Way",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Bad Girl",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Superstar",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Throwback",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Can U Handle It?",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Good Kisser",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "I Don't Mind",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "No Limit",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Crash",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Good Good",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "I Need a Girl (Part One)",
-          "pop": 1,
           "aliases": [
             "I Need a Girl"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Pop Ya Collar",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Call Me a Mack",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "His debut single, off the Poetic Justice soundtrack. Deep crate."
         },
         {
           "name": "Can U Get Wit It",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lemme See",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Numb",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Hot Tottie",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Here I Stand",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Coming Home",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dive",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -1562,82 +1580,84 @@
       "answers": [
         {
           "name": "The College Dropout",
-          "pop": 22
+          "tier": "radio-edit"
         },
         {
           "name": "Graduation",
-          "pop": 18
+          "tier": "radio-edit"
         },
         {
           "name": "My Beautiful Dark Twisted Fantasy",
-          "pop": 18,
           "aliases": [
             "MBDTF",
             "Dark Twisted Fantasy"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Late Registration",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "808s & Heartbreak",
-          "pop": 10,
           "aliases": [
             "808s",
             "808s and Heartbreaks"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Yeezus",
-          "pop": 7
+          "tier": "radio-edit"
         },
         {
           "name": "The Life of Pablo",
-          "pop": 7,
           "aliases": [
             "TLOP",
             "Pablo"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Donda",
-          "pop": 6
+          "tier": "album-track"
         },
         {
           "name": "Watch the Throne",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Ye",
-          "pop": 3
+          "tier": "b-side"
         },
         {
           "name": "Jesus Is King",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Kids See Ghosts",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "Ye and Kid Cudi as one act. Seven tracks, all killer."
         },
         {
           "name": "Vultures 1",
-          "pop": 2,
           "aliases": [
             "Vultures",
             "Vultures Volume 1"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Vultures 2",
-          "pop": 1,
           "aliases": [
             "Vultures Volume 2"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Donda 2",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Released only on the Stem Player. You truly kept up."
         }
       ]
     },
@@ -1648,101 +1668,103 @@
       "answers": [
         {
           "name": "Method Man",
-          "pop": 25,
           "aliases": [
             "Meth",
             "Johnny Blaze",
             "Clifford Smith"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "RZA",
-          "pop": 20,
           "aliases": [
             "The Abbot",
             "Bobby Digital",
             "Prince Rakeem",
             "Robert Diggs"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Ol' Dirty Bastard",
-          "pop": 15,
           "aliases": [
             "ODB",
             "Old Dirty Bastard",
             "Dirt McGirt",
             "Big Baby Jesus",
             "Russell Jones"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Ghostface Killah",
-          "pop": 14,
           "aliases": [
             "Ghostface",
             "Tony Starks",
             "Pretty Toney",
             "Dennis Coles"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Raekwon",
-          "pop": 10,
           "aliases": [
             "Raekwon the Chef",
             "Rae",
             "Corey Woods"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "GZA",
-          "pop": 8,
           "aliases": [
             "The Genius",
             "Gary Grice"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Inspectah Deck",
-          "pop": 5,
           "aliases": [
             "Rebel INS",
             "Deck",
             "Jason Hunter"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Opened \"Triumph\" with a verse people still quote. Respect."
         },
         {
           "name": "U-God",
-          "pop": 3,
           "aliases": [
             "Golden Arms",
             "Lamont Hawkins"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Masta Killa",
-          "pop": 3,
           "aliases": [
             "Master Killer",
             "Jamel Irief",
             "Elgin Turner"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Cappadonna",
-          "pop": 2,
           "aliases": [
             "Darryl Hill"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Mathematics",
-          "pop": 1,
           "aliases": [
             "DJ Mathematics",
             "Allah Mathematics"
-          ]
+          ],
+          "tier": "holy-grail",
+          "quip": "The DJ and producer who designed the Wu logo. True scholar."
         }
       ]
     },
@@ -1753,94 +1775,97 @@
       "answers": [
         {
           "name": "Tyler, the Creator",
-          "pop": 40,
           "aliases": [
             "Tyler",
             "Wolf Haley",
             "Tyler Okonma"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Earl Sweatshirt",
-          "pop": 15,
           "aliases": [
             "Earl",
             "Thebe Kgositsile"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Frank Ocean",
-          "pop": 15,
           "aliases": [
             "Frank"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Syd",
-          "pop": 4,
           "aliases": [
             "Syd tha Kyd",
             "Syd the Kid"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Hodgy",
-          "pop": 5,
           "aliases": [
             "Hodgy Beats"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Domo Genesis",
-          "pop": 4,
           "aliases": [
             "Domo"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Matt Martians",
-          "pop": 2,
           "aliases": [
             "The Super 3"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Left Brain",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Mike G",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Jasper Dolphin",
-          "pop": 2,
           "aliases": [
             "Jasper"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Loiter Squad chaos agent. Every OF fan remembers Jasper."
         },
         {
           "name": "Taco",
-          "pop": 1,
           "aliases": [
             "Taco Bennett"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Taco Bennett, Loiter Squad regular and resident wild card."
         },
         {
           "name": "Lucas Vercetti",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Casey Veggies",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Brandun DeShay",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "An early member who left before the blowup. Origin-story nerd."
         },
         {
           "name": "L-Boy",
-          "pop": 1
+          "tier": "b-side"
         }
       ]
     },
@@ -1851,352 +1876,355 @@
       "answers": [
         {
           "name": "Dr. Dre",
-          "pop": 25,
           "aliases": [
             "Dre",
             "Andre Young"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Kanye West",
-          "pop": 8,
           "aliases": [
             "Kanye",
             "Ye"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Metro Boomin",
-          "pop": 8,
           "aliases": [
             "Metro"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Timbaland",
-          "pop": 6,
           "aliases": [
             "Timbo"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Pharrell Williams",
-          "pop": 5,
           "aliases": [
             "Pharrell",
             "The Neptunes"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "J Dilla",
-          "pop": 5,
           "aliases": [
             "Dilla",
             "Jay Dee"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Donuts on repeat, we assume. The know-it-all's patron saint."
         },
         {
           "name": "DJ Premier",
-          "pop": 5,
           "aliases": [
             "Premier",
             "Premo",
             "Preemo"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "RZA",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Madlib",
-          "pop": 3
+          "tier": "staff-pick",
+          "quip": "The Beat Konducta himself. Somebody owns a Stones Throw tote."
         },
         {
           "name": "The Alchemist",
-          "pop": 3,
           "aliases": [
             "ALC"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Swizz Beatz",
-          "pop": 3,
           "aliases": [
             "Swizz"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Mustard",
-          "pop": 3,
           "aliases": [
             "DJ Mustard",
             "Mustard on the Beat"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Pete Rock",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Just Blaze",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Rick Rubin",
-          "pop": 2
+          "tier": "radio-edit"
         },
         {
           "name": "Mike WiLL Made-It",
-          "pop": 2,
           "aliases": [
             "Mike Will",
             "Mike Will Made It"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Hit-Boy",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "No I.D.",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Zaytoven",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Mannie Fresh",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Jermaine Dupri",
-          "pop": 2,
           "aliases": [
             "JD"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Chad Hugo",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Marley Marl",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Large Professor",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "DJ Muggs",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Havoc",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Boi-1da",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "40",
-          "pop": 1,
           "aliases": [
             "Noah 40 Shebib",
             "Noah Shebib"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Lex Luger",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Southside",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Sonny Digital",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Mike Dean",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "9th Wonder",
-          "pop": 1,
           "aliases": [
             "Ninth Wonder"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "DJ Toomp",
-          "pop": 1,
           "aliases": [
             "Toomp"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Organized Noize",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Jazze Pha",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Scott Storch",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Rockwilder",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Irv Gotti",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Erick Sermon",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "DJ Quik",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Battlecat",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Cool & Dre",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Danja",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Polow da Don",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Teddy Riley",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Jimmy Jam and Terry Lewis",
-          "pop": 1,
           "aliases": [
             "Jam and Lewis",
             "Jimmy Jam & Terry Lewis"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Sounwave",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Tay Keith",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Wheezy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Pi'erre Bourne",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Murda Beatz",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "TM88",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Cardo",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Kenny Beats",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hi-Tek",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bink!",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Prince Paul",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Bomb Squad",
-          "pop": 1,
           "aliases": [
             "Hank Shocklee"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Black Milk",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Statik Selektah",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Knxwledge",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Kaytranada",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Ronny J",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "DJ Paul",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Salaam Remi",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dahi",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Easy Mo Bee",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Buckwild",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "D.I.T.C. royalty. Now that's a liner-notes reader."
         },
         {
           "name": "Diamond D",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "DJ Shadow",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Nottz",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -2207,398 +2235,401 @@
       "answers": [
         {
           "name": "Def Jam",
-          "pop": 30,
           "aliases": [
             "Def Jam Recordings"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Death Row Records",
-          "pop": 18,
           "aliases": [
             "Death Row"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Bad Boy Records",
-          "pop": 12,
           "aliases": [
             "Bad Boy",
             "Bad Boy Entertainment"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Cash Money Records",
-          "pop": 8,
           "aliases": [
             "Cash Money"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Roc-A-Fella Records",
-          "pop": 8,
           "aliases": [
             "Roc-A-Fella",
             "Rockafella"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Aftermath Entertainment",
-          "pop": 5,
           "aliases": [
             "Aftermath"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "No Limit Records",
-          "pop": 4,
           "aliases": [
             "No Limit"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Shady Records",
-          "pop": 3,
           "aliases": [
             "Shady"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Top Dawg Entertainment",
-          "pop": 3,
           "aliases": [
             "TDE",
             "Top Dawg"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Young Money",
-          "pop": 3,
           "aliases": [
             "Young Money Entertainment"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "G.O.O.D. Music",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Ruff Ryders",
-          "pop": 2,
           "aliases": [
             "Ruff Ryders Entertainment"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Sugar Hill Records",
-          "pop": 2,
           "aliases": [
             "Sugar Hill"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Tommy Boy Records",
-          "pop": 2,
           "aliases": [
             "Tommy Boy"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Ruthless Records",
-          "pop": 2,
           "aliases": [
             "Ruthless"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Rap-A-Lot Records",
-          "pop": 2,
           "aliases": [
             "Rap-A-Lot"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "LaFace Records",
-          "pop": 2,
           "aliases": [
             "LaFace"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "So So Def",
-          "pop": 2,
           "aliases": [
             "So So Def Recordings"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Rawkus Records",
-          "pop": 2,
           "aliases": [
             "Rawkus"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Mos Def, Talib Kweli, Soundbombing. Backpack heaven."
         },
         {
           "name": "Stones Throw Records",
-          "pop": 2,
           "aliases": [
             "Stones Throw"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Madlib, Dilla, DOOM. Peanut Butter Wolf built a temple."
         },
         {
           "name": "Interscope Records",
-          "pop": 2,
           "aliases": [
             "Interscope"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Maybach Music Group",
-          "pop": 2,
           "aliases": [
             "MMG",
             "Maybach Music"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Dreamville",
-          "pop": 2,
           "aliases": [
             "Dreamville Records"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "OVO Sound",
-          "pop": 2,
           "aliases": [
             "OVO"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Quality Control Music",
-          "pop": 2,
           "aliases": [
             "Quality Control",
             "QC"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Roc Nation",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "G-Unit Records",
-          "pop": 2,
           "aliases": [
             "G-Unit"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Motown",
-          "pop": 2,
           "aliases": [
             "Motown Records"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Priority Records",
-          "pop": 1,
           "aliases": [
             "Priority"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Jive Records",
-          "pop": 1,
           "aliases": [
             "Jive"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Loud Records",
-          "pop": 1,
           "aliases": [
             "Loud"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Rhymesayers Entertainment",
-          "pop": 1,
           "aliases": [
             "Rhymesayers"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Definitive Jux",
-          "pop": 1,
           "aliases": [
             "Def Jux"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Atlantic Records",
-          "pop": 1,
           "aliases": [
             "Atlantic"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Uptown Records",
-          "pop": 1,
           "aliases": [
             "Uptown"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Murder Inc. Records",
-          "pop": 1,
           "aliases": [
             "Murder Inc",
             "The Inc"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Grand Hustle Records",
-          "pop": 1,
           "aliases": [
             "Grand Hustle"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Cactus Jack Records",
-          "pop": 1,
           "aliases": [
             "Cactus Jack"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Big Beat Records",
-          "pop": 1,
           "aliases": [
             "Big Beat"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Profile Records",
-          "pop": 1,
           "aliases": [
             "Profile"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Cold Chillin' Records",
-          "pop": 1,
           "aliases": [
             "Cold Chillin'"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Duck Down Music",
-          "pop": 1,
           "aliases": [
             "Duck Down",
             "Duck Down Records"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Delicious Vinyl",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Mass Appeal Records",
-          "pop": 1,
           "aliases": [
             "Mass Appeal"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Disturbing tha Peace",
-          "pop": 1,
           "aliases": [
             "DTP"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Slip-n-Slide Records",
-          "pop": 1,
           "aliases": [
             "Slip-n-Slide"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Swishahouse",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Hypnotize Minds",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Suave House Records",
-          "pop": 1,
           "aliases": [
             "Suave House"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Strange Music",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Mello Music Group",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Fool's Gold Records",
-          "pop": 1,
           "aliases": [
             "Fool's Gold"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "1017 Records",
-          "pop": 1,
           "aliases": [
             "1017 Brick Squad",
             "1017"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "YSL Records",
-          "pop": 1,
           "aliases": [
             "YSL",
             "Young Stoner Life"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Enjoy Records",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Bobby Robinson's Harlem label, home of early Flash and Funky 4."
         },
         {
           "name": "Diplomat Records",
-          "pop": 1,
           "aliases": [
             "Dipset Records"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Terror Squad Entertainment",
-          "pop": 1,
           "aliases": [
             "Terror Squad"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Def American",
-          "pop": 1,
           "aliases": [
             "American Recordings"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Generation Now",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -2609,277 +2640,280 @@
       "answers": [
         {
           "name": "OutKast",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "André 3000",
-          "pop": 8,
           "aliases": [
             "3 Stacks",
             "Andre Benjamin",
             "Three Stacks"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "T.I.",
-          "pop": 8,
           "aliases": [
             "TIP"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Future",
-          "pop": 7,
           "aliases": [
             "Pluto"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Gucci Mane",
-          "pop": 6,
           "aliases": [
             "Gucci",
             "Guwop"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Ludacris",
-          "pop": 6,
           "aliases": [
             "Luda"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Lil Baby",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Young Thug",
-          "pop": 5,
           "aliases": [
             "Thugger",
             "Slime"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "21 Savage",
-          "pop": 5,
           "aliases": [
             "21"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Migos",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Quavo",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Lil Jon",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Jeezy",
-          "pop": 3,
           "aliases": [
             "Young Jeezy"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "2 Chainz",
-          "pop": 3,
           "aliases": [
             "Tity Boi",
             "Two Chainz"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Playboi Carti",
-          "pop": 3,
           "aliases": [
             "Carti"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Big Boi",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Offset",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Takeoff",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Killer Mike",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "Half of Run the Jewels and a proud Atlanta lifer."
         },
         {
           "name": "Gunna",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lil Yachty",
-          "pop": 2,
           "aliases": [
             "Yachty"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Childish Gambino",
-          "pop": 2,
           "aliases": [
             "Donald Glover",
             "Gambino"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "JID",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Lil Nas X",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Waka Flocka Flame",
-          "pop": 1,
           "aliases": [
             "Waka Flocka",
             "Waka"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Kris Kross",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Jermaine Dupri",
-          "pop": 1,
           "aliases": [
             "JD"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "CeeLo Green",
-          "pop": 1,
           "aliases": [
             "Cee Lo"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Goodie Mob",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Dungeon Family to the core. CeeLo before the solo fame."
         },
         {
           "name": "B.o.B",
-          "pop": 1,
           "aliases": [
             "Bobby Ray"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "6lack",
-          "pop": 1,
           "aliases": [
             "Black"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "EarthGang",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rich Homie Quan",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Trinidad James",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Young Dro",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Shawty Lo",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Yung Joc",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Bankroll Fresh",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Young Nudy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Keed",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Gotit",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Latto",
-          "pop": 1,
           "aliases": [
             "Mulatto",
             "Big Latto"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Lil Scrappy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Pastor Troy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ying Yang Twins",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dem Franchize Boyz",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "D4L",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Crime Mob",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Destroy Lonely",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ken Carson",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Kilo Ali",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Atlanta bass pioneer from before the city ran rap. Deep roots."
         },
         {
           "name": "Big Gipp",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Raury",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -2890,235 +2924,238 @@
       "answers": [
         {
           "name": "Travis Scott",
-          "pop": 22,
           "aliases": [
             "La Flame",
             "Travis"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Megan Thee Stallion",
-          "pop": 15,
           "aliases": [
             "Megan",
             "Meg",
             "Megan the Stallion",
             "Hot Girl Meg"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Bun B",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "UGK",
-          "pop": 5,
           "aliases": [
             "Underground Kingz"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Pimp C",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Scarface",
-          "pop": 4,
           "aliases": [
             "Brad Jordan",
             "Face"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Paul Wall",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Post Malone",
-          "pop": 3,
           "aliases": [
             "Post"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "DJ Screw",
-          "pop": 3,
           "aliases": [
             "Screw"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Slowed it down and changed music forever. Screw tapes forever."
         },
         {
           "name": "Chamillionaire",
-          "pop": 3,
           "aliases": [
             "Koopa"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Mike Jones",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Geto Boys",
-          "pop": 2,
           "aliases": [
             "Ghetto Boys"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Slim Thug",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lil' Flip",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Don Toliver",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Vanilla Ice",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Z-Ro",
-          "pop": 1,
           "aliases": [
             "Z Ro"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Trae tha Truth",
-          "pop": 1,
           "aliases": [
             "Trae",
             "Trae the Truth"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Lil Keke",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Fat Pat",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Screwed Up Click legend. A true Houston history lesson."
         },
         {
           "name": "Big Hawk",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Big Moe",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Devin the Dude",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Houston's most laid-back legend and Rap-A-Lot's secret weapon."
         },
         {
           "name": "South Park Mexican",
-          "pop": 1,
           "aliases": [
             "SPM"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Big Pokey",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Troy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Maxo Kream",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Sauce Walka",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Tobe Nwigwe",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Kirko Bangz",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Riff Raff",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "The D.O.C.",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Big Tuck",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Wil",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dorrough",
-          "pop": 1,
           "aliases": [
             "Dorrough Music"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Yella Beezy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "BigXthaPlug",
-          "pop": 1,
           "aliases": [
             "Big X the Plug"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Tay-K",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "That Mexican OT",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Willie D",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Propain",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Monaleo",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Mo3",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Bobby Sessions",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "BeatKing",
-          "pop": 1,
           "aliases": [
             "Beat King"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Killa Kyleon",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -3129,209 +3166,212 @@
       "answers": [
         {
           "name": "Kanye West",
-          "pop": 30,
           "aliases": [
             "Kanye",
             "Ye"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Chance the Rapper",
-          "pop": 10,
           "aliases": [
             "Chance"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Common",
-          "pop": 8,
           "aliases": [
             "Common Sense"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Chief Keef",
-          "pop": 6,
           "aliases": [
             "Sosa"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Lil Durk",
-          "pop": 6,
           "aliases": [
             "Durkio",
             "Durk"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Juice WRLD",
-          "pop": 6,
           "aliases": [
             "Juice World"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Lupe Fiasco",
-          "pop": 5,
           "aliases": [
             "Lupe"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Kick, Push, and a thousand forum debates. Classic pick."
         },
         {
           "name": "Twista",
-          "pop": 4,
           "aliases": [
             "Tung Twista"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "King Von",
-          "pop": 3,
           "aliases": [
             "Von"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Polo G",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "G Herbo",
-          "pop": 2,
           "aliases": [
             "Lil Herb",
             "Herbo"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Da Brat",
-          "pop": 2,
           "aliases": [
             "So So Def Brat"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Lil Bibby",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Vic Mensa",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Noname",
-          "pop": 1,
           "aliases": [
             "Noname Gypsy"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Telefone fans, assemble. A poet's pick."
         },
         {
           "name": "Saba",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Do or Die",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Crucial Conflict",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rhymefest",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Reese",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Fredo Santana",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Tink",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Calboy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Valee",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Mick Jenkins",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Joey Purp",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dreezy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Katie Got Bandz",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bump J",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Chicago street-rap royalty from before drill. Local knowledge."
         },
         {
           "name": "Shawnna",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rockie Fresh",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Kid Sister",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Cool Kids",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "RondoNumbaNine",
-          "pop": 1,
           "aliases": [
             "Rondo"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Montana of 300",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "FBG Duck",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Famous Dex",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lucki",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Tobi Lou",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Sasha Go Hard",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Towkio",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -3342,203 +3382,206 @@
       "answers": [
         {
           "name": "Eminem",
-          "pop": 40,
           "aliases": [
             "Slim Shady",
             "Marshall Mathers",
             "Em"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Big Sean",
-          "pop": 15,
           "aliases": [
             "Sean Don"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Royce da 5'9\"",
-          "pop": 4,
           "aliases": [
             "Royce",
             "Royce Da Five Nine"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Danny Brown",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "J Dilla",
-          "pop": 3,
           "aliases": [
             "Dilla",
             "Jay Dee"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Conant Gardens to Slum Village. Detroit's own, and you know it."
         },
         {
           "name": "Tee Grizzley",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Obie Trice",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "D12",
-          "pop": 2,
           "aliases": [
             "Dirty Dozen"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Sada Baby",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "42 Dugg",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "DeJ Loaf",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "BabyTron",
-          "pop": 2,
           "aliases": [
             "Baby Tron"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Proof",
-          "pop": 1,
           "aliases": [
             "DeShaun Holton"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "D12's heart and Eminem's best friend. Respect paid."
         },
         {
           "name": "Slum Village",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Black Milk",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Elzhi",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Babyface Ray",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Kash Doll",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Icewear Vezzo",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Payroll Giovanni",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Peezy",
-          "pop": 1,
           "aliases": [
             "Team Eastside Peezy"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Trick-Trick",
-          "pop": 1,
           "aliases": [
             "Trick Trick"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Esham",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Insane Clown Posse",
-          "pop": 1,
           "aliases": [
             "ICP"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Twiztid",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Bizarre",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Kuniva",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Kon Artis",
-          "pop": 1,
           "aliases": [
             "Mr. Porter"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Swifty McVay",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Guilty Simpson",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Blade Icewood",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Boldy James",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Veeze",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Doughboyz Cashout",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Skilla Baby",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Rio Da Yung OG",
-          "pop": 1,
           "aliases": [
             "Rio"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "MC Breed",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Flint's own, and an early Midwest rap hitmaker. Deep pull."
         },
         {
           "name": "The Dayton Family",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "YN Jay",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Zelooperz",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -3549,268 +3592,271 @@
       "answers": [
         {
           "name": "Stormzy",
-          "pop": 25,
           "aliases": [
             "Big Mike"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Central Cee",
-          "pop": 10,
           "aliases": [
             "Cench"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Dave",
-          "pop": 12,
           "aliases": [
             "Santan Dave"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Skepta",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "Dizzee Rascal",
-          "pop": 10,
           "aliases": [
             "Dizzee"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Little Simz",
-          "pop": 5,
           "aliases": [
             "Simz"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Mercury Prize winner and every critic's favorite. Fair play."
         },
         {
           "name": "Wiley",
-          "pop": 4,
           "aliases": [
             "Godfather of Grime"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "The Godfather of Grime. Eskibeat had to start somewhere."
         },
         {
           "name": "Kano",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Giggs",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "J Hus",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "AJ Tracey",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Tinie Tempah",
-          "pop": 3,
           "aliases": [
             "Tinie"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Headie One",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Aitch",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Slowthai",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "The Streets",
-          "pop": 2,
           "aliases": [
             "Mike Skinner"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "M.I.A.",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Chip",
-          "pop": 1,
           "aliases": [
             "Chipmunk"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Krept & Konan",
-          "pop": 1,
           "aliases": [
             "Krept and Konan"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Lady Leshurr",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Ms Banks",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Professor Green",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Wretch 32",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Roots Manuva",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Ghetts",
-          "pop": 1,
           "aliases": [
             "Ghetto"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "JME",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Bugzy Malone",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Loyle Carner",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Stefflon Don",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lethal Bizzle",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Kojey Radical",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Digga D",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "M Huncho",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Fredo",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Nines",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Unknown T",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ms. Dynamite",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Example",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Plan B",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Devlin",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "P Money",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "D Double E",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Sneakbo",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Big Narstie",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Tion Wayne",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Russ Millions",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Arrdee",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Speech Debelle",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Won the 2009 Mercury Prize. Plenty forgot. You didn't."
         },
         {
           "name": "Lowkey",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Akala",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Potter Payper",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "K-Trap",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Clavish",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Knucks",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Shaybo",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Nadia Rose",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bashy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Sway",
-          "pop": 1
+          "tier": "b-side"
         }
       ]
     },
@@ -3820,186 +3866,189 @@
       "answers": [
         {
           "name": "Drake",
-          "pop": 50,
           "aliases": [
             "Drizzy",
             "Aubrey Graham",
             "Champagne Papi"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "The Weeknd",
-          "pop": 12,
           "aliases": [
             "Abel Tesfaye"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Tory Lanez",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "PartyNextDoor",
-          "pop": 3,
           "aliases": [
             "Party"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Daniel Caesar",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "Kardinal Offishall",
-          "pop": 2,
           "aliases": [
             "Kardinal"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Toronto's rap ambassador long before Drake. Respect the OG."
         },
         {
           "name": "Maestro Fresh Wes",
-          "pop": 2,
           "aliases": [
             "Maestro"
-          ]
+          ],
+          "tier": "holy-grail",
+          "quip": "Let Your Backbone Slide made Canadian rap history. Respect."
         },
         {
           "name": "Nav",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Jessie Reyez",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Deborah Cox",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Tamia",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "k-os",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Classified",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Belly",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Jazz Cartier",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Pressa",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Killy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Smiley",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Shad",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Choclair",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Saukrates",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Glenn Lewis",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Melanie Fiona",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Majid Jordan",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "dvsn",
-          "pop": 1,
           "aliases": [
             "Division"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Charlotte Day Wilson",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Haviah Mighty",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Swollen Members",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Madchild",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Snow",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Informer topped the Hot 100. Toronto's surprise hitmaker."
         },
         {
           "name": "Dream Warriors",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Michie Mee",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Rascalz",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Cadence Weapon",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Roy Woods",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Mustafa",
-          "pop": 1,
           "aliases": [
             "Mustafa the Poet"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Sean Leon",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Keshia Chanté",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Shawn Desman",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Jully Black",
-          "pop": 1
+          "tier": "b-side"
         }
       ]
     },
@@ -4010,160 +4059,163 @@
       "answers": [
         {
           "name": "The Marshall Mathers LP",
-          "pop": 10,
           "aliases": [
             "MMLP"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "To Pimp a Butterfly",
-          "pop": 10,
           "aliases": [
             "TPAB"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "DAMN.",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "The College Dropout",
-          "pop": 8
+          "tier": "radio-edit"
         },
         {
           "name": "My Beautiful Dark Twisted Fantasy",
-          "pop": 7,
           "aliases": [
             "MBDTF"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "The Eminem Show",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Igor",
-          "pop": 5
+          "tier": "album-track"
         },
         {
           "name": "Speakerboxxx/The Love Below",
-          "pop": 5,
           "aliases": [
             "Speakerboxxx",
             "The Love Below"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Tha Carter III",
-          "pop": 5,
           "aliases": [
             "Carter III",
             "Carter 3",
             "Tha Carter 3"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "The Score",
-          "pop": 4
+          "tier": "staff-pick",
+          "quip": "Fugees took it home in 1997. Ready or not, you knew."
         },
         {
           "name": "Graduation",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Late Registration",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Stankonia",
-          "pop": 3
+          "tier": "b-side"
         },
         {
           "name": "Take Care",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "The Slim Shady LP",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Invasion of Privacy",
-          "pop": 3
+          "tier": "b-side"
         },
         {
           "name": "Mr. Morale & the Big Steppers",
-          "pop": 3,
           "aliases": [
             "Mr. Morale",
             "Mr. Morale and the Big Steppers"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Coloring Book",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Call Me If You Get Lost",
-          "pop": 2,
           "aliases": [
             "CMIYGL"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Recovery",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Vol. 2... Hard Knock Life",
-          "pop": 2,
           "aliases": [
             "Hard Knock Life",
             "Volume 2 Hard Knock Life",
             "Vol 2"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "The Heist",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "The one that beat good kid, m.A.A.d city. Nobody forgot."
         },
         {
           "name": "Alligator Bites Never Heal",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "GNX",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Relapse",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Marshall Mathers LP 2",
-          "pop": 1,
           "aliases": [
             "MMLP2"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "No Way Out",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Release Therapy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "King's Disease",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Michael",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Poverty's Paradise",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Naughty by Nature, the first-ever winner. History buff."
         }
       ]
     },
@@ -4174,217 +4226,220 @@
       "answers": [
         {
           "name": "Lil Wayne",
-          "pop": 35,
           "aliases": [
             "Weezy",
             "Tunechi",
             "Weezy F Baby"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Lil Uzi Vert",
-          "pop": 10,
           "aliases": [
             "Lil Uzi",
             "Uzi"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Lil Baby",
-          "pop": 10
+          "tier": "radio-edit"
         },
         {
           "name": "Lil' Kim",
-          "pop": 6,
           "aliases": [
             "Queen Bee"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Lil Nas X",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Lil Durk",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Lil Yachty",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Lil Jon",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Lil Peep",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lil Pump",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lil Dicky",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lil Boosie",
-          "pop": 2,
           "aliases": [
             "Boosie",
             "Boosie Badazz"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Lil Tjay",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Lil B",
-          "pop": 2,
           "aliases": [
             "BasedGod",
             "Based God"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Thank you, BasedGod. The internet's favorite cult hero."
         },
         {
           "name": "Lil Tecca",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Lil Mosey",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Skies",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Xan",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Lil' Flip",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Scrappy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Keke",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Screwed Up Click original. Pimp tha Pen still knocks."
         },
         {
           "name": "Lil Mama",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Lil Twist",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Reese",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Bibby",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Herb",
-          "pop": 1,
           "aliases": [
             "G Herbo"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Lil Loaded",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Keed",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Gotit",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Tracy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Rob",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil' Zane",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Romeo",
-          "pop": 1,
           "aliases": [
             "Romeo",
             "Romeo Miller"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Lil Bow Wow",
-          "pop": 1,
           "aliases": [
             "Bow Wow"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Lil Fizz",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Eazy-E",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Troy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Cease",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Wyte",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Lil Poppa",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Double 0",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Wil",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Ugly Mane",
-          "pop": 1
+          "tier": "white-label",
+          "quip": "Cult Richmond favorite. Somebody lives on Bandcamp."
         },
         {
           "name": "Lil Snupe",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Phat",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Mabu",
-          "pop": 1
+          "tier": "b-side"
         }
       ]
     },
@@ -4394,425 +4449,428 @@
       "answers": [
         {
           "name": "Ice Cube",
-          "pop": 15,
           "aliases": [
             "O'Shea Jackson"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Lauryn Hill",
-          "pop": 10,
           "aliases": [
             "Ms. Lauryn Hill",
             "L Boogie"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "André 3000",
-          "pop": 8,
           "aliases": [
             "3 Stacks"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Dr. Dre",
-          "pop": 6,
           "aliases": [
             "Dre"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Method Man",
-          "pop": 5,
           "aliases": [
             "Meth"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Nelly",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Lil Wayne",
-          "pop": 4,
           "aliases": [
             "Weezy"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Eazy-E",
-          "pop": 4,
           "aliases": [
             "Eazy E"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Ghostface Killah",
-          "pop": 3,
           "aliases": [
             "Ghostface"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Q-Tip",
-          "pop": 3
+          "tier": "staff-pick",
+          "quip": "The Abstract went solo with Amplified. Classic taste."
         },
         {
           "name": "Big Boi",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Wyclef Jean",
-          "pop": 3,
           "aliases": [
             "Wyclef"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Busta Rhymes",
-          "pop": 3,
           "aliases": [
             "Busta"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Lil' Kim",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Pusha T",
-          "pop": 3,
           "aliases": [
             "Pusha"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Snoop Dogg",
-          "pop": 2,
           "aliases": [
             "Snoop"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Missy Elliott",
-          "pop": 2,
           "aliases": [
             "Missy"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Quavo",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Offset",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Tyler, the Creator",
-          "pop": 2,
           "aliases": [
             "Tyler"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Earl Sweatshirt",
-          "pop": 2,
           "aliases": [
             "Earl"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "A$AP Rocky",
-          "pop": 2,
           "aliases": [
             "ASAP Rocky"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Jadakiss",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Raekwon",
-          "pop": 2,
           "aliases": [
             "Raekwon the Chef"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Ol' Dirty Bastard",
-          "pop": 2,
           "aliases": [
             "ODB",
             "Old Dirty Bastard"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Bun B",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "Pimp C",
-          "pop": 2
+          "tier": "b-side"
         },
         {
           "name": "CeeLo Green",
-          "pop": 2,
           "aliases": [
             "Cee Lo"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Mos Def",
-          "pop": 2,
           "aliases": [
             "Yasiin Bey"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Black Star first, then Black on Both Sides. Textbook."
         },
         {
           "name": "Talib Kweli",
-          "pop": 2,
           "aliases": [
             "Talib"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Phife Dawg",
-          "pop": 1,
           "aliases": [
             "Phife"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "MC Ren",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Pras",
-          "pop": 1,
           "aliases": [
             "Pras Michel"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Inspectah Deck",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "U-God",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Masta Killa",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Takeoff",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "A$AP Ferg",
-          "pop": 1,
           "aliases": [
             "ASAP Ferg"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Styles P",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Sheek Louch",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Turk",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Willie D",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Black Thought",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Warren G",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Nate Dogg",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Kurupt",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Daz Dillinger",
-          "pop": 1,
           "aliases": [
             "Daz"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Rakim",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Will Smith",
-          "pop": 1,
           "aliases": [
             "The Fresh Prince"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "KRS-One",
-          "pop": 1,
           "aliases": [
             "KRS One",
             "KRS"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Guru",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Heavy D",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Chuck D",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Flavor Flav",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Krayzie Bone",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Bizzy Bone",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Layzie Bone",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Melle Mel",
-          "pop": 1,
           "aliases": [
             "Grandmaster Melle Mel"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Rev Run",
-          "pop": 1,
           "aliases": [
             "Run",
             "Joseph Simmons"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Darryl McDaniels",
-          "pop": 1,
           "aliases": [
             "DMC"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Pharoahe Monch",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Organized Konfusion to Simon Says. A lyricist's lyricist."
         },
         {
           "name": "Slick Rick",
-          "pop": 1,
           "aliases": [
             "MC Ricky D"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Remy Ma",
-          "pop": 1,
           "aliases": [
             "Remy Martin"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Proof",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lisa \"Left Eye\" Lopes",
-          "pop": 1,
           "aliases": [
             "Left Eye",
             "Lisa Lopes"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Kool Keith",
-          "pop": 1,
           "aliases": [
             "Dr. Octagon"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "MF DOOM",
-          "pop": 1,
           "aliases": [
             "DOOM",
             "Zev Love X"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Large Professor",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "CL Smooth",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Phonte",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Rapper Big Pooh",
-          "pop": 1,
           "aliases": [
             "Big Pooh"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Prodigy",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Havoc",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Gangsta Boo",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Juicy J",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "DJ Paul",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lil Cease",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -4823,291 +4881,294 @@
       "answers": [
         {
           "name": "Nicki Minaj",
-          "pop": 30,
           "aliases": [
             "Nicki",
             "Onika Maraj"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Cardi B",
-          "pop": 15,
           "aliases": [
             "Cardi"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Missy Elliott",
-          "pop": 8,
           "aliases": [
             "Missy",
             "Misdemeanor"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Megan Thee Stallion",
-          "pop": 8,
           "aliases": [
             "Megan",
             "Meg",
             "Megan the Stallion"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Lil' Kim",
-          "pop": 6,
           "aliases": [
             "Queen Bee"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Lauryn Hill",
-          "pop": 4,
           "aliases": [
             "Ms. Lauryn Hill"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Queen Latifah",
-          "pop": 4,
           "aliases": [
             "Latifah"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Doja Cat",
-          "pop": 3,
           "aliases": [
             "Doja"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Eve",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Foxy Brown",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "MC Lyte",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "Lyte as a Rock, Brooklyn, 1988. Respect the foundation."
         },
         {
           "name": "Doechii",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Ice Spice",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "GloRilla",
-          "pop": 2,
           "aliases": [
             "Glo"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Sexyy Red",
-          "pop": 2,
           "aliases": [
             "Sexy Red"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Trina",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Latto",
-          "pop": 1,
           "aliases": [
             "Mulatto"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Saweetie",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Lil Mama",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Da Brat",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Remy Ma",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Rapsody",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "Laila's Wisdom and a Grammy nod. The lyricist's pick."
         },
         {
           "name": "Little Simz",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Noname",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Azealia Banks",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Iggy Azalea",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Kash Doll",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Coi Leray",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Flo Milli",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rico Nasty",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Tierra Whack",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Princess Nokia",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Young M.A",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Bia",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Lady of Rage",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Roxanne Shanté",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Monie Love",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Yo-Yo",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Bahamadia",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lisa \"Left Eye\" Lopes",
-          "pop": 1,
           "aliases": [
             "Left Eye",
             "Lisa Lopes"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Shawnna",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jean Grae",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Mia X",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Gangsta Boo",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "La Chat",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Khia",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rah Digga",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dreezy",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Tink",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Cupcakke",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Kamaiyah",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "DeJ Loaf",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lola Brooke",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ms. Jade",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Sha-Rock",
-          "pop": 1,
           "aliases": [
             "MC Sha-Rock"
-          ]
+          ],
+          "tier": "holy-grail",
+          "quip": "Funky 4 + 1's MC, often credited as the first female MC."
         },
         {
           "name": "Queen Pen",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Snow Tha Product",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Chika",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Yung Miami",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "JT",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Stefflon Don",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -5118,263 +5179,266 @@
       "answers": [
         {
           "name": "OutKast",
-          "pop": 25
+          "tier": "radio-edit"
         },
         {
           "name": "Run the Jewels",
-          "pop": 8,
           "aliases": [
             "RTJ"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Eric B. & Rakim",
-          "pop": 6,
           "aliases": [
             "Eric B and Rakim"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Mobb Deep",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Clipse",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "UGK",
-          "pop": 4,
           "aliases": [
             "Underground Kingz"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Gang Starr",
-          "pop": 4,
           "aliases": [
             "Gangstarr"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Black Star",
-          "pop": 3,
           "aliases": [
             "Mos Def & Talib Kweli",
             "Blackstar"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Mos Def and Talib Kweli. The backpacker's first answer, always."
         },
         {
           "name": "EPMD",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "Kris Kross",
-          "pop": 3
+          "tier": "radio-edit"
         },
         {
           "name": "DJ Jazzy Jeff & the Fresh Prince",
-          "pop": 3,
           "aliases": [
             "Jazzy Jeff and the Fresh Prince"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Method Man & Redman",
-          "pop": 2,
           "aliases": [
             "Method Man and Redman"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Pete Rock & CL Smooth",
-          "pop": 2,
           "aliases": [
             "Pete Rock and CL Smooth"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Rae Sremmurd",
-          "pop": 2
+          "tier": "radio-edit"
         },
         {
           "name": "Macklemore & Ryan Lewis",
-          "pop": 2,
           "aliases": [
             "Macklemore and Ryan Lewis"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Tha Dogg Pound",
-          "pop": 2,
           "aliases": [
             "Dogg Pound"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "8Ball & MJG",
-          "pop": 2,
           "aliases": [
             "Eightball & MJG",
             "8Ball and MJG"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "City Girls",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Capone-N-Noreaga",
-          "pop": 1,
           "aliases": [
             "CNN"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Das EFX",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Black Sheep",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Camp Lo",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Reflection Eternal",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Madvillain",
-          "pop": 1
+          "tier": "staff-pick",
+          "quip": "MF DOOM plus Madlib. Madvillainy fans, raise your hand."
         },
         {
           "name": "Kid 'n Play",
-          "pop": 1,
           "aliases": [
             "Kid and Play"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Rob Base and DJ E-Z Rock",
-          "pop": 1,
           "aliases": [
             "Rob Base"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Nice & Smooth",
-          "pop": 1,
           "aliases": [
             "Nice and Smooth"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Smif-N-Wessun",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Heltah Skeltah",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Ying Yang Twins",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Big Tymers",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Atmosphere",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Blackalicious",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Dead Prez",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Kids See Ghosts",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Timbaland & Magoo",
-          "pop": 1,
           "aliases": [
             "Timbaland and Magoo"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Showbiz & A.G.",
-          "pop": 1,
           "aliases": [
             "Showbiz and AG"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Organized Konfusion",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Group Home",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "M.O.P.",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Kool G Rap & DJ Polo",
-          "pop": 1,
           "aliases": [
             "Kool G Rap and DJ Polo"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Chiddy Bang",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Young Gunz",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Field Mob",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "YoungBloodZ",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Playaz Circle",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "EarthGang",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Kidz in the Hall",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "The Cool Kids",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Danger Doom",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jaylib",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "J Dilla and Madlib on one record. Champion Sound, indeed."
         }
       ]
     },
@@ -5384,220 +5448,223 @@
       "answers": [
         {
           "name": "Boyz II Men",
-          "pop": 25,
           "aliases": [
             "Boys to Men",
             "Boyz 2 Men"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "TLC",
-          "pop": 20
+          "tier": "radio-edit"
         },
         {
           "name": "Destiny's Child",
-          "pop": 12
+          "tier": "radio-edit"
         },
         {
           "name": "Jodeci",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "En Vogue",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "SWV",
-          "pop": 4,
           "aliases": [
             "Sisters with Voices"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Blackstreet",
-          "pop": 4
+          "tier": "radio-edit"
         },
         {
           "name": "Dru Hill",
-          "pop": 3
+          "tier": "album-track"
         },
         {
           "name": "112",
-          "pop": 3,
           "aliases": [
             "One Twelve"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Xscape",
-          "pop": 3
+          "tier": "staff-pick",
+          "quip": "Kandi and Tiny before reality TV. Real '90s scholarship."
         },
         {
           "name": "Bell Biv DeVoe",
-          "pop": 3,
           "aliases": [
             "BBD"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Total",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Jagged Edge",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "K-Ci & JoJo",
-          "pop": 2,
           "aliases": [
             "KC and JoJo"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Tony! Toni! Toné!",
-          "pop": 2
+          "tier": "staff-pick",
+          "quip": "Raphael Saadiq's Oakland crew. Grown-folks taste."
         },
         {
           "name": "702",
-          "pop": 1,
           "aliases": [
             "Seven Oh Two"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Next",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Shai",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Silk",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "H-Town",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Az Yet",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Brownstone",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Changing Faces",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Zhané",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Hi-Five",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Mint Condition",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Color Me Badd",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "All-4-One",
-          "pop": 1,
           "aliases": [
             "All 4 One"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Intro",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Soul for Real",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Immature",
-          "pop": 1,
           "aliases": [
             "IMx"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Allure",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Ideal",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "LSG",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Guy",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Troop",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Somethin' for the People",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Blaque",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Men of Vizion",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Kut Klose",
-          "pop": 1
+          "tier": "holy-grail",
+          "quip": "Keith Sweat's protégés. Deep in the slow-jam crates."
         },
         {
           "name": "Jade",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "3T",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Divine",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Subway",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Eternal",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Braxtons",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Mista",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Portrait",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     },
@@ -5608,332 +5675,335 @@
       "answers": [
         {
           "name": "The Sugarhill Gang",
-          "pop": 25,
           "aliases": [
             "Sugar Hill Gang"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Run-DMC",
-          "pop": 15,
           "aliases": [
             "Run DMC"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Grandmaster Flash and the Furious Five",
-          "pop": 15,
           "aliases": [
             "Grandmaster Flash",
             "Furious Five"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "LL Cool J",
-          "pop": 6,
           "aliases": [
             "LL"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Beastie Boys",
-          "pop": 6
+          "tier": "radio-edit"
         },
         {
           "name": "Public Enemy",
-          "pop": 5,
           "aliases": [
             "PE"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "N.W.A",
-          "pop": 5
+          "tier": "radio-edit"
         },
         {
           "name": "Kurtis Blow",
-          "pop": 4
+          "tier": "album-track"
         },
         {
           "name": "Eric B. & Rakim",
-          "pop": 3,
           "aliases": [
             "Eric B and Rakim",
             "Rakim"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Paid in Full, 1987. The God MC and his DJ."
         },
         {
           "name": "Salt-N-Pepa",
-          "pop": 3,
           "aliases": [
             "Salt and Pepa"
-          ]
+          ],
+          "tier": "radio-edit"
         },
         {
           "name": "Big Daddy Kane",
-          "pop": 2,
           "aliases": [
             "Kane"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Slick Rick",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Boogie Down Productions",
-          "pop": 2,
           "aliases": [
             "BDP",
             "KRS-One"
-          ]
+          ],
+          "tier": "staff-pick",
+          "quip": "Criminal Minded, 1987. KRS-One schooling the Bronx."
         },
         {
           "name": "Afrika Bambaataa",
-          "pop": 2,
           "aliases": [
             "Afrika Bambaataa & the Soulsonic Force",
             "Bambaataa"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Biz Markie",
-          "pop": 2,
           "aliases": [
             "Biz"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "De La Soul",
-          "pop": 2
+          "tier": "album-track"
         },
         {
           "name": "Ice-T",
-          "pop": 2,
           "aliases": [
             "Ice T"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "DJ Jazzy Jeff & the Fresh Prince",
-          "pop": 2,
           "aliases": [
             "Fresh Prince",
             "Jazzy Jeff"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "MC Hammer",
-          "pop": 2,
           "aliases": [
             "Hammer"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "MC Lyte",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Kool Moe Dee",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Whodini",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "UTFO",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Doug E. Fresh",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Too Short",
-          "pop": 1,
           "aliases": [
             "Too $hort"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "EPMD",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Rob Base and DJ E-Z Rock",
-          "pop": 1,
           "aliases": [
             "Rob Base"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Heavy D & the Boyz",
-          "pop": 1,
           "aliases": [
             "Heavy D"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Queen Latifah",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "Kool G Rap & DJ Polo",
-          "pop": 1,
           "aliases": [
             "Kool G Rap"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Ultramagnetic MCs",
-          "pop": 1,
           "aliases": [
             "Ultramagnetic"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Stetsasonic",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Treacherous Three",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Funky 4 + 1",
-          "pop": 1,
           "aliases": [
             "Funky Four Plus One"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Cold Crush Brothers",
-          "pop": 1,
           "aliases": [
             "Cold Crush"
-          ]
+          ],
+          "tier": "holy-grail",
+          "quip": "Grandmaster Caz's crew, battling in Wild Style. Bronx royalty."
         },
         {
           "name": "Spoonie Gee",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Roxanne Shanté",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Mantronix",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Schoolly D",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Just-Ice",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "MC Shan",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Jungle Brothers",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Tone Lōc",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Young MC",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Kid 'n Play",
-          "pop": 1,
           "aliases": [
             "Kid and Play"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Eazy-E",
-          "pop": 1
+          "tier": "album-track"
         },
         {
           "name": "2 Live Crew",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Fat Boys",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "The Sequence",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Dana Dane",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Digital Underground",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Geto Boys",
-          "pop": 1,
           "aliases": [
             "Ghetto Boys"
-          ]
+          ],
+          "tier": "b-side"
         },
         {
           "name": "Marley Marl",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Grandmaster Caz",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Lovebug Starski",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "Sir Mix-a-Lot",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "Gang Starr",
-          "pop": 1
+          "tier": "b-side"
         },
         {
           "name": "A Tribe Called Quest",
-          "pop": 1,
           "aliases": [
             "Tribe",
             "ATCQ"
-          ]
+          ],
+          "tier": "album-track"
         },
         {
           "name": "Special Ed",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "3rd Bass",
-          "pop": 1,
           "aliases": [
             "Third Bass"
-          ]
+          ],
+          "tier": "white-label"
         },
         {
           "name": "Steady B",
-          "pop": 1
+          "tier": "white-label"
         },
         {
           "name": "J.J. Fad",
-          "pop": 1
+          "tier": "white-label"
         }
       ]
     }

@@ -1,10 +1,14 @@
+import type { TierId } from "@/lib/tiers";
+
 export type Answer = {
   /** Canonical display name, e.g. "Purple Rain". */
   name: string;
-  /** Other spellings players might type, e.g. ["purple rain (song)"]. Not needed for case or punctuation. */
+  /** Other spellings players might type. Case, punctuation, accents, and a leading "the" are already handled. */
   aliases?: string[];
-  /** Estimated share of players (1-100) who would give this answer. Seeded estimate, not measured. */
-  pop: number;
+  /** Fixed rarity tier, assigned from popularity evidence plus judgment. Each prompt has one holy-grail. */
+  tier: TierId;
+  /** Optional one-line note shown when this answer lands, in the game's own voice. */
+  quip?: string;
 };
 
 export type Prompt = {
