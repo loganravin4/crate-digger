@@ -1,18 +1,28 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { PackMeta } from "@/data/packs";
-import type { Prompt } from "@/data/types";
+import type { Answer, Prompt } from "@/data/types";
 import { dailyPrompts, issueNumber, localDateKey, practicePrompts } from "@/lib/daily";
-import { match } from "@/lib/match";
-import { pointsFor, ROUNDS, SECONDS, tierFor, TIERS } from "@/lib/score";
+import { matchDetailed } from "@/lib/match";
+import { pointsFor, ROUNDS, SECONDS, tierOf } from "@/lib/score";
+import { sound } from "@/lib/sound";
 import { loadRun, loadSettings, recordFinish, saveRun, saveSettings, type Pick, type Run, type Stats } from "@/lib/storage";
+import { TIERS, type TierId } from "@/lib/tiers";
 import { BackCover } from "./BackCover";
 import { CoverType, fitCover } from "./CoverType";
-import { ArrowLeft, ArrowRight } from "./icons";
+import { DigScene, type DigSceneHandle } from "./dig/DigScene";
+import { ArrowLeft, ArrowRight, SpeakerIcon } from "./icons";
 
-type Phase = "loading" | "intro" | "playing" | "revealed" | "done";
+type Phase = "loading" | "intro" | "playing" | "dropping" | "landed" | "done";
+type Notice = { kind: "rejected" | "empty"; text: string } | null;
+
+function seedFor(id: string) {
+  let h = 0;
+  for (const c of id) h = (h * 31 + c.charCodeAt(0)) | 0;
+  return Math.abs(h);
+}
 
 export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: Prompt[]; practice?: boolean }) {
   const [phase, setPhase] = useState<Phase>("loading");
@@ -20,15 +30,22 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
   const [prompts, setPrompts] = useState<Prompt[]>([]);
   const [picks, setPicks] = useState<Pick[]>([]);
   const [input, setInput] = useState("");
+  const [tries, setTries] = useState<string[]>([]);
+  const [notice, setNotice] = useState<Notice>(null);
+  const [suggestion, setSuggestion] = useState<Answer | null>(null);
+  const [shakeKey, setShakeKey] = useState(0);
   const [relaxed, setRelaxed] = useState(false);
+  const [soundOn, setSoundOn] = useState(true);
   const [deadline, setDeadline] = useState(0);
   const [now, setNow] = useState(0);
   const [stats, setStats] = useState<Stats | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
-  const submitting = useRef(false);
+  const sceneRef = useRef<DigSceneHandle>(null);
+  const stageRef = useRef<HTMLElement>(null);
+  const committing = useRef(false);
+  const lastTick = useRef(-1);
 
-  // Date and saved progress only exist in the browser.
   useEffect(() => {
     const key = localDateKey();
     const settings = loadSettings();
@@ -37,15 +54,15 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
     /* eslint-disable react-hooks/set-state-in-effect -- one-time hydration from localStorage */
     setDateKey(key);
     setRelaxed(settings.relaxedTimer);
+    setSoundOn(settings.sound);
+    sound.setEnabled(settings.sound);
     setPrompts(deal);
     if (saved?.done) {
       setPicks(saved.picks);
       setStats(recordFinish(saved));
       setPhase("done");
-    } else if (saved && saved.picks.length > 0) {
-      setPicks(saved.picks);
-      setPhase("intro");
     } else {
+      if (saved?.picks.length) setPicks(saved.picks);
       setPhase("intro");
     }
     /* eslint-enable react-hooks/set-state-in-effect */
@@ -53,11 +70,11 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
 
   const round = picks.length;
   const current = prompts[Math.min(round, ROUNDS - 1)];
-  // While a result is showing, the sleeve keeps the prompt that was just answered.
-  const shown = phase === "revealed" ? prompts[round - 1] : current;
+  const shown = phase === "dropping" || phase === "landed" ? prompts[round - 1] : current;
   const lastPick = picks[picks.length - 1];
   const total = picks.reduce((s, p) => s + p.points, 0);
   const remaining = relaxed ? SECONDS : Math.max(0, Math.ceil((deadline - now) / 1000));
+  const fraction = relaxed ? 1 : Math.max(0, Math.min(1, (deadline - now) / (SECONDS * 1000)));
 
   const persist = useCallback(
     (next: Pick[], done: boolean) => {
@@ -70,33 +87,79 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
   );
 
   const startRound = useCallback(() => {
-    submitting.current = false;
+    committing.current = false;
+    lastTick.current = -1;
     setInput("");
-    setDeadline(Date.now() + SECONDS * 1000);
+    setTries([]);
+    setNotice(null);
+    setSuggestion(null);
+    setDeadline(Date.now() + SECONDS * 1000 + 500);
     setNow(Date.now());
     setPhase("playing");
+    sound.startCrackle();
   }, []);
 
-  const submit = useCallback(
-    (raw: string) => {
-      if (submitting.current || !current) return;
-      submitting.current = true;
-      const value = raw.trim();
-      const answer = value ? match(current, value) : null;
-      const points = pointsFor(answer);
+  /** Lock in a pick (a real answer, or null for a pass or timeout) and drop the record. */
+  const commit = useCallback(
+    (answer: Answer | null, raw: string) => {
+      if (committing.current || !current) return;
+      committing.current = true;
+      sound.stopCrackle();
+      const tier: TierId | null = answer ? tierOf(answer) : null;
       const pick: Pick = {
         promptId: current.id,
-        input: value,
+        input: raw.trim(),
         matched: answer?.name ?? null,
-        points,
-        tier: tierFor(points, !!answer),
+        points: pointsFor(tier),
+        tier,
+        tries,
       };
       const next = [...picks, pick];
       setPicks(next);
       persist(next, false);
-      setPhase("revealed");
+      setSuggestion(null);
+      setNotice(null);
+      setPhase("dropping");
+      if (answer) sound.needleDrop();
+      sceneRef.current?.drop(tier, {
+        onLayer: (d) => sound.layer(d),
+        onLand: () => {
+          sound.land(tier);
+          setPhase("landed");
+        },
+      });
     },
-    [current, picks, persist],
+    [current, picks, persist, tries],
+  );
+
+  const reject = useCallback((raw: string) => {
+    sound.scratch();
+    setTries((t) => (t.includes(raw) ? t : [...t, raw]));
+    setNotice({ kind: "rejected", text: `“${raw}” isn’t in this crate. Keep digging.` });
+    setShakeKey((k) => k + 1);
+    window.setTimeout(() => inputRef.current?.select(), 0);
+  }, []);
+
+  const submit = useCallback(
+    (rawInput: string) => {
+      if (phase !== "playing" || !current) return;
+      const raw = rawInput.trim();
+      if (!raw) {
+        setNotice({ kind: "empty", text: "Type an answer, or pass." });
+        setShakeKey((k) => k + 1);
+        return;
+      }
+      const m = matchDetailed(current, raw);
+      if (!m) return reject(raw);
+      if (m.corrected) {
+        sound.confirm();
+        setNotice(null);
+        setSuggestion(m.answer);
+        return;
+      }
+      commit(m.answer, raw);
+    },
+    [phase, current, reject, commit],
   );
 
   const advance = useCallback(() => {
@@ -105,11 +168,12 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
       setPhase("done");
       window.scrollTo({ top: 0 });
     } else {
+      sceneRef.current?.rise();
       startRound();
     }
   }, [picks, persist, startRound]);
 
-  // Clock. Turned off entirely in relaxed mode.
+  // Clock.
   useEffect(() => {
     if (phase !== "playing" || relaxed) return;
     const id = window.setInterval(() => setNow(Date.now()), 200);
@@ -117,177 +181,186 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
   }, [phase, relaxed]);
 
   useEffect(() => {
-    if (phase === "playing" && !relaxed && now > 0 && now >= deadline) submit(inputRef.current?.value ?? "");
-  }, [now, deadline, phase, relaxed, submit]);
+    if (phase !== "playing" || relaxed || now === 0) return;
+    if (remaining <= 5 && remaining > 0 && lastTick.current !== remaining) {
+      lastTick.current = remaining;
+      sound.tick(remaining <= 3);
+    }
+    if (now >= deadline) {
+      // Time's up: take a pending suggestion, or whatever matches what's typed.
+      const raw = inputRef.current?.value ?? input;
+      const m = suggestion ? { answer: suggestion } : raw.trim() && current ? matchDetailed(current, raw) : null;
+      commit(m?.answer ?? null, raw);
+    }
+  }, [now, deadline, phase, relaxed, remaining, suggestion, current, commit, input]);
 
   useEffect(() => {
-    if (phase === "playing") inputRef.current?.focus();
-    if (phase !== "revealed") return;
-    nextRef.current?.focus({ preventScroll: true });
-    // Once the disc has landed, bring the result and Next into view on short screens.
-    const id = window.setTimeout(() => nextRef.current?.scrollIntoView({ block: "nearest" }), 640);
-    return () => window.clearTimeout(id);
-  }, [phase]);
+    if (phase === "playing" && !suggestion) inputRef.current?.focus({ preventScroll: true });
+    if (phase === "landed") nextRef.current?.focus({ preventScroll: true });
+  }, [phase, suggestion]);
 
   const toggleRelaxed = () => {
     const v = !relaxed;
     setRelaxed(v);
-    saveSettings({ relaxedTimer: v });
+    saveSettings({ relaxedTimer: v, sound: soundOn });
     if (!v && phase === "playing") {
       setDeadline(Date.now() + SECONDS * 1000);
       setNow(Date.now());
     }
   };
 
+  const toggleSound = () => {
+    const v = !soundOn;
+    setSoundOn(v);
+    sound.setEnabled(v);
+    saveSettings({ relaxedTimer: relaxed, sound: v });
+    if (v && phase === "playing") sound.startCrackle();
+  };
+
+  useEffect(() => () => sound.stopCrackle(), []);
+
+  // The shop's first layer starts just below the counter UI, whatever its height.
+  useEffect(() => {
+    const el = stageRef.current;
+    if (!el || (phase !== "intro" && phase !== "playing")) return;
+    const fit = () => sceneRef.current?.setFloor(el.getBoundingClientRect().bottom + window.scrollY + 28);
+    fit();
+    const ro = new ResizeObserver(fit);
+    ro.observe(el);
+    window.addEventListener("resize", fit);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener("resize", fit);
+    };
+  }, [phase, suggestion, notice, tries.length]);
+
   const label = practice ? "Practice" : `No. ${dateKey ? issueNumber(dateKey) : "···"}`;
-  const revealAnswer = useMemo(() => {
-    if (!lastPick || phase !== "revealed") return null;
-    return prompts.find((p) => p.id === lastPick.promptId) ?? null;
-  }, [lastPick, phase, prompts]);
 
   if (phase === "done") {
-    return (
-      <BackCover meta={meta} prompts={prompts} picks={picks} label={label} stats={stats} practice={practice} dateKey={dateKey} />
-    );
+    return <BackCover meta={meta} prompts={prompts} picks={picks} label={label} stats={stats} practice={practice} dateKey={dateKey} />;
   }
 
+  const trackNo = Math.min(round + (phase === "playing" || phase === "intro" ? 1 : 0), ROUNDS);
+  const lifted = phase === "dropping" || phase === "landed";
+  const landedPrompt = phase === "landed" ? prompts[round - 1] : null;
+
   return (
-    <main
-      className={`tone-${meta.tone} mx-auto flex min-h-dvh w-full max-w-[34rem] flex-col xl:grid xl:max-w-[72rem] xl:grid-cols-[32rem_minmax(0,1fr)] xl:grid-rows-[auto_1fr] xl:gap-x-[18rem] xl:pb-16`}
-    >
-      <header className="flex items-center justify-between px-4 py-3 sm:px-0 xl:col-span-2 xl:py-6">
-        <Link
-          href="/"
-          className="smallprint inline-flex min-h-11 items-center gap-2 text-paper-dim no-underline hover:text-paper"
-        >
-          <ArrowLeft className="size-4" />
-          Crate
-        </Link>
-        <TimerSwitch relaxed={relaxed} onToggle={toggleRelaxed} />
-      </header>
+    <main className={`tone-${meta.tone} relative min-h-dvh overflow-hidden`}>
+      <DigScene ref={sceneRef} tone={meta.tone} seed={seedFor(meta.id)} className="fixed inset-0 z-0 size-full" />
+      {/* Keeps the score bar legible while the camera rides down through the shop. */}
+      <div aria-hidden className="pointer-events-none fixed inset-x-0 top-0 z-[5] h-20 bg-gradient-to-b from-ink via-ink/80 to-transparent" />
 
-      <div className="relative xl:self-center">
-      {/* Landscape only: the record rests just proud of the sleeve's right edge, then slides out on a result. */}
-      <div
-        aria-hidden
-        className={`vinyl absolute top-[10%] left-[10%] hidden aspect-square w-[80%] rounded-full transition-transform duration-[640ms] ease-[cubic-bezier(0.16,1,0.3,1)] [container-type:inline-size] motion-reduce:transition-none xl:block ${
-          phase === "revealed" ? "translate-x-[81%] rotate-0" : "translate-x-[28%] -rotate-90"
-        }`}
-      >
-        <div
-          className="absolute inset-[29%] flex flex-col items-center justify-center rounded-full text-center"
-          style={{
-            background: phase === "revealed" && lastPick ? `var(--tier-${lastPick.tier})` : "var(--field)",
-            color: phase === "revealed" ? "var(--ink)" : "var(--on)",
-          }}
-        >
-          {phase === "revealed" && lastPick ? (
-            <>
-              <span className="display-condensed tnum text-[15cqw]">+{lastPick.points}</span>
-              <span className="smallprint mt-[1cqw] max-w-[74%] text-[3.6cqw] leading-tight">{TIERS[lastPick.tier].label}</span>
-            </>
-          ) : (
-            <span className="smallprint text-[3.6cqw]">{meta.name}</span>
-          )}
-        </div>
-      </div>
-
-      {/* The sleeve. Fixed slots in the catalog line never move; only values change. */}
-      <section
-        aria-labelledby="cover-title"
-        className="sleeve on-field relative z-10 aspect-square w-full bg-field text-on"
-      >
-        <div key={phase === "intro" ? "intro" : shown?.id} className="sleeve-in flex h-full flex-col p-[6cqw]">
-          <div className="smallprint flex items-start justify-between gap-4 text-on-mute">
-            <span>
-              Crate Digger
-              <br />
-              {meta.name} · {meta.series}
-            </span>
-            <span className="tnum text-right">
-              {label}
-              <br />
-              {phase === "intro" ? `${ROUNDS} tracks` : `Track ${Math.min(round + (phase === "playing" ? 1 : 0), ROUNDS)} of ${ROUNDS}`}
-            </span>
+      <div className="pointer-events-none relative z-10 mx-auto flex min-h-dvh w-full max-w-[40rem] flex-col px-4">
+        <header className="pointer-events-auto flex items-center justify-between gap-2 py-3">
+          <Link href="/" className="smallprint inline-flex min-h-11 items-center gap-2 text-paper-dim no-underline hover:text-paper">
+            <ArrowLeft className="size-4" />
+            <span className="sr-only sm:not-sr-only">Crate</span>
+          </Link>
+          <dl className="flex items-baseline gap-4">
+            <Slot label="Track" value={`${trackNo}/${ROUNDS}`} />
+            <Slot label="Score" value={String(total)} />
+          </dl>
+          <div className="flex items-center">
+            <button
+              type="button"
+              aria-pressed={soundOn}
+              onClick={toggleSound}
+              className="inline-flex min-h-11 min-w-11 items-center justify-center text-paper-dim hover:text-paper"
+            >
+              <SpeakerIcon on={soundOn} className="size-5" />
+              <span className="sr-only">Sound</span>
+            </button>
+            <TimerSwitch relaxed={relaxed} onToggle={toggleRelaxed} />
           </div>
-          <div className="mt-auto">
-            {phase === "loading" ? (
-              <p className="voice" style={{ fontSize: fitCover(meta.name, meta.glyph) }} id="cover-title">
-                {meta.name}
-              </p>
-            ) : phase === "intro" ? (
-              <h1 id="cover-title" className="voice" style={{ fontSize: fitCover(meta.name, meta.glyph) }}>
-                {meta.name}
-                <span className="sr-only">, today&rsquo;s set</span>
-              </h1>
-            ) : shown ? (
-              <CoverType text={shown.text} glyph={meta.glyph} id="cover-title" />
-            ) : null}
-            {(phase === "playing" || phase === "revealed") && shown?.rule && (
-              <p className="mt-[3cqw] max-w-[40ch] text-sm font-medium leading-snug text-on-mute [overflow-wrap:anywhere]">{shown.rule}</p>
+        </header>
+
+        {/* The sleeve sits on the shop counter and lifts away while the record drops. */}
+        <section
+          ref={stageRef}
+          aria-labelledby="cover-title"
+          className={`pointer-events-auto mx-auto w-[min(100%,24rem,40dvh)] transition-[transform,opacity] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] motion-reduce:transition-none ${
+            lifted ? "-translate-y-[120%] opacity-0" : ""
+          }`}
+        >
+          <div className="sleeve on-field relative aspect-square w-full bg-field text-on">
+            <div key={phase === "intro" ? "intro" : shown?.id} className="sleeve-in flex h-full flex-col p-[6cqw]">
+              <div className="smallprint flex items-start justify-between gap-4 text-on-mute">
+                <span>
+                  Crate Digger
+                  <br />
+                  {meta.name} · {meta.series}
+                </span>
+                <span className="tnum text-right">{label}</span>
+              </div>
+              <div className="mt-auto">
+                {phase === "loading" || phase === "intro" ? (
+                  <h1 id="cover-title" className="voice" style={{ fontSize: fitCover(meta.name, meta.glyph) }}>
+                    {meta.name}
+                    <span className="sr-only">, today&rsquo;s set</span>
+                  </h1>
+                ) : shown ? (
+                  <CoverType text={shown.text} glyph={meta.glyph} id="cover-title" />
+                ) : null}
+                {phase !== "intro" && phase !== "loading" && shown?.rule && (
+                  <p className="mt-[3cqw] max-w-[40ch] text-sm font-medium leading-snug text-on-mute [overflow-wrap:anywhere]">
+                    {shown.rule}
+                  </p>
+                )}
+              </div>
+            </div>
+            {/* The clock is the sleeve's bottom edge burning down. */}
+            {phase === "playing" && !relaxed && (
+              <div aria-hidden className="absolute inset-x-0 bottom-0 h-1.5 bg-[color-mix(in_oklab,var(--on)_22%,transparent)]">
+                <div
+                  className={`h-full origin-left bg-[var(--on)] ${remaining <= 5 ? "clock-low" : ""}`}
+                  style={{ transform: `scaleX(${fraction})` }}
+                />
+              </div>
             )}
           </div>
-        </div>
-      </section>
+
+          {phase === "intro" && <Intro resume={round > 0} round={round} practice={practice} onStart={startRound} blurb={meta.blurb} />}
+
+          {phase === "playing" && (
+            <AnswerBox
+              key={current?.id}
+              input={input}
+              setInput={(v) => {
+                setInput(v);
+                if (notice?.kind === "empty") setNotice(null);
+              }}
+              inputRef={inputRef}
+              onSubmit={() => submit(input)}
+              onPass={() => commit(null, "")}
+              notice={notice}
+              shakeKey={shakeKey}
+              tries={tries}
+              suggestion={suggestion}
+              onAccept={() => suggestion && commit(suggestion, input)}
+              onDecline={() => {
+                setSuggestion(null);
+                reject(input.trim());
+              }}
+              remaining={remaining}
+              relaxed={relaxed}
+            />
+          )}
+        </section>
+
+        {phase === "landed" && lastPick && landedPrompt && (
+          <Landed pick={lastPick} prompt={landedPrompt} total={total} round={round} nextRef={nextRef} onNext={advance} />
+        )}
       </div>
-
-      <section className="relative flex flex-1 flex-col px-4 pb-8 sm:px-0 xl:h-[32rem] xl:justify-end xl:self-center xl:pb-0">
-        {phase === "intro" && (
-          <Intro
-            resume={round > 0}
-            round={round}
-            practice={practice}
-            onStart={startRound}
-            blurb={meta.blurb}
-          />
-        )}
-
-        {phase === "playing" && (
-          <form
-            className="pt-6"
-            onSubmit={(e) => {
-              e.preventDefault();
-              submit(input);
-            }}
-          >
-            <Slots round={round + 1} remaining={remaining} relaxed={relaxed} total={total} />
-            <label htmlFor="answer" className="smallprint mt-6 block text-paper-mute">
-              Your answer
-            </label>
-            <div className="mt-1 flex items-end gap-3">
-              <input
-                id="answer"
-                ref={inputRef}
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                autoComplete="off"
-                autoCorrect="off"
-                autoCapitalize="off"
-                spellCheck={false}
-                enterKeyHint="go"
-                maxLength={80}
-                placeholder="Dig for something rare…"
-                className="display-wide min-w-0 flex-1 border-b-2 border-paper bg-transparent pb-2 text-xl text-paper outline-none placeholder:text-paper-mute placeholder:normal-case placeholder:font-sans placeholder:font-medium placeholder:tracking-normal placeholder:text-base focus:border-b-4 focus:pb-[0.375rem]"
-              />
-              <button
-                type="submit"
-                className="display-wide inline-flex min-h-12 shrink-0 items-center gap-2 bg-paper px-5 text-base text-ink transition-[background-color,transform] duration-150 hover:bg-[var(--field)] hover:text-[var(--on)] active:translate-y-px disabled:opacity-50"
-              >
-                Dig
-              </button>
-            </div>
-            <p className="mt-3 text-sm text-paper-mute">
-              One answer. Any correct one counts, and rarer ones score more.{" "}
-              {!relaxed && "Whatever you've typed when the clock hits zero is sent."}
-            </p>
-          </form>
-        )}
-
-        {phase === "revealed" && lastPick && revealAnswer && (
-          <Reveal pick={lastPick} prompt={revealAnswer} total={total} round={round} nextRef={nextRef} onNext={advance} />
-        )}
-      </section>
     </main>
+  );
+}
+
+function Slot({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="flex items-baseline gap-1.5">
+      <dt className="smallprint text-paper-mute">{label}</dt>
+      <dd className="display-condensed tnum text-2xl leading-none">{value}</dd>
+    </div>
   );
 }
 
@@ -297,80 +370,32 @@ function TimerSwitch({ relaxed, onToggle }: { relaxed: boolean; onToggle: () => 
       type="button"
       role="switch"
       aria-checked={!relaxed}
+      aria-label="Clock"
       onClick={onToggle}
       className="smallprint inline-flex min-h-11 items-center gap-2 text-paper-dim hover:text-paper"
     >
-      <span>Clock</span>
       <span aria-hidden className="relative inline-block h-4 w-7 border border-current">
         <span
           className={`absolute top-0.5 left-0.5 size-2.5 bg-current transition-transform duration-200 ease-out ${relaxed ? "translate-x-0" : "translate-x-3"}`}
         />
       </span>
-      <span className="tnum w-9 text-left">{relaxed ? "Off" : `${SECONDS}s`}</span>
+      <span className="tnum w-7 text-left">{relaxed ? "Off" : `${SECONDS}s`}</span>
     </button>
   );
 }
 
-function Slots({ round, remaining, relaxed, total }: { round: number; remaining: number; relaxed: boolean; total: number }) {
-  const low = !relaxed && remaining <= 5;
+function Intro({ resume, round, practice, onStart, blurb }: { resume: boolean; round: number; practice: boolean; onStart: () => void; blurb: string }) {
   return (
-    <dl className="grid grid-cols-3 border-y border-ink-3 py-3">
-      <div>
-        <dt className="smallprint text-paper-mute">Track</dt>
-        <dd className="display-condensed tnum mt-1 text-4xl">
-          {round}
-          <span className="text-paper-mute">/{ROUNDS}</span>
-        </dd>
-      </div>
-      <div className="text-center">
-        <dt className="smallprint text-paper-mute">Clock</dt>
-        <dd
-          className={`display-condensed tnum mt-1 text-4xl ${low ? "clock-low text-[var(--alert)]" : ""}`}
-        >
-          {relaxed ? "—" : `0:${String(remaining).padStart(2, "0")}`}
-        </dd>
-        {!relaxed && remaining === 10 && (
-          <span role="status" className="sr-only">
-            10 seconds left
-          </span>
-        )}
-      </div>
-      <div className="text-right">
-        <dt className="smallprint text-paper-mute">Score</dt>
-        <dd className="display-condensed tnum mt-1 text-4xl">{total}</dd>
-      </div>
-    </dl>
-  );
-}
-
-function Intro({
-  resume,
-  round,
-  practice,
-  onStart,
-  blurb,
-}: {
-  resume: boolean;
-  round: number;
-  practice: boolean;
-  onStart: () => void;
-  blurb: string;
-}) {
-  return (
-    <div className="rise pt-6">
-      <p className="max-w-[44ch] text-lg leading-snug text-paper">{blurb}</p>
-      <ol className="mt-5 space-y-2 text-base leading-snug text-paper-dim">
-        <li>
-          <span className="tnum font-semibold text-paper">{ROUNDS} prompts</span>, one typed answer each, {SECONDS} seconds
-          per prompt.
-        </li>
-        <li>Any correct answer counts. The fewer people who&rsquo;d think of it, the more it scores, up to 90.</li>
-        <li>{practice ? "Practice deals random prompts and saves nothing." : "Same set for everyone today. New one at midnight."}</li>
-      </ol>
+    <div className="rise mt-4">
+      <p className="text-base leading-snug text-paper">{blurb}</p>
+      <p className="mt-2 text-sm leading-snug text-paper-dim">
+        {ROUNDS} prompts, {SECONDS} seconds each. Wrong guesses don&rsquo;t end the round, so keep digging. Rarer answers sink
+        deeper into the shop. {practice ? "Practice saves nothing." : "Same set for everyone today."}
+      </p>
       <button
         type="button"
         onClick={onStart}
-        className="display-wide mt-7 inline-flex min-h-14 w-full items-center justify-between bg-[var(--field)] px-5 text-lg text-[var(--on)] transition-[background-color,color,transform] duration-150 hover:bg-paper hover:text-ink active:translate-y-px sm:w-auto sm:gap-10"
+        className="display-wide mt-4 inline-flex min-h-14 w-full items-center justify-between bg-[var(--field)] px-5 text-lg text-[var(--on)] transition-[background-color,color,transform] duration-150 hover:bg-paper hover:text-ink active:translate-y-px"
       >
         {resume ? `Resume at track ${round + 1}` : "Drop the needle"}
         <ArrowRight className="size-5" />
@@ -379,7 +404,135 @@ function Intro({
   );
 }
 
-function Reveal({
+function AnswerBox({
+  input,
+  setInput,
+  inputRef,
+  onSubmit,
+  onPass,
+  notice,
+  shakeKey,
+  tries,
+  suggestion,
+  onAccept,
+  onDecline,
+  remaining,
+  relaxed,
+}: {
+  input: string;
+  setInput: (v: string) => void;
+  inputRef: React.RefObject<HTMLInputElement | null>;
+  onSubmit: () => void;
+  onPass: () => void;
+  notice: Notice;
+  shakeKey: number;
+  tries: string[];
+  suggestion: Answer | null;
+  onAccept: () => void;
+  onDecline: () => void;
+  remaining: number;
+  relaxed: boolean;
+}) {
+  const yesRef = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    if (suggestion) yesRef.current?.focus({ preventScroll: true });
+  }, [suggestion]);
+
+  if (suggestion) {
+    return (
+      <div
+        className="rise mt-4 bg-paper p-4 text-ink"
+        role="alertdialog"
+        aria-labelledby="dym"
+        onKeyDown={(e) => {
+          if (e.key === "Escape") onDecline();
+        }}
+      >
+        <p id="dym" className="text-base">
+          Did you mean <strong className="display-wide text-lg">{suggestion.name}</strong>?
+        </p>
+        <div className="mt-3 flex gap-2">
+          <button
+            ref={yesRef}
+            type="button"
+            onClick={onAccept}
+            className="display-wide inline-flex min-h-11 flex-1 items-center justify-center bg-ink px-4 text-sm text-paper hover:bg-[var(--field)] hover:text-[var(--on)]"
+          >
+            Yes, dig it
+          </button>
+          <button
+            type="button"
+            onClick={onDecline}
+            className="display-wide inline-flex min-h-11 items-center justify-center border-2 border-ink px-4 text-sm hover:bg-ink hover:text-paper"
+          >
+            No
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <form
+      className="mt-4"
+      onSubmit={(e) => {
+        e.preventDefault();
+        onSubmit();
+      }}
+    >
+      <label htmlFor="answer" className="sr-only">
+        Your answer
+      </label>
+      <div key={shakeKey} className={`flex items-stretch gap-2 ${shakeKey ? "shake" : ""}`}>
+        <input
+          id="answer"
+          ref={inputRef}
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          autoComplete="off"
+          autoCorrect="off"
+          autoCapitalize="off"
+          spellCheck={false}
+          enterKeyHint="go"
+          maxLength={80}
+          aria-describedby="answer-notice"
+          placeholder="Dig for something rare…"
+          className="display-wide min-h-13 min-w-0 flex-1 bg-paper px-4 text-lg text-ink outline-none placeholder:font-sans placeholder:text-base placeholder:font-medium placeholder:normal-case placeholder:tracking-normal placeholder:text-[var(--back-mute)] focus-visible:shadow-[inset_0_-4px_0_var(--field)]"
+        />
+        <button
+          type="submit"
+          className="display-wide inline-flex min-h-13 shrink-0 items-center bg-[var(--field)] px-5 text-base text-[var(--on)] transition-[background-color,color,transform] duration-150 hover:bg-paper hover:text-ink active:translate-y-px"
+        >
+          Dig
+        </button>
+      </div>
+      <div className="mt-2 flex min-h-11 items-start justify-between gap-3">
+        <p id="answer-notice" aria-live="polite" className="pt-1 text-sm leading-snug text-paper-dim">
+          {notice ? (
+            <span className={notice.kind === "rejected" ? "text-[var(--alert)]" : ""}>{notice.text}</span>
+          ) : tries.length ? null : (
+            <span>Any correct answer counts. Wrong guesses only cost time.</span>
+          )}
+          {tries.length > 0 && <span className="mt-1 block text-xs text-paper-mute">Tried: {tries.slice(-4).join(" · ")}</span>}
+        </p>
+        <button
+          type="button"
+          onClick={onPass}
+          className="smallprint inline-flex min-h-11 shrink-0 items-center px-2 text-paper-dim underline underline-offset-4 hover:text-paper"
+        >
+          Pass
+        </button>
+      </div>
+      {!relaxed && remaining === 10 && (
+        <span role="status" className="sr-only">
+          10 seconds left
+        </span>
+      )}
+    </form>
+  );
+}
+
+function Landed({
   pick,
   prompt,
   total,
@@ -394,59 +547,41 @@ function Reveal({
   nextRef: React.RefObject<HTMLButtonElement | null>;
   onNext: () => void;
 }) {
-  const tier = TIERS[pick.tier];
-  const rarest = prompt.answers
-    .filter((a) => a.name !== pick.matched)
-    .sort((a, b) => a.pop - b.pop)
-    .slice(0, 3)
-    .map((a) => a.name);
+  const info = pick.tier ? TIERS[pick.tier] : null;
+  const answer = pick.matched ? prompt.answers.find((a) => a.name === pick.matched) : null;
+  const grail = prompt.answers.find((a) => a.tier === "holy-grail");
   const last = round >= ROUNDS;
-
   return (
-    <div className="flex flex-col items-center">
-      {/* The disc slides out from under the sleeve, label printed with the result. */}
-      {/* Disc is 58% wide and tucks 14% under the sleeve; the result clears its bottom edge. */}
-      <div aria-hidden className="relative -mt-[14%] h-0 w-full xl:hidden">
-        <div className="disc-out vinyl relative mx-auto aspect-square w-[58%] rounded-full [container-type:inline-size]">
-          <div
-            className="absolute inset-[29%] flex flex-col items-center justify-center rounded-full text-center"
-            style={{ background: `var(--tier-${pick.tier})`, color: "var(--ink)" }}
-          >
-            <span className="display-condensed tnum text-[17cqw]">+{pick.points}</span>
-            <span className="smallprint mt-[1cqw] max-w-[74%] text-[4.4cqw] leading-tight">{tier.label}</span>
+    <div className="pointer-events-auto fixed inset-x-0 bottom-0 z-20 mx-auto w-full max-w-[40rem] px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+      <div className={`rise bg-paper p-5 text-ink ${pick.tier === "holy-grail" ? "grail" : ""}`} role="status" aria-live="polite">
+        <div className="flex items-start justify-between gap-4">
+          <div className="min-w-0">
+            <p className="smallprint text-[var(--back-mute)]">{info ? info.stratum : "Shop floor"}</p>
+            <p className="display-wide mt-1 break-words text-xl leading-tight">
+              {pick.matched ?? (pick.input ? `“${pick.input}”` : "Passed")}
+            </p>
           </div>
+          <p className="display-condensed tnum shrink-0 text-5xl leading-none">+{pick.points}</p>
         </div>
-      </div>
-      <div className="rise mt-[calc(58%+1.25rem)] w-full xl:mt-0" role="status" aria-live="polite">
-        <p className="sr-only">
-          {pick.matched ? `${pick.matched}: ${tier.label}, plus ${pick.points} points.` : `${tier.label}. No points.`}
+        <p className="mt-2 text-base">
+          <strong>{info ? info.label : "No find"}.</strong> {answer?.quip ?? (info ? `${info.note}.` : "Nothing landed this time.")}
         </p>
-        <p className="display-wide break-words text-xl leading-tight text-paper">
-          {pick.matched ? pick.matched : pick.input ? `“${pick.input}”` : "Time ran out"}
-        </p>
-        <p className="mt-1 text-base text-paper-dim">
-          {pick.matched
-            ? `${tier.label}. ${tier.note}.`
-            : pick.input
-              ? "Not in this crate. It may be right, but it isn't on our list."
-              : "Nothing was typed in time."}
-        </p>
-        <p className="mt-4 text-sm leading-relaxed text-paper-mute">
-          <span className="smallprint text-paper-dim">Other rare pulls on our list</span>
-          <br />
-          {rarest.join(" · ")}
-        </p>
-        <div className="mt-6 flex items-center justify-between gap-4 border-t border-ink-3 pt-4">
-          <p className="smallprint tnum text-paper-mute">
-            Score <span className="display-condensed ml-1 align-middle text-2xl text-paper">{total}</span>
+        {grail && grail.name !== pick.matched && (
+          <p className="mt-2 text-sm text-[var(--back-mute)]">
+            The holy grail in this crate: <strong className="text-ink">{grail.name}</strong>
+          </p>
+        )}
+        <div className="mt-4 flex items-center justify-between gap-4 border-t border-[var(--back-rule)] pt-3">
+          <p className="smallprint tnum text-[var(--back-mute)]">
+            Total <span className="display-condensed ml-1 align-middle text-2xl text-ink">{total}</span>
           </p>
           <button
             ref={nextRef}
             type="button"
             onClick={onNext}
-            className="display-wide inline-flex min-h-12 scroll-mb-8 items-center gap-3 bg-paper px-5 text-base text-ink transition-[background-color,transform] duration-150 hover:bg-[var(--field)] hover:text-[var(--on)] active:translate-y-px"
+            className="display-wide inline-flex min-h-12 items-center gap-3 bg-ink px-5 text-base text-paper transition-[background-color,color] duration-150 hover:bg-[var(--field)] hover:text-[var(--on)]"
           >
-            {last ? "Flip to the back" : "Next track"}
+            {last ? "See the dig log" : "Next track"}
             <ArrowRight className="size-5" />
           </button>
         </div>

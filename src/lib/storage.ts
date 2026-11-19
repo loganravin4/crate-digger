@@ -1,4 +1,4 @@
-import type { Tier } from "./score";
+import type { TierId } from "./tiers";
 
 export type Pick = {
   promptId: string;
@@ -6,7 +6,10 @@ export type Pick = {
   /** Canonical answer name, or null when it wasn't in the list or time ran out. */
   matched: string | null;
   points: number;
-  tier: Tier;
+  /** Null for a pass, a miss, or a timeout. */
+  tier: TierId | null;
+  /** Wrong guesses made before this pick landed. */
+  tries: string[];
 };
 
 export type Run = {
@@ -22,13 +25,14 @@ export type Stats = {
   streak: number;
   maxStreak: number;
   lastDate: string | null;
-  whiteLabels: number;
+  grails: number;
 };
 
-export type Settings = { relaxedTimer: boolean };
+export type Settings = { relaxedTimer: boolean; sound: boolean };
 
-const PREFIX = "crate-digger:v1";
-const EMPTY_STATS: Stats = { played: 0, best: 0, streak: 0, maxStreak: 0, lastDate: null, whiteLabels: 0 };
+// v2: fixed tiers. v1 runs used estimated points and are ignored.
+const PREFIX = "crate-digger:v2";
+const EMPTY_STATS: Stats = { played: 0, best: 0, streak: 0, maxStreak: 0, lastDate: null, grails: 0 };
 
 function read<T>(key: string, fallback: T): T {
   try {
@@ -78,14 +82,14 @@ export function recordFinish(run: Run): Stats {
     streak,
     maxStreak: Math.max(stats.maxStreak, streak),
     lastDate: run.dateKey,
-    whiteLabels: stats.whiteLabels + run.picks.filter((p) => p.tier === "white-label").length,
+    grails: stats.grails + run.picks.filter((p) => p.tier === "holy-grail").length,
   };
   write(`stats:${run.packId}`, next);
   return next;
 }
 
 export function loadSettings(): Settings {
-  return read("settings", { relaxedTimer: false });
+  return read("settings", { relaxedTimer: false, sound: true });
 }
 
 export function saveSettings(s: Settings) {

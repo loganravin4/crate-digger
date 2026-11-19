@@ -65,6 +65,22 @@ function tolerance(len: number): number {
   return 2;
 }
 
+export type MatchResult = { answer: Answer; corrected: boolean };
+
+/**
+ * Find the answer a player meant. Exact (normalized) first, then a small typo allowance.
+ * `corrected` is true for a typo match, so the game can ask "did you mean…?" first.
+ */
+export function matchDetailed(prompt: Prompt, input: string): MatchResult | null {
+  const key = normalize(input);
+  if (!key) return null;
+  const looseKey = loose(input);
+  const exact = indexFor(prompt).find((e) => e.key === key || e.key === looseKey);
+  if (exact) return { answer: exact.answer, corrected: false };
+  const fuzzy = match(prompt, input);
+  return fuzzy ? { answer: fuzzy, corrected: true } : null;
+}
+
 /** Find the answer a player meant. Exact (normalized) first, then a small typo allowance. */
 export function match(prompt: Prompt, input: string): Answer | null {
   const key = normalize(input);

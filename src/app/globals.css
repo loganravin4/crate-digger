@@ -27,6 +27,8 @@
   --on-cobalt-mute: #dfe6f4;
 
   --tier-white-label: #f3ecdd;
+  --tier-staff-pick: #e08fa0;
+  --tier-holy-grail: #f2c14e;
   --tier-b-side: #e4ae1f;
   --tier-album-track: #7ea6de;
   --tier-radio-edit: #a89e8a;
@@ -272,4 +274,47 @@ a {
 .on-field ::selection {
   background: var(--on);
   color: var(--field);
+}
+
+/* A wrong answer: the input row jolts sideways, like a needle skipping. */
+@keyframes shake {
+  0%, 100% { transform: none; }
+  20% { transform: translateX(-9px); }
+  40% { transform: translateX(7px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(2px); }
+}
+.shake {
+  animation: shake 360ms var(--ease-out);
+}
+
+/* Dig log: each record drops into its row, in the order it was played. */
+@keyframes log-drop {
+  from { transform: translateY(calc(var(--d, 1) * -2.5rem)); opacity: 0; }
+}
+.log-disc {
+  animation: log-drop 700ms var(--ease-out) both;
+  animation-delay: calc(var(--i) * 140ms + 200ms);
+}
+.log-row:nth-child(odd) {
+  background: color-mix(in oklab, var(--ink-2) 55%, transparent);
+}
+.log-grail {
+  box-shadow: 0 0 0 2px var(--tier-holy-grail), 0 6px 24px -6px color-mix(in oklab, var(--tier-holy-grail) 70%, transparent);
+}
+
+/* The landed card for a holy grail gets a gold rule across its top. */
+.grail {
+  box-shadow: inset 0 6px 0 var(--tier-holy-grail);
+}
+
+.review[open] summary {
+  background: var(--ink-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shake,
+  .log-disc {
+    animation: fade-in 160ms linear both;
+  }
 }

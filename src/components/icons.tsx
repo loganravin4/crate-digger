@@ -42,22 +42,35 @@ export function Shuffle({ className }: P) {
   );
 }
 
-/** Tier marks, drawn as record center labels: fuller label = rarer pull. */
-export function TierMark({ tier, className }: { tier: string; className?: string }) {
-  const color = `var(--tier-${tier})`;
+/** Tier marks, drawn as record center labels: the fuller the label, the deeper the find. */
+export function TierMark({ tier, className }: { tier: string | null; className?: string }) {
+  const t = tier ?? "miss";
+  const color = `var(--tier-${t})`;
   return (
     <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden className={className}>
-      {tier === "miss" ? (
+      {t === "miss" ? (
         <path d="M5 5l8 8M13 5l-8 8" stroke={color} strokeWidth="2" />
+      ) : t === "holy-grail" ? (
+        <path d="M9 1.5l2.1 4.6 5 .6-3.7 3.4 1 5-4.4-2.5-4.4 2.5 1-5L1.9 6.7l5-.6z" fill={color} />
       ) : (
         <>
           <circle cx="9" cy="9" r="7.5" fill="none" stroke={color} strokeWidth="1.5" />
-          {tier === "white-label" && <circle cx="9" cy="9" r="5" fill={color} />}
-          {tier === "b-side" && <circle cx="9" cy="9" r="4" fill={color} />}
-          {tier === "album-track" && <path d="M9 4a5 5 0 0 1 0 10z" fill={color} />}
+          {t === "staff-pick" && <path d="M9 4.5l4.5 4.5L9 13.5 4.5 9z" fill={color} />}
+          {t === "album-track" && <path d="M9 4a5 5 0 0 1 0 10z" fill={color} />}
+          {t === "b-side" && <circle cx="9" cy="9" r="4.2" fill={color} />}
+          {t === "white-label" && <circle cx="9" cy="9" r="5.4" fill={color} />}
           <circle cx="9" cy="9" r="1" fill="var(--ink)" />
         </>
       )}
+    </svg>
+  );
+}
+
+export function SpeakerIcon({ on, className }: { on: boolean; className?: string }) {
+  return (
+    <svg {...base} className={className}>
+      <path d="M3 8v4h3l5 4V4L6 8z" />
+      {on ? <path d="M14 7.5a3.5 3.5 0 0 1 0 5M16 5a7 7 0 0 1 0 10" /> : <path d="M14 8l4 4M18 8l-4 4" />}
     </svg>
   );
 }
