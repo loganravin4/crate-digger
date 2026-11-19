@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: PageProps<"/play/[pack]">): P
   if (!found) return {};
   return {
     title: `${found.meta.name} daily set`,
-    description: `Today's six ${found.meta.name} prompts. Name the rarest correct answer you can. ${found.meta.blurb}`,
+    description: `Today's seven ${found.meta.name} prompts. Name the rarest correct answer you can. ${found.meta.blurb}`,
     alternates: { canonical: `/play/${pack}` },
   };
 }

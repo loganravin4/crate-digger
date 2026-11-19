@@ -1,7 +1,7 @@
 import type { Answer } from "@/data/types";
 import { isTier, TIERS, type TierId } from "./tiers";
 
-export const ROUNDS = 6;
+export const ROUNDS = 7;
 export const SECONDS = 30;
 export const MAX_POINTS = TIERS["holy-grail"].points;
 export const MAX_TOTAL = ROUNDS * MAX_POINTS;
@@ -18,10 +18,10 @@ export function pointsFor(tier: TierId | null): number {
 /** Score bands for the final tally, shallow to deep. */
 export const BANDS = [
   { min: 0, label: "Browsing", line: "You flipped the front rack. The good stuff is further down." },
-  { min: 120, label: "Regular", line: "The clerk knows your face now." },
-  { min: 220, label: "Digger", line: "Dusty fingers. You went into the back room." },
-  { min: 320, label: "Collector", line: "You found records the shop forgot it had." },
-  { min: 420, label: "Vault Keeper", line: "You own the basement key. Absurd." },
+  { min: 140, label: "Regular", line: "The clerk knows your face now." },
+  { min: 255, label: "Digger", line: "Dusty fingers. You went into the back room." },
+  { min: 375, label: "Collector", line: "You found records the shop forgot it had." },
+  { min: 490, label: "Vault Keeper", line: "You own the basement key. Absurd." },
 ] as const;
 
 export function bandFor(total: number) {

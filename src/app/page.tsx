@@ -33,7 +33,7 @@ export default function Home() {
         </h1>
         <div className="md:pb-2">
           <p className="max-w-[40ch] text-lg leading-snug text-paper-dim">
-            Six music prompts a day. Any correct answer counts, but the rarer it is, the more it scores.
+            Seven music prompts a day. Any correct answer counts, but the rarer it is, the more it scores.
           </p>
           <figure className="mt-5 border-t border-ink-3 pt-3">
             <figcaption className="smallprint text-paper-mute">{ex.text}</figcaption>

@@ -17,7 +17,7 @@ const franklin = Libre_Franklin({
 });
 
 const description =
-  "A daily music trivia game where the rarest correct answer scores the most. Six prompts a day in General, Hip-Hop, and Pop.";
+  "A daily music trivia game where the rarest correct answer scores the most. Seven prompts a day in General, Hip-Hop, and Pop.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),

@@ -51,7 +51,7 @@ function shuffle<T>(items: T[], seed: number): T[] {
 }
 
 /**
- * Same six prompts for everyone on a date. The pool is shuffled once per cycle
+ * Same seven prompts for everyone on a date. The pool is shuffled once per cycle
  * and dealt in slices, so no prompt repeats until the whole pool has been used.
  */
 export function dailyPrompts(packId: string, pool: Prompt[], dateKey: string): Prompt[] {
