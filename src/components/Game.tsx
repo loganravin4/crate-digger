@@ -12,7 +12,7 @@ import { loadRun, loadSettings, recordFinish, saveRun, saveSettings, type Pick, 
 import { TIERS, type TierId } from "@/lib/tiers";
 import { BackCover } from "./BackCover";
 import { CoverType, fitCover } from "./CoverType";
-import { DigScene, type DigSceneHandle } from "./dig/DigScene";
+import { CrateScene, type CrateHandle } from "./crate/CrateScene";
 import { ArrowLeft, ArrowRight, SpeakerIcon } from "./icons";
 
 type Phase = "loading" | "intro" | "playing" | "dropping" | "landed" | "done";
@@ -39,10 +39,12 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
   const [deadline, setDeadline] = useState(0);
   const [now, setNow] = useState(0);
   const [stats, setStats] = useState<Stats | null>(null);
+  const [arrived, setArrived] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
-  const sceneRef = useRef<DigSceneHandle>(null);
+  const sceneRef = useRef<CrateHandle>(null);
   const stageRef = useRef<HTMLElement>(null);
+  const [stageBottom, setStageBottom] = useState(0);
   const committing = useRef(false);
   const lastTick = useRef(-1);
 
@@ -52,6 +54,15 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
     const deal = practice ? practicePrompts(pool) : dailyPrompts(meta.id, pool, key);
     const saved = practice ? null : loadRun(meta.id, key);
     /* eslint-disable react-hooks/set-state-in-effect -- one-time hydration from localStorage */
+    try {
+      // Coming from the home page's pull: start in the pack's color and fade into the game.
+      if (sessionStorage.getItem("crate-digger:from-home")) {
+        sessionStorage.removeItem("crate-digger:from-home");
+        setArrived(true);
+      }
+    } catch {
+      // Storage blocked: no handoff fade.
+    }
     setDateKey(key);
     setRelaxed(settings.relaxedTimer);
     setSoundOn(settings.sound);
@@ -120,9 +131,7 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
       setSuggestion(null);
       setNotice(null);
       setPhase("dropping");
-      if (answer) sound.needleDrop();
-      sceneRef.current?.drop(tier, {
-        onLayer: (d) => sound.layer(d),
+      sceneRef.current?.dig(tier, answer?.name ?? (raw.trim() || "Passed"), {
         onLand: () => {
           sound.land(tier);
           setPhase("landed");
@@ -168,7 +177,7 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
       setPhase("done");
       window.scrollTo({ top: 0 });
     } else {
-      sceneRef.current?.rise();
+      sceneRef.current?.reset();
       startRound();
     }
   }, [picks, persist, startRound]);
@@ -219,11 +228,17 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
 
   useEffect(() => () => sound.stopCrackle(), []);
 
-  // The shop's first layer starts just below the counter UI, whatever its height.
+  // Frame the crate in the space the UI leaves: below the counter while playing, higher once a record is pulled.
   useEffect(() => {
     const el = stageRef.current;
+    if (phase === "dropping") return sceneRef.current?.setFrame(0.12);
+    if (phase === "landed") return sceneRef.current?.setFrame(-0.06);
     if (!el || (phase !== "intro" && phase !== "playing")) return;
-    const fit = () => sceneRef.current?.setFloor(el.getBoundingClientRect().bottom + window.scrollY + 28);
+    const fit = () => {
+      const bottom = el.getBoundingClientRect().bottom;
+      setStageBottom(bottom);
+      sceneRef.current?.setFrame(Math.min(0.34, bottom / (2 * window.innerHeight)));
+    };
     fit();
     const ro = new ResizeObserver(fit);
     ro.observe(el);
@@ -237,7 +252,7 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
   const label = practice ? "Practice" : `No. ${dateKey ? issueNumber(dateKey) : "···"}`;
 
   if (phase === "done") {
-    return <BackCover meta={meta} prompts={prompts} picks={picks} label={label} stats={stats} practice={practice} dateKey={dateKey} />;
+    return <BackCover meta={meta} prompts={pool} picks={picks} label={label} stats={stats} practice={practice} dateKey={dateKey} />;
   }
 
   const trackNo = Math.min(round + (phase === "playing" || phase === "intro" ? 1 : 0), ROUNDS);
@@ -246,10 +261,21 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
 
   return (
     <main className={`tone-${meta.tone} relative min-h-dvh overflow-hidden`}>
-      <DigScene ref={sceneRef} tone={meta.tone} seed={seedFor(meta.id)} className="fixed inset-0 z-0 size-full" />
-      {/* Keeps the score bar legible while the camera rides down through the shop. */}
-      <div aria-hidden className="pointer-events-none fixed inset-x-0 top-0 z-[5] h-20 bg-gradient-to-b from-ink via-ink/80 to-transparent" />
-
+      {arrived && <div aria-hidden className="arrive pointer-events-none fixed inset-0 z-40 bg-[var(--field)]" />}
+      <CrateScene ref={sceneRef} tone={meta.tone} seed={seedFor(meta.id)} className="fixed inset-0 z-0 size-full" />
+      {/* Solid ink behind the counter UI so text never sits on the sleeves; the crate rises out of the dark below it. */}
+      <div
+        aria-hidden
+        className="pointer-events-none fixed inset-x-0 top-0 z-[5] transition-[height,opacity] duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
+        style={
+          phase === "intro" || phase === "playing"
+            ? {
+                height: stageBottom + 110,
+                background: `linear-gradient(to bottom, var(--ink) 0, var(--ink) ${stageBottom + 14}px, transparent 100%)`,
+              }
+            : { height: 96, background: "linear-gradient(to bottom, var(--ink), transparent)" }
+        }
+      />
       <div className="pointer-events-none relative z-10 mx-auto flex min-h-dvh w-full max-w-[40rem] flex-col px-4">
         <header className="pointer-events-auto flex items-center justify-between gap-2 py-3">
           <Link href="/" className="smallprint inline-flex min-h-11 items-center gap-2 text-paper-dim no-underline hover:text-paper">

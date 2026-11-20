@@ -76,7 +76,11 @@ export function matchDetailed(prompt: Prompt, input: string): MatchResult | null
   if (!key) return null;
   const looseKey = loose(input);
   const exact = indexFor(prompt).find((e) => e.key === key || e.key === looseKey);
-  if (exact) return { answer: exact.answer, corrected: false };
+  if (exact) {
+    // A nickname or alias ("pharrell" for Pharrell Williams) is confirmed first, the way a typo is.
+    const canonical = [normalize(exact.answer.name), loose(exact.answer.name)];
+    return { answer: exact.answer, corrected: !canonical.includes(key) && !canonical.includes(looseKey) };
+  }
   const fuzzy = match(prompt, input);
   return fuzzy ? { answer: fuzzy, corrected: true } : null;
 }

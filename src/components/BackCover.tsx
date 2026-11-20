@@ -9,6 +9,7 @@ import { bandFor, MAX_TOTAL, tierOf } from "@/lib/score";
 import { shareCard, shareText } from "@/lib/share";
 import type { Pick, Stats } from "@/lib/storage";
 import { TIER_IDS, TIERS } from "@/lib/tiers";
+import { ShelfScene } from "./crate/ShelfScene";
 import { ArrowLeft, ImageIcon, ShareIcon, Shuffle, TierMark } from "./icons";
 
 
@@ -22,6 +23,7 @@ export function BackCover({
   dateKey,
 }: {
   meta: PackMeta;
+  /** The whole pack pool, so picks resolve by id even if the day's deal has changed since they were played. */
   prompts: Prompt[];
   picks: Pick[];
   label: string;
@@ -82,7 +84,14 @@ export function BackCover({
         </span>
       </header>
 
-      <section aria-labelledby="score-title" className="sleeve-in mt-6 grid gap-6 sm:grid-cols-[1fr_auto] sm:items-end">
+      {/* Today's pulls, face-out on a shelf. */}
+      <ShelfScene
+        tone={meta.tone}
+        records={picks.map((p) => ({ tier: p.tier, answer: p.matched ?? (p.input || "Passed") }))}
+        className="-mx-4 block h-[clamp(14rem,34dvh,22rem)] w-[calc(100%+2rem)] sm:mx-0 sm:w-full"
+      />
+
+      <section aria-labelledby="score-title" className="sleeve-in mt-2 grid gap-6 sm:grid-cols-[1fr_auto] sm:items-end">
         <h1 id="score-title">
           <span className="sr-only">Final score: </span>
           <span className="voice tnum block text-[clamp(5.5rem,26vw,9rem)] leading-[0.8]">{total}</span>
@@ -169,8 +178,8 @@ function DigLog({ picks }: { picks: Pick[] }) {
               <div
                 key={tier ?? "floor"}
                 role="row"
-                className="log-row grid grid-cols-[minmax(5.5rem,8.5rem)_repeat(7,minmax(0,1fr))] items-center"
-                style={{ "--d": depth } as React.CSSProperties}
+                className="log-row grid grid-cols-[minmax(5.5rem,8.5rem)_repeat(var(--tracks),minmax(0,1fr))] items-center"
+                style={{ "--d": depth, "--tracks": picks.length } as React.CSSProperties}
               >
                 <div role="rowheader" className="py-2 pr-2">
                   <span className="smallprint block text-paper-mute">{info ? info.stratum : "Shop floor"}</span>
@@ -203,7 +212,7 @@ function DigLog({ picks }: { picks: Pick[] }) {
             );
           })}
         </div>
-        <div aria-hidden className="grid grid-cols-[minmax(5.5rem,8.5rem)_repeat(7,minmax(0,1fr))] pt-1">
+        <div aria-hidden className="grid grid-cols-[minmax(5.5rem,8.5rem)_repeat(var(--tracks),minmax(0,1fr))] pt-1" style={{ "--tracks": picks.length } as React.CSSProperties}>
           <span />
           {picks.map((_, i) => (
             <span key={i} className="smallprint tnum text-center text-paper-mute">
@@ -245,7 +254,7 @@ function CrateReview({ picks, prompts }: { picks: Pick[]; prompts: Prompt[] }) {
       </h2>
       <p className="mt-1 text-sm text-paper-mute">Every answer we had for each track, deepest first.</p>
 
-      <div role="tablist" aria-label="Tracks" className="mt-4 grid grid-cols-7 gap-1">
+      <div role="tablist" aria-label="Tracks" className="mt-4 grid grid-cols-[repeat(var(--tracks),minmax(0,1fr))] gap-1" style={{ "--tracks": picks.length } as React.CSSProperties}>
         {picks.map((p, i) => (
           <button
             key={p.promptId}

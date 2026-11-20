@@ -133,6 +133,20 @@ class Sound {
     this.go((t) => this.tone(urgent ? 1400 : 1000, t, 0.05, "square", urgent ? 0.07 : 0.04));
   }
 
+  private lastFlip = 0;
+
+  /** A sleeve flipped forward under the digger's fingers. Dividers knock a little heavier. */
+  flip(divider = false) {
+    const t0 = performance.now();
+    // At full speed sleeves pass faster than the ear wants; thin the stream.
+    if (!divider && t0 - this.lastFlip < 38) return;
+    this.lastFlip = t0;
+    this.go((t) => {
+      this.burst(t, divider ? 0.07 : 0.04, "bandpass", divider ? 900 : 2200 + Math.random() * 900, divider ? 500 : 1400, divider ? 0.32 : 0.16);
+      if (divider) this.tone(240, t, 0.08, "triangle", 0.1, 180);
+    });
+  }
+
   /** The record passes a layer of the shop. */
   layer(depth: number) {
     this.go((t) => this.tone(620 - depth * 70, t, 0.06, "triangle", 0.12));

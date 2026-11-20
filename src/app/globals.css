@@ -318,3 +318,20 @@ a {
     animation: fade-in 160ms linear both;
   }
 }
+
+/* Home → game handoff: the pulled pack's color lifts off the game. */
+@keyframes arrive {
+  from { opacity: 1; }
+  to { opacity: 0; visibility: hidden; }
+}
+.arrive {
+  animation: arrive 700ms var(--ease-out) 150ms both;
+}
+
+/* The 3D scene fades up once it has loaded behind the already-visible page. */
+@keyframes scene-in {
+  from { opacity: 0; }
+}
+.scene-in {
+  animation: scene-in 900ms var(--ease-out) both;
+}
