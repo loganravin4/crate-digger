@@ -44,3 +44,12 @@ next-env.d.ts
 /.playwright-cli/
 /.impeccable/review/
 /scripts/rarity/evidence/.cache-*.json
+
+# internal: design tooling, briefs, reports, and research data (kept local, not published)
+/.impeccable/
+/DESIGN.md
+/PRODUCT.md
+/LAUNCH-GATE.md
+/AGENTS.md
+/CLAUDE.md
+/scripts/rarity/
