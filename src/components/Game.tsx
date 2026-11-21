@@ -6,6 +6,7 @@ import type { PackMeta } from "@/data/packs";
 import type { Answer, Prompt } from "@/data/types";
 import { dailyPrompts, issueNumber, localDateKey, practicePrompts } from "@/lib/daily";
 import { matchDetailed } from "@/lib/match";
+import { loadTail, withTail } from "@/lib/tails";
 import { pointsFor, ROUNDS, SECONDS, tierOf } from "@/lib/score";
 import { sound } from "@/lib/sound";
 import { loadRun, loadSettings, recordFinish, saveRun, saveSettings, type Pick, type Run, type Stats } from "@/lib/storage";
@@ -40,6 +41,7 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
   const [now, setNow] = useState(0);
   const [stats, setStats] = useState<Stats | null>(null);
   const [arrived, setArrived] = useState(false);
+  const [tails, setTails] = useState<Record<string, string[]>>({});
   const inputRef = useRef<HTMLInputElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
   const sceneRef = useRef<CrateHandle>(null);
@@ -80,7 +82,9 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
   }, [meta.id, pool, practice]);
 
   const round = picks.length;
-  const current = prompts[Math.min(round, ROUNDS - 1)];
+  const dealt = prompts[Math.min(round, ROUNDS - 1)];
+  // The prompt as played: curated answers plus its long tail once that has loaded.
+  const current = dealt ? withTail(dealt, tails[dealt.id]) : dealt;
   const shown = phase === "dropping" || phase === "landed" ? prompts[round - 1] : current;
   const lastPick = picks[picks.length - 1];
   const total = picks.reduce((s, p) => s + p.points, 0);
@@ -228,6 +232,21 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
 
   useEffect(() => () => sound.stopCrackle(), []);
 
+  // Fetch every dealt prompt's long tail up front (and a finished run's, for the review).
+  useEffect(() => {
+    const ids = new Set([...prompts.map((p) => p.id), ...picks.map((p) => p.promptId)]);
+    let live = true;
+    for (const id of ids) {
+      if (tails[id]) continue;
+      void loadTail(id).then((t) => {
+        if (live && t.length) setTails((prev) => (prev[id] ? prev : { ...prev, [id]: t }));
+      });
+    }
+    return () => {
+      live = false;
+    };
+  }, [prompts, picks, tails]);
+
   // Frame the crate in the space the UI leaves: below the counter while playing, higher once a record is pulled.
   useEffect(() => {
     const el = stageRef.current;
@@ -252,7 +271,7 @@ export function Game({ meta, pool, practice = false }: { meta: PackMeta; pool: P
   const label = practice ? "Practice" : `No. ${dateKey ? issueNumber(dateKey) : "···"}`;
 
   if (phase === "done") {
-    return <BackCover meta={meta} prompts={pool} picks={picks} label={label} stats={stats} practice={practice} dateKey={dateKey} />;
+    return <BackCover meta={meta} prompts={pool.map((p) => withTail(p, tails[p.id]))} picks={picks} label={label} stats={stats} practice={practice} dateKey={dateKey} />;
   }
 
   const trackNo = Math.min(round + (phase === "playing" || phase === "intro" ? 1 : 0), ROUNDS);

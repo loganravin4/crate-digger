@@ -101,7 +101,8 @@ export function match(prompt: Prompt, input: string): Answer | null {
   let bestD = max + 1;
   let tie = false;
   for (const e of index) {
-    if (tolerance(e.key.length) === 0) continue;
+    // Typo help only within the curated list; the long tail would turn wrong guesses into odd suggestions.
+    if (e.answer.tail || tolerance(e.key.length) === 0) continue;
     const d = distance(key, e.key, max);
     if (d < bestD) {
       bestD = d;

@@ -9,6 +9,8 @@ export type Answer = {
   tier: TierId;
   /** Optional one-line note shown when this answer lands, in the game's own voice. */
   quip?: string;
+  /** Long-tail coverage loaded at runtime (public/tails). Matches exactly, never by typo. */
+  tail?: true;
 };
 
 export type Prompt = {
